@@ -1,0 +1,93 @@
+{
+  "title": "David",
+  "artist": "Michelangelo",
+  "year": "1501-1504",
+  "image": "image.jpg",
+  "source": "Galleria dell'Accademia, Florence. The statue is public domain, but a PHOTO of it can have its own copyright: use a photo marked Public Domain or CC0 on Wikimedia Commons (or your own), full-length front view, portrait orientation.",
+  "caption": "A block of marble other sculptors had given up on, a 26-year-old Michelangelo, and three years of work. What you see is the moment before the fight. #art #arthistory #painting #history #oilpainting",
+  "_verify": [
+    "Height 5.17 m: check against the Accademia site (with or without base).",
+    "Block history (Agostino di Duccio, Antonio Rossellino, abandoned for decades): check.",
+    "1527 broken arm and 1991 hammer attack on the foot: check one source.",
+    "Focus coordinates assume a full-length front photo; check with --debug."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "David was carved from a block nobody wanted",
+      "sub": "Michelangelo, David, 1501-1504"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.8
+      ],
+      "headline": "A rejected block",
+      "text": "Other sculptors had started on this marble and given up. It sat in the cathedral workshop for decades until a 26-year-old Michelangelo took it on in 1501."
+    },
+    {
+      "focus": [
+        0.5,
+        0.12,
+        0.28
+      ],
+      "headline": "Before the fight, not after",
+      "text": "Earlier Davids stand over Goliath's head. Michelangelo shows the tense moment before: furrowed brow, eyes fixed on the enemy."
+    },
+    {
+      "focus": [
+        0.52,
+        0.11,
+        0.14
+      ],
+      "headline": "Look at the eyes",
+      "text": "They don't point in quite the same direction. Seen from below and from the sides, the gaze still reads as focused."
+    },
+    {
+      "focus": [
+        0.62,
+        0.22,
+        0.24
+      ],
+      "headline": "The sling",
+      "text": "Over his left shoulder hangs the sling, running down his back. Easy to miss from the front."
+    },
+    {
+      "focus": [
+        0.38,
+        0.5,
+        0.24
+      ],
+      "headline": "Why is the hand so big?",
+      "text": "His right hand, holding the stone, is oversized. The statue was meant to be seen high up on the cathedral, so the proportions were adjusted."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.9
+      ],
+      "headline": "Over 5 metres of marble",
+      "text": "Instead of the cathedral, it was placed in front of Palazzo Vecchio in 1504, a symbol of Florence standing up to stronger enemies."
+    },
+    {
+      "focus": [
+        0.62,
+        0.3,
+        0.3
+      ],
+      "headline": "It has been broken",
+      "text": "In 1527, during a riot, a bench thrown from the palace broke its left arm into pieces. They were collected and reattached."
+    },
+    {
+      "focus": [
+        0.5,
+        0.9,
+        0.4
+      ],
+      "headline": "Indoors since 1873",
+      "text": "The original was moved into the Accademia to protect it. In 1991 a man attacked its foot with a hammer. The David in the square today is a copy."
+    }
+  ]
+}

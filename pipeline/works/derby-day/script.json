@@ -1,0 +1,102 @@
+{
+  "title": "The Derby Day",
+  "artist": "William Powell Frith",
+  "year": "1856-1858",
+  "source": "Tate Britain, London (public domain: Frith died in 1909). Image supplied by Alex (Wikimedia Commons, 1280x572, upscaled by the generator).",
+  "caption": "Someone in this crowd was just robbed. Can you find him before the last slide? #art #arthistory #painting #history #oilpainting",
+  "_verify": [
+    "VERIFIED 2026-10-10 (Wikipedia; Smarthistory 'A Day at the Races'): painted 1856-58, Tate Britain; Epsom Derby; photographs by Robert Howlett; about 100 social types; a pair of acrobats in white, the older holding out his arms, the boy distracted by a picnic; thimble-rigger's table on the left with gentlemen betting; on the other side of the table a young man checks his empty pockets, victim of a pickpocket; Royal Academy rail in 1858, only the second time; commissioned by Jacob Bell for 1,500 pounds.",
+    "The pickpocket himself is not located by the sources, so the slides point to the victim, not the thief.",
+    "'Almost nobody is watching the race' is our reading of the picture.",
+    "Avoid the 'kept woman' / mistress figures (carriage on the right): sensitive, not used.",
+    "Focus boxes set on Alex's 1280x572 image 2026-10-10."
+  ],
+  "image": "image.jpg",
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Someone in this crowd was just robbed. Can you find him?",
+      "sub": "William Powell Frith, The Derby Day, 1858"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.96,
+        0.94
+      ],
+      "headline": "Epsom, 1858",
+      "text": "Derby Day, the biggest race in England. Half of London has come, rich and poor side by side."
+    },
+    {
+      "focus": [
+        0.586,
+        0.79,
+        0.22,
+        0.33
+      ],
+      "headline": "In the middle of it all",
+      "text": "Two acrobats start their act. The father opens his arms, but the boy is staring at a picnic."
+    },
+    {
+      "focus": [
+        0.22,
+        0.72,
+        0.15,
+        0.36
+      ],
+      "headline": "A few steps to the left",
+      "text": "A con man runs a little table. Gentlemen from the city bet on his tricks, and lose."
+    },
+    {
+      "focus": [
+        0.4,
+        0.42,
+        0.24,
+        0.18
+      ],
+      "headline": "And the race?",
+      "text": "The grandstand is far away. Almost nobody here is even looking at the horses."
+    },
+    {
+      "focus": [
+        0.287,
+        0.74,
+        0.1,
+        0.33
+      ],
+      "headline": "Back at the con man's table",
+      "text": "A young man reaches into his pockets. Empty. A pickpocket got there first."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.96,
+        0.94
+      ],
+      "headline": "How did Frith catch all this?",
+      "text": "He hired a photographer, Robert Howlett, to capture real faces for him. Very modern for 1858."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.96,
+        0.94
+      ],
+      "headline": "Then London saw it",
+      "text": "The crowds were so big the Royal Academy put a rail in front of it. Only the second time ever."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.96,
+        0.94
+      ],
+      "headline": "Now it's your turn",
+      "text": "Which story did you spot first: the acrobat, the con man or the empty pockets? Tell us below."
+    }
+  ]
+}

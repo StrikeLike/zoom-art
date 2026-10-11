@@ -1,0 +1,101 @@
+{
+  "title": "The Garden of Earthly Delights",
+  "artist": "Hieronymus Bosch",
+  "year": "c. 1490-1500",
+  "image": "image.jpg",
+  "source": "Museo del Prado, Madrid (public domain). Full open triptych, full resolution, from Wikimedia Commons: The_Garden_of_earthly_delights.jpg",
+  "caption": "Paradise, a garden of pleasure and a Hell full of musical instruments. Bosch packed more strange details into one triptych than most painters did in a lifetime. Which one would you zoom into? #art #arthistory #painting #history #oilpainting",
+  "_verify": [
+    "Dating: the Prado gives 1490-1500 (checked 2026-10-10).",
+    "Butt-music transcription: Amelia Hamrick, Oklahoma Christian University student, went viral Feb 2014 (Artnet, FACT; checked 2026-10-10).",
+    "Tree Man as self-portrait: a hypothesis, worded as such.",
+    "Image uploaded by Alex is 1920x1093 (below the ~2500 px recommended); deep zooms are upscaled."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Someone painted sheet music on a man's backside. Around 1500.",
+      "sub": "Hieronymus Bosch, The Garden of Earthly Delights"
+    },
+    {
+      "focus": [
+        0.131,
+        0.72,
+        0.18,
+        0.23
+      ],
+      "headline": "Left: Paradise",
+      "text": "God presents Eve to Adam. Further up the panel walk exotic animals, including a giraffe and an elephant most Europeans had never seen."
+    },
+    {
+      "focus": [
+        0.5,
+        0.6,
+        0.5,
+        0.75
+      ],
+      "headline": "Centre: a garden of pleasure",
+      "text": "Hundreds of naked figures play, eat and embrace. Is it a warning, or a world without sin? Scholars still disagree."
+    },
+    {
+      "focus": [
+        0.52,
+        0.82,
+        0.18,
+        0.2
+      ],
+      "headline": "Giant fruit everywhere",
+      "text": "Oversized strawberries and berries are often read as symbols of pleasure that is sweet and over in a moment."
+    },
+    {
+      "focus": [
+        0.885,
+        0.45,
+        0.235,
+        0.6
+      ],
+      "headline": "Right: Hell",
+      "text": "Dark, frozen and burning at once. Here, the pleasures of the middle panel turn into punishments."
+    },
+    {
+      "focus": [
+        0.826,
+        0.636,
+        0.12,
+        0.25
+      ],
+      "headline": "Music as torture",
+      "text": "A man is stretched across the strings of a harp, others are trapped inside a lute and a hurdy-gurdy."
+    },
+    {
+      "focus": [
+        0.8,
+        0.73,
+        0.07,
+        0.08
+      ],
+      "headline": "The famous detail",
+      "text": "Sheet music is painted on a sinner's backside. In 2014 someone transcribed it and played it. It went viral as the 500-year-old butt song."
+    },
+    {
+      "focus": [
+        0.876,
+        0.39,
+        0.125,
+        0.27
+      ],
+      "headline": "The Tree Man",
+      "text": "A hollow body standing on two boats, with a tavern inside. Some think the face looking back at us is Bosch himself."
+    },
+    {
+      "focus": [
+        0.95,
+        0.7,
+        0.085,
+        0.21
+      ],
+      "headline": "The bird-headed prince",
+      "text": "A blue bird-headed monster sits on a high chair, swallowing sinners and dropping them into a pit below."
+    }
+  ]
+}

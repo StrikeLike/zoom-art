@@ -1,0 +1,100 @@
+{
+  "title": "Children's Games",
+  "artist": "Pieter Bruegel the Elder",
+  "year": "1560",
+  "source": "Kunsthistorisches Museum, Vienna (public domain: Bruegel died in 1569). Wikimedia Commons or KHM, PD-Art.",
+  "caption": "Around 80 games hidden in one painting from 1560. How many did you play as a kid? #art #arthistory #painting #history #oilpainting",
+  "_verify": [
+    "VERIFIED 2026-10-10 (Wikipedia, KHM): 1560, oil on panel 118 x 161 cm, Kunsthistorisches Museum Vienna; around 80 games identified (sources say 80 to over 90, slides say 'around 80'); dolls bottom left, leapfrog, hoops, blind man's buff, stilts, knucklebones, swimming in the river top left, mock wedding at the centre.",
+    "Exact positions of each game are guesses from memory of the composition: re-tune every focus box on the real image with --debug.",
+    "All focus boxes are estimates until the real image arrives; check with --debug and --preview."
+  ],
+  "image": "image.jpg",
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Around 80 games are hidden in this painting. How many did you play?",
+      "sub": "Pieter Bruegel the Elder, Children's Games, 1560"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.96,
+        0.94
+      ],
+      "headline": "Flanders, 1560",
+      "text": "Bruegel let children take over an entire town. Streets, windows, a river, all full of games."
+    },
+    {
+      "focus": [
+        0.08,
+        0.86,
+        0.15,
+        0.18
+      ],
+      "headline": "Start bottom left",
+      "text": "Two girls playing with dolls. Some things never change."
+    },
+    {
+      "focus": [
+        0.45,
+        0.45,
+        0.2,
+        0.18
+      ],
+      "headline": "Rolling hoops",
+      "text": "Some hoops even have bells on them. You heard these kids coming."
+    },
+    {
+      "focus": [
+        0.35,
+        0.6,
+        0.16,
+        0.18
+      ],
+      "headline": "Leapfrog",
+      "text": "460 years old and still played in every schoolyard."
+    },
+    {
+      "focus": [
+        0.3,
+        0.45,
+        0.16,
+        0.2
+      ],
+      "headline": "Blind man's buff",
+      "text": "One child blindfolded, spun around, trying to catch the others."
+    },
+    {
+      "focus": [
+        0.55,
+        0.35,
+        0.14,
+        0.22
+      ],
+      "headline": "On stilts",
+      "text": "Short stilts and high stilts. Look how proud they are."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.16,
+        0.18
+      ],
+      "headline": "Right in the centre",
+      "text": "A pretend wedding procession. The children are playing at being adults."
+    },
+    {
+      "focus": [
+        0.12,
+        0.15,
+        0.22,
+        0.18
+      ],
+      "headline": "Look far away",
+      "text": "Even the river in the distance is full of kids swimming. Which game did you play most? Tell us below."
+    }
+  ]
+}

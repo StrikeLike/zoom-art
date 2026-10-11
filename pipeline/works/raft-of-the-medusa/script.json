@@ -1,0 +1,100 @@
+{
+  "title": "The Raft of the Medusa",
+  "artist": "Théodore Géricault",
+  "year": "1818-1819",
+  "image": "image.jpg",
+  "source": "Musée du Louvre, Paris (public domain). Full resolution from Wikimedia Commons: JEAN_LOUIS_THÉODORE_GÉRICAULT_-_La_Balsa_de_la_Medusa_(Museo_del_Louvre,_1818-19).jpg",
+  "caption": "147 people on a raft. 13 days at sea. 15 found alive. This painting is not a legend, it is a true story that shocked France. #art #arthistory #painting #history #oilpainting",
+  "_verify": [
+    "Checked 2026-10-10 vs Wikipedia: 146 men + 1 woman on the raft, 13 days, 15 alive when the Argus found them (17 July 1816), several died soon after; canvas ~491 x 716 cm; Géricault studied corpses at Hospital Beaujon morgue; cannibalism attested.",
+    "Captain's lack of experience / political appointment: check wording.",
+    "Focus boxes tuned on Alex's 5872x4008 image on 2026-10-10."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "147 people on a raft. Only 15 were found alive.",
+      "sub": "Théodore Géricault, The Raft of the Medusa, 1818-1819"
+    },
+    {
+      "focus": [
+        0.5,
+        0.55,
+        0.95,
+        0.85
+      ],
+      "headline": "A true story",
+      "text": "In 1816 the French frigate Méduse ran aground off the coast of West Africa. There weren't enough lifeboats, so about 150 people were put on a makeshift raft."
+    },
+    {
+      "focus": [
+        0.22,
+        0.32,
+        0.34,
+        0.42
+      ],
+      "headline": "Cut loose",
+      "text": "The lifeboats were supposed to tow the raft. Instead, the ropes were let go. The people on board drifted for 13 days with almost no food or water."
+    },
+    {
+      "focus": [
+        0.26,
+        0.69,
+        0.3,
+        0.36
+      ],
+      "headline": "A father and his son",
+      "text": "Bottom left, an old man holds the body of a young man. He doesn't look for rescue. He has already lost everything."
+    },
+    {
+      "focus": [
+        0.65,
+        0.85,
+        0.55,
+        0.26
+      ],
+      "headline": "The dead in the foreground",
+      "text": "Géricault studied real bodies in hospitals to paint them. On the raft, people fought, died, and some survivors resorted to cannibalism."
+    },
+    {
+      "focus": [
+        0.813,
+        0.4,
+        0.07,
+        0.05
+      ],
+      "headline": "Do you see the ship?",
+      "text": "A tiny dot on the horizon: the Argus, the ship that would rescue them. Everyone on the raft is straining towards it."
+    },
+    {
+      "focus": [
+        0.69,
+        0.3,
+        0.14,
+        0.44
+      ],
+      "headline": "Hope, at the top",
+      "text": "The bodies form a pyramid that rises from despair at the bottom to a man waving a cloth at the very top."
+    },
+    {
+      "focus": [
+        0.5,
+        0.83,
+        0.28,
+        0.22
+      ],
+      "headline": "Bigger than life",
+      "text": "The canvas is about 5 by 7 metres, so the figures in front are larger than real people. You don't look at the raft, you stand on it."
+    },
+    {
+      "focus": [
+        0.5,
+        0.55,
+        0.95,
+        0.85
+      ],
+      "headline": "A scandal",
+      "text": "The disaster was blamed on an inexperienced captain who got the job through political connections. The painting turned a cover-up into a national scandal."
+    }
+  ]
+}

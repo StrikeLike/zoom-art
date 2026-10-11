@@ -1,0 +1,103 @@
+{
+  "title": "The Scream",
+  "artist": "Edvard Munch",
+  "year": "1893",
+  "image": "image.jpg",
+  "source": "National Museum, Oslo (public domain: Munch died in 1944). Full resolution of the 1893 painted version from Wikimedia Commons: Edvard_Munch,_1893,_The_Scream,_oil,_tempera_and_pastel_on_cardboard,_91_x_73_cm,_National_Gallery_of_Norway.jpg",
+  "caption": "Everyone thinks the figure is screaming. It isn't. And someone wrote a tiny message in the sky. #art #arthistory #painting #history #oilpainting",
+  "_verify": [
+    "Munch's diary passage (walking at sunset, blood-red sky, 'an infinite scream passing through nature'): check exact wording before quoting.",
+    "Pencil inscription 'Can only have been painted by a madman', confirmed as Munch's handwriting by the National Museum in 2021: check.",
+    "Location: Ekeberg hill above Oslo fjord: check.",
+    "Thefts in 1994 and 2004 of two different versions, both recovered: check.",
+    "Red sky theories (Krakatoa eruption, mother-of-pearl clouds) are theories, worded as such.",
+    "All focus boxes are estimates until the real image is uploaded; check with --debug and --preview."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "He isn't screaming. Look again.",
+      "sub": "Edvard Munch, The Scream, 1893"
+    },
+    {
+      "focus": [
+        0.42,
+        0.58,
+        0.26,
+        0.26
+      ],
+      "headline": "Hands over his ears",
+      "text": "The figure is not screaming, he is hearing a scream. Munch wrote that he felt an endless scream passing through nature."
+    },
+    {
+      "focus": [
+        0.5,
+        0.16,
+        0.95,
+        0.3
+      ],
+      "headline": "A real sunset",
+      "text": "Munch described walking with two friends at sunset when the sky suddenly turned blood red, and he stopped, shaking with fear."
+    },
+    {
+      "focus": [
+        0.26,
+        0.42,
+        0.16,
+        0.22
+      ],
+      "headline": "His two friends",
+      "text": "Behind him, two figures keep walking calmly. They don't feel anything. He is alone with what he feels."
+    },
+    {
+      "focus": [
+        0.15,
+        0.1,
+        0.18,
+        0.08
+      ],
+      "headline": "A message in the sky",
+      "text": "In the red sky there is a tiny pencil inscription: \"Can only have been painted by a madman.\" For years no one knew who wrote it."
+    },
+    {
+      "focus": [
+        0.15,
+        0.1,
+        0.18,
+        0.08
+      ],
+      "headline": "It was Munch",
+      "text": "In 2021 the National Museum in Oslo confirmed the handwriting is Munch's own. He may have written it after critics questioned his mental health."
+    },
+    {
+      "focus": [
+        0.75,
+        0.42,
+        0.36,
+        0.26
+      ],
+      "headline": "A real place",
+      "text": "The road, the railing and the fjord are a real view from a hill above Oslo. You can still stand there today."
+    },
+    {
+      "focus": [
+        0.5,
+        0.16,
+        0.95,
+        0.3
+      ],
+      "headline": "Why so red?",
+      "text": "Some think the sky recalls sunsets after the 1883 Krakatoa eruption, others rare mother-of-pearl clouds. Or simply how it felt."
+    },
+    {
+      "focus": [
+        0.42,
+        0.58,
+        0.26,
+        0.26
+      ],
+      "headline": "Stolen twice",
+      "text": "Munch made several versions. Two of them were stolen, in 1994 and 2004. Both were recovered."
+    }
+  ]
+}

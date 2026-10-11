@@ -1,0 +1,63 @@
+{
+  "title": "Ivan the Terrible and His Son Ivan",
+  "artist": "Ilya Repin",
+  "year": "1885",
+  "image": "image.jpg",
+  "source": "State Tretyakov Gallery, Moscow (public domain: Repin died in 1930). Wikimedia Commons, PD-Art.",
+  "caption": "A tsar kills his own son in a fit of rage. Then this painting was attacked twice, 105 years apart. #art #arthistory #painting #history #oilpainting",
+  "_verify": [
+    "VERIFIED 2026-10-10 (Art in Context; Harper's, May 2019): painted 1883-85, 199.5 x 254 cm, bought by Pavel Tretyakov 1885; Ivan IV struck his son with his staff in November 1581 after a quarrel over the son's pregnant wife, the son died days later; Alexander III banned the painting (April-July 1885); 1913: Abram Balashov struck it three times with a knife, shouting about blood; the curator threw himself under a train afterwards; 25 May 2018: Igor Podporin hit it with a metal pole, broke the glass and damaged the canvas, sentenced to 2.5 years.",
+    "Balashov's exact words: Harper's gives 'Blood! Why the blood? Down with blood!'; the common Russian telling is 'Enough blood!'. Slide uses 'Enough blood!', check before posting.",
+    "Curator's name (Georgy Khruslov) not confirmed by the sources read; slides don't name him.",
+    "The quarrel over the pregnant wife is the traditional account; historians debate the details. Slide says 'it is said'.",
+    "Repin repainting Ivan's face after 1913: not confirmed, not used.",
+    "All focus boxes are estimates until the real image arrives; check with --debug and --preview."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "A man attacked this painting with a knife, shouting 'Enough blood!'",
+      "sub": "Ilya Repin, Ivan the Terrible and His Son Ivan, 1885"
+    },
+    {
+      "focus": [0.5, 0.5, 0.96, 0.94],
+      "headline": "Moscow, 1581",
+      "text": "Tsar Ivan the Terrible strikes his son in a rage. It is said they argued over the son's pregnant wife."
+    },
+    {
+      "focus": [0.25, 0.82, 0.36, 0.16],
+      "headline": "The weapon",
+      "text": "His iron-tipped staff lies on the floor. One blow to the head."
+    },
+    {
+      "focus": [0.47, 0.42, 0.18, 0.22],
+      "headline": "Look at his eyes",
+      "text": "The rage is gone. Only horror is left. He has just killed his heir."
+    },
+    {
+      "focus": [0.42, 0.5, 0.14, 0.14],
+      "headline": "Too late",
+      "text": "He presses his hand on the wound, trying to stop the blood. The son died days later."
+    },
+    {
+      "focus": [0.38, 0.56, 0.18, 0.2],
+      "headline": "Forgiveness",
+      "text": "The son's face is calm, almost forgiving. A tear runs down it."
+    },
+    {
+      "focus": [0.5, 0.5, 0.96, 0.94],
+      "headline": "Banned by the Tsar",
+      "text": "In 1885 Alexander III ordered it removed from exhibition. A painting of a tsar killing his son was too much."
+    },
+    {
+      "focus": [0.45, 0.48, 0.32, 0.3],
+      "headline": "1913: the knife",
+      "text": "A visitor slashed it three times. The gallery's curator was so shaken he threw himself under a train."
+    },
+    {
+      "focus": [0.5, 0.5, 0.96, 0.94],
+      "headline": "2018: again",
+      "text": "105 years later a man smashed it with a metal pole. It is still in the Tretyakov Gallery."
+    }
+  ]
+}

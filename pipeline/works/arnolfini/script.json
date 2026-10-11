@@ -1,0 +1,87 @@
+{
+  "title": "The Arnolfini Portrait",
+  "artist": "Jan van Eyck",
+  "year": "1434",
+  "image": "image.jpg",
+  "source": "National Gallery, London (public domain). Download the full-resolution file from Wikimedia Commons: Van_Eyck_-_Arnolfini_Portrait.jpg",
+  "caption": "A 1434 painting with a reflection, a signature written like graffiti and a single candle burning in daylight. Which detail did you miss? #art #arthistory #painting #history #oilpainting",
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "This 1434 painting hides its painter in a mirror",
+      "sub": "Jan van Eyck, The Arnolfini Portrait, 1434"
+    },
+    {
+      "focus": [
+        0.5,
+        0.41,
+        0.22
+      ],
+      "headline": "Look at the mirror",
+      "text": "The convex mirror shows the room from behind, including two tiny figures in the doorway. One of them may be Van Eyck himself."
+    },
+    {
+      "focus": [
+        0.5,
+        0.32,
+        0.34
+      ],
+      "headline": "“Johannes de eyck fuit hic 1434”",
+      "text": "“Jan van Eyck was here, 1434.” Written on the wall like graffiti, not like a normal signature. Many read it as the painter declaring he was a witness."
+    },
+    {
+      "focus": [
+        0.5,
+        0.41,
+        0.3
+      ],
+      "headline": "10 scenes the size of a fingernail",
+      "text": "The mirror's frame holds ten tiny scenes from the Passion of Christ."
+    },
+    {
+      "focus": [
+        0.5,
+        0.11,
+        0.36
+      ],
+      "headline": "One candle, in daylight",
+      "text": "A single candle burns in the chandelier at midday. What it means is still debated."
+    },
+    {
+      "focus": [
+        0.12,
+        0.44,
+        0.3
+      ],
+      "headline": "Oranges as a status symbol",
+      "text": "In 15th-century Bruges, oranges were an expensive import. Leaving them by the window was a quiet show of wealth."
+    },
+    {
+      "focus": [
+        0.13,
+        0.9,
+        0.3
+      ],
+      "headline": "Shoes off",
+      "text": "A pair of wooden pattens lies on the floor. Some see sacred ground, others simple everyday life."
+    },
+    {
+      "focus": [
+        0.5,
+        0.86,
+        0.32
+      ],
+      "headline": "The little dog",
+      "text": "A small lap dog, often read as a symbol of fidelity, and a luxury only the rich could keep."
+    },
+    {
+      "focus": [
+        0.64,
+        0.72,
+        0.55
+      ],
+      "headline": "She is not pregnant",
+      "text": "She is holding up the heavy folds of a fashionable gown. The rounded silhouette was the style of the time."
+    }
+  ]
+}

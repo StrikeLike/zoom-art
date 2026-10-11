@@ -1,0 +1,94 @@
+{
+  "title": "Netherlandish Proverbs",
+  "artist": "Pieter Bruegel the Elder",
+  "year": "1559",
+  "image": "image.jpg",
+  "source": "Gemäldegalerie, Berlin (public domain). Full resolution from Wikimedia Commons: Pieter_Brueghel_the_Elder_-_The_Dutch_Proverbs_-_Google_Art_Project.jpg",
+  "caption": "One village, more than 100 proverbs acted out literally. How many do you still use today? #art #arthistory #painting #renaissance #history",
+  "_verify": [
+    "VERIFIED 2026-10-10 (en.wikipedia.org/wiki/Netherlandish_Proverbs): 1559, Gemäldegalerie Berlin, oil on oak 117 x 163 cm; about 126 identifiable proverbs (other sources say ~112), so 'over 100' is safe; also called The Blue Cloak / The Folly of the World / The Topsy Turvy World; blue cloak = wife deceives husband (centre); head against a brick wall, belling the cat (lower left); world turned upside down and 'to crap on the world' (upper left); roses before swine and filling the well after the calf drowned (lower middle).",
+    "Which figure belles the cat (armoured man) and the globe on the house: confirm visually on the real image.",
+    "All focus boxes are estimates (3-value, no height); re-tune with --debug on the real image.",
+    "2026-10-10: slides rewritten as one continuous walk through the village (Alex: text must flow frame to frame like a story). Big fish slide dropped (position unverified); armour mentions dropped."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "This 1559 painting hides over 100 proverbs",
+      "sub": "Pieter Bruegel the Elder, Netherlandish Proverbs, 1559"
+    },
+    {
+      "focus": [
+        0.12,
+        0.14,
+        0.12
+      ],
+      "headline": "The world turned upside down",
+      "text": "Bruegel starts with a warning. Up on the house, the globe hangs upside down: in this village, everything is backwards."
+    },
+    {
+      "focus": [
+        0.18,
+        0.1,
+        0.12
+      ],
+      "headline": "Nobody cares",
+      "text": "And the man in the window above? He relieves himself on that world. He couldn't care less."
+    },
+    {
+      "focus": [
+        0.38,
+        0.55,
+        0.16
+      ],
+      "headline": "The blue cloak",
+      "text": "Down in the square, a wife wraps her husband in a blue cloak. It means she is cheating on him, and he has no idea."
+    },
+    {
+      "focus": [
+        0.08,
+        0.72,
+        0.14
+      ],
+      "headline": "Banging his head",
+      "text": "Not far away, a man bangs his head against a brick wall, wasting his strength on the impossible."
+    },
+    {
+      "focus": [
+        0.12,
+        0.86,
+        0.12
+      ],
+      "headline": "Belling the cat",
+      "text": "Next to him, another tries to tie a bell on the cat. Brave, but a plan that rarely works."
+    },
+    {
+      "focus": [
+        0.55,
+        0.84,
+        0.14
+      ],
+      "headline": "Roses for the pigs",
+      "text": "Further along, someone throws roses to the pigs, giving his best to those who can't value it."
+    },
+    {
+      "focus": [
+        0.52,
+        0.9,
+        0.12
+      ],
+      "headline": "Too late",
+      "text": "And right beside him, a man fills in the well only after the calf has drowned. Here, every fix comes too late."
+    },
+    {
+      "focus": [
+        0.5,
+        0.52,
+        0.96,
+        0.94
+      ],
+      "headline": "Your turn",
+      "text": "That was only seven. Over a hundred more are hiding in this village. Which one do you still use?"
+    }
+  ]
+}

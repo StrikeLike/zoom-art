@@ -1,0 +1,101 @@
+{
+  "title": "The Doctor",
+  "artist": "Luke Fildes",
+  "year": "1891",
+  "image": "image.jpg",
+  "source": "Tate Britain, London (public domain: Fildes died in 1927). Wikimedia Commons or Tate, PD-Art.",
+  "caption": "His one-year-old son died on Christmas morning. 14 years later, he painted the doctor who stayed all night. #art #arthistory #painting #history #oilpainting",
+  "_verify": [
+    "VERIFIED 2026-10-10 (Wikipedia 'The Doctor (painting)', Tate): painted and shown at the Royal Academy in 1891; commissioned by Henry Tate in 1890 for £3,000; Fildes' first son Philip died of typhoid on Christmas morning 1877, aged one; Fildes built a cottage interior in his studio based on Scottish fishermen's cottages; lamp + dawn light read as an all-night vigil; 1947 US stamp for the AMA centenary; 1949 AMA campaign 'Keep Politics Out of this Picture' against Truman's national health plan.",
+    "That the doctor who treated Philip inspired the figure is the usual telling (Dr Gustavus Murray); Wikipedia says the final face resembles Fildes himself. Slides say 'the doctor who stayed', keep it loose.",
+    "Whether the child survives is interpretation (dawn = hope). Slide 7 says 'many read it'.",
+    "All focus boxes are estimates until the real image arrives; check with --debug and --preview."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "His son died on Christmas morning. Years later, he painted this",
+      "sub": "Luke Fildes, The Doctor, 1891"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.96,
+        0.94
+      ],
+      "headline": "London, 1877",
+      "text": "Painter Luke Fildes loses his first son, Philip, to typhoid. The boy was one year old."
+    },
+    {
+      "focus": [
+        0.6,
+        0.38,
+        0.17,
+        0.22
+      ],
+      "headline": "The doctor stayed",
+      "text": "What Fildes never forgot was the doctor who kept watching over his child."
+    },
+    {
+      "focus": [
+        0.35,
+        0.55,
+        0.32,
+        0.26
+      ],
+      "headline": "A sick child",
+      "text": "She sleeps on two chairs pushed together, in a poor fisherman's cottage."
+    },
+    {
+      "focus": [
+        0.22,
+        0.38,
+        0.14,
+        0.22
+      ],
+      "headline": "The lamp is still burning",
+      "text": "He has been here all night. Medicine could do little then. What he gives is his attention."
+    },
+    {
+      "focus": [
+        0.85,
+        0.5,
+        0.24,
+        0.46
+      ],
+      "headline": "The parents",
+      "text": "In the shadows, the mother hides her face. The father's hand rests on her shoulder."
+    },
+    {
+      "focus": [
+        0.83,
+        0.22,
+        0.22,
+        0.3
+      ],
+      "headline": "Dawn",
+      "text": "Morning light comes through the window. Many read it as hope: the child made it through the night."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.96,
+        0.94
+      ],
+      "headline": "Built in his studio",
+      "text": "Fildes built a whole cottage room in his studio to get the light right. Henry Tate paid 3,000 pounds for it."
+    },
+    {
+      "focus": [
+        0.6,
+        0.38,
+        0.17,
+        0.22
+      ],
+      "headline": "It outlived him",
+      "text": "In 1947 it became a US postage stamp. It is still one of the most famous images of medicine."
+    }
+  ]
+}

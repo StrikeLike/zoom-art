@@ -1,0 +1,13 @@
+# Rezultate generate (se refac oricând din script.json + imagine)
+pipeline/works/*/out/
+pipeline/works/*/.cache/
+pipeline/reel-remotion/public/
+pipeline/reel-remotion/out/
+node_modules/
+*.mp4
+*.zip
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+Thumbs.db

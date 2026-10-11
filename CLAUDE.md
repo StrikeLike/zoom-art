@@ -1,0 +1,61 @@
+# Zoomed Art: instrucțiuni pentru Claude
+
+Claude citește automat fișierul ăsta la începutul fiecărei sesiuni (Claude Code în VS Code, în folderul proiectului). Ține-l scurt și la zi: când se ia o decizie nouă, se adaugă aici. Starea fiecărei opere e în `JURNAL.md`.
+
+## Cine și ce
+- Proprietar: Alex (GitHub StrikeLike). **Răspunde-i lui Alex în română.** Textele din postări sunt în **engleză**.
+- Scop: venit din pagini de artă care explică și interpretează opere celebre: Instagram, Facebook, TikTok, YouTube.
+- Brand: handle **@zoomed.art** peste tot, nume afișat „Zoomed Art | Art History Explained”, domeniu zoomedart.com.
+
+## Reguli de conținut (obligatorii)
+- **Doar domeniu public.** Picturi ale artiștilor morți de 70+ ani, fișiere „PD-Art” de pe Wikimedia Commons sau din colecțiile deschise ale muzeelor. Evită sculpturile: fotografia unei sculpturi are drepturi proprii.
+- Alege opere cu **impact emoțional mare** și o poveste reală, dramatică (implicare mare).
+- **Violența e permisă, dar fără detalii grafice** (Alex, 10 oct 2026, înlocuiește regula „fără violență”): temele violente sunt ok dacă le arăți și le povestești fără detalii explicite: fără zoom pe sânge sau răni, fără insistat pe ele. Exemplu ok dat de Alex: Judith Slaying Holofernes (Artemisia Gentileschi), femeia violată care îi taie capul violatorului: povestea se spune, zoom-urile stau pe fețe, mâini și context, nu pe rană. Preferă opere-joc care țin atenția: detalii ascunse, iluzii, mistere, scene aglomerate cu povești mici, plus o întrebare care aduce comentarii.
+- **Cum alegi operele noi** (Alex, 10 oct 2026): când se cer teme sau opere noi, caută opere cu impact foarte mare, pline de controversă, mister sau enigmă: ceva cu care oamenii interacționează și pe care îl urmăresc până la final. Controversă și mister, nu detalii sângeroase; regula anti-clișeu rămâne (fără The Scream și alte opere suprapostate).
+- **Textul curge ca o poveste** (Alex, 10 oct 2026): textele de pe slide-uri se leagă de la un cadru la altul, ca și cum ai spune povestea operei și a ce se întâmplă în ea (legături ca „But…”, „Meanwhile…”, „And then…”), nu fapte separate. Fiecare slide pornește din cel dinainte și împinge spre următorul.
+- **Orice fapt neverificat se marchează.** În `script.json` faptele neverificate stau în lista `_verify`. Nu le prezenta ca sigure. Un detaliu „inventat” de upscaling-ul AI nu e fapt despre tablou.
+- Numele operelor i le dai lui Alex în engleză, ca să le poată căuta.
+- **Hashtag-uri: maxim 5 pe postare** (Alex, 10 oct 2026), la carusel, reel și YouTube, și numai hashtag-uri cu reach mare (folosite pe milioane de postări, de ex. #art, #arthistory, #painting, #history, #oilpainting, #renaissance, #museum; pe TikTok #arttok). Fără hashtag-uri de nișă sau de brand. Textele stau în `postari/`.
+
+## Formatul standard (aprobat de Alex, 9 oct 2026)
+Pentru fiecare operă, un singur text → două produse, făcute cu generatorul din `pipeline/` (vezi `pipeline/README.md`):
+1. **Carusel**: 10 imagini JPG 1080x1350. Max 9 slide-uri în script; ultimul slide se adaugă automat: „You may never see this page again.” + „The algorithm won't show us twice. Follow @zoomed.art” (ales de Alex pe 10 oct 2026; textul e în `CTA_HEAD` / `CTA_SUB` din `render.py`).
+2. **Reel vertical**: MP4 1080x1920, zoom lent pe fiecare detaliu, **fără muzică** (muzica se pune din aplicație).
+
+Reguli care nu se negociază:
+- **Textul nu acoperă niciodată detaliul despre care vorbește.** Generatorul încadrează automat; tu doar marchezi corect `focus` = `[cx, cy, lățime, înălțime]` ca fracții. Dă mereu înălțimea la detaliile înalte.
+- **Durata reel-ului: maxim 59 de secunde** (Alex, 10 oct 2026). Timpul se împarte între slide-uri după lungimea textului (minim 3 s pe slide, slide-ul final 2,5 s, tranziții 0,75 s); `export_shots.py` face asta automat. Dacă textul nu se mai poate citi în 59 s, scurtează textul, nu depăși durata.
+- **Zone sigure în reel** (Alex, 10 oct 2026): același video trebuie să arate bine pe Instagram, Facebook, YouTube Shorts și TikTok, deci nimic important (text, logo, mini-hartă, bară de progres) nu stă sub butoanele aplicațiilor. Pe cadrul de 1080x1920: sus 270 px liberi (antetul aplicației), jos 480 px (nume și descriere), dreapta 200 px (like, comentarii, share), stânga 90 px (telefoanele taie ~47 px pe fiecare parte). Valorile sunt în `REEL_SAFE` din `render.py`; nu le micșora. După fiecare reel nou, verifică un cadru cu zonele marcate.
+- **Coperta = thumbnail** (Alex, 10 oct 2026): primul cadru al reel-ului (cel puțin primele 0,3 s) arată coperta completă, cu același titlu și aceeași imagine ca slide-ul 1 din carusel, fără animație de intrare, ca platformele s-o ia automat ca thumbnail. Coperta respectă și ea zonele sigure. Generatorul face asta singur.
+- Aspect: fundal închis, titluri serif albe, accente aurii (rgb 214,178,110), „ZOOMED ART” sus, mini-hartă în dreapta sus (în reel, sub antetul aplicației).
+
+## Pașii pentru o operă nouă
+1. Alex descarcă imaginea mare (ideal 4000+ px) și o pune în `pipeline/works/<nume>/image.jpg`.
+2. Scrie `script.json` (copiază structura din `works/raft-of-the-medusa/`): titlu, artist, an, sursa imaginii, `caption` cu cel mult 5 hashtag-uri cu reach mare, `_verify`, slide-uri.
+3. `python3 render.py works/<nume> --debug` → verifică dreptunghiurile pe `out/debug_focus.jpg`.
+4. `python3 render.py works/<nume> --preview` → verifică `out/reel_preview.jpg` (câteva secunde) înainte de randarea lungă.
+5. `pipeline/reel-remotion/make_post.sh <nume>` (pe Windows: `python make_post.py <nume>`) → carusel + reel (stilul nou) în `works/<nume>/out/`. Verifică `out/carousel_preview.jpg` și câteva cadre din reel.
+6. Actualizează `JURNAL.md` (stare, ce e de verificat, când s-a postat).
+
+Imaginile mici se măresc automat cu Real-ESRGAN (`models/realesrgan_x4plus.onnx`, rezultat în `.cache/`).
+
+## Stilul nou: Remotion (din 10 oct 2026)
+Caruselul și reel-ul se fac acum cu `pipeline/reel-remotion/` (vezi README-ul de acolo): colțuri aurii și lumină pe fiecare detaliu, cerc auriu pe detaliile foarte mici, titlu cuvânt cu cuvânt, cifre aurii, bară de progres. `render.py` rămâne cel care calculează încadrarea; `export_shots.py` o trimite la Remotion. Rezultatele vechi stau în `out/v1_vechi/`.
+
+## Planul de postare
+- 3 postări pe zi, 3 opere diferite (nu aceeași operă de 3 ori).
+- Ordinea și starea fiecărei opere: `JURNAL.md`.
+
+## Lucrul local pe Windows (VS Code + Claude Code)
+- Folderul proiectului: `D:\Munca\Zoom Art\zoom-art` (clona repo-ului). Tot ce e în proiect (scripturi, imagini, texte de postare, brand) stă aici; codul e în `pipeline/`.
+- Instalare o singură dată: Python 3, Node.js 18+, ffmpeg (în PATH), Git cu Git LFS. Apoi `pip install -r pipeline/requirements.txt` și, în `pipeline/reel-remotion/`, `npm install`.
+- Pe Windows comanda e `python`, nu `python3`. În loc de `make_post.sh` folosește `python make_post.py <nume>` (din `pipeline/reel-remotion/`); face exact același lucru.
+- Fonturile sunt incluse în `pipeline/fonts/`, deci randarea arată la fel ca în cloud.
+- Prima randare cu Remotion descarcă automat un Chrome headless (~100 MB).
+- Rezultatele apar în `pipeline/works/<nume>/out/` și nu intră în git. Fă commit doar pentru scripturi, imagini sursă, texte și cod.
+- Următoarea etapă: **automatizare** (de ex. generare și programare de postări). Pornește de aici: pașii de mai sus sunt deja scripturi care se pot înlănțui.
+
+## Unde stau lucrurile
+- Cod: repo GitHub `StrikeLike/zoom-art`, clonat local în `D:\Munca\Zoom Art\zoom-art`.
+- Rezultatele (`out/`, `.cache/`, mp4, zip) nu intră în git.
+- Alex descarcă imagini în `C:\Users\badu5\Downloads`.

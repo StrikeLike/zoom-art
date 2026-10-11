@@ -1,0 +1,100 @@
+{
+  "title": "David with the Head of Goliath",
+  "artist": "Caravaggio",
+  "year": "c. 1609-1610",
+  "image": "image.jpg",
+  "source": "Galleria Borghese, Rome (public domain). Full resolution from Wikimedia Commons: David_with_the_Head_of_Goliath-Caravaggio_(1610).jpg",
+  "caption": "The severed head is the painter's own face. Caravaggio painted it while on the run, with a death sentence hanging over him. #art #arthistory #painting #history #oilpainting",
+  "_verify": [
+    "VERIFIED 2026-10-10 (Galleria Borghese page galleriaborghese.beniculturali.it/en/?p=10534 + Wikipedia): dated 1609-10 by the museum (some scholars say as early as 1605); head of Goliath = Caravaggio's self-portrait (museum: 'the artist's last, tragic self-portrait'); 28 May 1606 killed Ranuccio Tomassoni in a brawl, sentenced in absentia to beheading; sword letters read as 'HumilitAS Occidit Superbiam' (museum: 'difficult to read', Augustine maxim); in Scipione Borghese's collection, possibly sent as a request for pardon.",
+    "Death: museum says he died 18 July 1610 in southern Tuscany, circumstances unclear; 'pardon on its way' is the usual telling, keep it loose.",
+    "All focus boxes are estimates until the real image is uploaded; check with --debug and --preview."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "The severed head in this painting is the painter himself",
+      "sub": "Caravaggio, David with the Head of Goliath, c. 1609-1610"
+    },
+    {
+      "focus": [
+        0.68,
+        0.56,
+        0.3,
+        0.26
+      ],
+      "headline": "Look at Goliath",
+      "text": "The face of the giant is widely believed to be a self-portrait. Caravaggio painted himself as the defeated, the guilty one."
+    },
+    {
+      "focus": [
+        0.68,
+        0.58,
+        0.18,
+        0.14
+      ],
+      "headline": "Still alive?",
+      "text": "One eye is half open, the mouth hangs as if in a last breath. It is not a trophy, it is a man at the moment of dying."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.95,
+        0.95
+      ],
+      "headline": "A painter on the run",
+      "text": "In 1606 Caravaggio killed a man in a fight in Rome. He was sentenced to death and spent his last years fleeing from city to city."
+    },
+    {
+      "focus": [
+        0.4,
+        0.26,
+        0.2,
+        0.2
+      ],
+      "headline": "David doesn't celebrate",
+      "text": "Look at his face: no triumph, no pride. He looks at the head with something like pity, or sadness."
+    },
+    {
+      "focus": [
+        0.25,
+        0.72,
+        0.15,
+        0.22
+      ],
+      "headline": "Words on the sword",
+      "text": "The blade carries the letters H-AS OS, often read as a Latin phrase meaning \"humility kills pride\"."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.95,
+        0.95
+      ],
+      "headline": "A plea for mercy",
+      "text": "The painting went to Cardinal Scipione Borghese, nephew of the Pope, the man who could help him get a pardon. Many read it as Caravaggio offering his own head."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.95,
+        0.95
+      ],
+      "headline": "Darkness everywhere",
+      "text": "No background, no landscape. Only two figures coming out of the dark, lit like a stage. Caravaggio's trademark."
+    },
+    {
+      "focus": [
+        0.68,
+        0.56,
+        0.3,
+        0.26
+      ],
+      "headline": "He never got home",
+      "text": "In 1610 the pardon was finally on its way. Caravaggio died on his journey back to Rome, at 38."
+    }
+  ]
+}

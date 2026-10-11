@@ -1,0 +1,100 @@
+{
+  "title": "Bacchus",
+  "artist": "Caravaggio",
+  "year": "c. 1596",
+  "image": "image.jpg",
+  "source": "Uffizi Gallery, Florence (public domain). Full resolution from Wikimedia Commons: Bacchus-Caravaggio_(1595).jpg",
+  "caption": "The god of wine, offering you a glass. Look into the wine flask on the left: Caravaggio may have painted himself there, at work. #art #arthistory #painting #history #oilpainting",
+  "_verify": [
+    "Dating c. 1596: check the Uffizi page (some sources give c. 1595-1597).",
+    "Self-portrait reflection in the flask: revealed during restoration and studied with reflectography (often cited as 1922 cleaning and 2009 study); check one source.",
+    "All focus boxes are estimates until the real image is uploaded; check with --debug and --preview."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Caravaggio hid a tiny self-portrait in this painting",
+      "sub": "Caravaggio, Bacchus, c. 1596"
+    },
+    {
+      "focus": [
+        0.12,
+        0.72,
+        0.17,
+        0.2
+      ],
+      "headline": "Look at the wine flask",
+      "text": "Bottom left, a glass flask of red wine. On its surface, a tiny reflection that went unnoticed for centuries."
+    },
+    {
+      "focus": [
+        0.12,
+        0.68,
+        0.07,
+        0.08
+      ],
+      "headline": "The painter, at work",
+      "text": "Cleaning and modern imaging revealed a small figure at an easel reflected in the glass. Many believe it is Caravaggio painting this very picture."
+    },
+    {
+      "focus": [
+        0.45,
+        0.85,
+        0.4,
+        0.2
+      ],
+      "headline": "The fruit is going bad",
+      "text": "Look at the bowl: bruised, split and overripe fruit. Pleasure doesn't last, a common message in paintings of the time."
+    },
+    {
+      "focus": [
+        0.4,
+        0.83,
+        0.12,
+        0.1
+      ],
+      "headline": "A worm hole",
+      "text": "Even the apple has a hole in it. Caravaggio painted decay as carefully as beauty."
+    },
+    {
+      "focus": [
+        0.3,
+        0.5,
+        0.16,
+        0.18
+      ],
+      "headline": "Dirty fingernails",
+      "text": "The god of wine has dirt under his nails. Caravaggio painted real people from the street, not idealised gods."
+    },
+    {
+      "focus": [
+        0.3,
+        0.46,
+        0.14,
+        0.14
+      ],
+      "headline": "The wine is moving",
+      "text": "Small ripples on the surface of the wine in his glass, as if he has just lifted it towards you."
+    },
+    {
+      "focus": [
+        0.5,
+        0.25,
+        0.3,
+        0.26
+      ],
+      "headline": "Flushed cheeks",
+      "text": "Red cheeks, heavy eyes, a slightly tired look. This Bacchus has already had a few glasses."
+    },
+    {
+      "focus": [
+        0.68,
+        0.55,
+        0.16,
+        0.16
+      ],
+      "headline": "An invitation",
+      "text": "With his other hand he plays with the black ribbon holding his robe. The whole painting is an offer: a drink, and maybe more."
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "title": "Troika",
+  "artist": "Vasily Perov",
+  "year": "1866",
+  "image": "image.jpg",
+  "source": "State Tretyakov Gallery, Moscow (public domain: Perov died in 1882). Image supplied by Alex (Wikimedia Commons).",
+  "caption": "Three children pulling a frozen barrel of water through a Moscow winter. Years later, a mother walked into a gallery and knelt in front of this painting. #art #arthistory #painting #history #oilpainting",
+  "_verify": [
+    "Full title 'Troika. Apprentices Fetch Water' and date 1866: check the Tretyakov Gallery page.",
+    "Story of the boy model (a poor widow's son) dying, and his mother kneeling and praying in front of the painting at Tretyakov's gallery: told by Perov himself in his story 'Auntie Marya'; check a source before posting.",
+    "Which child was the widow's son (usually the boy in the middle): check.",
+    "Focus boxes tuned 2026-10-10 on Alex's image (1280x935, upscaled by the generator)."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "A mother knelt and prayed in front of this painting",
+      "sub": "Vasily Perov, Troika, 1866"
+    },
+    {
+      "focus": [
+        0.57,
+        0.62,
+        0.66,
+        0.54
+      ],
+      "headline": "Three children, one barrel",
+      "text": "Moscow, winter. Three young apprentices drag a huge barrel of water through the snow."
+    },
+    {
+      "focus": [
+        0.68,
+        0.5,
+        0.21,
+        0.47
+      ],
+      "headline": "Frozen solid",
+      "text": "Water spills from the barrel and freezes into icicles. It is bitterly cold."
+    },
+    {
+      "focus": [
+        0.82,
+        0.59,
+        0.16,
+        0.37
+      ],
+      "headline": "The adult pushes",
+      "text": "Behind the barrel, a grown man helps. The children still pull the weight."
+    },
+    {
+      "focus": [
+        0.42,
+        0.45,
+        0.34,
+        0.17
+      ],
+      "headline": "Look at their faces",
+      "text": "Exhausted, frozen, but still going. They are children doing an adult's work."
+    },
+    {
+      "focus": [
+        0.22,
+        0.75,
+        0.2,
+        0.24
+      ],
+      "headline": "The only one running happily",
+      "text": "A dog runs ahead of them. The only one in the picture having fun."
+    },
+    {
+      "focus": [
+        0.43,
+        0.62,
+        0.16,
+        0.51
+      ],
+      "headline": "The boy in the middle",
+      "text": "Perov found him in Moscow, the son of a poor widow. Not long after posing, the boy died."
+    },
+    {
+      "focus": [
+        0.42,
+        0.47,
+        0.17,
+        0.24
+      ],
+      "headline": "His mother came looking",
+      "text": "She wanted to buy the painting, the only image of her son. It had already been sold."
+    },
+    {
+      "focus": [
+        0.5,
+        0.52,
+        0.96,
+        0.94
+      ],
+      "headline": "She knelt and prayed",
+      "text": "Perov took her to the gallery. She knelt in front of the canvas and prayed, as if before an icon."
+    }
+  ]
+}

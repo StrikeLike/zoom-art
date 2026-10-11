@@ -1,0 +1,102 @@
+{
+  "title": "The Starry Night",
+  "artist": "Vincent van Gogh",
+  "year": "1889",
+  "image": "image.jpg",
+  "source": "Museum of Modern Art, New York (public domain). Full resolution from Wikimedia Commons: Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+  "caption": "The most famous night sky in art was painted from memory, in an asylum, by a painter who thought it was a failure. #art #arthistory #painting #history #oilpainting",
+  "_verify": [
+    "Painted in June 1889 at the asylum in Saint-Rémy: check the MoMA page.",
+    "View from his east-facing window, village added from imagination, painted by day from memory: check the Van Gogh Museum letters site.",
+    "Brightest star identified as Venus (morning star mentioned in his letter to Theo): check the letter.",
+    "'Another failure' quote is from a letter to Émile Bernard; check exact wording before quoting.",
+    "All focus boxes are estimates until the real image is uploaded; check with --debug and --preview."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Van Gogh thought this painting was a failure",
+      "sub": "Vincent van Gogh, The Starry Night, 1889"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Painted in an asylum",
+      "text": "In 1889 Van Gogh admitted himself to an asylum in Saint-Rémy, in southern France. This is the view from his window, before sunrise."
+    },
+    {
+      "focus": [
+        0.52,
+        0.8,
+        0.5,
+        0.3
+      ],
+      "headline": "The village isn't really there",
+      "text": "He couldn't see a village like this from his window. He added it from imagination, and painted the picture by day, from memory."
+    },
+    {
+      "focus": [
+        0.52,
+        0.68,
+        0.1,
+        0.18
+      ],
+      "headline": "A Dutch church in France",
+      "text": "The tall, pointed steeple looks more like a church from his native Netherlands than one from Provence."
+    },
+    {
+      "focus": [
+        0.18,
+        0.5,
+        0.22,
+        0.95
+      ],
+      "headline": "The dark flame",
+      "text": "The cypress rises like a flame from earth to sky. In Mediterranean culture, cypresses grow in cemeteries and are linked with death."
+    },
+    {
+      "focus": [
+        0.33,
+        0.38,
+        0.09,
+        0.1
+      ],
+      "headline": "This star is a planet",
+      "text": "The big bright star next to the cypress is most likely Venus. Van Gogh wrote to his brother that he had seen the morning star, looking very big."
+    },
+    {
+      "focus": [
+        0.45,
+        0.25,
+        0.36,
+        0.26
+      ],
+      "headline": "The swirl",
+      "text": "The sky moves in great spirals. Real night skies don't look like this; it is how he felt them."
+    },
+    {
+      "focus": [
+        0.88,
+        0.12,
+        0.17,
+        0.18
+      ],
+      "headline": "Moon and sun at once",
+      "text": "The crescent moon glows with a halo so strong it almost looks like a sun."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "\"Another failure\"",
+      "text": "In a letter to a friend he called his attempt at painting stars too big a failure. Today it is one of the most recognised paintings in the world."
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "title": "A Bar at the Folies-Bergère",
+  "artist": "Édouard Manet",
+  "year": "1882",
+  "source": "The Courtauld Gallery, London (public domain: Manet died in 1883). Image supplied by Alex (Wikimedia Commons, 1280x956, upscaled by the generator).",
+  "caption": "Something is wrong with this mirror. Can you spot it before slide 3? #art #arthistory #painting #paris #oilpainting",
+  "_verify": [
+    "VERIFIED 2026-10-10 (Wikipedia, citing Courtauld): 1882, shown at the 1882 Salon, Courtauld Gallery; Manet's last major work; barmaid Suzon really worked at the Folies-Bergère, posed in his studio; mirror debate, Malcolm Park's 2000 reconstruction shows the scene is possible from an angle; green feet of a trapeze artist top left; red triangle = Bass Pale Ale.",
+    "Signature on the far-left bottle label: visible on Alex's image ('Manet 1882'); also check the Courtauld page.",
+    "Avoid the 'oranges = prostitute' reading (Ligo): sensitive, not used.",
+    "All focus boxes are estimates until the real image arrives; check with --debug and --preview."
+  ],
+  "image": "image.jpg",
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Something is wrong with this mirror. Can you spot it?",
+      "sub": "Édouard Manet, A Bar at the Folies-Bergère, 1882"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.96,
+        0.94
+      ],
+      "headline": "Paris, 1882",
+      "text": "A busy night at the Folies-Bergère. Suzon stands behind the bar, a huge mirror at her back."
+    },
+    {
+      "focus": [
+        0.49,
+        0.17,
+        0.17,
+        0.25
+      ],
+      "headline": "She looks at you",
+      "text": "Tired and far away, she looks straight at you, as if you just ordered a drink."
+    },
+    {
+      "focus": [
+        0.84,
+        0.38,
+        0.3,
+        0.62
+      ],
+      "headline": "But in the mirror",
+      "text": "Her reflection has slipped far to the right. And there, she leans toward a man."
+    },
+    {
+      "focus": [
+        0.92,
+        0.2,
+        0.15,
+        0.32
+      ],
+      "headline": "That man is you",
+      "text": "In the mirror he stands right in front of her. So he must be standing where you are."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.96,
+        0.94
+      ],
+      "headline": "A mistake?",
+      "text": "For a century critics said Manet got it wrong. In 2000 a researcher rebuilt the scene: from one side, it works."
+    },
+    {
+      "focus": [
+        0.05,
+        0.06,
+        0.1,
+        0.12
+      ],
+      "headline": "Meanwhile, above the crowd",
+      "text": "Top left corner: two green feet. A trapeze act is on, and nobody at the bar looks up."
+    },
+    {
+      "focus": [
+        0.92,
+        0.8,
+        0.12,
+        0.24
+      ],
+      "headline": "Back on the bar",
+      "text": "Next to the champagne, bottles with a red triangle: Bass, an English beer, in the heart of Paris."
+    },
+    {
+      "focus": [
+        0.05,
+        0.8,
+        0.1,
+        0.22
+      ],
+      "headline": "And one bottle is signed",
+      "text": "On its label Manet wrote: Manet 1882. A year later he was gone. This was his last great painting."
+    }
+  ]
+}

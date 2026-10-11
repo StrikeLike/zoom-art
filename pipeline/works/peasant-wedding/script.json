@@ -1,0 +1,101 @@
+{
+  "title": "The Peasant Wedding",
+  "artist": "Pieter Bruegel the Elder",
+  "year": "1567",
+  "image": "image.jpg",
+  "source": "Kunsthistorisches Museum, Vienna (public domain: Bruegel died in 1569). Image supplied by Alex (Wikimedia Commons, 1280x885, upscaled by the generator).",
+  "caption": "Everyone is at this wedding except, maybe, the groom. Can you find him? #art #arthistory #painting #history #oilpainting",
+  "_verify": [
+    "VERIFIED 2026-10-10 (Wikipedia 'The Peasant Wedding', KHM): 1567, oil on panel 114 x 164 cm, Kunsthistorisches Museum Vienna; bride in front of the green hanging with a paper crown above her; groom's identity debated (man pouring, man passing plates, others), Van der Elst: the groom is absent; plates carried on a door off its hinges; bread, porridge and soup; two pipers; small boy licking a plate in the foreground; wealthy man on the far right talking to a Franciscan friar; sheaves of grain and a rake; an extra 'third foot' under the tray, removed by Pieter Brueghel the Younger in his copy.",
+    "Date of the Younger's copy given as 1620 by Wikipedia; slides don't give the year.",
+    "'One piper seems to stare at the food' is our reading of the picture.",
+    "Focus boxes set on Alex's 1280x885 image 2026-10-10."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Everyone came to this wedding. Can you find the groom?",
+      "sub": "Pieter Bruegel the Elder, The Peasant Wedding, 1567"
+    },
+    {
+      "focus": [
+        0.65,
+        0.3,
+        0.14,
+        0.27
+      ],
+      "headline": "It's her big day",
+      "text": "Flanders, 1567. The bride sits before a green cloth, a paper crown above her, eyes half closed."
+    },
+    {
+      "focus": [
+        0.08,
+        0.62,
+        0.17,
+        0.4
+      ],
+      "headline": "But where is the groom?",
+      "text": "Is he the man pouring beer? The one passing plates? Some say he never showed up."
+    },
+    {
+      "focus": [
+        0.69,
+        0.63,
+        0.46,
+        0.4
+      ],
+      "headline": "While they wonder, dinner arrives",
+      "text": "Two men carry the plates on a door taken off its hinges. Porridge and soup for everyone."
+    },
+    {
+      "focus": [
+        0.7,
+        0.78,
+        0.17,
+        0.17
+      ],
+      "headline": "Look under that door",
+      "text": "Count the feet. There's one too many. When Bruegel's son copied the painting, he quietly removed it."
+    },
+    {
+      "focus": [
+        0.355,
+        0.87,
+        0.19,
+        0.26
+      ],
+      "headline": "Down on the floor",
+      "text": "The smallest guest has already finished. A boy in a huge red hat licks his plate clean."
+    },
+    {
+      "focus": [
+        0.25,
+        0.36,
+        0.16,
+        0.42
+      ],
+      "headline": "Behind him, the music",
+      "text": "Two bagpipers play on, and one of them can't take his eyes off the food going by."
+    },
+    {
+      "focus": [
+        0.935,
+        0.45,
+        0.13,
+        0.34
+      ],
+      "headline": "Not everyone belongs here",
+      "text": "Far right, a wealthy man in fine clothes chats with a friar. At a peasant wedding."
+    },
+    {
+      "focus": [
+        0.87,
+        0.16,
+        0.14,
+        0.24
+      ],
+      "headline": "And tomorrow?",
+      "text": "Grain and a rake hang on the wall: the harvest is waiting. So, who do you think is the groom?"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "title": "Judith Slaying Holofernes",
+  "artist": "Artemisia Gentileschi",
+  "year": "c. 1620",
+  "image": "image.jpg",
+  "source": "Uffizi Gallery, Florence (public domain: Artemisia Gentileschi died after 1654). Wikimedia Commons, PD-Art.",
+  "caption": "At 18 she was raped. At the trial, she was the one who was tortured. Then she painted this. #art #arthistory #painting #history #oilpainting",
+  "_verify": [
+    "VERIFIED 2026-10-10 (Wikipedia, National Geographic Jan-Feb 2020): born 1593; raped by Agostino Tassi in 1611 (about 18); trial in 1612 lasted 7 months; she was tortured with the 'sibille' (cords tightened around her fingers) to test her testimony; Tassi convicted and sentenced to exile from Rome, never enforced, less than a year in prison; first version c. 1612-13 (Capodimonte, Naples), this version c. 1620 (Uffizi); first woman in Florence's Accademia delle Arti del Disegno.",
+    "Interpretation, not fact: Judith as Artemisia and Holofernes as Tassi. The texts say 'many see', keep it that way.",
+    "Her cry under torture 'This is the ring you give me, and these are your promises!' is from National Geographic; not used in the slides.",
+    "Bracelet on Judith's arm said to show Artemis (her namesake): NOT confirmed, not used.",
+    "All focus boxes are estimates until the real image arrives; check with --debug and --preview.",
+    "2026-10-10: Alex OK'd this work (violence allowed, not graphic). No zoom on the wound or blood; slides 5 and 8 widened."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "At the trial, she was the one they tortured. Then she painted this",
+      "sub": "Artemisia Gentileschi, Judith Slaying Holofernes, c. 1620"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.96,
+        0.94
+      ],
+      "headline": "Rome, 1611",
+      "text": "Artemisia is 18, already a gifted painter. Her teacher, Agostino Tassi, assaults her."
+    },
+    {
+      "focus": [
+        0.62,
+        0.3,
+        0.18,
+        0.2
+      ],
+      "headline": "She takes him to court",
+      "text": "The trial lasts seven months. To test her word, the court tortures her, not him."
+    },
+    {
+      "focus": [
+        0.55,
+        0.47,
+        0.22,
+        0.18
+      ],
+      "headline": "They bind her fingers",
+      "text": "Cords are tightened around a painter's fingers. She keeps repeating her story."
+    },
+    {
+      "focus": [
+        0.5,
+        0.42,
+        0.7,
+        0.55
+      ],
+      "headline": "And he walks free",
+      "text": "Tassi is convicted and banished from Rome. The sentence is never carried out."
+    },
+    {
+      "focus": [
+        0.6,
+        0.45,
+        0.32,
+        0.4
+      ],
+      "headline": "So she picks up her brush",
+      "text": "Her Judith is no delicate heroine. She holds him down like it's work."
+    },
+    {
+      "focus": [
+        0.38,
+        0.22,
+        0.18,
+        0.2
+      ],
+      "headline": "And she is not alone",
+      "text": "Her maid pins Holofernes to the bed. Two women, acting together."
+    },
+    {
+      "focus": [
+        0.5,
+        0.45,
+        0.8,
+        0.7
+      ],
+      "headline": "Look closer",
+      "text": "Many see in his face the man who hurt her, and in Judith, Artemisia herself."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.96,
+        0.94
+      ],
+      "headline": "In the end, she won",
+      "text": "She became the first woman in Florence's academy of art. He is remembered only because of her."
+    }
+  ]
+}

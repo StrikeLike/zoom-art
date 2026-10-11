@@ -1,0 +1,102 @@
+{
+  "title": "The Ambassadors",
+  "artist": "Hans Holbein the Younger",
+  "year": "1533",
+  "image": "image.jpg",
+  "source": "National Gallery, London (public domain). Full resolution from Wikimedia Commons: Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg",
+  "caption": "Two rich, powerful young men surrounded by the best things money could buy in 1533. And a skull you can only see if you walk past the painting. #art #arthistory #painting #history #oilpainting",
+  "_verify": [
+    "Ages 29 and 25 (inscribed on the dagger sheath and the book): check against the National Gallery page.",
+    "Hymn book open at Luther's hymns: check.",
+    "Sundial/date reading (11 April 1533, Good Friday): a scholarly interpretation; it is not used in the slides, check before adding it.",
+    "Floor copying the Cosmati pavement in Westminster Abbey: check.",
+    "All focus boxes are estimates until the real image is uploaded; check with --debug and --preview."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "There's a skull hidden in this painting. Can you see it?",
+      "sub": "Hans Holbein the Younger, The Ambassadors, 1533"
+    },
+    {
+      "focus": [
+        0.5,
+        0.83,
+        0.42,
+        0.18
+      ],
+      "headline": "That strange shape on the floor",
+      "text": "It's a skull, painted stretched out. Look at it from the lower right, almost from the side of the painting, and it snaps into shape."
+    },
+    {
+      "focus": [
+        0.5,
+        0.83,
+        0.42,
+        0.18
+      ],
+      "headline": "Why hide it?",
+      "text": "A reminder of death in a room full of wealth and power. Walking past the painting, you would suddenly see it, as if death appeared out of nowhere."
+    },
+    {
+      "focus": [
+        0.04,
+        0.06,
+        0.08,
+        0.11
+      ],
+      "headline": "Top left, half hidden",
+      "text": "A small crucifix peeks out from behind the green curtain. Easy to miss, and probably meant to be."
+    },
+    {
+      "focus": [
+        0.22,
+        0.47,
+        0.1,
+        0.12
+      ],
+      "headline": "Their ages are written in the painting",
+      "text": "Jean de Dinteville's dagger sheath reads 29. Georges de Selve's book, under his elbow, says 25."
+    },
+    {
+      "focus": [
+        0.5,
+        0.38,
+        0.32,
+        0.16
+      ],
+      "headline": "The latest technology",
+      "text": "The upper shelf holds a celestial globe and instruments for measuring time and the stars. Status symbols for educated men."
+    },
+    {
+      "focus": [
+        0.48,
+        0.62,
+        0.18,
+        0.12
+      ],
+      "headline": "A broken string",
+      "text": "Look closely at the lute: one string has snapped. Often read as a sign of discord in a Europe split by religion."
+    },
+    {
+      "focus": [
+        0.57,
+        0.66,
+        0.12,
+        0.09
+      ],
+      "headline": "The hymn book",
+      "text": "Next to the lute lies an open hymn book with Lutheran hymns, painted in the years when the Reformation was tearing Europe apart."
+    },
+    {
+      "focus": [
+        0.5,
+        0.9,
+        0.6,
+        0.16
+      ],
+      "headline": "Even the floor means something",
+      "text": "The patterned floor is modelled on a famous medieval pavement in Westminster Abbey."
+    }
+  ]
+}
