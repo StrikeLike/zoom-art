@@ -10,7 +10,8 @@
     "Hymn book open at Luther's hymns: check.",
     "Sundial/date reading (11 April 1533, Good Friday): a scholarly interpretation; it is not used in the slides, check before adding it.",
     "Floor copying the Cosmati pavement in Westminster Abbey: check.",
-    "All focus boxes are estimates until the real image is uploaded; check with --debug and --preview."
+    "Focus boxes placed on the real image (Wikimedia Commons file) on 2026-10-11; check the carousel and reel frames.",
+    "The '29' on the dagger sheath and '25' on the book are tiny inscriptions, not readable at reel size: the slide points to them, it does not show them."
   ],
   "slides": [
     {
@@ -21,9 +22,9 @@
     {
       "focus": [
         0.5,
-        0.83,
-        0.42,
-        0.18
+        0.865,
+        0.48,
+        0.22
       ],
       "headline": "That strange shape on the floor",
       "text": "It's a skull, painted stretched out. Look at it from the lower right, almost from the side of the painting, and it snaps into shape."
@@ -31,9 +32,9 @@
     {
       "focus": [
         0.5,
-        0.83,
-        0.42,
-        0.18
+        0.62,
+        0.9,
+        0.72
       ],
       "headline": "Why hide it?",
       "text": "A reminder of death in a room full of wealth and power. Walking past the painting, you would suddenly see it, as if death appeared out of nowhere."
@@ -50,50 +51,50 @@
     },
     {
       "focus": [
-        0.22,
-        0.47,
-        0.1,
-        0.12
+        0.215,
+        0.545,
+        0.13,
+        0.06
       ],
       "headline": "Their ages are written in the painting",
       "text": "Jean de Dinteville's dagger sheath reads 29. Georges de Selve's book, under his elbow, says 25."
     },
     {
       "focus": [
-        0.5,
-        0.38,
-        0.32,
-        0.16
+        0.58,
+        0.255,
+        0.42,
+        0.22
       ],
       "headline": "The latest technology",
       "text": "The upper shelf holds a celestial globe and instruments for measuring time and the stars. Status symbols for educated men."
     },
     {
       "focus": [
-        0.48,
-        0.62,
-        0.18,
-        0.12
+        0.63,
+        0.59,
+        0.2,
+        0.1
       ],
       "headline": "A broken string",
       "text": "Look closely at the lute: one string has snapped. Often read as a sign of discord in a Europe split by religion."
     },
     {
       "focus": [
-        0.57,
-        0.66,
-        0.12,
-        0.09
+        0.62,
+        0.67,
+        0.18,
+        0.08
       ],
       "headline": "The hymn book",
       "text": "Next to the lute lies an open hymn book with Lutheran hymns, painted in the years when the Reformation was tearing Europe apart."
     },
     {
       "focus": [
-        0.5,
-        0.9,
-        0.6,
-        0.16
+        0.8,
+        0.915,
+        0.4,
+        0.17
       ],
       "headline": "Even the floor means something",
       "text": "The patterned floor is modelled on a famous medieval pavement in Westminster Abbey."

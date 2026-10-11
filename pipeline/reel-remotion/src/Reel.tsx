@@ -30,6 +30,7 @@ export type ReelData = {
 const W = 1080;
 let H = 1920, PAD = 72;
 const GOLD = "rgb(214,178,110)", WHITE = "rgb(245,240,230)", BODY = "rgb(232,226,214)";
+const MAP_RED = "rgb(255,99,99)"; // mini-map zoom box: light red so it stands out on any painting (Alex, 2026-10-11)
 const SERIF = "ZSerif, serif", SANS = "ZSans, sans-serif";
 const MOVE_EASE = Easing.bezier(0.65, 0, 0.35, 1);
 const OUT_FRAMES = 10; // text leaves during the last frames of a hold
@@ -236,7 +237,7 @@ const MiniMap: React.FC<{m: [number, number, number, number]; v: View; img: [num
     <div style={{position: "absolute", left: mx, top: my, width: mw, height: mh, background: WHITE, padding: 3, boxSizing: "border-box", opacity: 0.92 * p * out, translate: `${(1 - p) * 24}px 0px`, boxShadow: "0 6px 24px rgba(0,0,0,0.45)"}}>
       <div style={{position: "relative", width: mw - 6, height: mh - 6}}>
         <Img src={staticFile("thumb.jpg")} style={{width: "100%", height: "100%", display: "block"}} />
-        <div style={{position: "absolute", left: rx, top: ry, width: rw, height: rh, border: `3px solid ${GOLD}`, boxSizing: "border-box"}} />
+        <div style={{position: "absolute", left: rx, top: ry, width: rw, height: rh, border: `3px solid ${MAP_RED}`, boxSizing: "border-box"}} />
       </div>
     </div>
   );

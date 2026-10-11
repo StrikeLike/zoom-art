@@ -9,7 +9,8 @@
     "VERIFIED 2026-10-10 (Wikipedia 'The Doctor (painting)', Tate): painted and shown at the Royal Academy in 1891; commissioned by Henry Tate in 1890 for £3,000; Fildes' first son Philip died of typhoid on Christmas morning 1877, aged one; Fildes built a cottage interior in his studio based on Scottish fishermen's cottages; lamp + dawn light read as an all-night vigil; 1947 US stamp for the AMA centenary; 1949 AMA campaign 'Keep Politics Out of this Picture' against Truman's national health plan.",
     "That the doctor who treated Philip inspired the figure is the usual telling (Dr Gustavus Murray); Wikipedia says the final face resembles Fildes himself. Slides say 'the doctor who stayed', keep it loose.",
     "Whether the child survives is interpretation (dawn = hope). Slide 7 says 'many read it'.",
-    "All focus boxes are estimates until the real image arrives; check with --debug and --preview."
+    "Focus boxes placed on the real image (Wikimedia Commons file) on 2026-10-11; check the carousel and reel frames.",
+    "Image is only 1536 px (the only public-domain copy of the Tate original on Commons): all zooms are AI-upscaled; the parents in the shadows are barely visible at this resolution. A larger PD-Art scan would help."
   ],
   "slides": [
     {
@@ -29,18 +30,18 @@
     },
     {
       "focus": [
+        0.3,
         0.6,
-        0.38,
-        0.17,
-        0.22
+        0.28,
+        0.58
       ],
       "headline": "The doctor stayed",
       "text": "What Fildes never forgot was the doctor who kept watching over his child."
     },
     {
       "focus": [
-        0.35,
         0.55,
+        0.62,
         0.32,
         0.26
       ],
@@ -49,30 +50,30 @@
     },
     {
       "focus": [
-        0.22,
-        0.38,
+        0.13,
+        0.45,
         0.14,
-        0.22
+        0.3
       ],
       "headline": "The lamp is still burning",
       "text": "He has been here all night. Medicine could do little then. What he gives is his attention."
     },
     {
       "focus": [
-        0.85,
-        0.5,
-        0.24,
-        0.46
+        0.69,
+        0.33,
+        0.26,
+        0.38
       ],
       "headline": "The parents",
       "text": "In the shadows, the mother hides her face. The father's hand rests on her shoulder."
     },
     {
       "focus": [
-        0.83,
-        0.22,
-        0.22,
-        0.3
+        0.82,
+        0.27,
+        0.18,
+        0.28
       ],
       "headline": "Dawn",
       "text": "Morning light comes through the window. Many read it as hope: the child made it through the night."
@@ -89,10 +90,10 @@
     },
     {
       "focus": [
-        0.6,
-        0.38,
-        0.17,
-        0.22
+        0.37,
+        0.43,
+        0.14,
+        0.16
       ],
       "headline": "It outlived him",
       "text": "In 1947 it became a US postage stamp. It is still one of the most famous images of medicine."

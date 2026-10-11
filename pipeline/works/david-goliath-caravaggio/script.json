@@ -8,7 +8,8 @@
   "_verify": [
     "VERIFIED 2026-10-10 (Galleria Borghese page galleriaborghese.beniculturali.it/en/?p=10534 + Wikipedia): dated 1609-10 by the museum (some scholars say as early as 1605); head of Goliath = Caravaggio's self-portrait (museum: 'the artist's last, tragic self-portrait'); 28 May 1606 killed Ranuccio Tomassoni in a brawl, sentenced in absentia to beheading; sword letters read as 'HumilitAS Occidit Superbiam' (museum: 'difficult to read', Augustine maxim); in Scipione Borghese's collection, possibly sent as a request for pardon.",
     "Death: museum says he died 18 July 1610 in southern Tuscany, circumstances unclear; 'pardon on its way' is the usual telling, keep it loose.",
-    "All focus boxes are estimates until the real image is uploaded; check with --debug and --preview."
+    "Focus boxes placed on the real image (Wikimedia Commons file) on 2026-10-11; check the carousel and reel frames.",
+    "Blood under Goliath's neck starts at y~0.89: keep every focus box above it."
   ],
   "slides": [
     {
@@ -18,19 +19,19 @@
     },
     {
       "focus": [
-        0.68,
-        0.56,
-        0.3,
-        0.26
+        0.8,
+        0.755,
+        0.26,
+        0.24
       ],
       "headline": "Look at Goliath",
       "text": "The face of the giant is widely believed to be a self-portrait. Caravaggio painted himself as the defeated, the guilty one."
     },
     {
       "focus": [
-        0.68,
-        0.58,
-        0.18,
+        0.805,
+        0.775,
+        0.17,
         0.14
       ],
       "headline": "Still alive?",
@@ -48,9 +49,9 @@
     },
     {
       "focus": [
-        0.4,
-        0.26,
-        0.2,
+        0.41,
+        0.28,
+        0.18,
         0.2
       ],
       "headline": "David doesn't celebrate",
@@ -58,20 +59,20 @@
     },
     {
       "focus": [
-        0.25,
-        0.72,
-        0.15,
-        0.22
+        0.14,
+        0.855,
+        0.14,
+        0.07
       ],
       "headline": "Words on the sword",
       "text": "The blade carries the letters H-AS OS, often read as a Latin phrase meaning \"humility kills pride\"."
     },
     {
       "focus": [
-        0.5,
-        0.5,
-        0.95,
-        0.95
+        0.735,
+        0.65,
+        0.47,
+        0.46
       ],
       "headline": "A plea for mercy",
       "text": "The painting went to Cardinal Scipione Borghese, nephew of the Pope, the man who could help him get a pardon. Many read it as Caravaggio offering his own head."
@@ -88,10 +89,10 @@
     },
     {
       "focus": [
+        0.625,
+        0.525,
         0.68,
-        0.56,
-        0.3,
-        0.26
+        0.72
       ],
       "headline": "He never got home",
       "text": "In 1610 the pardon was finally on its way. Caravaggio died on his journey back to Rome, at 38."

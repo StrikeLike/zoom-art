@@ -78,6 +78,6 @@ for fmt, size, name, bg in (("reel", R.REEL, "reel.json", "bg.jpg"), ("carousel"
     L0 = R.layout(img, slides[1] if len(slides) > 1 else slides[0], size, fmt)
     data.update(pad=L0["pad"], brandY=L0["brand_y"], safeTop=L0["brand_y"] + 60)
     data.update(ctaHead=R.CTA_HEAD, ctaSub=R.CTA_SUB)  # final slide text lives in render.py  # safe zones come from render.py
-    json.dump(data, open(os.path.join(pub, name), "w"), ensure_ascii=False, indent=1)
+    json.dump(data, open(os.path.join(pub, name), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     if fmt == "reel":
         print("reel frames", sum(x["hold"] + x["move"] for x in sl), "img", img.size)

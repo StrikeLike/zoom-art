@@ -5,9 +5,9 @@
   "source": "Kunsthistorisches Museum, Vienna (public domain: Bruegel died in 1569). Wikimedia Commons or KHM, PD-Art.",
   "caption": "Around 80 games hidden in one painting from 1560. How many did you play as a kid? #art #arthistory #painting #history #oilpainting",
   "_verify": [
-    "VERIFIED 2026-10-10 (Wikipedia, KHM): 1560, oil on panel 118 x 161 cm, Kunsthistorisches Museum Vienna; around 80 games identified (sources say 80 to over 90, slides say 'around 80'); dolls bottom left, leapfrog, hoops, blind man's buff, stilts, knucklebones, swimming in the river top left, mock wedding at the centre.",
-    "Exact positions of each game are guesses from memory of the composition: re-tune every focus box on the real image with --debug.",
-    "All focus boxes are estimates until the real image arrives; check with --debug and --preview."
+    "VERIFIED 2026-10-10 (Wikipedia, KHM): 1560, oil on panel 118 x 161 cm, Kunsthistorisches Museum Vienna; around 80 games identified (sources say 80 to over 90, slides say 'around 80'); knucklebones bottom left, leapfrog, hoops, blind man's buff, stilts, knucklebones, swimming in the river top left, mock wedding at the centre.",
+    "Slide 2 text changed 2026-10-11: the two girls bottom left play knucklebones (small bones and a basket on the ground), not dolls. Slide 5 changed 2026-10-11 from blind man's buff (no clearly blindfolded child found on the image) to the headstand by the fence; slide 3: 'bells on the hoops' is not visible in the image, check or drop.",
+    "Focus boxes placed on the real image (Wikimedia Commons file) on 2026-10-11; check the carousel and reel frames."
   ],
   "image": "image.jpg",
   "slides": [
@@ -28,70 +28,70 @@
     },
     {
       "focus": [
-        0.08,
-        0.86,
-        0.15,
-        0.18
+        0.115,
+        0.89,
+        0.19,
+        0.14
       ],
       "headline": "Start bottom left",
-      "text": "Two girls playing with dolls. Some things never change."
+      "text": "Two girls playing knucklebones with little bones. Today we call it jacks."
     },
     {
       "focus": [
-        0.45,
-        0.45,
-        0.2,
-        0.18
+        0.605,
+        0.865,
+        0.21,
+        0.16
       ],
       "headline": "Rolling hoops",
       "text": "Some hoops even have bells on them. You heard these kids coming."
     },
     {
       "focus": [
-        0.35,
-        0.6,
-        0.16,
-        0.18
+        0.625,
+        0.59,
+        0.1,
+        0.13
       ],
       "headline": "Leapfrog",
       "text": "460 years old and still played in every schoolyard."
     },
     {
       "focus": [
-        0.3,
-        0.45,
-        0.16,
-        0.2
+        0.285,
+        0.505,
+        0.08,
+        0.12
       ],
-      "headline": "Blind man's buff",
-      "text": "One child blindfolded, spun around, trying to catch the others."
+      "headline": "Upside down",
+      "text": "By the fence, a boy stands on his head. Kids still try this in every park."
     },
     {
       "focus": [
-        0.55,
-        0.35,
-        0.14,
-        0.22
+        0.655,
+        0.41,
+        0.11,
+        0.27
       ],
       "headline": "On stilts",
       "text": "Short stilts and high stilts. Look how proud they are."
     },
     {
       "focus": [
-        0.5,
-        0.5,
-        0.16,
-        0.18
+        0.485,
+        0.49,
+        0.15,
+        0.16
       ],
       "headline": "Right in the centre",
       "text": "A pretend wedding procession. The children are playing at being adults."
     },
     {
       "focus": [
-        0.12,
-        0.15,
-        0.22,
-        0.18
+        0.21,
+        0.25,
+        0.2,
+        0.12
       ],
       "headline": "Look far away",
       "text": "Even the river in the distance is full of kids swimming. Which game did you play most? Tell us below."

@@ -10,7 +10,7 @@
     "View from his east-facing window, village added from imagination, painted by day from memory: check the Van Gogh Museum letters site.",
     "Brightest star identified as Venus (morning star mentioned in his letter to Theo): check the letter.",
     "'Another failure' quote is from a letter to Émile Bernard; check exact wording before quoting.",
-    "All focus boxes are estimates until the real image is uploaded; check with --debug and --preview."
+    "Focus boxes placed on the real image (Wikimedia Commons file) on 2026-10-11; check the carousel and reel frames."
   ],
   "slides": [
     {
@@ -30,60 +30,60 @@
     },
     {
       "focus": [
-        0.52,
-        0.8,
-        0.5,
-        0.3
+        0.6,
+        0.86,
+        0.44,
+        0.24
       ],
       "headline": "The village isn't really there",
       "text": "He couldn't see a village like this from his window. He added it from imagination, and painted the picture by day, from memory."
     },
     {
       "focus": [
-        0.52,
-        0.68,
-        0.1,
-        0.18
+        0.555,
+        0.75,
+        0.12,
+        0.26
       ],
       "headline": "A Dutch church in France",
       "text": "The tall, pointed steeple looks more like a church from his native Netherlands than one from Provence."
     },
     {
       "focus": [
-        0.18,
-        0.5,
-        0.22,
-        0.95
+        0.23,
+        0.53,
+        0.24,
+        0.94
       ],
       "headline": "The dark flame",
       "text": "The cypress rises like a flame from earth to sky. In Mediterranean culture, cypresses grow in cemeteries and are linked with death."
     },
     {
       "focus": [
-        0.33,
-        0.38,
-        0.09,
-        0.1
+        0.35,
+        0.53,
+        0.14,
+        0.16
       ],
       "headline": "This star is a planet",
       "text": "The big bright star next to the cypress is most likely Venus. Van Gogh wrote to his brother that he had seen the morning star, looking very big."
     },
     {
       "focus": [
-        0.45,
-        0.25,
-        0.36,
-        0.26
+        0.52,
+        0.38,
+        0.46,
+        0.38
       ],
       "headline": "The swirl",
       "text": "The sky moves in great spirals. Real night skies don't look like this; it is how he felt them."
     },
     {
       "focus": [
-        0.88,
-        0.12,
-        0.17,
-        0.18
+        0.875,
+        0.155,
+        0.23,
+        0.27
       ],
       "headline": "Moon and sun at once",
       "text": "The crescent moon glows with a halo so strong it almost looks like a sun."

@@ -47,6 +47,7 @@ upscale_enabled = True
 GOLD = (214, 178, 110)
 INK = (12, 11, 10)
 WHITE = (245, 240, 230)
+MAP_RED = (255, 99, 99)  # mini-map zoom box: light red so it stands out on any painting (Alex, 2026-10-11)
 
 # fonts are bundled in pipeline/fonts so Windows/macOS render the same as Linux
 FONT_DIRS = [os.path.join(os.path.dirname(os.path.abspath(__file__)), "fonts"),
@@ -172,7 +173,7 @@ def inset_map(img, view, size, box_w):
     k = th.width / img.width
     d = ImageDraw.Draw(th)
     r = [max(0, x0 * k), max(0, y0 * k), min(th.width - 1, (x0 + vw) * k), min(th.height - 1, (y0 + vh) * k)]
-    d.rectangle(r, outline=GOLD, width=3)
+    d.rectangle(r, outline=MAP_RED, width=3)
     framed = Image.new("RGB", (th.width + 6, th.height + 6), WHITE)
     framed.paste(th, (3, 3))
     return framed

@@ -15,7 +15,7 @@ Claude citește automat fișierul ăsta la începutul fiecărei sesiuni (Claude 
 - **Textul curge ca o poveste** (Alex, 10 oct 2026): textele de pe slide-uri se leagă de la un cadru la altul, ca și cum ai spune povestea operei și a ce se întâmplă în ea (legături ca „But…”, „Meanwhile…”, „And then…”), nu fapte separate. Fiecare slide pornește din cel dinainte și împinge spre următorul.
 - **Orice fapt neverificat se marchează.** În `script.json` faptele neverificate stau în lista `_verify`. Nu le prezenta ca sigure. Un detaliu „inventat” de upscaling-ul AI nu e fapt despre tablou.
 - Numele operelor i le dai lui Alex în engleză, ca să le poată căuta.
-- **Hashtag-uri: maxim 5 pe postare** (Alex, 10 oct 2026), la carusel, reel și YouTube, și numai hashtag-uri cu reach mare (folosite pe milioane de postări, de ex. #art, #arthistory, #painting, #history, #oilpainting, #renaissance, #museum; pe TikTok #arttok). Fără hashtag-uri de nișă sau de brand. Textele stau în `postari/`.
+- **Hashtag-uri: maxim 5 pe postare** (Alex, 10 oct 2026), la carusel, reel și YouTube, și numai hashtag-uri cu reach mare (folosite pe milioane de postări, de ex. #art, #arthistory, #painting, #history, #oilpainting, #renaissance, #museum; pe TikTok #arttok). Fără hashtag-uri de nișă sau de brand. Textele stau în `postari/<nume>.md` (același nume ca folderul operei din `works/`).
 
 ## Formatul standard (aprobat de Alex, 9 oct 2026)
 Pentru fiecare operă, un singur text → două produse, făcute cu generatorul din `pipeline/` (vezi `pipeline/README.md`):
@@ -27,14 +27,14 @@ Reguli care nu se negociază:
 - **Durata reel-ului: maxim 59 de secunde** (Alex, 10 oct 2026). Timpul se împarte între slide-uri după lungimea textului (minim 3 s pe slide, slide-ul final 2,5 s, tranziții 0,75 s); `export_shots.py` face asta automat. Dacă textul nu se mai poate citi în 59 s, scurtează textul, nu depăși durata.
 - **Zone sigure în reel** (Alex, 10 oct 2026): același video trebuie să arate bine pe Instagram, Facebook, YouTube Shorts și TikTok, deci nimic important (text, logo, mini-hartă, bară de progres) nu stă sub butoanele aplicațiilor. Pe cadrul de 1080x1920: sus 270 px liberi (antetul aplicației), jos 480 px (nume și descriere), dreapta 200 px (like, comentarii, share), stânga 90 px (telefoanele taie ~47 px pe fiecare parte). Valorile sunt în `REEL_SAFE` din `render.py`; nu le micșora. După fiecare reel nou, verifică un cadru cu zonele marcate.
 - **Coperta = thumbnail** (Alex, 10 oct 2026): primul cadru al reel-ului (cel puțin primele 0,3 s) arată coperta completă, cu același titlu și aceeași imagine ca slide-ul 1 din carusel, fără animație de intrare, ca platformele s-o ia automat ca thumbnail. Coperta respectă și ea zonele sigure. Generatorul face asta singur.
-- Aspect: fundal închis, titluri serif albe, accente aurii (rgb 214,178,110), „ZOOMED ART” sus, mini-hartă în dreapta sus (în reel, sub antetul aplicației).
+- Aspect: fundal închis, titluri serif albe, accente aurii (rgb 214,178,110), „ZOOMED ART” sus, mini-hartă în dreapta sus, cu chenarul zonei mărite **roșu deschis** (rgb 255,99,99; Alex, 11 oct 2026) (în reel, sub antetul aplicației).
 
 ## Pașii pentru o operă nouă
-1. Alex descarcă imaginea mare (ideal 4000+ px) și o pune în `pipeline/works/<nume>/image.jpg`.
+1. Imaginea mare (ideal 4000+ px): `python tools/fetch_image.py --search "<artist> <titlu>"` listează fișierele de pe Wikimedia Commons (cel mai mare primul), apoi `python tools/fetch_image.py <nume> --file "<fișier>"` îl descarcă în `works/<nume>/image.jpg` (doar Public domain/CC0, micșorat la 8000 px). Caută întâi originalul mare: o imagine de 1280 px mărită cu AI arată artefacte.
 2. Scrie `script.json` (copiază structura din `works/raft-of-the-medusa/`): titlu, artist, an, sursa imaginii, `caption` cu cel mult 5 hashtag-uri cu reach mare, `_verify`, slide-uri.
-3. `python3 render.py works/<nume> --debug` → verifică dreptunghiurile pe `out/debug_focus.jpg`.
+3. Pune `focus` pe imaginea reală: `python tools/inspect_focus.py <nume>` (grilă + decupaje numerotate în `out/inspect/`; cu `x0 y0 x1 y1` mărește o zonă), corectezi cu `python tools/set_focus.py <nume> '{"2": [cx, cy, w, h]}'`. Fiecare decupaj trebuie să arate exact ce spune textul slide-ului; ce nu se vede pe imagine trece în `_verify` sau se scoate. Apoi `python3 render.py works/<nume> --debug` → `out/debug_focus.jpg`.
 4. `python3 render.py works/<nume> --preview` → verifică `out/reel_preview.jpg` (câteva secunde) înainte de randarea lungă.
-5. `pipeline/reel-remotion/make_post.sh <nume>` (pe Windows: `python make_post.py <nume>`) → carusel + reel (stilul nou) în `works/<nume>/out/`. Verifică `out/carousel_preview.jpg` și câteva cadre din reel.
+5. `pipeline/reel-remotion/make_post.sh <nume>` (pe Windows: `python make_post.py <nume>`) → carusel + reel (stilul nou) în `works/<nume>/out/` și postarea gata în `gata/<nume>/`. Verifică `out/carousel_preview.jpg` și câteva cadre din reel.
 6. Actualizează `JURNAL.md` (stare, ce e de verificat, când s-a postat).
 
 Imaginile mici se măresc automat cu Real-ESRGAN (`models/realesrgan_x4plus.onnx`, rezultat în `.cache/`).
@@ -56,6 +56,7 @@ Caruselul și reel-ul se fac acum cu `pipeline/reel-remotion/` (vezi README-ul d
 - Următoarea etapă: **automatizare** (de ex. generare și programare de postări). Pornește de aici: pașii de mai sus sunt deja scripturi care se pot înlănțui.
 
 ## Unde stau lucrurile
+- **Postările gata de pus: `gata/<nume>/`**, câte un folder pe operă: `carusel/01.jpg`…`10.jpg`, `reel.mp4`, `texte.md` (caption carusel, reel, YouTube). `make_post` îl reface automat; nu intră în git.
 - Cod: repo GitHub `StrikeLike/zoom-art`, clonat local în `D:\Munca\Zoom Art\zoom-art`.
 - Rezultatele (`out/`, `.cache/`, mp4, zip) nu intră în git.
 - Alex descarcă imagini în `C:\Users\badu5\Downloads`.

@@ -10,8 +10,9 @@
     "Interpretation, not fact: Judith as Artemisia and Holofernes as Tassi. The texts say 'many see', keep it that way.",
     "Her cry under torture 'This is the ring you give me, and these are your promises!' is from National Geographic; not used in the slides.",
     "Bracelet on Judith's arm said to show Artemis (her namesake): NOT confirmed, not used.",
-    "All focus boxes are estimates until the real image arrives; check with --debug and --preview.",
-    "2026-10-10: Alex OK'd this work (violence allowed, not graphic). No zoom on the wound or blood; slides 5 and 8 widened."
+    "2026-10-10: Alex OK'd this work (violence allowed, not graphic). No zoom on the wound or blood; slides 5 and 8 widened.",
+    "No zoom on the wound: the neck wound and blood spurts are at x 0.44-0.62, y 0.50-0.65; zooms stay on faces (Judith top right, maid top centre), Judith's hand with the bracelet, and Holofernes' body on the left. Slide 7 zooms on Judith's face only.",
+    "Focus boxes placed on the real image (Wikimedia Commons file) on 2026-10-11; check the carousel and reel frames."
   ],
   "slides": [
     {
@@ -31,38 +32,38 @@
     },
     {
       "focus": [
-        0.62,
+        0.675,
         0.3,
-        0.18,
-        0.2
+        0.55,
+        0.24
       ],
       "headline": "She takes him to court",
       "text": "The trial lasts seven months. To test her word, the court tortures her, not him."
     },
     {
       "focus": [
-        0.55,
-        0.47,
-        0.22,
-        0.18
+        0.71,
+        0.575,
+        0.12,
+        0.06
       ],
       "headline": "They bind her fingers",
       "text": "Cords are tightened around a painter's fingers. She keeps repeating her story."
     },
     {
       "focus": [
-        0.5,
-        0.42,
-        0.7,
-        0.55
+        0.18,
+        0.45,
+        0.34,
+        0.34
       ],
       "headline": "And he walks free",
       "text": "Tassi is convicted and banished from Rome. The sentence is never carried out."
     },
     {
       "focus": [
-        0.6,
-        0.45,
+        0.79,
+        0.44,
         0.32,
         0.4
       ],
@@ -71,20 +72,20 @@
     },
     {
       "focus": [
-        0.38,
-        0.22,
-        0.18,
-        0.2
+        0.49,
+        0.32,
+        0.24,
+        0.24
       ],
       "headline": "And she is not alone",
       "text": "Her maid pins Holofernes to the bed. Two women, acting together."
     },
     {
       "focus": [
-        0.5,
-        0.45,
-        0.8,
-        0.7
+        0.835,
+        0.31,
+        0.14,
+        0.13
       ],
       "headline": "Look closer",
       "text": "Many see in his face the man who hurt her, and in Judith, Artemisia herself."

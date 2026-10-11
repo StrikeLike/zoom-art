@@ -42,12 +42,20 @@ def upscale(img, target_w, log=print):
     if img.width >= target_w:
         return img
     alpha = img.getchannel("A") if img.mode == "RGBA" else None
+    if target_w <= img.width * 1.5:
+        # AI would first shrink the image to ~target/4 and throw away real brushwork; a small Lanczos step keeps it
+        log(f"  upscale: only {target_w / img.width:.2f}x needed, Lanczos keeps the real pixels")
+        out = img.resize((target_w, round(img.height * target_w / img.width)), Image.LANCZOS)
+        log(f"  upscale: {img.width}x{img.height} -> {out.width}x{out.height} (Lanczos)")
+        return out
     try:
         import onnxruntime  # noqa: F401
         if not os.path.exists(MODEL):
             raise ImportError(f"model missing: {MODEL}")
         cur = img
         while cur.width < target_w:
+            if cur is not img and target_w <= cur.width * 1.5:
+                break  # close enough: the final Lanczos step below finishes it, a 2nd AI pass would only re-invent detail
             log(f"  upscale: Real-ESRGAN x4 on {cur.width}x{cur.height}")
             # shrink first if a full x4 would overshoot a lot: saves time, same result
             need = target_w / 4

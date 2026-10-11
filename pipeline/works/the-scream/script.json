@@ -11,7 +11,8 @@
     "Location: Ekeberg hill above Oslo fjord: check.",
     "Thefts in 1994 and 2004 of two different versions, both recovered: check.",
     "Red sky theories (Krakatoa eruption, mother-of-pearl clouds) are theories, worded as such.",
-    "All focus boxes are estimates until the real image is uploaded; check with --debug and --preview."
+    "Focus boxes placed on the real image (Wikimedia Commons file) on 2026-10-11; check the carousel and reel frames.",
+    "The pencil inscription is barely legible at full size (x 0.17-0.38, y ~0.148): slides 4-5 point to where it is; consider a gold ring or arrow if it reads as empty sky."
   ],
   "slides": [
     {
@@ -32,38 +33,38 @@
     {
       "focus": [
         0.5,
-        0.16,
-        0.95,
-        0.3
+        0.42,
+        0.94,
+        0.56
       ],
       "headline": "A real sunset",
       "text": "Munch described walking with two friends at sunset when the sky suddenly turned blood red, and he stopped, shaking with fear."
     },
     {
       "focus": [
-        0.26,
-        0.42,
-        0.16,
-        0.22
+        0.065,
+        0.44,
+        0.13,
+        0.18
       ],
       "headline": "His two friends",
       "text": "Behind him, two figures keep walking calmly. They don't feel anything. He is alone with what he feels."
     },
     {
       "focus": [
-        0.15,
-        0.1,
-        0.18,
-        0.08
+        0.275,
+        0.148,
+        0.24,
+        0.05
       ],
       "headline": "A message in the sky",
       "text": "In the red sky there is a tiny pencil inscription: \"Can only have been painted by a madman.\" For years no one knew who wrote it."
     },
     {
       "focus": [
+        0.28,
         0.15,
-        0.1,
-        0.18,
+        0.34,
         0.08
       ],
       "headline": "It was Munch",
@@ -71,10 +72,10 @@
     },
     {
       "focus": [
-        0.75,
-        0.42,
-        0.36,
-        0.26
+        0.55,
+        0.62,
+        0.88,
+        0.62
       ],
       "headline": "A real place",
       "text": "The road, the railing and the fjord are a real view from a hill above Oslo. You can still stand there today."
@@ -91,10 +92,10 @@
     },
     {
       "focus": [
-        0.42,
-        0.58,
-        0.26,
-        0.26
+        0.5,
+        0.5,
+        0.96,
+        0.96
       ],
       "headline": "Stolen twice",
       "text": "Munch made several versions. Two of them were stolen, in 1994 and 2004. Both were recovered."

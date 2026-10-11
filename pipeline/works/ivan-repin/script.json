@@ -11,7 +11,8 @@
     "Curator's name (Georgy Khruslov) not confirmed by the sources read; slides don't name him.",
     "The quarrel over the pregnant wife is the traditional account; historians debate the details. Slide says 'it is said'.",
     "Repin repainting Ivan's face after 1913: not confirmed, not used.",
-    "All focus boxes are estimates until the real image arrives; check with --debug and --preview."
+    "Focus boxes placed on the real image (Wikimedia Commons file) on 2026-10-11; check the carousel and reel frames.",
+    "CONTENT RULE: the son's head is covered in blood, so slides 4 and 5 (hand on the wound, the son's face) cannot avoid it; boxes are kept at medium distance, but the topic itself conflicts with 'no zoom on blood or wounds'. Decide with Alex before rendering."
   ],
   "slides": [
     {
@@ -20,42 +21,82 @@
       "sub": "Ilya Repin, Ivan the Terrible and His Son Ivan, 1885"
     },
     {
-      "focus": [0.5, 0.5, 0.96, 0.94],
+      "focus": [
+        0.5,
+        0.5,
+        0.96,
+        0.94
+      ],
       "headline": "Moscow, 1581",
       "text": "Tsar Ivan the Terrible strikes his son in a rage. It is said they argued over the son's pregnant wife."
     },
     {
-      "focus": [0.25, 0.82, 0.36, 0.16],
+      "focus": [
+        0.64,
+        0.91,
+        0.58,
+        0.12
+      ],
       "headline": "The weapon",
       "text": "His iron-tipped staff lies on the floor. One blow to the head."
     },
     {
-      "focus": [0.47, 0.42, 0.18, 0.22],
+      "focus": [
+        0.49,
+        0.3,
+        0.12,
+        0.1
+      ],
       "headline": "Look at his eyes",
       "text": "The rage is gone. Only horror is left. He has just killed his heir."
     },
     {
-      "focus": [0.42, 0.5, 0.14, 0.14],
+      "focus": [
+        0.5,
+        0.43,
+        0.3,
+        0.36
+      ],
       "headline": "Too late",
       "text": "He presses his hand on the wound, trying to stop the blood. The son died days later."
     },
     {
-      "focus": [0.38, 0.56, 0.18, 0.2],
+      "focus": [
+        0.56,
+        0.45,
+        0.26,
+        0.26
+      ],
       "headline": "Forgiveness",
       "text": "The son's face is calm, almost forgiving. A tear runs down it."
     },
     {
-      "focus": [0.5, 0.5, 0.96, 0.94],
+      "focus": [
+        0.5,
+        0.5,
+        0.96,
+        0.94
+      ],
       "headline": "Banned by the Tsar",
       "text": "In 1885 Alexander III ordered it removed from exhibition. A painting of a tsar killing his son was too much."
     },
     {
-      "focus": [0.45, 0.48, 0.32, 0.3],
+      "focus": [
+        0.5,
+        0.55,
+        0.5,
+        0.62
+      ],
       "headline": "1913: the knife",
       "text": "A visitor slashed it three times. The gallery's curator was so shaken he threw himself under a train."
     },
     {
-      "focus": [0.5, 0.5, 0.96, 0.94],
+      "focus": [
+        0.5,
+        0.5,
+        0.96,
+        0.94
+      ],
       "headline": "2018: again",
       "text": "105 years later a man smashed it with a metal pole. It is still in the Tretyakov Gallery."
     }

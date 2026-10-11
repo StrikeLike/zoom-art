@@ -45,4 +45,17 @@ sheet = Image.new("RGB", (360 * 5, 900))
 for i, f in enumerate(fs):
     sheet.paste(Image.open(f).convert("RGB").resize((360, 450)), ((i % 5) * 360, (i // 5) * 450))
 sheet.save(os.path.join(work, "out", "carousel_preview.jpg"), quality=88)
-print("done:", os.path.join(work, "out"))
+
+# ready-to-post folder: gata/<name>/ with carusel/01-10.jpg, reel.mp4 and the post texts
+ready = os.path.abspath(os.path.join(here, "..", "..", "gata", name))
+shutil.rmtree(ready, ignore_errors=True)
+os.makedirs(os.path.join(ready, "carusel"))
+for f in fs:
+    shutil.copy(f, os.path.join(ready, "carusel", os.path.basename(f).replace("slide_", "")))
+shutil.copy(os.path.join(work, "out", "reel.mp4"), os.path.join(ready, "reel.mp4"))
+texts = os.path.join(here, "..", "..", "postari", name + ".md")
+if os.path.exists(texts):
+    shutil.copy(texts, os.path.join(ready, "texte.md"))
+else:
+    print(f"warning: no post texts yet ({os.path.relpath(texts)})")
+print("done:", ready)

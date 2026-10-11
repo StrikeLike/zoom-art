@@ -3,6 +3,7 @@ pipeline/works/*/out/
 pipeline/works/*/.cache/
 pipeline/reel-remotion/public/
 pipeline/reel-remotion/out/
+gata/
 node_modules/
 *.mp4
 *.zip

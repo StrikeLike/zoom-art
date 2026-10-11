@@ -22,4 +22,10 @@ sheet = Image.new('RGB', (360 * 5, 900))
 for i, im in enumerate(ims):
     sheet.paste(im, ((i % 5) * 360, (i // 5) * 450))
 sheet.save(sys.argv[1] + '/out/carousel_preview.jpg', quality=88)" $WORK
-echo "done: $WORK/out"
+# ready-to-post folder: gata/<name>/ with carusel/01-10.jpg, reel.mp4 and the post texts
+READY=../../gata/$1
+rm -rf $READY && mkdir -p $READY/carusel
+for f in $WORK/out/carousel/slide_*.jpg; do cp $f $READY/carusel/$(basename $f | sed 's/slide_//'); done
+cp $WORK/out/reel.mp4 $READY/reel.mp4
+[ -f ../../postari/$1.md ] && cp ../../postari/$1.md $READY/texte.md || echo "warning: no post texts yet (postari/$1.md)"
+echo "done: $READY"
