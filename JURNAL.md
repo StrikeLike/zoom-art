@@ -23,11 +23,17 @@ Starea fiecărei opere. Claude actualizează tabelul după fiecare randare sau p
 | Ivan the Terrible and His Son Ivan (Repin) | ivan-repin | da, 2992x2328 (Commons; mărită AI) | script scris (respinsă 10 oct, de reconfirmat) | vezi `_verify` | |
 | The Doctor (Fildes) | the-doctor-fildes | da, 1536x1053 (singura copie PD a originalului Tate pe Commons; mărită AI) | script scris (respinsă 10 oct, de reconfirmat) | vezi `_verify` | |
 | American Gothic (Grant Wood) | — | — | de refăcut în formatul standard | toate faptele | |
+| The Night Watch (Rembrandt) | night-watch | da, 8000 px (Commons, „cropped”, din 28302 px) | făcut 11 oct, în `gata/`, reel 58,8 s | verificat 11 oct (Wikipedia, Rijksmuseum); autoportretul ascuns e prezentat ca dezbatere | |
+| Las Meninas (Velázquez) | las-meninas | da, 6951x8000 (Commons, din 26065x30000) | făcut 11 oct, în `gata/`, reel 58,9 s | verificat 11 oct (Wikipedia); crucea pictată de rege = „the story goes” | |
+| The Swing (Fragonard) | the-swing | da, 4280x5373 (Commons) | făcut 11 oct, în `gata/`, reel 58,9 s | verificat 11 oct (Wikipedia/Wallace) | |
+| Washington Crossing the Delaware (Leutze) | washington-delaware | da, 6004x3847 (Commons, Met) | făcut 11 oct, în `gata/`, reel 58,8 s | verificat 11 oct (Wikipedia) | |
+| The Nightmare (Fuseli) | the-nightmare | da, 8000 px (Commons, DIA) | făcut 11 oct, în `gata/`, reel 58,8 s | verificat 11 oct (Wikipedia); etimologia „mare” e cunoscută general | |
 
 ## Următoarele (fără script încă)
 - Ziua 2 (10 oct, au scripturi): A Bar at the Folies-Bergère (Manet), The Peasant Wedding (Bruegel), The Derby Day (Frith). Opere-joc: găsește detaliul, întrebare pentru comentarii.
   - Dacă Netherlandish Proverbs (tot Bruegel) se postează azi, Peasant Wedding trece în ziua 3; rezervă non-Bruegel de același tip: Winter Landscape with Ice Skaters (Hendrick Avercamp, c. 1608, Rijksmuseum).
 - Ziua 3: The Kiss (Klimt), The Return of the Prodigal Son (Rembrandt)
+- Propuse și făcute pe 11 oct (vezi tabelul): The Night Watch, Las Meninas, The Swing, Washington Crossing the Delaware, The Nightmare. Rezervă: Napoleon Crossing the Alps (Jacques-Louis David). The Night Watch și Prodigal Son (tot Rembrandt) să nu fie în aceeași zi.
 
 ## Conturi (ce mai e de făcut)
 - [x] Instagram și Facebook create, zoomedart.com rezervat

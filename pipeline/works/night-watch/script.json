@@ -1,0 +1,101 @@
+{
+  "title": "The Night Watch",
+  "artist": "Rembrandt van Rijn",
+  "year": "1642",
+  "source": "Rijksmuseum, Amsterdam (public domain: Rembrandt died in 1669). Wikimedia Commons: The Night Watch - cropped.jpg, 28302x23662, saved at 8000 px.",
+  "caption": "Everyone calls it The Night Watch. It isn't night, and someone is hiding in it. #art #arthistory #painting #rembrandt #museum",
+  "_verify": [
+    "VERIFIED 2026-10-11 (Wikipedia; Rijksmuseum '10 things about Rembrandt's Night Watch'): official title 'Militia Company of District II under the Command of Captain Frans Banninck Cocq', 1642, Rijksmuseum; name 'Night Watch' only from 1797, due to dark varnish (removed in the 1940s); 1715 moved to the Town Hall on the Dam and cut on all four sides to fit between two doors, largest piece from the left, two figures lost, never recovered; girl with dead chicken on her belt, claws refer to the kloveniers/clauweniers; captain's hand shadow falls on lieutenant Willem van Ruytenburch's coat with Amsterdam's coat of arms; three musketeers show loading, firing, cleaning; attacked 1911, 1975 (12 cuts, bread knife), 1990 (acid).",
+    "Hidden face with beret and one eye: popularly said to be Rembrandt, but most modern scholarship disagrees (Bas Dudok van Heel: probably drummer Jacob Jorisz). The slide presents it as a debate, not a fact.",
+    "Payment: Wikipedia says 1,600 guilders, 100 per person, but 18 names are on the shield; numbers not used on slides.",
+    "All focus boxes: check with inspect_focus and --debug."
+  ],
+  "image": "image.jpg",
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Everyone calls this The Night Watch. It isn't night.",
+      "sub": "Rembrandt, The Night Watch, 1642"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.96,
+        0.94
+      ],
+      "headline": "Amsterdam, 1642",
+      "text": "A militia company paid Rembrandt for a group portrait. They expected neat rows. He painted them marching out."
+    },
+    {
+      "focus": [
+        0.555,
+        0.63,
+        0.26,
+        0.34
+      ],
+      "headline": "The captain gives the order",
+      "text": "In black, Captain Frans Banninck Cocq. Beside him in gold, his lieutenant, listening."
+    },
+    {
+      "focus": [
+        0.56,
+        0.66,
+        0.16,
+        0.14
+      ],
+      "headline": "Now look at his hand",
+      "text": "Its shadow falls on the lieutenant's coat, right around the coat of arms of Amsterdam."
+    },
+    {
+      "focus": [
+        0.2,
+        0.6,
+        0.14,
+        0.26
+      ],
+      "headline": "Meanwhile, on the left",
+      "text": "A man in red loads his musket. Elsewhere in the crowd, others fire and clean theirs: a gun drill in three steps."
+    },
+    {
+      "focus": [
+        0.315,
+        0.71,
+        0.12,
+        0.28
+      ],
+      "headline": "But who is she?",
+      "text": "A girl glowing in gold walks among the soldiers. And on her belt hangs a dead chicken."
+    },
+    {
+      "focus": [
+        0.295,
+        0.715,
+        0.06,
+        0.1
+      ],
+      "headline": "The chicken is a clue",
+      "text": "Its claws stand for the company's name: the Kloveniers. She is their emblem, walking."
+    },
+    {
+      "focus": [
+        0.474,
+        0.43,
+        0.05,
+        0.06
+      ],
+      "headline": "And who is hiding here?",
+      "text": "Behind the soldiers, a beret and one eye peek out. Many say it's Rembrandt himself. Some historians say: the drummer."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.96,
+        0.94
+      ],
+      "headline": "And the night?",
+      "text": "Just old, dark varnish. In 1715 the canvas was cut on all four sides to fit a wall. The pieces were never found."
+    }
+  ]
+}

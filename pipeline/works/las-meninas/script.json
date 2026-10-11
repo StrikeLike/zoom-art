@@ -1,0 +1,100 @@
+{
+  "title": "Las Meninas",
+  "artist": "Diego Velázquez",
+  "year": "1656",
+  "source": "Museo del Prado, Madrid (public domain: Velázquez died in 1660). Wikimedia Commons: Las Meninas, by Diego Velázquez, from Prado in Google Earth.jpg, 26065x30000, saved at 8000 px.",
+  "caption": "Who is really being painted here? Look at the mirror. #art #arthistory #painting #museum #oilpainting",
+  "_verify": [
+    "VERIFIED 2026-10-11 (Wikipedia): 1656, Prado; Infanta Margaret Theresa, age five; maid María Agustina Sarmiento kneels offering a drink in a red cup; dwarfs Mari Bárbola and Nicolás Pertusato, who prods a sleepy mastiff with his foot; José Nieto Velázquez, the queen's chamberlain, in the doorway; mirror shows King Philip IV and Queen Mariana (debate: the couple standing where the viewer is, or the canvas Velázquez paints); Velázquez knighted in Order of Santiago 1659, died 1660; Palomino: Philip ordered the cross added after his death.",
+    "The cross story comes from Palomino (18th c.); presented on the slide as 'the story goes', not as certain.",
+    "All focus boxes: check with inspect_focus and --debug."
+  ],
+  "image": "image.jpg",
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Who is really being painted here?",
+      "sub": "Diego Velázquez, Las Meninas, 1656"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.96,
+        0.96
+      ],
+      "headline": "Madrid, 1656",
+      "text": "A room in the royal palace. A little princess, her maids, two dwarfs, a dog. And several of them are looking at you."
+    },
+    {
+      "focus": [
+        0.42,
+        0.72,
+        0.34,
+        0.24
+      ],
+      "headline": "At the center, the princess",
+      "text": "Margaret Theresa, five years old. A maid kneels and offers her a drink in a red cup."
+    },
+    {
+      "focus": [
+        0.24,
+        0.6,
+        0.16,
+        0.26
+      ],
+      "headline": "But the painter is here too",
+      "text": "Velázquez stands at a huge canvas, brush in hand, looking straight out. At whom?"
+    },
+    {
+      "focus": [
+        0.405,
+        0.565,
+        0.08,
+        0.09
+      ],
+      "headline": "The answer is in the mirror",
+      "text": "At the back: King Philip IV and Queen Mariana. So they stand exactly where you are standing."
+    },
+    {
+      "focus": [
+        0.57,
+        0.6,
+        0.08,
+        0.16
+      ],
+      "headline": "Meanwhile, at the door",
+      "text": "The queen's chamberlain stops on the stairs and looks back. Coming in, or leaving?"
+    },
+    {
+      "focus": [
+        0.8,
+        0.82,
+        0.38,
+        0.32
+      ],
+      "headline": "Not everyone is posing",
+      "text": "Down in front, a boy puts his foot on the sleepy mastiff. The dog doesn't even move."
+    },
+    {
+      "focus": [
+        0.235,
+        0.585,
+        0.06,
+        0.06
+      ],
+      "headline": "And one detail came later",
+      "text": "The red cross on the painter's chest. He was knighted in 1659, three years after finishing this."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.96,
+        0.96
+      ],
+      "headline": "So who added it?",
+      "text": "Velázquez died in 1660. The story goes that the king had the cross added. And the canvas? We still can't see it."
+    }
+  ]
+}

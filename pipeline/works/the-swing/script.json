@@ -1,0 +1,100 @@
+{
+  "title": "The Swing",
+  "artist": "Jean-Honoré Fragonard",
+  "year": "1767",
+  "source": "The Wallace Collection, London (public domain: Fragonard died in 1806). Wikimedia Commons: Fragonard, The Swing.jpg, 4280x5373.",
+  "caption": "This painting was a scandal. Find the man in the bushes. #art #arthistory #painting #oilpainting #museum",
+  "_verify": [
+    "VERIFIED 2026-10-11 (Wikipedia, citing the Wallace Collection): c. 1767-68, Wallace Collection; French title 'Les Hasards heureux de l'escarpolette' (The Happy Accidents of the Swing); Collé's memoirs: a courtier asked Gabriel François Doyen for his mistress on a swing pushed by a bishop; Doyen refused and sent him to Fragonard, who painted a layman instead; young man hidden in the bushes; smiling older man in the shadows pulls the ropes; she flings off her shoe; putto statue with finger to its lips above the young man; small white dog barking; cleaned in 2021.",
+    "That the older man doesn't notice the lover is the usual reading, not a documented fact; the slide says 'doesn't seem to'.",
+    "All focus boxes: check with inspect_focus and --debug."
+  ],
+  "image": "image.jpg",
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "This painting was a scandal. Can you see why?",
+      "sub": "Jean-Honoré Fragonard, The Swing, 1767"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.96,
+        0.96
+      ],
+      "headline": "Paris, 1767",
+      "text": "A courtier wanted a painting of his mistress on a swing. The first painter he asked said no. Fragonard said yes."
+    },
+    {
+      "focus": [
+        0.48,
+        0.63,
+        0.44,
+        0.3
+      ],
+      "headline": "Up on the swing",
+      "text": "She flies through the air in pink silk, laughing, legs kicked high."
+    },
+    {
+      "focus": [
+        0.235,
+        0.55,
+        0.1,
+        0.08
+      ],
+      "headline": "And then her shoe flies off",
+      "text": "An accident? The original title says it all: The Happy Accidents of the Swing."
+    },
+    {
+      "focus": [
+        0.19,
+        0.82,
+        0.26,
+        0.18
+      ],
+      "headline": "Meanwhile, in the bushes",
+      "text": "A young man lies hidden in the roses, looking up. From down there, he has the best view in the garden."
+    },
+    {
+      "focus": [
+        0.06,
+        0.52,
+        0.12,
+        0.18
+      ],
+      "headline": "But someone saw him",
+      "text": "Above him, a stone cupid holds a finger to its lips. Shh."
+    },
+    {
+      "focus": [
+        0.79,
+        0.77,
+        0.2,
+        0.18
+      ],
+      "headline": "And who is pushing?",
+      "text": "In the shadows, a smiling older man pulls the ropes. He doesn't seem to notice the bushes."
+    },
+    {
+      "focus": [
+        0.775,
+        0.915,
+        0.08,
+        0.07
+      ],
+      "headline": "Only the dog barks",
+      "text": "A little white dog yaps at the whole scene. Nobody listens."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.96,
+        0.96
+      ],
+      "headline": "His first request was worse",
+      "text": "The courtier wanted a bishop pushing the swing. Fragonard changed that one detail and kept the rest. Would you have dared?"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "title": "The Nightmare",
+  "artist": "Henry Fuseli",
+  "year": "1781",
+  "source": "Detroit Institute of Arts (public domain: Fuseli died in 1825). Wikimedia Commons: Johann Heinrich Füssli - The Nightmare 55.5.A-d1-2019-04-15.jpg, 8192x6577, saved at 8000 px.",
+  "caption": "Have you ever woken up and couldn't move? This painting is about that. #art #arthistory #painting #oilpainting #museum",
+  "_verify": [
+    "VERIFIED 2026-10-11 (Wikipedia 'The Nightmare'): 1781, Detroit Institute of Arts; first shown 1782 at the Royal Academy, shocked critics, first commercial success; sleeping woman draped over the bed, head hanging down; incubus peers out at the viewer; horse head through the curtains with pupil-less eyes; early meaning of nightmare = weight on the chest + sleep paralysis; back of the canvas: unfinished portrait of a girl that may be Anna Landolt, Fuseli's unrequited love; H.W. Janson suggested the demon is Fuseli himself; Thomas Burke engraving from 1783 earned the publisher 500+ pounds; Frankenstein (1818) scene likely drew from it.",
+    "'Mare' = a spirit/goblin that sits on sleepers (Old English mære): standard etymology, not from the page above.",
+    "Freud print: only Max Eastman's 1926 account; not used.",
+    "All focus boxes: check with inspect_focus and --debug."
+  ],
+  "image": "image.jpg",
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Have you ever woken up and couldn't move?",
+      "sub": "Henry Fuseli, The Nightmare, 1781"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.96,
+        0.94
+      ],
+      "headline": "London, 1782",
+      "text": "The Royal Academy opens its doors. And visitors stop in front of this painting, shocked."
+    },
+    {
+      "focus": [
+        0.8,
+        0.68,
+        0.4,
+        0.5
+      ],
+      "headline": "A woman asleep",
+      "text": "She lies across the bed, head hanging down, arms thrown back. Deep asleep. Or is she?"
+    },
+    {
+      "focus": [
+        0.67,
+        0.26,
+        0.2,
+        0.36
+      ],
+      "headline": "But she's not alone",
+      "text": "A demon crouches on her chest, staring straight at you."
+    },
+    {
+      "focus": [
+        0.27,
+        0.21,
+        0.2,
+        0.3
+      ],
+      "headline": "And then, through the curtain",
+      "text": "A horse's head pushes in, with blank eyes and no pupils."
+    },
+    {
+      "focus": [
+        0.7,
+        0.33,
+        0.32,
+        0.46
+      ],
+      "headline": "It's not about the horse",
+      "text": "The 'mare' in nightmare was a spirit that sat on sleepers' chests. Today we call it sleep paralysis."
+    },
+    {
+      "focus": [
+        0.665,
+        0.16,
+        0.14,
+        0.16
+      ],
+      "headline": "Is the demon the painter?",
+      "text": "One art historian thought so. Fuseli loved a young woman, Anna Landolt. She never loved him back."
+    },
+    {
+      "focus": [
+        0.84,
+        0.64,
+        0.14,
+        0.16
+      ],
+      "headline": "And on the back of the canvas",
+      "text": "Turn it around and there is an unfinished portrait of a girl. It may be Anna."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.96,
+        0.94
+      ],
+      "headline": "It haunted everyone",
+      "text": "Prints spread across Europe. Decades later, Mary Shelley wrote a scene in Frankenstein that looks just like it."
+    }
+  ]
+}

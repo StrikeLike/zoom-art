@@ -1,0 +1,100 @@
+{
+  "title": "Washington Crossing the Delaware",
+  "artist": "Emanuel Leutze",
+  "year": "1851",
+  "source": "The Metropolitan Museum of Art, New York (public domain: Leutze died in 1868). Wikimedia Commons: Washington Crossing the Delaware by Emanuel Leutze, MMA-NYC, 1851.jpg, 6004x3847.",
+  "caption": "This famous painting is full of mistakes. How many can you spot? #art #arthistory #history #painting #museum",
+  "_verify": [
+    "VERIFIED 2026-10-11 (Wikipedia: 'Washington Crossing the Delaware (1851 painting)' and 'George Washington's crossing of the Delaware River'): painted in Düsseldorf, 1851, Met version; first version destroyed in Bremen 1942; Stars and Stripes first specified in the Flag Resolution of 14 June 1777, crossing was 25-26 Dec 1776; crossing started ~4-6 pm, artillery across by 3 am, weather drizzle -> rain -> sleet and snow; real Durham boats substantially larger; Fischer: everyone would have stood to avoid icy water in the bottom of the boat; river in background is the Rhine; man in Scottish bonnet and man of African descent next to each other; 1853 catalogue: James Monroe holds the flag.",
+    "'Losing and freezing' framing of the army in Dec 1776 is general history (low morale after defeats in New York), not from the sources above.",
+    "All focus boxes: check with inspect_focus and --debug."
+  ],
+  "image": "image.jpg",
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "This famous painting is full of mistakes. Can you spot them?",
+      "sub": "Emanuel Leutze, Washington Crossing the Delaware, 1851"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.96,
+        0.94
+      ],
+      "headline": "Christmas night, 1776",
+      "text": "The American army is beaten and freezing. Washington gambles: cross the icy Delaware and strike at dawn."
+    },
+    {
+      "focus": [
+        0.55,
+        0.31,
+        0.16,
+        0.38
+      ],
+      "headline": "Mistake one: the flag",
+      "text": "The Stars and Stripes didn't exist yet. It was adopted in June 1777, six months later."
+    },
+    {
+      "focus": [
+        0.2,
+        0.25,
+        0.38,
+        0.36
+      ],
+      "headline": "Mistake two: the light",
+      "text": "They really crossed in the dark, from evening until 3 a.m., through sleet and snow. No golden sunrise."
+    },
+    {
+      "focus": [
+        0.45,
+        0.68,
+        0.6,
+        0.3
+      ],
+      "headline": "Mistake three: the boat",
+      "text": "The real ones were Durham boats: much bigger, with high sides. This little boat would barely hold them."
+    },
+    {
+      "focus": [
+        0.8,
+        0.47,
+        0.36,
+        0.24
+      ],
+      "headline": "And that river?",
+      "text": "Leutze painted it in Düsseldorf, Germany. The water behind them is the Rhine."
+    },
+    {
+      "focus": [
+        0.2,
+        0.58,
+        0.11,
+        0.14
+      ],
+      "headline": "Meanwhile, look at the crew",
+      "text": "A man in a Scottish bonnet. Beside him, a man of African descent. Leutze filled the boat with all kinds of Americans."
+    },
+    {
+      "focus": [
+        0.45,
+        0.44,
+        0.12,
+        0.24
+      ],
+      "headline": "And holding the flag?",
+      "text": "According to the 1853 catalogue: James Monroe, the future fifth president."
+    },
+    {
+      "focus": [
+        0.33,
+        0.52,
+        0.14,
+        0.52
+      ],
+      "headline": "But one 'mistake' isn't",
+      "text": "People say no one would stand in that boat. Historians say they all stood: the bottom was full of icy water."
+    }
+  ]
+}
