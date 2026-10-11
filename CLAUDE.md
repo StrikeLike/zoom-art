@@ -53,10 +53,10 @@ Caruselul și reel-ul se fac acum cu `pipeline/reel-remotion/` (vezi README-ul d
 - Fonturile sunt incluse în `pipeline/fonts/`, deci randarea arată la fel ca în cloud.
 - Prima randare cu Remotion descarcă automat un Chrome headless (~100 MB).
 - Rezultatele apar în `pipeline/works/<nume>/out/` și nu intră în git. Fă commit doar pentru scripturi, imagini sursă, texte și cod.
-- Următoarea etapă: **automatizare** (de ex. generare și programare de postări). Pornește de aici: pașii de mai sus sunt deja scripturi care se pot înlănțui.
+- **Lucrul de pe telefon** (ales de Alex pe 11 oct 2026, varianta gratuită): Remote Control. În VS Code, Alex scrie `/remote-control` (sau `/rc`) și continuă sesiunea din aplicația Claude de pe telefon; totul rulează tot pe PC (desktop, la priză nu intră în sleep). Rezultatele ajung pe telefon prin OneDrive (`gata/`). Postarea pe rețele o face Alex manual, cu muzica din aplicație. Serverul cu n8n (planul din 11 oct) a rămas deoparte; se reia doar dacă Alex o cere.
 
 ## Unde stau lucrurile
-- **Postările gata de pus: `gata/<nume>/`**, câte un folder pe operă: `carusel/01.jpg`…`10.jpg`, `reel.mp4`, `texte.md` (caption carusel, reel, YouTube). `make_post` îl reface automat; nu intră în git.
+- **Postările gata de pus: `gata/<nume>/`**, câte un folder pe operă: `carusel/01.jpg`…`10.jpg`, `reel.mp4`, `texte.md` (caption carusel, reel, YouTube). `make_post` îl reface automat; nu intră în git. `gata/` e un junction spre `D:\OneDrive\Postari zoom art`, deci postările apar singure în aplicația OneDrive de pe telefonul lui Alex, de unde le pune pe rețele (11 oct 2026).
 - Cod: repo GitHub `StrikeLike/zoom-art`, clonat local în `D:\Munca\Zoom Art\zoom-art`.
 - Rezultatele (`out/`, `.cache/`, mp4, zip) nu intră în git.
 - Alex descarcă imagini în `C:\Users\badu5\Downloads`.
