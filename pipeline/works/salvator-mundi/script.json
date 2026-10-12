@@ -1,0 +1,113 @@
+{
+  "title": "Salvator Mundi",
+  "artist": "Leonardo da Vinci (attributed)",
+  "year": "c. 1500",
+  "source": " (public domain). Image: works/salvator-mundi/image.jpg, 3300x4856 (Wikimedia Commons; file name not recorded).",
+  "caption": "Bought for $1,175 in 2005. Sold for $450.3 million in 2017. Then it disappeared. #art #arthistory #painting #leonardodavinci #mystery",
+  "_verify": [
+    "REBUILT 2026-10-12 from the posted carousel (gata/salvator-mundi): the original script.json was lost. Slide texts copied from the slides; focus boxes recomputed from the mini-map, so they show the same framing (boxes may be a bit larger than the detail). Facts checked on 11-12 Oct, sources in postari/salvator-mundi.md:",
+    "Wikipedia (EN): datare c. 1499–1510 (Syson, Kemp și Zöllner dau intervale diferite); ulei pe lemn de nuc; vândut în 1958 din colecția Cook pentru 45 de lire, ca Boltraffio; în 2005, la St. Charles Gallery din New Orleans, lotul 664 („After Leonardo da Vinci”), cumpărat cu 1.175 $ de Alexander Parish și Robert Simon; restaurat de Dianne Dwyer Modestini (NYU); în infraroșu se vede că degetul mare al mâinii care binecuvântează era pictat inițial mai drept (pentimento); expus ca Leonardo la National Gallery, Londra, nov. 2011 – feb. 2012; 2013: 80 mil. $ (Yves Bouvier), apoi 127,5 mil. $ (Rybolovlev); Christie's New York, 15 nov. 2017: 450,3 mil. $ cu taxe; cumpărător: prințul Badr bin Abdullah (WSJ: intermediar pentru Mohammed bin Salman); dezvelirea de la Louvre Abu Dhabi, amânată pe termen nelimitat în sept. 2018. Sursă: Wikipedia).",
+    "Art & Object: 1.175 $ în 2005, crezut copie; Modestini a găsit o crăpătură pe toată înălțimea panoului și a completat lipsurile; restaurarea e criticată de unii. Sursă: Art & Object.",
+    "The Art Newspaper (2021): catalogul Prado îl trece la „attributed works, workshop or authorised and supervised by Leonardo”, adică îl retrogradează. Sursă: The Art Newspaper.",
+    "Artnet: expoziția Leonardo de la Luvru (oct. 2019) s-a deschis fără tablou; motivul raportat: condițiile proprietarului (lângă Mona Lisa, prezentat ca Leonardo integral) au fost refuzate; Luvrul n-a comentat. Sursă: Artnet.",
+    "The Art Newspaper (2024): „has not been seen in public since the 2017 sale”. Sursă: The Art Newspaper.",
+    "Globul: studiul Liang, Goodrich și Zhao (UC Irvine), arXiv, dec. 2019: globul e gol pe dinăuntru, iar imaginea e corectă optic; o bilă plină de cristal e puțin probabilă. Live Science: studiul nu era revizuit de experți; Martin Kemp îl respinge. Surse: arXiv, Live Science.",
+    "Neverificat / prudent:",
+    "Cele „45 de lire” din brief sunt prețul din 1958, nu din 2005; în texte apar 1.175 $ (2005) și, doar în descrierea caruselului, 45 de lire (1958).",
+    "Că cumpărătorul a acționat pentru Mohammed bin Salman e „reported” (WSJ); Christie's și oficialii saudiți au spus Abu Dhabi. Textul spune „reportedly”.",
+    "Unde e acum tabloul: Geneva (BBC, prin The Art Newspaper, 2024) sau Arabia Saudită (Wikipedia). Nefolosit în texte.",
+    "De ce a lipsit de la Luvru: e varianta raportată, nu confirmată oficial; textul spune doar că expoziția s-a deschis fără el.",
+    "Globul: interpretări contradictorii (gol, după studiul din 2019; plin, cu incluziuni, după Kemp). Textul spune „A 2019 study: accurate, if hollow”.",
+    "„A solid crystal ball would warp the robe behind it” e argumentul obișnuit, simplificat.",
+    "Recordul e formulat „ever sold at auction”, ca să nu intre în discuție vânzările private.",
+    "Dreptunghiurile `focus` sunt estimate fără imagine; trebuie retușate."
+  ],
+  "image": "image.jpg",
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Bought for $1,175. Sold for $450 million.",
+      "sub": "Leonardo da Vinci (attr.), Salvator Mundi, c. 1500"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.96,
+        0.96
+      ],
+      "headline": "New Orleans, 2005",
+      "text": "Two dealers buy lot 664: a dark, overpainted Christ, sold as a copy after Leonardo. Price: $1,175. Then the cleaning begins."
+    },
+    {
+      "focus": [
+        0.5,
+        0.301,
+        0.635,
+        0.235
+      ],
+      "headline": "Under the overpaint",
+      "text": "Restorer Dianne Modestini strips old repaint. A crack splits the walnut panel; much of the paint is worn. She fills the losses, stroke by stroke."
+    },
+    {
+      "focus": [
+        0.165,
+        0.582,
+        0.265,
+        0.098
+      ],
+      "headline": "A hidden thumb",
+      "text": "But infrared reveals a change of mind: the blessing thumb was first painted more upright. Copyists rarely change their minds. Was this Leonardo?"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.96,
+        0.96
+      ],
+      "headline": "London says yes",
+      "text": "Experts consulted by the National Gallery say yes. In 2011 it hangs in London as a rediscovered Leonardo. Then the price starts to climb."
+    },
+    {
+      "focus": [
+        0.476,
+        0.6,
+        0.868,
+        0.321
+      ],
+      "headline": "Then the price explodes",
+      "text": "2013: $80 million. Soon after: $127.5 million. Then Christie's New York, 2017: $450.3 million, the most expensive painting ever sold at auction."
+    },
+    {
+      "focus": [
+        0.5,
+        0.249,
+        0.296,
+        0.101
+      ],
+      "headline": "And then it vanishes",
+      "text": "The buyer: a Saudi prince, reportedly acting for crown prince Mohammed bin Salman. A planned Abu Dhabi unveiling is cancelled. Not seen in public since."
+    },
+    {
+      "focus": [
+        0.618,
+        0.36,
+        0.593,
+        0.219
+      ],
+      "headline": "But is it Leonardo?",
+      "text": "In 2019 the Louvre's Leonardo show opens without it. In 2021 a Prado catalogue downgrades it from his own hand. Some scholars credit his assistants."
+    },
+    {
+      "focus": [
+        0.538,
+        0.764,
+        0.512,
+        0.189
+      ],
+      "headline": "Meanwhile, the orb",
+      "text": "A solid crystal ball would warp the robe behind it. This one barely does. A 2019 study: accurate, if hollow. Leonardo or workshop?"
+    }
+  ]
+}

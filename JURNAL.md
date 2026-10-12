@@ -5,13 +5,13 @@ Starea fiecărei opere. Claude actualizează tabelul după fiecare randare sau p
 | Operă (engleză) | Folder în `works/` | Imagine | Carusel + reel | Fapte de verificat | Postat |
 |---|---|---|---|---|---|
 | The Garden of Earthly Delights (Bosch) | garden-of-earthly-delights | da, 8000 px (Commons, originalul 39137 px, 11 oct; înainte 1920 px) | refăcut 10 oct, stil nou, reel 59 s; în `gata/` | verificat 10 oct (Prado, Artnet); rămâne girafa/elefantul | |
-| The Raft of the Medusa (Géricault) | raft-of-the-medusa | da, 5872 px | refăcut 10 oct, stil nou; regenerat local 11 oct (accente reparate), în `gata/`, reel 58,9 s | verificat 10 oct (Wikipedia); titlul corectat „15 found alive” | |
-| David with the Head of Goliath (Caravaggio) | david-goliath-caravaggio | da, 5922x7329 (Commons) | script scris | vezi `_verify` | |
+| The Raft of the Medusa (Géricault) | raft-of-the-medusa | da, 5872 px | refăcut 10 oct, stil nou; regenerat local 11 oct (accente reparate), scos din `gata/` după postare, reel 58,9 s | verificat 10 oct (Wikipedia); titlul corectat „15 found alive” | da (data nenotată) |
+| David with the Head of Goliath (Caravaggio) | david-goliath-caravaggio | da, 5922x7329 (Commons) | făcut 12 oct, în `gata/`, reel 58,9 s | verificat 10 oct (Galleria Borghese); ultimul slide formulat prudent („hoping for a pardon”); fără zoom pe sânge | |
 | Troika (Vasily Perov), înlocuiește The Scream | troika-perov | da, 1280 px (mărită AI) | făcut 10 oct, stil nou, reel 58,8 s, safe zones + copertă 0,3 s + slide final nou | povestea mamei (Perov, „Auntie Marya”) de verificat | |
-| A Bar at the Folies-Bergère (Manet) | bar-folies-bergere | da, 8000 px (Commons, 11 oct; înainte 1280 px) | refăcut 10 oct cu text-poveste; generat local 11 oct, în `gata/`, reel 58,8 s | verificat 10 oct (semnătura se vede pe imagine) | |
-| The Peasant Wedding (Bruegel) | peasant-wedding | da, 1280 px (Alex a trimis-o în locul Children's Games) | făcut 10 oct, text-poveste, reel 58,8 s | verificat 10 oct | |
+| A Bar at the Folies-Bergère (Manet) | bar-folies-bergere | da, 8000 px (Commons, 11 oct; înainte 1280 px) | refăcut 10 oct cu text-poveste; generat local 11 oct, scos din `gata/` după postare, reel 58,8 s | verificat 10 oct (semnătura se vede pe imagine) | da (data nenotată) |
+| The Peasant Wedding (Bruegel) | peasant-wedding | da, 8000 px (Commons, din 43283 px, 12 oct; înainte 1280 px) | refăcut 12 oct pe imaginea mare, în `gata/`, reel 58,8 s; slide 4 lărgit să se vadă toate picioarele | verificat 10 oct | |
 | Judith Slaying Holofernes (Artemisia Gentileschi, Uffizi) | judith-artemisia | da, 2670x3296 (Commons, Google Art Project; mărită AI la zoom adânc) | script scris 10 oct, următoarea după ziua 2 (Alex a confirmat-o) | verificat 10 oct; fără zoom pe rană | |
-| Children's Games (Bruegel) | childrens-games | da, 8000 px (Commons, micșorată din 41519 px) | script scris 10 oct, rezervă; focus reglat 11 oct | „clopoței pe cercuri” nu se văd pe imagine | |
+| Children's Games (Bruegel) | childrens-games | da, 8000 px (Commons, micșorată din 41519 px) | făcut 12 oct, în `gata/`, reel 58,8 s; text rescris ca poveste | verificat 10 oct; clopoțeii scoși, caption corectat (fără păpuși / blind man's buff) | |
 | The Derby Day (Frith) | derby-day | da, 4001 px (Commons, Google Art Project, 11 oct; înainte 1280 px) | făcut 10 oct, text-poveste; generat local 11 oct, în `gata/`, reel 58,8 s | verificat 10 oct (Smarthistory); slide-urile arată victima, nu hoțul | |
 | Netherlandish Proverbs (Bruegel) | netherlandish-proverbs | da, 5649x4000 (Commons) | script scris | vezi `_verify` | |
 | The Ambassadors (Holbein) | the-ambassadors | da, 8000 px (Commons, micșorată din 30000 px) | script scris | vezi `_verify` | |
@@ -28,7 +28,16 @@ Starea fiecărei opere. Claude actualizează tabelul după fiecare randare sau p
 | The Swing (Fragonard) | the-swing | da, 4280x5373 (Commons) | făcut 11 oct, în `gata/`, reel 58,9 s | verificat 11 oct (Wikipedia/Wallace) | |
 | Washington Crossing the Delaware (Leutze) | washington-delaware | da, 6004x3847 (Commons, Met) | făcut 11 oct, în `gata/`, reel 58,8 s | verificat 11 oct (Wikipedia) | |
 | The Nightmare (Fuseli) | the-nightmare | da, 8000 px (Commons, DIA) | făcut 11 oct, în `gata/`, reel 58,8 s | verificat 11 oct (Wikipedia); etimologia „mare” e cunoscută general | |
-| The Wedding at Cana (Veronese) | wedding-cana | da, 8000 px (Commons, Louvre, din 10068 px) | făcut 12 oct, în `gata/`, reel 58,9 s | verificat 12 oct (căutare web); muzicienii-pictori = „tradition says”; „tăiat în două” nefolosit | |
+| The Wedding at Cana (Veronese) | wedding-cana | da, 8000 px (Commons, Louvre, din 10068 px) | făcut 12 oct, generat local 12 oct, în `gata/`, reel 58,9 s | verificat 12 oct (căutare web); muzicienii-pictori = „tradition says”; „tăiat în două” nefolosit | |
+| An Experiment on a Bird in the Air Pump (Wright of Derby) | bird-air-pump | da, 5639x4226 | făcut 12 oct (altă sesiune), în `gata/`; script refăcut din carusel 12 oct | vezi `postari/bird-air-pump.md` | |
+| The Calling of Saint Matthew (Caravaggio) | calling-of-saint-matthew | da, 8000 px | făcut 12 oct (altă sesiune), în `gata/`; script refăcut din carusel 12 oct | vezi `postari/calling-of-saint-matthew.md` | |
+| Landscape with the Fall of Icarus (atr. Bruegel) | fall-of-icarus | da, 8000 px | făcut 12 oct (altă sesiune), în `gata/`; script refăcut din carusel 12 oct, focus corectat (pasărea, capul) | vezi `postari/fall-of-icarus.md` | |
+| The Ghent Altarpiece (van Eyck) | ghent-altarpiece | da, 6265x4581 | făcut 12 oct (altă sesiune), în `gata/`; script refăcut din carusel 12 oct | vezi `postari/ghent-altarpiece.md` | |
+| The Dog (Goya) | goya-dog | da, 1797x3051 (cea mai mare PD; mărită AI) | făcut 12 oct (altă sesiune), în `gata/`; script refăcut din carusel 12 oct | vezi `postari/goya-dog.md` | |
+| Isle of the Dead (Böcklin) | isle-of-the-dead | da, 6784x4837 | făcut 12 oct (altă sesiune), în `gata/`; script refăcut din carusel 12 oct | vezi `postari/isle-of-the-dead.md` | |
+| Salvator Mundi (Leonardo, atribuit) | salvator-mundi | da, 3300x4856 | făcut 12 oct (altă sesiune), în `gata/`; script refăcut din carusel 12 oct | vezi `postari/salvator-mundi.md` | |
+| Reply of the Zaporozhian Cossacks (Repin) | zaporozhian-cossacks | da, 4122x2437 | făcut 12 oct (altă sesiune), în `gata/`; script refăcut din carusel 12 oct | vezi `postari/zaporozhian-cossacks.md` | |
+| The Vegetable Gardener (Arcimboldo) | arcimboldo-gardener | doar `image_src.jpg` (2172x2846); imaginea compusă (dreapta + întoarsă) lipsește | făcut 12 oct (altă sesiune), în `gata/`; **fără script** (carusel cu tabloul răsturnat, nu se poate reface automat) | vezi `postari/arcimboldo-gardener.md` | |
 
 ## Următoarele (fără script încă)
 - Ziua 2 (10 oct, au scripturi): A Bar at the Folies-Bergère (Manet), The Peasant Wedding (Bruegel), The Derby Day (Frith). Opere-joc: găsește detaliul, întrebare pentru comentarii.

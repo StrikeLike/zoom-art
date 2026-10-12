@@ -3,13 +3,13 @@
   "artist": "Pieter Bruegel the Elder",
   "year": "1567",
   "image": "image.jpg",
-  "source": "Kunsthistorisches Museum, Vienna (public domain: Bruegel died in 1569). Image supplied by Alex (Wikimedia Commons, 1280x885, upscaled by the generator).",
+  "source": "Kunsthistorisches Museum, Vienna (public domain: Bruegel died in 1569). Wikimedia Commons: The Peasant Wedding (Bruegel).jpg, 43283x29567, saved at 8000 px.",
   "caption": "Everyone is at this wedding except, maybe, the groom. Can you find him? #art #arthistory #painting #history #oilpainting",
   "_verify": [
     "VERIFIED 2026-10-10 (Wikipedia 'The Peasant Wedding', KHM): 1567, oil on panel 114 x 164 cm, Kunsthistorisches Museum Vienna; bride in front of the green hanging with a paper crown above her; groom's identity debated (man pouring, man passing plates, others), Van der Elst: the groom is absent; plates carried on a door off its hinges; bread, porridge and soup; two pipers; small boy licking a plate in the foreground; wealthy man on the far right talking to a Franciscan friar; sheaves of grain and a rake; an extra 'third foot' under the tray, removed by Pieter Brueghel the Younger in his copy.",
     "Date of the Younger's copy given as 1620 by Wikipedia; slides don't give the year.",
     "'One piper seems to stare at the food' is our reading of the picture.",
-    "Focus boxes set on Alex's 1280x885 image 2026-10-10."
+    "Focus boxes set on Alex's 1280x885 image 2026-10-10, checked again on the 8000 px Commons image 2026-10-12 (slide 4 widened to show all the feet under the door)."
   ],
   "slides": [
     {
@@ -49,10 +49,10 @@
     },
     {
       "focus": [
-        0.7,
-        0.78,
-        0.17,
-        0.17
+        0.705,
+        0.81,
+        0.3,
+        0.24
       ],
       "headline": "Look under that door",
       "text": "Count the feet. There's one too many. When Bruegel's son copied the painting, he quietly removed it."

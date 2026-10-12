@@ -10,9 +10,9 @@ Faptele verificate pe 10 oct 2026 sunt în `_verify` din `pipeline/works/childre
 ```
 Around 80 games hidden in one painting from 1560. How many did you play? 🎯
 
-Pieter Bruegel let children take over an entire Flemish town: dolls, hoops, leapfrog, stilts, blind man's buff, even a pretend wedding.
+Pieter Bruegel let children take over an entire Flemish town: knucklebones, hoops, leapfrog, stilts, headstands, even a pretend wedding.
 
-460 years later, half of these games are still played in schoolyards.
+460 years later, many of these games are still played in schoolyards.
 
 Swipe to find them, then count how many you know.
 

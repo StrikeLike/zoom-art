@@ -1,0 +1,104 @@
+{
+  "title": "Landscape with the Fall of Icarus",
+  "artist": "Attributed to Pieter Bruegel the Elder",
+  "year": "c. 1560s",
+  "source": "Royal Museums of Fine Arts of Belgium, Brussels (public domain). Image: works/fall-of-icarus/image.jpg, 8000x5218 (Wikimedia Commons; file name not recorded).",
+  "caption": "Can you find Icarus? He's the title character, and nobody in the painting notices him fall. #art #arthistory #painting #mythology #renaissance",
+  "_verify": [
+    "REBUILT 2026-10-12 from the posted carousel (gata/fall-of-icarus): the original script.json was lost. Slide texts copied from the slides; focus boxes recomputed from the mini-map, so they show the same framing (boxes may be a bit larger than the detail). Facts checked on 11-12 Oct, sources in postari/fall-of-icarus.md:",
+    "Wikipedia: ulei pe pânză, 73,5 x 112 cm, cumpărat de muzeu în 1912; examinările tehnice din 1996 au pus atribuirea la îndoială; datarea cu radiocarbon din 1998 (Institutul Regal pentru Patrimoniu Cultural + Universitatea Utrecht) a concluzionat că Bruegel nu putea picta pe pânza asta; contestată în 2006; azi e văzut de obicei ca o copie timpurie a unui original pierdut; Daedalus lipsește aici, dar apare în versiunea Van Buuren. Sursă: Wikipedia.",
+    "Muzeul (povestea lui pe Google Arts & Culture): nesemnat, nedatat; pânza datată doar între 1555 și 1635; desenul pregătitor făcut de doi artiști diferiți; plugarul cu biciul în mână, păstorul care se uită la cer, pescarul care nu-l bagă în seamă pe Icar; potârnichea = nepotul lui Daedalus, împins de pe cetate și transformat în pasăre de Pallas; „capul unui om culcat în tufișuri” poate trimite la proverbul „No plough will stop for a dying man”. Sursă: Royal Museums of Fine Arts of Belgium pe Google Arts & Culture.",
+    "Cercetarea din 2011: Christina Currie și Dominique Allart (KIK-IRPA) spun că tabloul nu e de Bruegel; resturile pânzei originale sunt din jurul lui 1600. Sursă: CODART, după De Morgen, 8 nov. 2011.",
+    "Auden: „Musée des Beaux Arts”, decembrie 1938; citatul de pe slide („something amazing, a boy falling out of the sky”, „sailed calmly on”) e exact. Sursă: Poetry Foundation.",
+    "Cu prudență: datările nu se potrivesc între ele (1998 și 2011 spun după moartea lui Bruegel, muzeul dă doar 1555-1635), deci textul spune „lab tests suggest”. Capul din tufișuri e o interpretare (muzeul zice „may”, unii văd doar o pată de lumină: Alberti's Window), deci textul spune „some see”.",
+    "Neverificat: locul exact al capului pe imagine (stânga, în tufișuri, deasupra capului calului). Dacă nu se vede pe imaginea reală, scoate slide-ul 7."
+  ],
+  "image": "image.jpg",
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Can you find Icarus in this painting?",
+      "sub": "Pieter Bruegel the Elder (attr.), Landscape with the Fall of Icarus, c. 1560s"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.96,
+        0.96
+      ],
+      "headline": "Find the title character",
+      "text": "The title promises a boy falling from the sky. Give yourself five seconds to find him before you swipe."
+    },
+    {
+      "focus": [
+        0.429,
+        0.668,
+        0.339,
+        0.373
+      ],
+      "headline": "Not the ploughman",
+      "text": "The biggest figure is a farmer, whip in hand, eyes on his furrow. He never looks up."
+    },
+    {
+      "focus": [
+        0.518,
+        0.547,
+        0.222,
+        0.245
+      ],
+      "headline": "The shepherd looks up",
+      "text": "Meanwhile, the shepherd stares into the sky. But the sky is empty now. Icarus has already fallen."
+    },
+    {
+      "focus": [
+        0.79,
+        0.8,
+        0.26,
+        0.24
+      ],
+      "headline": "There he is",
+      "text": "Look closer, near the fisherman: two pale legs kicking in the sea. The angler keeps his eyes on the water."
+    },
+    {
+      "focus": [
+        0.815,
+        0.815,
+        0.09,
+        0.08
+      ],
+      "headline": "A witness on the branch",
+      "text": "But someone is watching: a partridge. In Ovid, it's Daedalus's nephew, pushed off a citadel by his jealous uncle."
+    },
+    {
+      "focus": [
+        0.087,
+        0.535,
+        0.1,
+        0.1
+      ],
+      "headline": "Another dying man?",
+      "text": "And in the bushes, some see a man's head. An old proverb says no plough stops for a dying man."
+    },
+    {
+      "focus": [
+        0.799,
+        0.478,
+        0.368,
+        0.38
+      ],
+      "headline": "The ship sails on",
+      "text": "Nobody stops. In 1938, W. H. Auden wrote that this ship saw \"something amazing, a boy falling out of the sky\" and sailed calmly on."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.96,
+        0.96
+      ],
+      "headline": "But was it Bruegel?",
+      "text": "The twist: lab tests suggest the canvas dates from after Bruegel's death. Maybe a copy of a lost original. Did you find Icarus first?"
+    }
+  ]
+}

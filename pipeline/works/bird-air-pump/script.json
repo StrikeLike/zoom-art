@@ -1,0 +1,103 @@
+{
+  "title": "An Experiment on a Bird in the Air Pump",
+  "artist": "Joseph Wright of Derby",
+  "year": "1768",
+  "source": "The National Gallery, London (public domain). Image: works/bird-air-pump/image.jpg, 5639x4226 (Wikimedia Commons; file name not recorded).",
+  "caption": "A travelling lecturer is pumping the air out of a glass bowl. Inside: a rare white cockatoo. Will it live? #art #arthistory #painting #science #oilpainting",
+  "_verify": [
+    "REBUILT 2026-10-12 from the posted carousel (gata/bird-air-pump): the original script.json was lost. Slide texts copied from the slides; focus boxes recomputed from the mini-map, so they show the same framing (boxes may be a bit larger than the detail). Facts checked on 11-12 Oct, sources in postari/bird-air-pump.md:",
+    "National Gallery: 1768, ulei pe pânză, 183 x 244 cm (NG725); noapte într-o casă bogată, luna după un nor în fereastră; un conferențiar itinerant („travelling lecturer”) se uită spre privitor, cu o mână pe supapă, ca și cum decizia ar fi a noastră; un cacadu alb rar („rare white cockatoo”) scos din colivie; finalul rămâne nesigur; fata mică privește, sora mai mare își acoperă ochii, tatăl o ține în brațe; un domn cronometrează cu ceasul de buzunar, un tânăr se apleacă să vadă; băiatul de la fereastră ține sfoara coliviei, gata s-o coboare dacă pasărea își revine; cuplul tânăr „only have eyes for each other”, identificat ca Thomas Coltman și Mary Barlow, prieteni ai pictorului, căsătoriți în 1769; bătrânul din dreapta privește craniul, pierdut în gânduri. Sursă: National Gallery.",
+    "Wikipedia: conferențiarii itineranți făceau experimentul ca număr principal; James Ferguson scria că se folosea des un „lungs-glass” cu o bășică plină cu aer în locul animalului, fiindcă animalul viu era „too shocking”; o pasăre atât de rară n-ar fi fost riscată în realitate; nu e clar dacă băiatul coboară colivia sau o ridică; într-o schiță timpurie (pe spatele unui autoportret) pasărea supraviețuiește; Wright n-a numit niciodată personajele. Sursă: Wikipedia.",
+    "Conflict nerezolvat: specia păsării. Pagina operei de la National Gallery spune „white cockatoo”; Wikipedia și Picture of the Month, National Gallery (aug. 2019) spun „cockatiel”. Textele urmează pagina oficială a operei.",
+    "Formulat cu prudență: cuplul „may be” Coltman și Barlow (Wright nu i-a numit); vasul „seems to” conține un craniu (alte variante propuse: plămâni, sulf).",
+    "Nefolosit (doar ipoteze): cine sunt conferențiarul (John Warltire?) și domnul cu ceasul (Erasmus Darwin sau William Small?)."
+  ],
+  "image": "image.jpg",
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Will this bird live? He's waiting for you",
+      "sub": "Joseph Wright of Derby, An Experiment on a Bird in the Air Pump, 1768"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.96,
+        0.96
+      ],
+      "headline": "A night in 1768",
+      "text": "A travelling lecturer brings his show to a wealthy home. Tonight's trick: pumping all the air out of a glass bowl."
+    },
+    {
+      "focus": [
+        0.494,
+        0.236,
+        0.222,
+        0.195
+      ],
+      "headline": "A rare cockatoo",
+      "text": "Inside is a rare white cockatoo. Real lecturers often used an air-filled bladder instead. Here, the bird struggles with every stroke."
+    },
+    {
+      "focus": [
+        0.441,
+        0.228,
+        0.318,
+        0.297
+      ],
+      "headline": "He's looking at you",
+      "text": "But the lecturer ignores the bird. He stares straight at us, hand on the valve, as if the choice were ours."
+    },
+    {
+      "focus": [
+        0.641,
+        0.504,
+        0.508,
+        0.446
+      ],
+      "headline": "Too much to watch",
+      "text": "Meanwhile, the little girl can't look away, but her older sister hides her eyes. Their father holds her close."
+    },
+    {
+      "focus": [
+        0.288,
+        0.593,
+        0.36,
+        0.316
+      ],
+      "headline": "Counting the seconds",
+      "text": "Across the table, a gentleman calmly times it all with his pocket watch, while a boy leans in for a better look."
+    },
+    {
+      "focus": [
+        0.211,
+        0.416,
+        0.373,
+        0.327
+      ],
+      "headline": "Only eyes for each other",
+      "text": "And the young couple? They ignore the bird completely. They may be the artist's friends Thomas Coltman and Mary Barlow."
+    },
+    {
+      "focus": [
+        0.659,
+        0.58,
+        0.434,
+        0.381
+      ],
+      "headline": "Lost in thought",
+      "text": "Look closer: the glass bowl on the table seems to hold a human skull. An old man stares at it, lost in thought."
+    },
+    {
+      "focus": [
+        0.655,
+        0.367,
+        0.407,
+        0.357
+      ],
+      "headline": "The empty cage",
+      "text": "And by the moonlit window, a boy holds the empty cage: ready for the bird's return, or putting it away? Would you stop him?"
+    }
+  ]
+}

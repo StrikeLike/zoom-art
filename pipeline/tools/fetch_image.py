@@ -82,6 +82,7 @@ def fetch(work, title, max_px):
 
 
 if __name__ == "__main__":
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")  # Windows console: Cyrillic file names
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("work", nargs="?", help="folder name in works/")
     ap.add_argument("--search", help="list Commons candidates, biggest first")

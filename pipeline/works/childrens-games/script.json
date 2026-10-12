@@ -6,7 +6,7 @@
   "caption": "Around 80 games hidden in one painting from 1560. How many did you play as a kid? #art #arthistory #painting #history #oilpainting",
   "_verify": [
     "VERIFIED 2026-10-10 (Wikipedia, KHM): 1560, oil on panel 118 x 161 cm, Kunsthistorisches Museum Vienna; around 80 games identified (sources say 80 to over 90, slides say 'around 80'); knucklebones bottom left, leapfrog, hoops, blind man's buff, stilts, knucklebones, swimming in the river top left, mock wedding at the centre.",
-    "Slide 2 text changed 2026-10-11: the two girls bottom left play knucklebones (small bones and a basket on the ground), not dolls. Slide 5 changed 2026-10-11 from blind man's buff (no clearly blindfolded child found on the image) to the headstand by the fence; slide 3: 'bells on the hoops' is not visible in the image, check or drop.",
+    "Slide 2 text changed 2026-10-11: the two girls bottom left play knucklebones (small bones and a basket on the ground), not dolls. Slide 5 changed 2026-10-11 from blind man's buff (no clearly blindfolded child found on the image) to the headstand by the fence; slide 3: 'bells on the hoops' is not visible in the image, check or drop. 2026-10-12: bells dropped, slides rewritten as a story.",
     "Focus boxes placed on the real image (Wikimedia Commons file) on 2026-10-11; check the carousel and reel frames."
   ],
   "image": "image.jpg",
@@ -24,7 +24,7 @@
         0.94
       ],
       "headline": "Flanders, 1560",
-      "text": "Bruegel let children take over an entire town. Streets, windows, a river, all full of games."
+      "text": "Bruegel hands an entire town over to its children. Streets, windows, even the river: all full of games."
     },
     {
       "focus": [
@@ -34,7 +34,7 @@
         0.14
       ],
       "headline": "Start bottom left",
-      "text": "Two girls playing knucklebones with little bones. Today we call it jacks."
+      "text": "Two girls play knucklebones with little bones. Today we call it jacks."
     },
     {
       "focus": [
@@ -43,8 +43,8 @@
         0.21,
         0.16
       ],
-      "headline": "Rolling hoops",
-      "text": "Some hoops even have bells on them. You heard these kids coming."
+      "headline": "Then, hoops",
+      "text": "Right behind them, kids race wooden hoops across the square, pushing them with sticks."
     },
     {
       "focus": [
@@ -53,8 +53,8 @@
         0.1,
         0.13
       ],
-      "headline": "Leapfrog",
-      "text": "460 years old and still played in every schoolyard."
+      "headline": "Next, leapfrog",
+      "text": "One boy vaults over another's back. 460 years later, every schoolyard still plays it."
     },
     {
       "focus": [
@@ -63,8 +63,8 @@
         0.08,
         0.12
       ],
-      "headline": "Upside down",
-      "text": "By the fence, a boy stands on his head. Kids still try this in every park."
+      "headline": "Meanwhile, by the fence",
+      "text": "A boy stands on his head, legs in the air. Some things never change."
     },
     {
       "focus": [
@@ -73,8 +73,8 @@
         0.11,
         0.27
       ],
-      "headline": "On stilts",
-      "text": "Short stilts and high stilts. Look how proud they are."
+      "headline": "Further up, stilts",
+      "text": "Short stilts, tall stilts, and kids proudly towering over everyone."
     },
     {
       "focus": [
@@ -83,8 +83,8 @@
         0.15,
         0.16
       ],
-      "headline": "Right in the centre",
-      "text": "A pretend wedding procession. The children are playing at being adults."
+      "headline": "And in the middle of it all",
+      "text": "A pretend wedding procession. The children are playing at being grown-ups."
     },
     {
       "focus": [
@@ -93,8 +93,8 @@
         0.2,
         0.12
       ],
-      "headline": "Look far away",
-      "text": "Even the river in the distance is full of kids swimming. Which game did you play most? Tell us below."
+      "headline": "Even far away",
+      "text": "The river in the distance is full of kids swimming. Which of these games did you play most?"
     }
   ]
 }

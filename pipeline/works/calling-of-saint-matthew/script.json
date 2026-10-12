@@ -1,0 +1,106 @@
+{
+  "title": "The Calling of Saint Matthew",
+  "artist": "Caravaggio",
+  "year": "1599-1600",
+  "source": "Contarelli Chapel, San Luigi dei Francesi, Rome (public domain). Image: works/calling-of-saint-matthew/image.jpg, 8000x7556 (Wikimedia Commons; file name not recorded).",
+  "caption": "Five men count money. Jesus points. And 400 years later, nobody agrees which one is Matthew. #art #arthistory #painting #caravaggio #baroque",
+  "_verify": [
+    "REBUILT 2026-10-12 from the posted carousel (gata/calling-of-saint-matthew): the original script.json was lost. Slide texts copied from the slides; focus boxes recomputed from the mini-map, so they show the same framing (boxes may be a bit larger than the detail). Facts checked on 11-12 Oct, sources in postari/calling-of-saint-matthew.md:",
+    "Wikipedia (EN): 1599-1600, ulei pe pânză, 322 x 340 cm, încă în Capela Contarelli; comanda din iulie 1599, plata finală în iulie 1600; majoritatea autorilor spun că Matei e bărbatul cu barbă care arată spre sine („Me?”), iar același model joacă rolul lui Matei în celelalte două tablouri din capelă; o lectură mai nouă spune că arată spre tânărul aplecat de la capătul mesei („Him?”); alții cred că ambiguitatea e voită; mâna lui Iisus seamănă aproape perfect cu mâna lui Adam din Creația lui Michelangelo. Sursă: Wikipedia.",
+    "Wikipedia (IT): o radiografie a arătat că Sfântul Petru nu era în prima compoziție și a fost adăugat ulterior; hainele grupului lui Matei sunt la moda sfârșitului de secol XVI; lumina vine din colțul din dreapta sus, dintr-o sursă din afara tabloului. Sursă: Vocazione di san Matteo.",
+    "Capela Contarelli: tablourile laterale sunt luminate de un fascicul care vine din singura sursă de lumină naturală a capelei; contractul semnat pe 23 iulie 1599. Sursă: Wikipedia.",
+    "Smarthistory: haine contemporane; lumina vine dintr-o sursă nevăzută deasupra capului lui Iisus; mâna derivă din mâna lui Adam („second Adam”). Sursă: Smarthistory.",
+    "Ochelarii: bătrânul de la masă poartă ochelari. Sursă: Arhiepiscopia San Francisco (se văd și pe tablou).",
+    "Jürgen Müller: conferința „Who is Matthew?” (22 iulie 2025) susține că Caravaggio „deliberately misleads the viewer”. Sursă: TU Dresden.",
+    "Papa Francisc: „That finger of Jesus, pointing at Matthew. That's me.” Sursă: America magazine, 2013.",
+    "Neverificat / formulat prudent: „Me?” și „Him?” sunt interpretări ale gestului, nu citate. Radiografia cu Petru apare la Wikipedia (IT), dar n-am găsit raportul tehnic original. „Matching the chapel's only real window” e o interpretare."
+  ],
+  "image": "image.jpg",
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "400 years later, nobody agrees which man is Matthew",
+      "sub": "Caravaggio, The Calling of Saint Matthew, 1599-1600"
+    },
+    {
+      "focus": [
+        0.472,
+        0.539,
+        0.601,
+        0.399
+      ],
+      "headline": "Rome, 1599",
+      "text": "A tax office, dressed in the fashions of Caravaggio's own day. Five men count money; the oldest even peers through spectacles."
+    },
+    {
+      "focus": [
+        0.66,
+        0.488,
+        0.669,
+        0.444
+      ],
+      "headline": "Then strangers walk in",
+      "text": "Then two men in timeless robes step in from the right. One of them, Jesus, lifts his hand toward the table."
+    },
+    {
+      "focus": [
+        0.671,
+        0.429,
+        0.138,
+        0.091
+      ],
+      "headline": "A borrowed hand",
+      "text": "Look closer: it echoes Adam's hand on Michelangelo's Sistine ceiling. Jesus as a new Adam, giving life instead of receiving it."
+    },
+    {
+      "focus": [
+        0.665,
+        0.433,
+        0.593,
+        0.394
+      ],
+      "headline": "Light from nowhere",
+      "text": "And a blade of light follows his gesture. Not from the painted window: it falls from outside the frame, matching the chapel's only real window."
+    },
+    {
+      "focus": [
+        0.422,
+        0.507,
+        0.644,
+        0.427
+      ],
+      "headline": "A late arrival",
+      "text": "But X-rays revealed a surprise: Saint Peter, standing in front of Jesus, wasn't in the first version. Caravaggio added him later."
+    },
+    {
+      "focus": [
+        0.359,
+        0.479,
+        0.233,
+        0.155
+      ],
+      "headline": "\"Me?\"",
+      "text": "Meanwhile, the bearded man points at himself, as if asking: me? That's the classic reading. He plays Matthew in the chapel's other two paintings."
+    },
+    {
+      "focus": [
+        0.196,
+        0.574,
+        0.356,
+        0.236
+      ],
+      "headline": "Or \"Him?\"",
+      "text": "But follow his finger. It may point past himself, to the young man slumped at the end, head down over the coins."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.96,
+        0.96
+      ],
+      "headline": "Misleading on purpose?",
+      "text": "In 2025, art historian Jürgen Müller argued Caravaggio misleads us deliberately. So who is Matthew: the bearded man, or the young man?"
+    }
+  ]
+}

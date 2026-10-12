@@ -1,0 +1,112 @@
+{
+  "title": "The Ghent Altarpiece (Adoration of the Mystic Lamb)",
+  "artist": "Hubert and Jan van Eyck",
+  "year": "1432",
+  "source": "St Bavo's Cathedral, Ghent (public domain). Image: works/ghent-altarpiece/image.jpg, 6265x4581 (Wikimedia Commons; file name not recorded).",
+  "caption": "Guinness lists it as the most stolen painting in history. And one of its panels is still missing. #art #arthistory #history #mystery #painting",
+  "_verify": [
+    "REBUILT 2026-10-12 from the posted carousel (gata/ghent-altarpiece): the original script.json was lost. Slide texts copied from the slides; focus boxes recomputed from the mini-map, so they show the same framing (boxes may be a bit larger than the detail). Facts checked on 11-12 Oct, sources in postari/ghent-altarpiece.md:",
+    "Wikipedia (EN), Ghent Altarpiece: terminat în 1432 (instalat pe 6 mai 1432); inscripția pierdută spune că Hubert l-a început și Jan l-a terminat; dus la Paris după Revoluția Franceză, expus la Luvru, întors în 1815 după Waterloo; aripile vândute în 1816 (Edward Solly), cumpărate în 1821 de regele Prusiei; returnate în 1920 prin Tratatul de la Versailles; în 1942 Hitler a ordonat confiscarea (Neuschwanstein, apoi minele de sare de la Altaussee); recuperat în 1945; Noah Charney: „13 crimes”, dintre care șapte furturi. Sursă: Wikipedia.",
+    "Hubert van Eyck a murit cel târziu pe 18 sept. 1426, deci Jan l-a terminat; cât a pictat Hubert e încă discutat. Sursă: Wikipedia.",
+    "Guinness World Records: recordul „Most stolen painting” este Ghent Altarpiece, „13 crimes and seven thefts”; în 1934 au fost furate două panouri, doar unul recuperat. Sursă: Guinness. Britannica: „furat de șapte ori, după relatări”; în 1794 patru panouri duse la Luvru. Sursă: Britannica.",
+    "Visit Gent: 1566, paznicii au urcat panourile în turnul clopotniței; 1794, trupele franceze au dus panourile centrale la Paris, la Luvru (atunci Musée Napoléon); 1815 întoarcere; 19 dec. 1816 vânzarea aripilor; 11 aprilie 1934 furtul, cu biletul „Taken from Germany by the Treaty of Versailles”; scrisori semnate „D.U.A.”, un milion de franci belgieni; Altaussee. Surse: Visit Gent (EN), Visit Gent (NL).",
+    "Wikipedia (EN), The Just Judges: furat în noaptea de 10 aprilie 1934; cererea de răscumpărare (un milion de franci) a ajuns la episcop pe 30 aprilie, guvernul a refuzat; Sf. Ioan Botezătorul (spatele panoului) a fost returnat „ca act de bună-credință”; Arsène Goedertier a murit pe 25 nov. 1934, după ce i-a spus avocatului că doar el știe unde e panoul; cercetări cu raze X în catedrală; panoul nu a fost găsit; copia lui Van der Veken începută în 1939, reluată în 1945. Sursă: Wikipedia.",
+    "Arhivele Naționale SUA: altarul mutat din Neuschwanstein la Altaussee în 1944; dus cu avionul de la München la Bruxelles pe 21 aug. 1945, ambalarea supravegheată de Monuments Men. Sursă: National Archives.",
+    "Jef Van der Veken: 1872–1964. Sursă: Wikipedia.",
+    "Neverificat / prudent:",
+    "Numărul furturilor: șapte (Guinness, Britannica, Wikipedia) sau șase (The Art Newspaper); toate spun 13 crime. Textul spune doar „by one count, 13 crimes”, fără număr de furturi. Titlul „most stolen painting” e recordul Guinness.",
+    "Napoleon: în 1794 nu el conducea trupele din Belgia (Britannica scrie totuși „Napoleon's troops”). Textul spune „French troops” și „Napoleon's Louvre” (Luvrul s-a numit Musée Napoléon în 1803–1815).",
+    "Cuvintele exacte ale lui Goedertier: „I alone know where the Mystic Lamb is” (Wikipedia) față de varianta populară „...where the Just Judges are”. Pe slide sunt parafrazate, fără ghilimele.",
+    "Unde a fost returnat Sf. Ioan: gara Bruxelles-Nord (Visit Gent) sau gara din Gent (The Art Newspaper); numărul scrisorilor: 11, 12 sau 13; locul morții lui Goedertier: Dendermonde sau Wetteren; anul copiei: 1939 / în timpul războiului / 1945. Nimic din astea nu e pe slide-uri.",
+    "Că panoul ar fi distrus, că un detectiv din Gent mai lucrează la caz, teoriile despre clerici: nefolosite.",
+    "Fișierul „Lamgods open.jpg” (2016) poate arăta altarul dinainte de restaurarea din 2016–2020 (fața veche a Mielului); textul nu vorbește despre fața Mielului."
+  ],
+  "image": "image.jpg",
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "The most stolen painting in history",
+      "sub": "Hubert and Jan van Eyck, Ghent Altarpiece, 1432"
+    },
+    {
+      "focus": [
+        0.5,
+        0.732,
+        0.169,
+        0.153
+      ],
+      "headline": "Ghent, 1432",
+      "text": "Jan van Eyck finishes the altarpiece his late brother Hubert began. At its heart, a lamb on an altar, adored by crowds."
+    },
+    {
+      "focus": [
+        0.419,
+        0.437,
+        0.474,
+        0.428
+      ],
+      "headline": "Thirteen crimes",
+      "text": "But by one count, it has suffered 13 crimes. In 1566, guardians hid its panels in the bell tower from a rioting mob."
+    },
+    {
+      "focus": [
+        0.5,
+        0.286,
+        0.561,
+        0.507
+      ],
+      "headline": "Paris, then Berlin",
+      "text": "Then, in 1794, French troops hauled the central panels to Napoleon's Louvre. Returned after Waterloo, the wings were soon sold to Berlin."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.96,
+        0.96
+      ],
+      "headline": "One night in 1934",
+      "text": "In 1920 the wings came home. Then, one April night in 1934, someone took the bottom-left panel, the Just Judges."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.96,
+        0.96
+      ],
+      "headline": "One million francs",
+      "text": "Ransom letters demanded one million Belgian francs. As proof, the blackmailer returned the panel's back, Saint John the Baptist. Belgium refused to pay."
+    },
+    {
+      "focus": [
+        0.5,
+        0.252,
+        0.466,
+        0.421
+      ],
+      "headline": "A deathbed confession",
+      "text": "In November 1934, Arsène Goedertier collapsed at a political meeting. Dying, he told his lawyer he alone knew where it was. Then silence."
+    },
+    {
+      "focus": [
+        0.5,
+        0.734,
+        0.519,
+        0.468
+      ],
+      "headline": "Into a salt mine",
+      "text": "Then the Nazis seized it in 1942 and hid it in the Altaussee salt mine. In 1945, the Monuments Men had it flown home."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.96,
+        0.96
+      ],
+      "headline": "Still missing",
+      "text": "Today, a copy hangs in its place. Police searches, X-rays of the cathedral, endless theories: nothing. The original was never found. Where is it?"
+    }
+  ]
+}

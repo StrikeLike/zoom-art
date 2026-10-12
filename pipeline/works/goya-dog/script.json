@@ -1,0 +1,108 @@
+{
+  "title": "The Dog",
+  "artist": "Francisco Goya",
+  "year": "c. 1819-1823",
+  "source": "Museo del Prado, Madrid (public domain). Image: works/goya-dog/image.jpg, 1797x3051 (Wikimedia Commons; file name not recorded).",
+  "caption": "The simplest painting. The biggest mystery. #art #arthistory #painting #mystery #oilpainting",
+  "_verify": [
+    "REBUILT 2026-10-12 from the posted carousel (gata/goya-dog): the original script.json was lost. Slide texts copied from the slides; focus boxes recomputed from the mini-map, so they show the same framing (boxes may be a bit larger than the detail). Facts checked on 11-12 Oct, sources in postari/goya-dog.md:",
+    "Wikipedia (EN): c. 1819–1823; ulei pe tencuială, mutat pe pânză; 131,5 x 79,3 cm; Prado; una dintre Picturile Negre, pictate direct pe pereții casei Quinta del Sordo, cumpărată în 1819; Goya avea în jur de 75 de ani, trăia singur, bolnav; practic surd după o boală din 1792; nu le-a dat titluri și nu erau pentru public; titlurile au fost date după moartea lui; ochii câinelui privesc în sus și spre dreapta; pata întunecată de deasupra e considerată o urmă a unei picturi mai vechi; interpretări: luptă zadarnică, nisip mișcător, singurătate, abandon, prudență față de ceva din afara cadrului; Antonio Saura: „the world's most beautiful picture”; mutarea pe pânză sub conducerea lui Salvador Martínez Cubells (Prado), comandată de baronul Émile d'Erlanger. Sursă: Wikipedia).",
+    "Fundación Goya en Aragón: 131 x 79 cm; c. 1820–1823; un negativ fotografic al lui Laurent arată că acel câine privește două păsări în zbor; păsările au dispărut la mutarea de pe perete pe pânză; e posibil să se fi pierdut și alte elemente; câinele e făcut din câteva tușe. Sursă: Fundación Goya en Aragón.",
+    "Wikipedia (ES): Jean Laurent a fotografiat picturile înainte de mutare (o datare: 1874); fotografia arată păsări și o stâncă mare; negativul e în Arhiva Ruiz Vernacci; Martínez Cubells le-a mutat pe pânză începând din 1873; Glendinning: s-au pierdut tușe la mutare și la prima restaurare; Bozal: nicio interpretare nu e sigură, nici măcar că acel câine se scufundă; Saura: „el cuadro más bello del mundo”. Sursă: Wikipedia ES.",
+    "Xataka: fotografia lui Laurent, august 1874, arată „ceva foarte asemănător cu două păsări”; articolul formulează ca întrebare, de aceea pe slide scrie „two birds seem to fly”. Sursă: Xataka.",
+    "Neverificat / prudent:",
+    "Când a început mutarea pe pânză: 1873 (Wikipedia ES) sau după 1874 (Wikipedia EN). Textul spune doar „in the 1870s”.",
+    "Locul în casă: în dreapta ușii (Fundación Goya) sau în stânga ușii, la etaj (Wikipedia ES); nefolosit.",
+    "Stânca din fotografia lui Laurent e o lectură (Foradada, 2010); nefolosită pe slide-uri.",
+    "„Primul tablou modern”: n-am găsit o atribuire sigură (doar Canogar: „primul tablou simbolist al Occidentului”); nefolosit. Picasso: a admirat Picturile Negre, dar fără un citat despre câine; nefolosit.",
+    "Citatul lui Saura vine din Wikipedia (EN, ES) și DailyArt; sursa primară nu am găsit-o."
+  ],
+  "image": "image.jpg",
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "The simplest painting. The biggest mystery.",
+      "sub": "Francisco Goya, The Dog, c. 1820"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.96,
+        0.96
+      ],
+      "headline": "Painted on his walls",
+      "text": "Around 1820, Goya, in his seventies and deaf, covers the walls of his house outside Madrid with dark, private paintings."
+    },
+    {
+      "focus": [
+        0.421,
+        0.801,
+        0.334,
+        0.1
+      ],
+      "headline": "Then, a dog",
+      "text": "Among witches and monsters, he paints this: just a dog's head, peering over a dark slope. No title. No explanation. Ever."
+    },
+    {
+      "focus": [
+        0.403,
+        0.8,
+        0.132,
+        0.04
+      ],
+      "headline": "Look at the eyes",
+      "text": "Wide, raised, fixed on something above. A few quick brushstrokes, and Goya gives a simple animal an almost human expression."
+    },
+    {
+      "focus": [
+        0.601,
+        0.726,
+        0.707,
+        0.212
+      ],
+      "headline": "Sinking, or hiding?",
+      "text": "But the body is gone, swallowed by this brown mass. Quicksand? Earth? Water? Nobody knows. Some even doubt the dog is sinking."
+    },
+    {
+      "focus": [
+        0.42,
+        0.247,
+        0.555,
+        0.166
+      ],
+      "headline": "And above: nothing",
+      "text": "Meanwhile, more than half the picture is empty ochre. A faint dark shape floats here, maybe a ghost of an older painting beneath."
+    },
+    {
+      "focus": [
+        0.52,
+        0.449,
+        0.96,
+        0.299
+      ],
+      "headline": "An old photograph",
+      "text": "A clue: before the walls were stripped in the 1870s, Jean Laurent photographed them. Where the dog looks, two birds seem to fly."
+    },
+    {
+      "focus": [
+        0.418,
+        0.778,
+        0.667,
+        0.2
+      ],
+      "headline": "Lost in the move",
+      "text": "Then the murals were moved onto canvas, and the birds vanished. So was this dog never doomed at all, just watching birds?"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.96,
+        0.96
+      ],
+      "headline": "Most beautiful picture ever?",
+      "text": "Painter Antonio Saura called it the world's most beautiful picture. Today it hangs in the Prado. Despair or curiosity: what do you see?"
+    }
+  ]
+}

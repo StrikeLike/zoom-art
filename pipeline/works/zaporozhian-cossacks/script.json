@@ -1,0 +1,105 @@
+{
+  "title": "Reply of the Zaporozhian Cossacks",
+  "artist": "Ilya Repin",
+  "year": "1880-1891",
+  "source": "State Russian Museum, Saint Petersburg (public domain). Image: works/zaporozhian-cossacks/image.jpg, 4122x2437 (Wikimedia Commons; file name not recorded).",
+  "caption": "A room full of Cossacks laughing at a Sultan. Repin painted them from real people, but the letter may never have existed. #art #arthistory #painting #history #oilpainting",
+  "_verify": [
+    "REBUILT 2026-10-12 from the posted carousel (gata/zaporozhian-cossacks): the original script.json was lost. Slide texts copied from the slides; focus boxes recomputed from the mini-map, so they show the same framing (boxes may be a bit larger than the detail). Facts checked on 11-12 Oct, sources in postari/zaporozhian-cossacks.md:",
+    "Wikipedia (EN): ulei pe pânză, 203 x 358 cm; scena e plasată în 1676 și pornește de la o legendă; început în 1880, terminat în 1891 (anii sunt scriși pe marginea de jos); Alexandru al III-lea l-a cumpărat cu 35.000 de ruble; modelele au fost prieteni ai lui Repin și profesori din Sankt Petersburg; scribul = istoricul Dmitro Iavornițki; atamanul Sirko = generalul Mihail Dragomirov; capul chel = șambelanul Gheorghi Alekseev, care a refuzat să pozeze și s-a supărat când s-a recunoscut; nu există dovezi sigure că scrisoarea a existat. Sursă: Wikipedia.",
+    "Muzeul Rus: legenda cererii de capitulare a sultanului; cazacii conduși de atamanul Ivan Sirko; figuri făcute după studii de oameni reali; cumpărat de Alexandru al III-lea, dat muzeului în 1897. Atenție: aici prima schiță e datată 1878 (circa 13 ani de lucru), de aceea textul spune „over a decade”. Sursă: Muzeul Rus (rmgallery.ru).",
+    "Wikipedia (RU): Taras Bulba după profesorul Aleksandr Rubeț (variantă: Ghiliarovski); Alekseev distras cu o colecție de monede; jucătorul de cărți fără cămașă (obiceiul de a juca dezbrăcat ca să nu ascunzi cărți); dinții albi ai tătarului pictați după un craniu de cazac găsit lângă Sici; originalul scrisorii nu s-a păstrat. Sursă: Wikipedia RU).",
+    "Vokrug Sveta: Dragomirov, erou al războiului ruso-turc, cunoscut pentru umorul lui; povestea cu monedele. Sursă: Vokrug Sveta.",
+    "Radio Svoboda: identificarea cu Ghiliarovski e numită mit (avea 23 de ani în 1878); Rubeț se potrivește mai bine. Sursă: Radio Svoboda.",
+    "DailyArt Magazine: scrisoarea e „probabil o farsă”, deși unii istorici o consideră autentică. Sursă: DailyArt.",
+    "Neverificat: că Sirko ține pipa (Wikipedia o dă unui bătrân fără dinți, nenumit), deci textele nu spun asta; modelul uriașului care râde (Rubeț sau Ghiliarovski, textul spune „more likely”); dinții după craniu și obiceiul jucătorilor de cărți apar într-o singură sursă (textul spune „reportedly”); Wikipedia EN spune că Alekseev se uita la gravuri, nu la monede (textul spune doar „on the sly”)."
+  ],
+  "image": "image.jpg",
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "The rudest letter ever written",
+      "sub": "Ilya Repin, Reply of the Zaporozhian Cossacks, 1880-1891"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.96,
+        0.96
+      ],
+      "headline": "An ultimatum, 1676",
+      "text": "The Ottoman Sultan orders the Cossacks to surrender. Legend says they replied with a famously rude letter. Repin painted them from real people. Find them."
+    },
+    {
+      "focus": [
+        0.509,
+        0.616,
+        0.154,
+        0.177
+      ],
+      "headline": "First, the scribe",
+      "text": "Start with the man holding the quill. He is historian Dmytro Yavornytsky, who helped Repin get every Cossack detail right."
+    },
+    {
+      "focus": [
+        0.582,
+        0.435,
+        0.169,
+        0.196
+      ],
+      "headline": "Now find the boss",
+      "text": "Right behind him, ataman Ivan Sirko dictates. Repin painted him from General Mikhail Dragomirov, a war hero famous for his wit."
+    },
+    {
+      "focus": [
+        0.741,
+        0.362,
+        0.307,
+        0.354
+      ],
+      "headline": "The laughing giant",
+      "text": "And then the big man roars. Many say he's journalist Gilyarovsky, but he was more likely professor Alexander Rubets."
+    },
+    {
+      "focus": [
+        0.603,
+        0.653,
+        0.132,
+        0.153
+      ],
+      "headline": "The stolen head",
+      "text": "Look closer at that bald head. Its owner refused to pose, so Repin sketched him on the sly. He was not pleased."
+    },
+    {
+      "focus": [
+        0.371,
+        0.627,
+        0.254,
+        0.293
+      ],
+      "headline": "No shirt, no tricks",
+      "text": "Meanwhile, this gambler plays stripped to the waist. Card players reportedly did that, so nobody could hide a card."
+    },
+    {
+      "focus": [
+        0.621,
+        0.266,
+        0.143,
+        0.165
+      ],
+      "headline": "Borrowed teeth",
+      "text": "Even the grins hide secrets. One set of white teeth was reportedly copied from a Cossack skull dug up near the old Sich."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.96,
+        0.96
+      ],
+      "headline": "But was it real?",
+      "text": "And the letter itself? No original survives, and many historians call it a legend. Repin spent over a decade on it. Real or invented?"
+    }
+  ]
+}
