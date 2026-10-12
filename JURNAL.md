@@ -28,6 +28,7 @@ Starea fiecărei opere. Claude actualizează tabelul după fiecare randare sau p
 | The Swing (Fragonard) | the-swing | da, 4280x5373 (Commons) | făcut 11 oct, în `gata/`, reel 58,9 s | verificat 11 oct (Wikipedia/Wallace) | |
 | Washington Crossing the Delaware (Leutze) | washington-delaware | da, 6004x3847 (Commons, Met) | făcut 11 oct, în `gata/`, reel 58,8 s | verificat 11 oct (Wikipedia) | |
 | The Nightmare (Fuseli) | the-nightmare | da, 8000 px (Commons, DIA) | făcut 11 oct, în `gata/`, reel 58,8 s | verificat 11 oct (Wikipedia); etimologia „mare” e cunoscută general | |
+| The Wedding at Cana (Veronese) | wedding-cana | da, 8000 px (Commons, Louvre, din 10068 px) | făcut 12 oct, în `gata/`, reel 58,9 s | verificat 12 oct (căutare web); muzicienii-pictori = „tradition says”; „tăiat în două” nefolosit | |
 
 ## Următoarele (fără script încă)
 - Ziua 2 (10 oct, au scripturi): A Bar at the Folies-Bergère (Manet), The Peasant Wedding (Bruegel), The Derby Day (Frith). Opere-joc: găsește detaliul, întrebare pentru comentarii.
