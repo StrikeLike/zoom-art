@@ -1,0 +1,99 @@
+[
+  {
+    "title": "American Gothic",
+    "artist": "Grant Wood",
+    "date": "2026-10-09",
+    "status": "de refăcut (vezi JURNAL)"
+  },
+  {
+    "title": "The Kiss",
+    "artist": "Gustav Klimt",
+    "date": "2026-10-10",
+    "status": "planificat ziua 3"
+  },
+  {
+    "title": "The Return of the Prodigal Son",
+    "artist": "Rembrandt",
+    "date": "2026-10-10",
+    "status": "planificat ziua 3"
+  },
+  {
+    "title": "Winter Landscape with Ice Skaters",
+    "artist": "Hendrick Avercamp",
+    "date": "2026-10-10",
+    "status": "rezervă"
+  },
+  {
+    "title": "Napoleon Crossing the Alps",
+    "artist": "Jacques-Louis David",
+    "date": "2026-10-11",
+    "status": "rezervă"
+  },
+  {
+    "title": "Salvator Mundi",
+    "artist": "Leonardo da Vinci",
+    "date": "2026-10-12",
+    "status": "sugerat"
+  },
+  {
+    "title": "The Execution of Lady Jane Grey",
+    "artist": "Paul Delaroche",
+    "date": "2026-10-12",
+    "status": "sugerat"
+  },
+  {
+    "title": "Isle of the Dead",
+    "aliases": [
+      "Die Toteninsel"
+    ],
+    "artist": "Arnold Böcklin",
+    "date": "2026-10-12",
+    "status": "sugerat"
+  },
+  {
+    "title": "The Fairy Feller's Master-Stroke",
+    "artist": "Richard Dadd",
+    "date": "2026-10-12",
+    "status": "sugerat"
+  },
+  {
+    "title": "Madame X",
+    "aliases": [
+      "Madame X (Madame Pierre Gautreau)",
+      "Madame Pierre Gautreau"
+    ],
+    "artist": "John Singer Sargent",
+    "date": "2026-10-12",
+    "status": "sugerat"
+  },
+  {
+    "title": "The Storm on the Sea of Galilee",
+    "artist": "Rembrandt",
+    "date": "2026-10-12",
+    "status": "sugerat"
+  },
+  {
+    "title": "The Wedding at Cana",
+    "artist": "Paolo Veronese",
+    "date": "2026-10-12",
+    "status": "sugerat"
+  },
+  {
+    "title": "The Calling of Saint Matthew",
+    "artist": "Caravaggio",
+    "date": "2026-10-12",
+    "status": "sugerat"
+  },
+  {
+    "title": "The Battle of Alexander at Issus",
+    "artist": "Albrecht Altdorfer",
+    "date": "2026-10-12",
+    "status": "sugerat"
+  },
+  {
+    "title": "Ophelia",
+    "artist": "John Everett Millais",
+    "date": "2026-10-12",
+    "status": "sugerat"
+  }
+]

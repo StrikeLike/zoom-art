@@ -6,8 +6,13 @@ Thumbnails come from Wikimedia Commons; the license and original size are checke
 
   python tools/suggest_sheet.py sugestii.json             -> gata/_sugestii/<date>.jpg (synced to the phone)
   python tools/suggest_sheet.py sugestii.json -o out.jpg
+  python tools/suggest_sheet.py sugestii.json --check      -> only checks for repeats (no download)
+
+No painting is suggested twice: every item is checked against sugestii_istoric.json (all past suggestions)
+and against the works already in works/. Repeats are dropped from the sheet; the new ones are added to the
+history automatically.
 """
-import argparse, datetime, io, json, os, sys, textwrap
+import argparse, datetime, glob, io, json, os, re, sys, textwrap, unicodedata
 
 from PIL import Image, ImageDraw, ImageFont
 
@@ -17,6 +22,7 @@ from fetch_image import OK_LICENSES, api, get  # noqa: E402
 PIPE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FONTS = os.path.join(PIPE, "fonts")
 GATA = os.path.join(os.path.dirname(PIPE), "gata", "_sugestii")
+HISTORY = os.path.join(os.path.dirname(PIPE), "sugestii_istoric.json")
 BG, GOLD, WHITE, GREY, RED = (18, 16, 14), (214, 178, 110), (245, 240, 230), (170, 165, 155), (255, 99, 99)
 CARD_W, IMG_H, PAD, COLS = 720, 560, 36, 2
 
@@ -35,6 +41,50 @@ def thumb(file):
     lic = ii.get("extmetadata", {}).get("LicenseShortName", {}).get("value") or "?"
     im = Image.open(io.BytesIO(get(ii.get("thumburl") or ii["url"]).read())).convert("RGB")
     return im, f"{ii['width']}x{ii['height']}", lic
+
+
+def norm(text):
+    """'The Execution of Lady Jane Grey' and 'execution of lady jane grey' -> same key."""
+    t = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode().lower()
+    t = re.sub(r"\(.*?\)", " ", t)
+    t = re.sub(r"[^a-z0-9 ]", " ", t)
+    return " ".join(w for w in t.split() if w not in ("the", "a", "an"))
+
+
+def names(artist):
+    """'Rembrandt van Rijn' -> {'rembrandt', 'rijn'}; 'Rembrandt' matches it, 'Michelangelo' does not."""
+    return set(norm(artist or "").split()) - {"van", "von", "de", "da", "del", "di", "le", "la",
+                                               "elder", "younger", "attributed", "school", "of"}
+
+
+def known():
+    """Every painting already suggested or made: [(set of title keys, artist names, label)]."""
+    out = []
+    for h in json.load(open(HISTORY, encoding="utf-8")) if os.path.exists(HISTORY) else []:
+        keys = {norm(t) for t in [h["title"], *h.get("aliases", [])]}
+        out.append((keys, names(h.get("artist")), f"{h['title']} ({h.get('date', '')}, {h.get('status', '')})"))
+    for f in glob.glob(os.path.join(PIPE, "works", "*", "script.json")):
+        s = json.load(open(f, encoding="utf-8"))
+        out.append(({norm(s.get("title", ""))}, names(s.get("artist")),
+                    f"{s.get('title')} (works/{os.path.basename(os.path.dirname(f))})"))
+    return out
+
+
+def repeat_of(item, seen):
+    """Label of the earlier suggestion this item repeats, or None. Same artist and either the same
+    title or a title of 2+ words inside the other ('Madame X' in 'Madame X Madame Pierre Gautreau',
+    but 'Bacchus' is not 'Sick Bacchus'). Without an artist on either side, the same title is enough."""
+    keys = {norm(t) for t in [item["title"], *item.get("aliases", [])]}
+    art = names(item.get("artist"))
+    for old_keys, old_art, label in seen:
+        if art and old_art and not art & old_art:
+            continue
+        if keys & old_keys:
+            return label
+        if any((len(a.split()) > 1 and a in b) or (len(b.split()) > 1 and b in a)
+               for a in keys for b in old_keys if a and b):
+            return label
+    return None
 
 
 def card(n, item):
@@ -73,8 +123,20 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("list", help="JSON file with the suggestions")
     ap.add_argument("-o", "--out", help="output JPG (default gata/_sugestii/<date>.jpg)")
+    ap.add_argument("--check", action="store_true", help="only check for repeats, no sheet")
     a = ap.parse_args()
-    items = json.load(open(a.list, encoding="utf-8"))
+    items, seen = [], known()
+    for it in json.load(open(a.list, encoding="utf-8")):
+        old = repeat_of(it, seen)
+        if old:
+            print(f"REPEAT, dropped: {it['title']}  <-- already suggested: {old}")
+        else:
+            items.append(it)
+            print(f"new: {it['title']}")
+    if a.check:
+        return
+    if not items:
+        sys.exit("nothing new to suggest")
     cards = [card(i + 1, it) for i, it in enumerate(items)]
     rows = [cards[i:i + COLS] for i in range(0, len(cards), COLS)]
     row_h = [max(c.height for c in r) for r in rows]
@@ -91,6 +153,14 @@ def main():
     os.makedirs(os.path.dirname(os.path.abspath(out)), exist_ok=True)
     sheet.save(out, quality=88)
     print(f"sheet -> {out}")
+    history = json.load(open(HISTORY, encoding="utf-8")) if os.path.exists(HISTORY) else []
+    today = datetime.date.today().isoformat()
+    history += [{"title": it["title"], **({"aliases": it["aliases"]} if it.get("aliases") else {}),
+                 "artist": it.get("artist", ""), "date": today, "status": "sugerat"} for it in items]
+    with open(HISTORY, "w", encoding="utf-8") as f:
+        json.dump(history, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+    print(f"history -> {HISTORY} (+{len(items)})")
 
 
 if __name__ == "__main__":
