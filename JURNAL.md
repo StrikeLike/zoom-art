@@ -39,16 +39,12 @@ Starea fiecărei opere. Claude actualizează tabelul după fiecare randare sau p
 | Reply of the Zaporozhian Cossacks (Repin) | zaporozhian-cossacks | da, 4122x2437 | făcut 12 oct (altă sesiune), în `gata/`; script refăcut din carusel 12 oct | vezi `postari/zaporozhian-cossacks.md` | da, TikTok (văzut 22 oct) |
 | The Vegetable Gardener (Arcimboldo) | arcimboldo-gardener | doar `image_src.jpg` (2172x2846); imaginea compusă (dreapta + întoarsă) lipsește | făcut 12 oct (altă sesiune), în `gata/`; **fără script** (carusel cu tabloul răsturnat, nu se poate reface automat) | vezi `postari/arcimboldo-gardener.md` | da, TikTok (văzut 22 oct) |
 
-## Postate pe TikTok, dar fără folder în `works/` (screenshot de la Alex, 22 oct 2026)
-Făcute în altă parte; scripturile și imaginile lor nu sunt în repo. TikTok raporta 24 de video-uri, iar screenshot-ul arată 18 (cele 13 din tabel cu „da, TikTok” + cele 5 de mai jos).
-
-| Operă | Hook pe copertă | Vizualizări (22 oct) |
-|---|---|---|
-| Pollice Verso (Jean-Léon Gérôme, 1872) | You know this gesture. Rome might not. | 1070 |
-| Princess Tarakanova (Konstantin Flavitsky, 1864) | Who was the woman in red? | 796 |
-| (neidentificat: bărbat în roșu, așezat la masă) | — | 781 |
-| The Conjurer (după Hieronymus Bosch, c. 1502) | Everyone is watching the wrong thing | 265 |
-| Girl Reading a Letter at an Open Window (Vermeer, c. 1657-59) | For centuries, this wall hid a secret | 785 |
+## Pe site: povestea completă (`article.json`, 22 oct 2026)
+Toate operele văzute pe TikTok în screenshot-ul din 22 oct au pagină proprie pe site, cu titlu diferit de reel, toate detaliile verificate pe imagine și surse. Numărul de detalii: The Ambassadors 22, Netherlandish Proverbs 21, Children's Games 21, Las Meninas 18, The Wedding at Cana 16, Washington Crossing the Delaware 16, The Conjurer 14, Reply of the Zaporozhian Cossacks 13, The Swing 12, The Nightmare 12, The Starry Night 12, Girl Reading a Letter at an Open Window 12, Isle of the Dead 11, Pollice Verso 10, The Dog 9, Princess Tarakanova 9, The Vegetable Gardener 9 (cu buton de întoarcere a tabloului).
+- Pollice Verso, Princess Tarakanova, The Conjurer și Girl Reading a Letter au fost postate din materiale care nu erau în repo. Acum au folder în `works/` cu imagine de pe Commons și un `script.json` doar pentru site (o singură copertă): **nu se pot randa ca reel** până nu li se scrie scriptul complet. La fel The Vegetable Gardener (imaginea compusă a reel-ului lipsește).
+- Princess Tarakanova: imaginea e versiunea din 1864 de la Tretiakov (1400 px); fișierul mai mare de pe Commons e versiunea din 1862 de la Ekaterinburg.
+- Al 6-lea video din screenshot (bărbat în roșu la masă, 781 vizualizări) nu e identificat. TikTok raportează 24 de video-uri, screenshot-ul arată 18.
+- The Peasant Wedding și Landscape with the Fall of Icarus sunt pe site cu povestea din reel (fără articol, `noindex`); nu apar în screenshot.
 
 ## Următoarele (fără script încă)
 - Ziua 2 (10 oct, au scripturi): A Bar at the Folies-Bergère (Manet), The Peasant Wedding (Bruegel), The Derby Day (Frith). Opere-joc: găsește detaliul, întrebare pentru comentarii.
