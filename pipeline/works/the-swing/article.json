@@ -1,0 +1,127 @@
+{
+  "_note": "Long-form story for zoomedart.com. The reel tells 7 details from script.json; the site tells all of them from here.",
+  "title": "The Swing by Fragonard: the scandal behind the Rococo's most daring painting",
+  "question": "A flying shoe, a man in the bushes, a statue saying shh. What exactly is happening in this garden?",
+  "seo": {
+    "keyword": "the swing fragonard meaning",
+    "secondary": ["the swing painting story", "fragonard the swing shoe", "happy accidents of the swing", "the swing wallace collection"],
+    "intent": "informational",
+    "meta_title": "The Swing by Fragonard: the Story and Meaning Explained",
+    "meta_description": "A guided zoom through Fragonard's The Swing (c. 1767): the flying shoe, the lover in the bushes, the statue saying shh and the bishop who was left out."
+  },
+  "facts": {
+    "medium": "Oil on canvas",
+    "size_cm": "81 x 64.2",
+    "museum": "The Wallace Collection",
+    "city": "London",
+    "licence": "Public domain, via Wikimedia Commons"
+  },
+  "intro": "The Swing is a painting by Jean-Honoré Fragonard from about 1767, now in the Wallace Collection in London. A young woman in a pink silk dress flies high on a swing in an overgrown garden. Below her, a young man hidden in the roses looks straight up her skirts, while an older man in the shadows pushes the swing, apparently unaware. Its original title is a wink: Les Hasards heureux de l'escarpolette, The Happy Accidents of the Swing.",
+  "sections": [
+    {
+      "heading": "A commission nobody else wanted",
+      "paragraphs": [
+        "The story of the painting comes from the memoirs of the playwright Charles Collé. A courtier approached the history painter Gabriel François Doyen and asked for a picture of himself and his mistress: she was to be on a swing, pushed by a bishop.",
+        "Doyen refused and passed the job to Fragonard. Fragonard accepted, and changed one thing: the man pushing the swing is not a bishop but a layman. Collé never named the courtier; one candidate, the Baron de Saint-Julien, has been proposed, but the evidence is thin."
+      ]
+    },
+    {
+      "heading": "Small, and very carefully staged",
+      "paragraphs": [
+        "The painting is surprisingly small, about 81 by 64 centimetres. Everything in it is arranged like a stage set: the trees open like curtains, a shaft of light falls on the pink dress, and every other figure, from the statues to the dog, reacts to her.",
+        "It became Fragonard's best-known work and one of the masterpieces of the Rococo, the light, playful, decorative style of 18th-century France."
+      ]
+    },
+    {
+      "heading": "From the guillotine to London",
+      "paragraphs": [
+        "Its first certain owner was the tax collector Marie-François Ménage de Pressigny, who was guillotined in 1794 during the French Revolution; the revolutionary government seized the painting. By the time Enlightenment critics were attacking this kind of art as frivolous, its world was already disappearing.",
+        "It later belonged to the Duc de Morny. After his death in 1865, it was bought at auction in Paris by the 4th Marquess of Hertford, the main founder of the Wallace Collection, where it hangs today."
+      ]
+    },
+    {
+      "heading": "Cleaned in 2021",
+      "paragraphs": [
+        "From August to November 2021, conservators at the Wallace Collection cleaned the painting for the first time in over a hundred years, removing badly yellowed varnish and old retouching.",
+        "Its fame has never faded. Copies were made in the 18th century, including one with a blue dress, and the painting still turns up in modern culture, from Yinka Shonibare's headless life-size version (2001) to Disney's Frozen (2013)."
+      ]
+    }
+  ],
+  "meaning": [
+    "On the surface, it is a flirtatious joke, and that is how its first viewers enjoyed it: a secret shared between the woman and the man in the bushes, behind the back of the man pushing the swing.",
+    "Many details are read as playful erotic symbols, from the shoe flying off to the statue asking for silence. These are interpretations, not documented intentions, but the original title, The Happy Accidents of the Swing, suggests Fragonard expected his audience to get them."
+  ],
+  "whereToSee": "The Wallace Collection, Hertford House, Manchester Square, London. Check the museum's website before you visit.",
+  "details": [
+    {
+      "headline": "Paris, about 1767",
+      "text": "A courtier wanted a painting of his mistress on a swing. The first painter he asked said no. Fragonard said yes. Let's see what he made of it.",
+      "focus": [0.5, 0.5, 0.96, 0.96]
+    },
+    {
+      "headline": "Up on the swing",
+      "text": "She flies through the air in pink silk, laughing, legs kicked high, in a beam of light that picks her out of the dark garden.",
+      "focus": [0.48, 0.6, 0.44, 0.3]
+    },
+    {
+      "headline": "A shepherdess hat",
+      "text": "On her head, a straw bergère, a shepherdess hat. A fashionable lady dressed up as a country girl, for a game.",
+      "focus": [0.55, 0.52, 0.08, 0.06]
+    },
+    {
+      "headline": "And then her shoe flies off",
+      "text": "With her outstretched left foot she flings off a pink shoe, high into the air. An accident? The original title says it all: The Happy Accidents of the Swing.",
+      "focus": [0.235, 0.55, 0.06, 0.05]
+    },
+    {
+      "headline": "Meanwhile, in the bushes",
+      "text": "Below her, a young man lies hidden in the roses, looking up. From down there, he has the best view in the garden.",
+      "focus": [0.19, 0.82, 0.26, 0.18]
+    },
+    {
+      "headline": "Hat in hand",
+      "text": "He holds out his hat towards her billowing dress. The pose is not shy.",
+      "focus": [0.29, 0.75, 0.09, 0.08]
+    },
+    {
+      "headline": "But someone saw him",
+      "text": "Above him, on a pedestal, a stone cupid holds a finger to its lips. Shh. The garden is in on the secret.",
+      "focus": [0.06, 0.52, 0.12, 0.18]
+    },
+    {
+      "headline": "Two more cupids",
+      "text": "On the other side, under the swing, two small stone cupids sit together, as if watching the whole scene.",
+      "focus": [0.62, 0.79, 0.12, 0.12]
+    },
+    {
+      "headline": "And who is pushing?",
+      "text": "In the shadows on the right, a smiling older man pulls the swing with a pair of ropes. He doesn't seem to notice the bushes.",
+      "focus": [0.83, 0.77, 0.14, 0.16]
+    },
+    {
+      "headline": "Only the dog barks",
+      "text": "At his feet, a little white dog yaps at the whole scene. Nobody listens.",
+      "focus": [0.775, 0.915, 0.08, 0.07]
+    },
+    {
+      "headline": "A stage of trees",
+      "text": "Look up: the trees part like theatre curtains around a patch of bright sky, and the light falls exactly on her.",
+      "focus": [0.28, 0.33, 0.4, 0.34]
+    },
+    {
+      "headline": "His first request was worse",
+      "text": "The courtier wanted a bishop pushing the swing. Fragonard changed that one detail and kept the rest. Would you have dared?",
+      "focus": [0.5, 0.5, 0.96, 0.96]
+    }
+  ],
+  "sources": [
+    {"title": "Wikipedia: The Swing (Fragonard)", "url": "https://en.wikipedia.org/wiki/The_Swing_(Fragonard)", "note": "Date, size, medium, original title, Collé's account of the commission, Doyen, the bishop, Saint-Julien, the figures and statues, the bergère hat, the shoe, provenance (Ménage de Pressigny, Morny, Hertford), the 2021 conservation, copies and later works."},
+    {"title": "The Wallace Collection", "url": "https://www.wallacecollection.org/", "note": "Museum holding the painting."}
+  ],
+  "_verify": [
+    "VERIFIED 2026-10-22 against Wikipedia (which cites the Wallace Collection); every detail located on our image and the crops checked.",
+    "That the older man does not notice the lover is the usual reading; the text says 'doesn't seem to'.",
+    "Erotic symbolism of the shoe and statues: presented as interpretation.",
+    "Not used: the name of the cupid statue's sculptor (Falconet) - not in the checked source."
+  ]
+}

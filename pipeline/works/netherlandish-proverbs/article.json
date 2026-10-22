@@ -1,0 +1,305 @@
+{
+  "_note": "Long-form story for zoomedart.com. The reel tells 7 proverbs from script.json; the site tells all of these from here.",
+  "title": "Netherlandish Proverbs by Bruegel: the meaning of every proverb in the painting",
+  "question": "A roof tiled with tarts, a man belling a cat, a world upside down. Can you decode this village?",
+  "seo": {
+    "keyword": "netherlandish proverbs meaning",
+    "secondary": [
+      "bruegel proverbs painting",
+      "netherlandish proverbs list",
+      "blue cloak bruegel",
+      "belling the cat painting"
+    ],
+    "intent": "informational",
+    "meta_title": "Netherlandish Proverbs: Every Proverb in Bruegel's Painting",
+    "meta_description": "A guided zoom through Bruegel's Netherlandish Proverbs (1559): the blue cloak, belling the cat, a roof tiled with tarts and 20 more sayings, explained."
+  },
+  "facts": {
+    "medium": "Oil on oak",
+    "size_cm": "117 x 163",
+    "museum": "Gemäldegalerie",
+    "city": "Berlin",
+    "licence": "Public domain, via Wikimedia Commons"
+  },
+  "intro": "Netherlandish Proverbs is a painting by Pieter Bruegel the Elder from 1559, now in the Gemäldegalerie in Berlin. It shows a Flemish village where people act out sayings literally: a man bangs his head against a brick wall, another bells a cat, a wife wraps her husband in a blue cloak. Scholars have identified around 126 proverbs and idioms in it. Its old title says what they add up to: The Blue Cloak, or The Folly of the World.",
+  "sections": [
+    {
+      "heading": "A village of fools",
+      "paragraphs": [
+        "At first sight it is a busy village by the sea. Look closer and nobody is doing anything sensible. People shear pigs, fill wells too late, throw roses to swine and confess to the devil. Many of the figures have the blank, empty faces Bruegel gave to fools.",
+        "Each scene is a saying painted word for word, the way a child might picture an expression. Some are still in use today, like banging your head against a brick wall or two dogs fighting over one bone. Others only make sense in sixteenth-century Dutch."
+      ]
+    },
+    {
+      "heading": "Around 126 proverbs",
+      "paragraphs": [
+        "No two lists agree exactly, because some sayings have been forgotten and some scenes can be read more than one way. The usual count is around 126. The guided look above follows the ones you can clearly see in our image, walking from the house on the left, down through the square and across to the sea.",
+        "The painting was not a one-off. Bruegel's son, Pieter Brueghel the Younger, painted at least 16 copies of the composition, and prints of similar proverb scenes circulated at the time."
+      ]
+    },
+    {
+      "heading": "The blue cloak",
+      "paragraphs": [
+        "The scene at the centre gave the painting its first name. A woman in red drapes a blue cloak over her husband's shoulders: in Dutch, to put the blue cloak on someone meant to deceive him, especially to be unfaithful. He has no idea.",
+        "Around them, the rest of the village is just as foolish, which is why the painting was also known as The Folly of the World, or The Topsy-Turvy World."
+      ]
+    }
+  ],
+  "meaning": [
+    "The painting is more than an illustrated dictionary. Taken together, the proverbs describe human folly: greed, deceit, waste, hypocrisy and stupidity, all happening at once in one ordinary village.",
+    "The upside-down globe on the house on the left sets the tone: here, the world is the wrong way round. Whether Bruegel meant it as satire, a sermon or a joke shared with his viewers is still debated; it works as all three."
+  ],
+  "whereToSee": "Gemäldegalerie, Staatliche Museen zu Berlin, Kulturforum, Berlin. Check the museum's website before you visit.",
+  "details": [
+    {
+      "headline": "A village by the sea, 1559",
+      "text": "At first glance, an ordinary Flemish village. But every person here is acting out a saying, word for word. Let's start at the house on the left.",
+      "focus": [
+        0.5,
+        0.5,
+        0.96,
+        0.96
+      ]
+    },
+    {
+      "headline": "A roof tiled with tarts",
+      "text": "On the roof, the tiles are tarts. To have a roof tiled with tarts meant to be rich, to have more than enough of everything.",
+      "focus": [
+        0.17,
+        0.09,
+        0.17,
+        0.14
+      ]
+    },
+    {
+      "headline": "The world turned upside down",
+      "text": "Lower down on the wall, a globe hangs upside down, its cross pointing to the ground. The world is the wrong way round, and the whole painting follows.",
+      "focus": [
+        0.06,
+        0.43,
+        0.08,
+        0.1
+      ]
+    },
+    {
+      "headline": "Crapping on the world",
+      "text": "Above it, a man in a fool's cap hangs his backside out of the window, right over the globe. To crap on the world: to despise everything.",
+      "focus": [
+        0.075,
+        0.33,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "headline": "A hen feeler",
+      "text": "Back on the ground floor, a man feels a hen to check whether it will lay. A hen feeler was a miser who counts his eggs before they are laid.",
+      "focus": [
+        0.28,
+        0.6,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "headline": "Belling the cat",
+      "text": "Below the window, a man in full armour ties a bell on a cat. The plan everyone agrees on and nobody dares to carry out. He even has a knife in his teeth: armed to the teeth.",
+      "focus": [
+        0.24,
+        0.69,
+        0.1,
+        0.12
+      ]
+    },
+    {
+      "headline": "Banging his head against a brick wall",
+      "text": "Below him, a man rams his head into a brick wall. Wasting your strength on the impossible.",
+      "focus": [
+        0.18,
+        0.83,
+        0.12,
+        0.18
+      ]
+    },
+    {
+      "headline": "A pillar-biter",
+      "text": "In the corner, a man clings to a pillar. A pillar-biter was a religious hypocrite, all piety on the outside.",
+      "focus": [
+        0.03,
+        0.79,
+        0.06,
+        0.12
+      ]
+    },
+    {
+      "headline": "Tying the devil to a pillow",
+      "text": "Below him, a woman pins a little devil down on a cushion. Stubbornness that beats even the devil.",
+      "focus": [
+        0.06,
+        0.9,
+        0.12,
+        0.12
+      ]
+    },
+    {
+      "headline": "One shears sheep, the other pigs",
+      "text": "In the square, one man shears a sheep and gets wool. The other shears a pig and gets almost nothing. One has all the advantages.",
+      "focus": [
+        0.3,
+        0.86,
+        0.16,
+        0.18
+      ]
+    },
+    {
+      "headline": "The blue cloak",
+      "text": "At the centre, a wife wraps her husband in a blue cloak. It means she is deceiving him, and he has no idea. The painting was once named after this scene.",
+      "focus": [
+        0.465,
+        0.745,
+        0.13,
+        0.22
+      ]
+    },
+    {
+      "headline": "Roses before swine",
+      "text": "Further along, a man scatters roses in front of pigs. Giving your best to those who cannot value it.",
+      "focus": [
+        0.585,
+        0.78,
+        0.16,
+        0.2
+      ]
+    },
+    {
+      "headline": "Filling the well after the calf drowned",
+      "text": "Right beside him, a man shovels earth into a well. The calf is already dead inside. Here, every fix comes too late.",
+      "focus": [
+        0.49,
+        0.89,
+        0.18,
+        0.21
+      ]
+    },
+    {
+      "headline": "The fox and the stork",
+      "text": "Up by the shrine, a fox and a stork share a meal, each served in a dish the other cannot eat from. Trick others, and you will be tricked back.",
+      "focus": [
+        0.58,
+        0.53,
+        0.08,
+        0.1
+      ]
+    },
+    {
+      "headline": "Big fish eat little fish",
+      "text": "In the water behind, a big fish swallows a smaller one, while a man throws something into the river: to throw your money into the water.",
+      "focus": [
+        0.67,
+        0.45,
+        0.12,
+        0.08
+      ]
+    },
+    {
+      "headline": "Two dogs, one bone",
+      "text": "On the grass, two dogs bend over a single bone. Two dogs over one bone seldom agree.",
+      "focus": [
+        0.645,
+        0.65,
+        0.09,
+        0.09
+      ]
+    },
+    {
+      "headline": "A flaxen beard for Christ",
+      "text": "Nearby, a monk ties a false beard of flax onto Christ's face. Hiding deceit behind piety.",
+      "focus": [
+        0.72,
+        0.66,
+        0.1,
+        0.14
+      ]
+    },
+    {
+      "headline": "The world on his thumb",
+      "text": "Below them, a well-dressed man spins a globe on his thumb. He has the world at his fingertips, and everyone else at his mercy.",
+      "focus": [
+        0.715,
+        0.79,
+        0.12,
+        0.12
+      ]
+    },
+    {
+      "headline": "Between heaven and earth",
+      "text": "On the right, a man dangles in a basket under the roof. Suspended between heaven and earth: stuck in an impossible position.",
+      "focus": [
+        0.95,
+        0.55,
+        0.09,
+        0.15
+      ]
+    },
+    {
+      "headline": "From one loaf to another",
+      "text": "Below, a man stretches across a table and can barely reach from one loaf to the other. Struggling to make ends meet.",
+      "focus": [
+        0.92,
+        0.83,
+        0.14,
+        0.16
+      ]
+    },
+    {
+      "headline": "A cloak in the wind",
+      "text": "Now look up to the tower. A man hangs his cloak according to the wind: he changes his opinions to suit whoever is blowing.",
+      "focus": [
+        0.52,
+        0.065,
+        0.14,
+        0.1
+      ]
+    },
+    {
+      "headline": "Sailing before the wind",
+      "text": "And far out on the sea, a boat sails with the wind behind it. Easy to succeed when everything is in your favour.",
+      "focus": [
+        0.93,
+        0.15,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "headline": "Your turn",
+      "text": "That was 21 of around 126. Zoom in below and hunt for the rest. Which one do you still say today?",
+      "focus": [
+        0.5,
+        0.5,
+        0.96,
+        0.96
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Netherlandish Proverbs",
+      "url": "https://en.wikipedia.org/wiki/Netherlandish_Proverbs",
+      "note": "Date, medium, size, Gemäldegalerie Berlin, the old title The Blue Cloak or The Folly of the World, the count of about 126, the table of proverbs with their positions and meanings, the fools' blank faces, Brueghel the Younger's 16 copies, related prints."
+    },
+    {
+      "title": "Gemäldegalerie, Staatliche Museen zu Berlin",
+      "url": "https://www.smb.museum/en/museums-institutions/gemaeldegalerie/home/",
+      "note": "Museum holding the painting."
+    }
+  ],
+  "_verify": [
+    "VERIFIED 2026-10-22 against Wikipedia's proverb table (positions and meanings); every detail located on our image and the crops checked.",
+    "'Topsy-Turvy World' as an alternative title comes from the 2026-10-10 check recorded in script.json.",
+    "The knife in the armoured man's teeth is visible in the crop ('armed to the teeth' is listed in the lower left).",
+    "Big fish / money into the water: both listed in the middle; the man's object is small, so the text says 'throws something'.",
+    "Not used: 'pissing against the moon', 'holding a candle to the devil', 'confessing to the devil' (not located with certainty on our image).",
+    "Removed after checking the crops: 'the scissors hang out' (the hanging object looks like a knife in our image) and 'between two stools' (the stools are not clear)."
+  ]
+}

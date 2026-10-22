@@ -1,0 +1,165 @@
+{
+  "_note": "Long-form story for zoomedart.com. The reel tells 8 details from script.json; the site tells all of them from here.",
+  "title": "Las Meninas by Velázquez: who is really being painted, and every detail in the room",
+  "question": "A princess, a painter, a mirror and two figures who are not in the room. Who is this painting really about?",
+  "seo": {
+    "keyword": "las meninas meaning",
+    "secondary": ["las meninas mirror", "who is in las meninas", "las meninas velazquez explained", "las meninas red cross"],
+    "intent": "informational",
+    "meta_title": "Las Meninas Explained: the Mirror, the Painter, Every Detail",
+    "meta_description": "A guided zoom through Velázquez's Las Meninas (1656): the princess, the mirror with the king and queen, the red cross added later and every figure named."
+  },
+  "facts": {
+    "medium": "Oil on canvas",
+    "size_cm": "318 x 276",
+    "museum": "Museo del Prado",
+    "city": "Madrid",
+    "licence": "Public domain, via Wikimedia Commons"
+  },
+  "intro": "Las Meninas (\"The Ladies-in-Waiting\") is a painting by Diego Velázquez from 1656, in the Museo del Prado in Madrid. It shows the five-year-old Infanta Margaret Theresa with her maids, two dwarfs and a dog in a room of the royal palace, while Velázquez himself stands at a huge canvas and looks straight out. A mirror on the back wall reflects King Philip IV and Queen Mariana, who seem to be standing exactly where you are. More than 360 years later, people still argue about what is being painted.",
+  "sections": [
+    {
+      "heading": "A room in the royal palace",
+      "paragraphs": [
+        "The scene takes place in the Royal Alcázar of Madrid, in the rooms that had belonged to the king's late son, Prince Balthasar Charles. Philip IV gave them to Velázquez as a studio in the early 1650s. The painting is enormous: more than three metres high, with the figures close to life-size.",
+        "Its first title was simply La Familia, \"The Family\". The name Las Meninas only appears in the Prado's catalogue in 1843."
+      ]
+    },
+    {
+      "heading": "Everyone in the picture has a name",
+      "paragraphs": [
+        "Unusually, we know almost every person in the room. At the centre is the Infanta Margaret Theresa. The two meninas, or maids of honour, are María Agustina Sarmiento de Sotomayor, kneeling with a red cup, and Isabel de Velasco, about to curtsy. On the right stand the dwarfs Mari Bárbola and Nicolás Pertusato. Behind them, the chaperone Marcela de Ulloa talks with a bodyguard, Diego Ruiz Azcona. In the bright doorway is José Nieto Velázquez, the queen's chamberlain.",
+        "And on the left, brush in hand, is the painter. Velázquez put himself into the royal family portrait, almost as tall as the room."
+      ]
+    },
+    {
+      "heading": "The mirror, and the question nobody can settle",
+      "paragraphs": [
+        "In the mirror on the back wall are the king and queen. The simplest reading is that they are standing in front of the scene, where we stand, and everyone is looking at them. Another is that the mirror reflects the huge canvas Velázquez is painting, which would then be their portrait. A third asks whether the canvas is this very painting.",
+        "The philosopher Michel Foucault devoted the opening chapter of The Order of Things (1966) to it, and the art historians Ernst Gombrich and Kenneth Clark disagreed about it. The painter Luca Giordano called it \"the theology of painting\"."
+      ]
+    },
+    {
+      "heading": "The cross that appeared later",
+      "paragraphs": [
+        "On Velázquez's chest is the red cross of the Order of Santiago, one of Spain's most exclusive knighthoods. But he was only admitted to the order by royal decree on 28 November 1659, three years after the painting was finished. So the cross was added later.",
+        "Velázquez died in 1660. According to the eighteenth-century biographer Antonio Palomino, it was the king himself who ordered the cross to be painted on after the artist's death. It is a good story; treat it as one."
+      ]
+    },
+    {
+      "heading": "Fire, restoration and Picasso",
+      "paragraphs": [
+        "In 1734 the Alcázar burned down. The painting survived, damaged; the court painter Juan García de Miranda restored it, and the infanta's left cheek was almost completely repainted. It entered the new Prado museum when it opened in 1819. A cleaning in 1984, supervised by John Brealey, caused protests in Spain.",
+        "In 1957, Pablo Picasso spent from August to December painting 58 variations on Las Meninas. They are now in the Museu Picasso in Barcelona."
+      ]
+    }
+  ],
+  "meaning": [
+    "There is no agreed answer to what Las Meninas means, and that may be the point.",
+    "Some see a statement about the dignity of painting: a court painter standing beside the royal family, brush in hand, at the height of his career. Others see a game between reality and illusion, where the viewer, the mirror and the hidden canvas trade places.",
+    "The two large pictures on the back wall add a hint: both tell of mortals who challenged a god at an art and were punished. Whatever Velázquez intended, he made the viewer part of the painting, and he never let us see the front of his canvas."
+  ],
+  "whereToSee": "Museo del Prado, Madrid, where it is one of the museum's best-known paintings. Check the Prado's website for its current room before you visit.",
+  "details": [
+    {
+      "headline": "Madrid, 1656",
+      "text": "A room in the royal palace. A little princess, her maids, two dwarfs, a dog, a painter. And several of them are looking straight at you.",
+      "focus": [0.5, 0.5, 0.96, 0.96]
+    },
+    {
+      "headline": "The princess",
+      "text": "At the centre, the Infanta Margaret Theresa, five years old, in a wide silver-grey dress. Everything in the room turns around her.",
+      "focus": [0.48, 0.73, 0.24, 0.3]
+    },
+    {
+      "headline": "A repainted cheek",
+      "text": "Look at her face. In 1734 the palace burned down and the painting was damaged. Her left cheek, on your right, was almost completely repainted by a restorer.",
+      "focus": [0.49, 0.66, 0.08, 0.08]
+    },
+    {
+      "headline": "A red cup",
+      "text": "On her right kneels María Agustina Sarmiento de Sotomayor, a maid of honour, offering a drink in a small red clay cup on a golden tray.",
+      "focus": [0.37, 0.72, 0.12, 0.1]
+    },
+    {
+      "headline": "A curtsy",
+      "text": "On her left, the other maid of honour, Isabel de Velasco, leans forward, about to curtsy. To whom?",
+      "focus": [0.64, 0.66, 0.12, 0.16]
+    },
+    {
+      "headline": "Mari Bárbola",
+      "text": "On the right stands Mari Bárbola, an Austrian dwarf, one of several at the Spanish court. She looks out at us, unsmiling.",
+      "focus": [0.83, 0.68, 0.1, 0.14]
+    },
+    {
+      "headline": "A foot on the dog",
+      "text": "Next to her, the Italian dwarf Nicolás Pertusato nudges the dog with his foot. The only person in the room not posing.",
+      "focus": [0.87, 0.8, 0.22, 0.3]
+    },
+    {
+      "headline": "The dog",
+      "text": "The big mastiff does not even move. Half asleep, it is the calmest figure in the painting.",
+      "focus": [0.78, 0.9, 0.3, 0.15]
+    },
+    {
+      "headline": "In the shadows",
+      "text": "Behind them, in the half-dark: the chaperone Marcela de Ulloa, dressed in mourning, talking to a bodyguard. Two people working, while everyone else is on show.",
+      "focus": [0.74, 0.57, 0.18, 0.12]
+    },
+    {
+      "headline": "The painter",
+      "text": "On the left, Velázquez himself, brush raised, palette in hand, looking out at whoever he is painting. He put himself into the royal family portrait.",
+      "focus": [0.24, 0.6, 0.16, 0.26]
+    },
+    {
+      "headline": "Brush and palette",
+      "text": "His long brush hovers over the palette. He has stopped for a moment, as if the person he is painting has just walked in.",
+      "focus": [0.255, 0.65, 0.08, 0.07]
+    },
+    {
+      "headline": "A cross from the future",
+      "text": "On his chest, the red cross of the Order of Santiago. He was admitted to the order in November 1659, three years after finishing this painting. Someone added it later.",
+      "focus": [0.235, 0.585, 0.06, 0.06]
+    },
+    {
+      "headline": "The canvas we cannot see",
+      "text": "On the far left, the back of a huge canvas. We see its frame and stretcher, never its front. What is on it is the painting's great secret.",
+      "focus": [0.08, 0.55, 0.15, 0.75]
+    },
+    {
+      "headline": "The mirror",
+      "text": "On the back wall, a small mirror: Queen Mariana and King Philip IV. They seem to stand exactly where you are standing.",
+      "focus": [0.415, 0.565, 0.08, 0.09]
+    },
+    {
+      "headline": "Two warnings on the wall",
+      "text": "Above the mirror hang two large, dark paintings, copies of Rubens: Minerva punishing Arachne, and Apollo's victory over Marsyas. Both are myths about mortals who challenged a god at an art, and lost.",
+      "focus": [0.43, 0.4, 0.56, 0.18]
+    },
+    {
+      "headline": "A man in the doorway",
+      "text": "At the back, in the bright doorway, José Nieto Velázquez, the queen's chamberlain, pauses on the stairs and looks back. Is he coming in, or leaving?",
+      "focus": [0.585, 0.585, 0.08, 0.13]
+    },
+    {
+      "headline": "All that empty space",
+      "text": "Look up: half the canvas is a dark, high ceiling with empty fixtures. Velázquez gave the room as much space as the people, and it makes them feel even smaller.",
+      "focus": [0.5, 0.2, 0.96, 0.38]
+    },
+    {
+      "headline": "So who is being painted?",
+      "text": "The king and queen, where you stand? The princess? Or this painting itself? More than 360 years later, nobody agrees.",
+      "focus": [0.5, 0.5, 0.96, 0.96]
+    }
+  ],
+  "sources": [
+    {"title": "Wikipedia: Las Meninas", "url": "https://en.wikipedia.org/wiki/Las_Meninas", "note": "Date, medium, size, the names and positions of every figure, the Alcázar studio, La Familia, the Santiago decree of 28 November 1659 and Palomino's account, the mirror, the copies of Rubens on the back wall, the 1734 fire and the repainted cheek, the Prado in 1819 and 1843, the 1984 cleaning, Foucault, Gombrich, Clark, Giordano, Picasso's 58 variations."},
+    {"title": "Museo del Prado: Las Meninas", "url": "https://www.museodelprado.es/en", "note": "Museum holding the painting."}
+  ],
+  "_verify": [
+    "VERIFIED 2026-10-22 against Wikipedia (first 100,000 characters of the article); figures located on our image and crops checked.",
+    "Mirror: queen on the left, king on the right in our image; Wikipedia puts the Minerva copy on the queen's side and the Apollo copy on the king's side. The text names both without saying which is which.",
+    "Cross story: Palomino, presented as a story.",
+    "Not used: the keys at Velázquez's belt (not clearly visible in our image)."
+  ]
+}

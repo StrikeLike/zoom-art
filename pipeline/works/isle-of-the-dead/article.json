@@ -1,0 +1,123 @@
+{
+  "_note": "Long-form story for zoomedart.com. The reel tells 7 details from script.json; the site tells all of them from here.",
+  "title": "Isle of the Dead by Böcklin: the widow, the white figure and five versions of one dream",
+  "question": "A boat, a figure in white, a coffin, an island of tombs. Where are they going, and who asked for it?",
+  "seo": {
+    "keyword": "isle of the dead bocklin meaning",
+    "secondary": ["isle of the dead painting", "bocklin isle of the dead versions", "isle of the dead basel", "die toteninsel"],
+    "intent": "informational",
+    "meta_title": "Isle of the Dead by Böcklin: the Story and Meaning Explained",
+    "meta_description": "A guided zoom through Böcklin's Isle of the Dead (1880, Basel): the widow who asked for it, the white figure, the coffin, the tomb doors and the hidden initials."
+  },
+  "facts": {
+    "medium": "Oil on canvas",
+    "size_cm": "111 x 155",
+    "museum": "Kunstmuseum Basel",
+    "city": "Basel",
+    "licence": "Public domain, via Wikimedia Commons"
+  },
+  "intro": "Isle of the Dead is a painting by the Swiss artist Arnold Böcklin, first painted in Florence in 1880; this version is in the Kunstmuseum Basel. A small rowboat crosses still, dark water towards a rocky island of tombs and tall cypresses. In the bow stands a figure wrapped in white, beside a draped coffin. Böcklin never explained it. He called it simply \"a dream picture\" and painted it five times.",
+  "sections": [
+    {
+      "heading": "A visitor in the studio",
+      "paragraphs": [
+        "In April 1880, Böcklin was working in his studio in Florence on a picture of a rocky island, ordered by a patron, Alexander Günther. A visitor saw it half-finished on the easel: Marie Berna, a widow whose husband had died of diphtheria. She was so struck that she asked for her own version.",
+        "Böcklin painted her a smaller one on wood, now in New York. At her request he added the coffin and the figure in white, in memory of her husband. Then he added them to this first painting too, finished in May 1880. He ended up keeping it himself."
+      ]
+    },
+    {
+      "heading": "Even the name is not his",
+      "paragraphs": [
+        "Böcklin called these paintings Die Gräberinsel, Tomb Island. The title everyone knows, Die Toteninsel, Isle of the Dead, was given in 1883 by the art dealer Fritz Gurlitt.",
+        "He explained nothing else. The only thing he said was that it was a dream picture, one that should be so still that a knock at the door would make you jump."
+      ]
+    },
+    {
+      "heading": "Five versions in six years",
+      "paragraphs": [
+        "After Basel and the widow's version came a third in 1883, now in Berlin's Alte Nationalgalerie, where Böcklin put his initials on one of the tombs. A fourth, from 1884, was destroyed in Berlin during the Second World War and survives only as a black-and-white photograph. The fifth, from 1886, is in Leipzig. A last version, begun in 1900, was finished by his son Carlo and is in the Hermitage.",
+        "Possible real models include the islet of Pontikonisi near Corfu and the English Cemetery in Florence, close to Böcklin's studio, where his infant daughter Maria is buried."
+      ]
+    },
+    {
+      "heading": "In every Berlin home",
+      "paragraphs": [
+        "Prints of the painting became hugely popular in central Europe. The writer Vladimir Nabokov said one could be found in every Berlin home. Sigmund Freud kept a reproduction in his office; Lenin had one above his bed.",
+        "Sergei Rachmaninoff composed his symphonic poem Isle of the Dead in 1909 after seeing a black-and-white print, and Salvador Dalí painted his own response in 1932. Adolf Hitler bought the third version in 1933."
+      ]
+    }
+  ],
+  "meaning": [
+    "Böcklin refused to explain it, so every reading belongs to the viewer.",
+    "The most common one sees a journey to the afterlife: the oarsman as Charon, the ferryman of the dead in Greek myth, the figure in white as a mourner or as the soul of the dead, the island as a final resting place. For Marie Berna, it was a private memorial to her husband.",
+    "What Böcklin did say is that it should create stillness. There is no wind, no wave and no sound in the painting. Only the boat moves."
+  ],
+  "whereToSee": "Kunstmuseum Basel, Switzerland. The other surviving versions are in New York, Berlin (Alte Nationalgalerie), Leipzig (Museum der bildenden Künste) and Saint Petersburg (Hermitage).",
+  "details": [
+    {
+      "headline": "Florence, 1880",
+      "text": "In his studio, Böcklin is painting a rocky island rising from still, dark water. Then a visitor walks in, and the painting changes.",
+      "focus": [0.5, 0.5, 0.96, 0.96]
+    },
+    {
+      "headline": "A small boat",
+      "text": "Across the black water, a rowboat glides towards the island. It is the only thing moving in the painting.",
+      "focus": [0.43, 0.81, 0.17, 0.16]
+    },
+    {
+      "headline": "The figure in white",
+      "text": "In the bow stands a tall figure wrapped from head to foot in white. Mourner, soul, or death itself? Böcklin never said. He added it at a widow's request.",
+      "focus": [0.418, 0.8, 0.04, 0.1]
+    },
+    {
+      "headline": "A coffin",
+      "text": "In front of the figure lies a long shape draped in white cloth and garlands, usually read as a coffin. It was added for Marie Berna, in memory of her husband.",
+      "focus": [0.448, 0.835, 0.06, 0.04]
+    },
+    {
+      "headline": "Who is rowing?",
+      "text": "At the stern, a hunched oarsman, his back to the island. Many see Charon, ferryman of the dead.",
+      "focus": [0.404, 0.835, 0.035, 0.05]
+    },
+    {
+      "headline": "Doors in the rock",
+      "text": "On the left cliff, dark doorways and a pale tomb front are cut into the stone. The island is a cemetery.",
+      "focus": [0.24, 0.57, 0.2, 0.2]
+    },
+    {
+      "headline": "More tombs on the right",
+      "text": "On the right, windows and portals open in the rock, lit by a light with no visible source.",
+      "focus": [0.69, 0.52, 0.17, 0.17]
+    },
+    {
+      "headline": "A landing",
+      "text": "Between the cliffs, at the foot of the trees, a pale landing waits at the water's edge. This is where the boat will arrive.",
+      "focus": [0.55, 0.7, 0.07, 0.08]
+    },
+    {
+      "headline": "The cypresses",
+      "text": "Above it all, a dark wall of cypresses, the tree of cemeteries all over the Mediterranean. Nothing stirs them.",
+      "focus": [0.5, 0.33, 0.4, 0.5]
+    },
+    {
+      "headline": "His initials, in the water",
+      "text": "Bottom left, almost lost in the dark water: AB, Böcklin's initials. In a later version, he carved them onto one of the tombs.",
+      "focus": [0.06, 0.962, 0.06, 0.04]
+    },
+    {
+      "headline": "Who is the figure in white?",
+      "text": "A widow asked for a picture to remember her husband by, and the world got an island it has been dreaming about ever since. Who do you think is in the boat?",
+      "focus": [0.5, 0.5, 0.96, 0.96]
+    }
+  ],
+  "sources": [
+    {"title": "Wikipedia: Isle of the Dead (painting)", "url": "https://en.wikipedia.org/wiki/Isle_of_the_Dead_(painting)", "note": "Basel version (1880, 111 x 155 cm), Alexander Günther, Marie Berna and her request, the titles Die Gräberinsel and Gurlitt's Die Toteninsel, Böcklin's 'dream picture' remark, the versions and their locations, the A.B. initials on the 1883 version, possible models, Nabokov, Freud, Lenin, Rachmaninoff, Dalí, Hitler."},
+    {"title": "Kunstmuseum Basel", "url": "https://kunstmuseumbasel.ch/en", "note": "Museum holding this version."}
+  ],
+  "_verify": [
+    "VERIFIED 2026-10-22 against Wikipedia; details located on our image and the crops checked.",
+    "The 'AB' initials are visible in the water bottom left of the Basel version in our image; Wikipedia mentions initials on a tomb only for the 1883 version.",
+    "New York version: Wikipedia says only 'now in New York'; the museum is not named on the site.",
+    "Not used: the reel's line about all four surviving versions meeting in 2027 (not checked in this source)."
+  ]
+}

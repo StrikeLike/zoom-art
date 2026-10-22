@@ -1,5 +1,14 @@
 {
-  "_note": "Partial: facts and sources only. The full story (title, question, sections, all details) is still to be written; until then the site shows the reel story and the page is noindex.",
+  "_note": "Long-form story for zoomedart.com. The reel tells 8 details from script.json; the site tells all of them from here.",
+  "title": "Children's Games by Bruegel: every game hidden in the painting",
+  "question": "Over 80 games in one town square. How many can you name before the end?",
+  "seo": {
+    "keyword": "children's games bruegel",
+    "secondary": ["bruegel children's games list", "children's games painting meaning", "bruegel games painting"],
+    "intent": "informational",
+    "meta_title": "Children's Games by Bruegel: Every Game in the Painting",
+    "meta_description": "A guided zoom through Bruegel's Children's Games (1560): knucklebones, hoops, stilts, a mock wedding, spinning skirts and the hidden signature, with sources."
+  },
   "facts": {
     "medium": "Oil on panel",
     "size_cm": "118 x 161",
@@ -12,18 +21,159 @@
     "credit": "Public domain, via Wikimedia Commons · Kunsthistorisches Museum, Vienna",
     "sourceUrl": "https://commons.wikimedia.org/wiki/Category:Children%27s_Games_by_Pieter_Bruegel_the_Elder"
   },
-  "intro": "Children's Games is Pieter Bruegel the Elder's 1560 painting of a town filled with children at play. Around 80 games appear across its streets, windows and river, from knucklebones and hoops to leapfrog, stilts and a pretend wedding procession.",
-  "whereToSee": "Kunsthistorisches Museum, Vienna.",
-  "sources": [
+  "intro": "Children's Games is a painting by Pieter Bruegel the Elder from 1560, now in the Kunsthistorisches Museum in Vienna. It turns an entire Flemish town over to its children: a square, a street, a riverbank and a large civic building, all filled with games. Scholars have identified around 80 of them, and some count more than 90. Many are still played today.",
+  "sections": [
     {
-      "title": "Kunsthistorisches Museum, Vienna",
-      "note": "Museum identified in the supplied painting data. Exact collection-record citation to be added before publication.",
-      "url": ""
+      "heading": "A town without grown-ups",
+      "paragraphs": [
+        "Bruegel signed and dated the panel in 1560, on a wooden plank in the bottom right corner. It is a little over a metre and a half wide, and almost every square centimetre is occupied by a child doing something.",
+        "There is no single scene and no hero. The eye wanders, the way it does across a real playground: a knot of children on the left, a game spilling out of a doorway, a street disappearing into the distance on the right, a river at the top left full of swimmers."
+      ]
     },
     {
-      "title": "Wikimedia Commons collection reference",
-      "note": "Collection reference for Children's Games. The exact source-file URL for the repository image is pending verification.",
-      "url": "https://commons.wikimedia.org/wiki/Category:Children%27s_Games_by_Pieter_Bruegel_the_Elder"
+      "heading": "Around 80 games, or more than 90",
+      "paragraphs": [
+        "Scholars have numbered the games one by one, starting from the bottom left. The usual count is around 80; the art historian Sandra Hindman, writing in 1981, counted over 90. Some are easy to recognise today: hoops, stilts, leapfrog, hobby horses, tops and marbles. Others are forgotten games with names like \"bumbouncing\" and \"the Pope's seat\".",
+        "The guided look above follows the games you can see clearly in our image of the painting. The rest are waiting in the free explorer: zoom in anywhere and you will find someone playing."
+      ]
+    },
+    {
+      "heading": "An encyclopedia, or a sermon?",
+      "paragraphs": [
+        "It is tempting to read the painting as a catalogue of games, a sixteenth-century encyclopedia of play. Many scholars think Bruegel meant more than that. The children play with complete seriousness, the same seriousness adults bring to business, politics and war.",
+        "A Flemish poem published in Antwerp in 1530 compared mankind to children absorbed in foolish games. Seen that way, the painting is a mirror held up to the grown-ups who looked at it. Another theory suggests it was meant as the first in a series on the Ages of Man, standing for youth; no other paintings from such a series are known."
+      ]
+    },
+    {
+      "heading": "Into the Habsburg collection",
+      "paragraphs": [
+        "In 1594 the painting was acquired by Archduke Ernest of Austria, and in 1604 the Flemish writer Karel van Mander mentioned it in his book on painters. It has stayed in the imperial collections ever since and now hangs in Vienna's Kunsthistorisches Museum."
+      ]
     }
+  ],
+  "meaning": [
+    "Bruegel left no explanation, so every reading is an interpretation.",
+    "The most common one is moral: in God's eyes, adults busy with their important affairs are no different from children absorbed in their games. Another reads the painting as an affectionate record of real games of the time, painted with an almost scientific eye. The two are not exclusive.",
+    "What nobody disputes is the energy. Hundreds of small figures, no two doing the same thing, and not one of them looking at us."
+  ],
+  "whereToSee": "Kunsthistorisches Museum, Vienna. Check the museum's website before you visit.",
+  "details": [
+    {
+      "headline": "Flanders, 1560",
+      "text": "Bruegel hands an entire town over to its children. The square, the street, the windows, even the river: all full of games. Let's walk through it, starting at the bottom left, the way scholars number them.",
+      "focus": [0.5, 0.49, 0.95, 0.94]
+    },
+    {
+      "headline": "Knucklebones",
+      "text": "Two girls kneel over little bones and a basket. Knucklebones: throw, catch, scoop. Today we call it jacks.",
+      "focus": [0.115, 0.89, 0.19, 0.14]
+    },
+    {
+      "headline": "A hobby horse",
+      "text": "Just behind them, a boy rides a hobby horse: a little horse head with a bridle on a long stick, and a twig for a whip.",
+      "focus": [0.395, 0.885, 0.09, 0.12]
+    },
+    {
+      "headline": "Hoops",
+      "text": "Further right, kids race wooden hoops across the square, pushing them along with sticks.",
+      "focus": [0.605, 0.865, 0.21, 0.16]
+    },
+    {
+      "headline": "Riding the barrel",
+      "text": "Behind them, a boy sits astride a barrel lying on its side, while another child steadies it. One wrong move and it rolls.",
+      "focus": [0.665, 0.77, 0.12, 0.13]
+    },
+    {
+      "headline": "Bumbouncing",
+      "text": "On the right, a child is held by the arms and legs and bumped against a wooden beam. The game had a name: bumbouncing. Not everyone looks happy about it.",
+      "focus": [0.79, 0.71, 0.13, 0.13]
+    },
+    {
+      "headline": "A ring of bricks",
+      "text": "Next to them, a boy kneels inside a circle of loose red bricks. Building appears in the lists of games scholars have identified in the painting.",
+      "focus": [0.89, 0.7, 0.12, 0.09]
+    },
+    {
+      "headline": "Playing shop",
+      "text": "In the corner, a girl runs a shop on a wooden plank: a small pair of scales, bowls, and a brick ground into red powder to sell.",
+      "focus": [0.925, 0.885, 0.11, 0.12]
+    },
+    {
+      "headline": "The signature",
+      "text": "Look at the front of her plank. Bruegel signed it there: BRVEGEL 1560. The painter hid his name in a children's game.",
+      "focus": [0.94, 0.947, 0.08, 0.035]
+    },
+    {
+      "headline": "Leapfrog",
+      "text": "Back in the middle of the square, one boy vaults over another's back. More than 460 years later, every schoolyard still plays it.",
+      "focus": [0.625, 0.59, 0.1, 0.13]
+    },
+    {
+      "headline": "A pretend wedding",
+      "text": "At the exact centre of the painting, a procession: a little bride, a crown, children walking solemnly behind her. They are playing at being grown-ups.",
+      "focus": [0.485, 0.49, 0.15, 0.16]
+    },
+    {
+      "headline": "On the fence",
+      "text": "To the left, children sit astride the red fence like riders, while others tumble on the grass below.",
+      "focus": [0.37, 0.48, 0.15, 0.09]
+    },
+    {
+      "headline": "A headstand",
+      "text": "By the fence, a boy stands on his head, legs in the air. Some things never change.",
+      "focus": [0.285, 0.505, 0.08, 0.12]
+    },
+    {
+      "headline": "Upside down on the rail",
+      "text": "In front of the big building, two children hang head-down from a wooden rail, mid-somersault.",
+      "focus": [0.585, 0.385, 0.12, 0.08]
+    },
+    {
+      "headline": "Stilts",
+      "text": "Near the corner of the building, a child towers over everyone on high stilts. Elsewhere, smaller kids wobble on short ones.",
+      "focus": [0.655, 0.41, 0.11, 0.27]
+    },
+    {
+      "headline": "A mask at the window",
+      "text": "Look up at the house on the far left. A child leans out of a window wearing a pale mask, ready to scare whoever passes below.",
+      "focus": [0.065, 0.39, 0.1, 0.1]
+    },
+    {
+      "headline": "Spinning skirts",
+      "text": "On the grass above, those red circles are girls turning on the spot until their skirts flare out like plates.",
+      "focus": [0.25, 0.31, 0.1, 0.06]
+    },
+    {
+      "headline": "Up a tree",
+      "text": "Nearby, a child hugs a tree trunk, halfway up. Climbing trees is on the list too.",
+      "focus": [0.265, 0.265, 0.05, 0.08]
+    },
+    {
+      "headline": "The river",
+      "text": "And beyond, the river is full of children swimming and splashing, far from the square.",
+      "focus": [0.21, 0.25, 0.2, 0.12]
+    },
+    {
+      "headline": "The street goes on",
+      "text": "On the right, the street disappears into the distance, and it is still full of games: chains of children, wrestlers, kids crouched over the ground.",
+      "focus": [0.85, 0.28, 0.24, 0.16]
+    },
+    {
+      "headline": "Your turn",
+      "text": "Around 80 games, maybe more than 90. Zoom in below and find the ones we missed. Which did you play most?",
+      "focus": [0.5, 0.49, 0.95, 0.94]
+    }
+  ],
+  "sources": [
+    {"title": "Wikipedia: Children's Games (Bruegel)", "url": "https://en.wikipedia.org/wiki/Children%27s_Games_(Bruegel)", "note": "Date, medium, size, the numbered list of games (knucklebones, hobby horse, hoops, riding the barrel, bumbouncing, building, playing shop, leapfrog, mock wedding at the centre, fence riding, handstand, somersault, stilts, masks, pirouetting skirts, climbing a tree, swimming), the count of around 80 and Hindman's 90+, the signature, the 1530 Antwerp poem, the Ages of Man theory, Archduke Ernest 1594, van Mander 1604."},
+    {"title": "Kunsthistorisches Museum, Vienna", "url": "https://www.khm.at/en/", "note": "Museum holding the painting."}
+  ],
+  "_verify": [
+    "VERIFIED 2026-10-22 against Wikipedia (which cites Hindman 1981 and the museum); every detail located on our image and the crops checked.",
+    "Game names follow the Wikipedia list; where the painting does not make the game certain, the text describes what is visible ('a ring of bricks', 'a mask').",
+    "Bumbouncing: identified as the child held by arms and legs against a beam (right of centre).",
+    "Signature 'BRVEGEL 1560' is visible on the shop plank, bottom right.",
+    "'More than 460 years later' replaces the reel's '460 years later' (1560 + 460 = 2020).",
+    "Not used: the claim that Vienna holds the largest Bruegel collection (not checked)."
   ]
 }
