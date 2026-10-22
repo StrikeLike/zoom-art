@@ -1,0 +1,136 @@
+{
+  "_note": "Long-form story for zoomedart.com. The reel tells 7 details from script.json; the site tells all of them from here.",
+  "title": "The Starry Night by Van Gogh: what is real, what is invented, and why he called it a failure",
+  "question": "A village that wasn't there, a moon in the wrong shape, a planet among the stars. How much of this sky is real?",
+  "seo": {
+    "keyword": "starry night van gogh meaning",
+    "secondary": ["starry night facts", "starry night venus", "starry night village", "van gogh starry night failure"],
+    "intent": "informational",
+    "meta_title": "The Starry Night: Hidden Details and Meaning Explained",
+    "meta_description": "A guided zoom through Van Gogh's The Starry Night (1889): the invented village, Venus beside the cypress, a moon in the wrong shape and his 'failure' letter."
+  },
+  "facts": {
+    "medium": "Oil on canvas",
+    "size_cm": "73.7 x 92.1",
+    "museum": "Museum of Modern Art (MoMA)",
+    "city": "New York",
+    "licence": "Public domain, via Wikimedia Commons"
+  },
+  "intro": "The Starry Night is a painting by Vincent van Gogh from June 1889, now in the Museum of Modern Art in New York. It shows the view from his bedroom window at the asylum in Saint-Rémy-de-Provence, just before sunrise: a swirling sky, a huge cypress, a sleeping village. But much of it is not what he saw. The village was added, the moon has the wrong shape, and Van Gogh himself called the picture a failure.",
+  "sections": [
+    {
+      "heading": "A window in Saint-Rémy",
+      "paragraphs": [
+        "On 8 May 1889, Van Gogh voluntarily admitted himself to the asylum of Saint-Paul-de-Mausole in Saint-Rémy, in the south of France. His bedroom window faced east.",
+        "He worked by day in a studio on the ground floor, and The Starry Night was painted there in the middle of June 1889, based on what he had seen from the window before dawn."
+      ]
+    },
+    {
+      "heading": "What he added",
+      "paragraphs": [
+        "The village was not visible from his window. He added it from a sketch, and its pointed church steeple looks more like the churches of his native Netherlands than those of Provence; it may be a memory of Nuenen, where he had lived years before.",
+        "The cypress was made much bigger than it would have looked. And the sky itself, with its great spirals, is not a view anyone has seen. Some see in it the mistral wind of Provence; one historian compared the central swirl to a spiral galaxy or a comet."
+      ]
+    },
+    {
+      "heading": "What was really in the sky",
+      "paragraphs": [
+        "Some of it is real. Venus, the \"morning star\", was visible at dawn in Provence that spring. It is almost certainly the brightest star in the painting, just to the right of the cypress.",
+        "The moon, though, is invented. At the time it was waning gibbous, more than half full. Van Gogh painted a crescent."
+      ]
+    },
+    {
+      "heading": "\"A failure\"",
+      "paragraphs": [
+        "Van Gogh did not think much of the picture. When he sent a batch of paintings to his brother Theo in September 1889, he left it out, and he referred to it as a \"night study\". In a letter to the painter Émile Bernard in late November 1889 he called it a failure. Theo, for his part, worried about the \"search for style\" in these new canvases.",
+        "Van Gogh died the following year, in July 1890. The painting he dismissed is now one of the most recognised images in the world."
+      ]
+    },
+    {
+      "heading": "From Theo's widow to MoMA",
+      "paragraphs": [
+        "After Theo's death in January 1891, his widow Jo van Gogh-Bonger looked after Vincent's paintings. She sold The Starry Night in Paris in 1900, later bought it back, and in 1906 sold it to a gallery in Rotterdam. From 1906 to 1938 it belonged to Georgette van Stolk in Rotterdam.",
+        "The dealer Paul Rosenberg bought it in 1938, and in 1941 it went to the Museum of Modern Art in New York, where it has been ever since."
+      ]
+    }
+  ],
+  "meaning": [
+    "Van Gogh's letters talk about cypresses and stars mostly in terms of colour and form, not symbols. Still, many readers see more.",
+    "The cypress, a tree of Mediterranean cemeteries, can be read as death, or as a bridge between earth and sky. The stars can be read as hope, or as a longing for something beyond life.",
+    "What is certain is the contrast: a quiet village asleep under a sky that will not keep still."
+  ],
+  "whereToSee": "The Museum of Modern Art (MoMA), New York. Check MoMA's website for the current gallery before you visit.",
+  "details": [
+    {
+      "headline": "Painted in an asylum",
+      "text": "In 1889 Van Gogh admitted himself to an asylum in Saint-Rémy, in southern France. This is the view from his window, before sunrise. Or almost.",
+      "focus": [0.5, 0.5, 0.98, 0.95]
+    },
+    {
+      "headline": "The village isn't really there",
+      "text": "He couldn't see a village like this from his window. He added it from a sketch, and painted the whole picture by day, in a studio downstairs.",
+      "focus": [0.6, 0.86, 0.44, 0.24]
+    },
+    {
+      "headline": "Lights in the windows",
+      "text": "A few windows still glow yellow. The village is asleep, but not entirely.",
+      "focus": [0.62, 0.86, 0.2, 0.08]
+    },
+    {
+      "headline": "A Dutch church in France",
+      "text": "The tall, pointed steeple looks more like a church from his native Netherlands than one from Provence.",
+      "focus": [0.565, 0.76, 0.06, 0.2]
+    },
+    {
+      "headline": "The dark flame",
+      "text": "On the left, a cypress rises like a flame from earth to sky, far bigger than it would really look. In the Mediterranean, cypresses grow in cemeteries.",
+      "focus": [0.23, 0.53, 0.24, 0.94]
+    },
+    {
+      "headline": "This star is a planet",
+      "text": "The big bright star next to the cypress is most likely Venus, the morning star, which shone at dawn in Provence that spring.",
+      "focus": [0.355, 0.53, 0.12, 0.12]
+    },
+    {
+      "headline": "Stars in rings of light",
+      "text": "Every star is wrapped in rings of light, painted in thick dabs of yellow and white.",
+      "focus": [0.23, 0.17, 0.1, 0.1]
+    },
+    {
+      "headline": "The swirl",
+      "text": "Across the middle, the sky moves in great spirals. Real night skies don't look like this. Some see the mistral wind, others a galaxy.",
+      "focus": [0.52, 0.36, 0.42, 0.38]
+    },
+    {
+      "headline": "A moon in the wrong shape",
+      "text": "Top right, a crescent moon with a halo so strong it looks almost like a sun. In June 1889 the real moon was more than half full. He changed it.",
+      "focus": [0.875, 0.155, 0.2, 0.24]
+    },
+    {
+      "headline": "The hills",
+      "text": "Behind the village, dark blue hills roll towards the right, outlined in black, as still as the sky is restless.",
+      "focus": [0.78, 0.63, 0.42, 0.18]
+    },
+    {
+      "headline": "Thick paint",
+      "text": "Look close: the sky is built from short, thick strokes laid side by side, like woven threads.",
+      "focus": [0.62, 0.42, 0.1, 0.08]
+    },
+    {
+      "headline": "\"A failure\"",
+      "text": "He left it out of the paintings he sent to his brother and called it a failure in a letter to a friend. Today it is one of the most recognised paintings in the world.",
+      "focus": [0.5, 0.5, 0.98, 0.95]
+    }
+  ],
+  "sources": [
+    {"title": "Wikipedia: The Starry Night", "url": "https://en.wikipedia.org/wiki/The_Starry_Night", "note": "Date, size, medium, MoMA 1941, Saint-Paul-de-Mausole and 8 May 1889, the east window before sunrise, painted by day in the ground-floor studio, the village added from a sketch and the Dutch-style steeple, Venus, the waning gibbous moon, the enlarged cypress, the mistral and galaxy readings, 'night study', the letter to Bernard, Theo's 'search for style', ownership history."},
+    {"title": "The Museum of Modern Art, New York", "url": "https://www.moma.org/", "note": "Museum holding the painting."}
+  ],
+  "_verify": [
+    "VERIFIED 2026-10-22 against Wikipedia; details located on our image and the crops checked.",
+    "Correction to the reel: Wikipedia says it was painted by day in the ground-floor studio and the village was added from a sketch; the reel said 'from memory'.",
+    "Ownership 1900-1906: Wikipedia's intro and body disagree (Leclercq vs Schuffenecker); the site says only that Jo sold it in 1900, bought it back and sold it in 1906.",
+    "Van Gogh's death in July 1890: well known; not in the checked section.",
+    "Not used: 'twenty-one variations of the view' (marked 'citation needed' on Wikipedia); a star count."
+  ]
+}

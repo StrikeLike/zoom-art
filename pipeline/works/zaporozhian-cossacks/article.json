@@ -1,0 +1,138 @@
+{
+  "_note": "Long-form story for zoomedart.com. The reel tells 7 details from script.json; the site tells all of them from here.",
+  "title": "Reply of the Zaporozhian Cossacks by Repin: the real faces behind the rudest letter in history",
+  "question": "A general, a historian, an opera singer and a man who refused to pose. Can you find them all in this crowd?",
+  "seo": {
+    "keyword": "reply of the zaporozhian cossacks",
+    "secondary": [
+      "zaporozhian cossacks painting models",
+      "repin cossacks letter to the sultan",
+      "cossacks writing a letter to the turkish sultan",
+      "repin painting explained"
+    ],
+    "intent": "informational",
+    "meta_title": "Reply of the Zaporozhian Cossacks: the Real Faces Explained",
+    "meta_description": "A guided zoom through Repin's Reply of the Zaporozhian Cossacks (1880-1891): the general, the historian, the opera singer, the bald head and the letter."
+  },
+  "facts": {
+    "medium": "Oil on canvas",
+    "size_cm": "203 x 358",
+    "museum": "State Russian Museum",
+    "city": "Saint Petersburg",
+    "licence": "Public domain, via Wikimedia Commons"
+  },
+  "intro": "Reply of the Zaporozhian Cossacks is a painting by Ilya Repin, begun in 1880 and finished in 1891, now in the State Russian Museum in Saint Petersburg. It shows a crowd of Cossacks roaring with laughter as they write an insulting answer to the Ottoman Sultan, who had ordered them to surrender. Almost every face in it was painted from a real person Repin knew. Whether the letter ever existed is another question.",
+  "sections": [
+    {
+      "heading": "The legend of 1676",
+      "paragraphs": [
+        "According to the legend, in 1676 Sultan Mehmed IV demanded the submission of the Zaporozhian Cossacks, even though they, led by their ataman Ivan Sirko, had just defeated his troops. Their answer was a letter full of jokes and insults.",
+        "There is no reliable evidence that the exchange happened. The historian Daniel C. Waugh showed in 1978 how an older text was transformed in the 18th century, becoming more vulgar and more Zaporozhian; that version became popular in the 19th century, when Gogol mentioned the episode in Taras Bulba."
+      ]
+    },
+    {
+      "heading": "Eleven years on one canvas",
+      "paragraphs": [
+        "Repin started in 1880 and finished in 1891, and he wrote both years along the lower edge of the canvas, next to his signature. He made studies in several places in today's Ukraine and southern Russia and was helped by the historian Dmytro Yavornytsky, an expert on the Zaporozhian Cossacks, to get every costume and weapon right.",
+        "When it was finished, Tsar Alexander III bought it for 35,000 rubles. A second version, begun in 1889 and never finished, is in the Kharkiv Art Museum."
+      ]
+    },
+    {
+      "heading": "Real people, painted as Cossacks",
+      "paragraphs": [
+        "Repin cast the scene like a play, with friends, professors, artists and passers-by. The ataman Ivan Sirko was painted from General Mikhail Dragomirov. The writer at the table is Yavornytsky himself. The giant laughing in red, Taras Bulba, was a Petersburg University professor, Alexander Rubets. The Cossack in the yellow hat was the opera singer Fyodor Stravinsky, father of the composer Igor Stravinsky. The tall Cossack with a headband was an Odesa painter, Nikolai Kuznetsov.",
+        "And then there is the bald head in the foreground. Its owner, the court official Georgi Alekseyev, refused to pose. So Repin sketched the back of his head while he was busy looking at prints."
+      ]
+    }
+  ],
+  "meaning": [
+    "The painting is less about one historical moment than about an idea of the Cossacks: free, rough, fearless and funny, able to laugh in the face of an empire.",
+    "Repin painted that freedom as laughter. Count the kinds: roaring, grinning, sneering, giggling. It is one of the great paintings of laughter in art, and maybe that is why the doubtful letter has outlived every argument about whether it was real."
+  ],
+  "whereToSee": "State Russian Museum, Saint Petersburg. A second, unfinished version is in the Kharkiv Art Museum, Ukraine.",
+  "details": [
+    {
+      "headline": "An ultimatum, 1676",
+      "text": "The Ottoman Sultan orders the Cossacks to surrender. Legend says they replied with a famously rude letter. Repin painted the scene from real people. Let's find them.",
+      "focus": [0.5, 0.5, 0.96, 0.96]
+    },
+    {
+      "headline": "First, the writer",
+      "text": "At the table, a man with a quill writes it all down. He is the historian Dmytro Yavornytsky, who helped Repin get every Cossack detail right.",
+      "focus": [0.53, 0.6, 0.12, 0.13]
+    },
+    {
+      "headline": "Now find the boss",
+      "text": "Right behind him, pipe in his teeth, the ataman Ivan Sirko dictates. Repin painted him from General Mikhail Dragomirov.",
+      "focus": [0.575, 0.44, 0.13, 0.17]
+    },
+    {
+      "headline": "The laughing giant",
+      "text": "On the right, a huge man in red roars with laughter, hands on his belly: Taras Bulba, painted from the professor Alexander Rubets.",
+      "focus": [0.74, 0.36, 0.3, 0.35]
+    },
+    {
+      "headline": "An opera singer",
+      "text": "Behind him, the Cossack in the yellow hat is the opera singer Fyodor Stravinsky, father of the composer Igor Stravinsky.",
+      "focus": [0.705, 0.205, 0.09, 0.13]
+    },
+    {
+      "headline": "A hat in the air",
+      "text": "Above them, someone thrusts a fur hat high into the sky on his fist. The laughter has spread to the back row.",
+      "focus": [0.655, 0.11, 0.08, 0.12]
+    },
+    {
+      "headline": "A painter in a headband",
+      "text": "On the left, a tall Cossack with a stained headband smokes and squints: the Odesa painter Nikolai Kuznetsov.",
+      "focus": [0.35, 0.24, 0.09, 0.14]
+    },
+    {
+      "headline": "The stolen head",
+      "text": "Look at the bald head in front of the table. Its owner refused to pose, so Repin sketched it on the sly while he was looking at prints. He was not pleased.",
+      "focus": [0.6, 0.65, 0.11, 0.13]
+    },
+    {
+      "headline": "No shirt, no tricks",
+      "text": "On the left, a man plays cards stripped to the waist. The model was a friend of Repin's, who never played cards in real life.",
+      "focus": [0.37, 0.63, 0.25, 0.29]
+    },
+    {
+      "headline": "The cards",
+      "text": "On the table, a small pile of playing cards. Even while drafting a letter to an emperor, the game goes on.",
+      "focus": [0.42, 0.71, 0.06, 0.05]
+    },
+    {
+      "headline": "Music, too",
+      "text": "Below the table lies a round-bellied stringed instrument, ready for when the letter is done.",
+      "focus": [0.42, 0.8, 0.18, 0.12]
+    },
+    {
+      "headline": "Signed, twice dated",
+      "text": "At the bottom, Repin signed the canvas and wrote two dates: 1880-91. Eleven years for one laugh.",
+      "focus": [0.525, 0.972, 0.16, 0.05]
+    },
+    {
+      "headline": "But was it real?",
+      "text": "And the letter itself? No reliable evidence shows it was ever sent, and many historians call it a legend. Real or invented: does it matter?",
+      "focus": [0.5, 0.5, 0.96, 0.96]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Reply of the Zaporozhian Cossacks",
+      "url": "https://en.wikipedia.org/wiki/Reply_of_the_Zaporozhian_Cossacks",
+      "note": "Dates and inscription, size, Russian Museum, Alexander III's 35,000 rubles, the Kharkiv version, the 1676 legend and Mehmed IV, Waugh 1978, Gogol, Yavornytsky, and the list of models (Dragomirov, Rubets, Fyodor Stravinsky, Kuznetsov, Alekseyev, the card player)."
+    },
+    {
+      "title": "State Russian Museum",
+      "url": "https://rusmuseum.ru/eng/",
+      "note": "Museum holding the painting (checked for the reel on 11-12 Oct 2026)."
+    }
+  ],
+  "_verify": [
+    "VERIFIED 2026-10-22 against Wikipedia; faces located on our image and crops checked.",
+    "Taras Bulba = Rubets per Wikipedia EN (the Gilyarovsky identification is called a myth by Radio Svoboda, see script.json).",
+    "The 'yellow hat' and 'headband' figures matched on the image to Wikipedia's descriptions; the instrument is described only visually.",
+    "Not used: the toothless old man with a pipe, the Tatar student, the student with the makitra haircut, the drawing teacher in the red cap (not matched with certainty)."
+  ]
+}
