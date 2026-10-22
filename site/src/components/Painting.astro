@@ -1,0 +1,6 @@
+---
+import work from '../data/work.json';
+interface Props { class?: string; eager?: boolean; shared?: boolean; sizes?: string; }
+const { class: className = '', eager = false, shared = false, sizes = '(max-width: 700px) 100vw, 92vw' } = Astro.props;
+---
+<img class={className} src={`${work.image.base}/painting-1280.webp`} srcset={[480,768,1280,1920].map(w => `${work.image.base}/painting-${w}.webp ${w}w`).join(', ')} sizes={sizes} width={work.image.width} height={work.image.height} alt={work.image.alt} loading={eager ? 'eager' : 'lazy'} fetchpriority={eager ? 'high' : 'auto'} decoding="async" style={shared ? 'view-transition-name:childrens-games' : undefined} />

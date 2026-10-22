@@ -1,0 +1,48 @@
+---
+import site from '../data/site.json';
+import '../styles/global.css';
+import '../styles/fonts.css';
+import serifFont from '@fontsource-variable/eb-garamond/files/eb-garamond-latin-wght-normal.woff2?url';
+import sansFont from '@fontsource-variable/dm-sans/files/dm-sans-latin-wght-normal.woff2?url';
+interface Props { title: string; description?: string; schema?: object | object[]; noindex?: boolean; }
+const { title, description = site.seo.homeDescription, schema, noindex = false } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0c0b0a" />
+    <script is:inline>document.documentElement.classList.add('js');</script>
+    <link rel="preload" href={serifFont} as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href={sansFont} as="font" type="font/woff2" crossorigin />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="author" content={site.brand.author} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={new URL('/images/childrens-games/painting-1280.webp', Astro.site)} />
+    {noindex && <meta name="robots" content="noindex,follow" />}
+    {schema && <script type="application/ld+json" set:html={JSON.stringify(schema).replaceAll('<', '\\u003c')} />}
+  </head>
+  <body>
+    <a class="skip-link" href="#main">{site.ui.skipToContent}</a>
+    <header class="site-header">
+      <a class="wordmark" href="/" aria-label={site.brand.name}><span class="brand-symbol" aria-hidden="true"></span>{site.brand.wordmark}<span class="brand-dot" aria-hidden="true">.</span></a>
+      <nav aria-label={site.ui.mainNavigation}>
+        {site.navigation.map(item => <a href={item.href} aria-current={Astro.url.pathname === item.href ? 'page' : undefined}>{item.label}</a>)}
+      </nav>
+      <a class="header-follow" href={site.footer.social[0].href}>{site.brand.handle}<span aria-hidden="true">↗</span></a>
+    </header>
+    <main id="main"><slot /></main>
+    <footer class="site-footer wrap">
+      <div class="footer-top"><a class="wordmark" href="/">{site.brand.wordmark}<span class="brand-dot">.</span></a><p>{site.footer.line}</p></div>
+      <div class="footer-bottom"><span>{site.footer.credit}</span><nav aria-label={site.ui.footerNavigation}><a href="/about/">{site.footer.aboutLabel}</a><a href="/editorial-policy/">{site.footer.policyLabel}</a></nav><div class="social-links">{site.footer.social.map(item => <a href={item.href}>{item.label}<span aria-hidden="true">↗</span></a>)}</div></div>
+    </footer>
+  </body>
+</html>

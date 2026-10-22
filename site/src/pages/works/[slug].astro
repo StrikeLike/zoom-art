@@ -1,0 +1,12 @@
+---
+import imageSizes from '../../data/image-sizes.json';
+import Base from '../../layouts/Base.astro';
+import site from '../../data/site.json';
+import work from '../../data/work.json';
+export function getStaticPaths() { return work.related.map(painting => ({params:{slug:painting.slug},props:{painting}})); }
+const {painting} = Astro.props;
+const page = site.pages.pendingWork;
+---
+<Base title={`${painting.title} | ${site.brand.name}`} description={page.description} noindex>
+  <div class="wrap"><header class="page-heading"><p class="eyebrow">{page.eyebrow}</p><h1>{painting.title}</h1><p>{page.description}</p></header><figure class="wide-art"><img src={painting.image.replace('768','1280')} width={imageSizes[painting.image.replace("768","1280") as keyof typeof imageSizes][0]} height={imageSizes[painting.image.replace("768","1280") as keyof typeof imageSizes][1]} alt={painting.alt} fetchpriority="high" /><figcaption class="credit">{site.ui.imageCredit} · {site.ui.sourcePending}</figcaption></figure><div class="editorial-layout section-space"><aside>{painting.title}</aside><div class="editorial-prose"><h2>{page.title}</h2><p class="placeholder">{page.body}</p>{'attributionNote' in painting && <p class="pending-note">{painting.attributionNote}</p>}<a class="text-link" href={`/works/${work.slug}/`}>{page.returnLabel}<span aria-hidden="true">↗</span></a></div></div></div>
+</Base>

@@ -1,0 +1,8 @@
+---
+import Base from '../layouts/Base.astro';
+import site from '../data/site.json';
+const page = site.pages.about;
+---
+<Base title={`${page.eyebrow} | ${site.brand.name}`} description={page.description}>
+  <div class="wrap"><header class="page-heading"><p class="eyebrow">{page.eyebrow}</p><h1>{page.title}</h1><p>{page.description}</p></header><div class="editorial-layout"><aside>{page.intro}</aside><div class="editorial-prose">{page.sections.map(section => <section><h2>{section.title}</h2><p>{section.text}</p></section>)}<section><h2>{page.followTitle}</h2><p>{page.followText}</p><a class="text-link" href={site.footer.social[0].href}>{site.ui.follow}<span aria-hidden="true">↗</span></a></section><a class="text-link" href="/editorial-policy/">{site.ui.readPolicy}<span aria-hidden="true">↗</span></a></div></div></div>
+</Base>

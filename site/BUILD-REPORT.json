@@ -1,0 +1,33 @@
+{
+  "routes": 9,
+  "staticHTML": "passed",
+  "internalLinks": "passed",
+  "focusData": "passed",
+  "structuredData": "passed",
+  "scripts": [
+    {
+      "file": "Explorer.astro_astro_type_script_index_0_lang.Bnuq_qP5.js",
+      "bytes": 46,
+      "gzipBytes": 66
+    },
+    {
+      "file": "Guided.astro_astro_type_script_index_0_lang.CJRr4MmV.js",
+      "bytes": 46,
+      "gzipBytes": 66
+    },
+    {
+      "file": "openseadragon.CdDgjl83.js",
+      "bytes": 348137,
+      "gzipBytes": 86836
+    },
+    {
+      "file": "viewers.CLhGEcLd.js",
+      "bytes": 9234,
+      "gzipBytes": 3733
+    }
+  ],
+  "firstViewGzipBytes": 3865,
+  "tiles": 1001,
+  "tileBytes": 15342586,
+  "performanceNote": "Byte sizes are build measurements. LCP, CLS and INP require mobile 4G lab/field measurement; no pass claimed."
+}

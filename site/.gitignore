@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.astro/
+.qa/
+.npm-cache/
+SOURCE-FILES.txt
+
+# generated from pipeline/works/ by scripts/prepare-images.py
+public/images/

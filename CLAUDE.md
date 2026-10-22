@@ -45,8 +45,17 @@ Imaginile mici se măresc automat cu Real-ESRGAN (`models/realesrgan_x4plus.onnx
 Caruselul și reel-ul se fac acum cu `pipeline/reel-remotion/` (vezi README-ul de acolo): colțuri aurii și lumină pe fiecare detaliu, cerc auriu pe detaliile foarte mici, titlu cuvânt cu cuvânt, cifre aurii, bară de progres. `render.py` rămâne cel care calculează încadrarea; `export_shots.py` o trimite la Remotion. Rezultatele vechi stau în `out/v1_vechi/`.
 
 ## Planul de postare
-- 3 postări pe zi, 3 opere diferite (nu aceeași operă de 3 ori).
+- **1-2 opere noi pe zi** pe rețele (Alex, 22 oct 2026, înlocuiește „3 postări pe zi”), opere diferite, plus 2-3 pagini de operă pe săptămână pe site.
 - Ordinea și starea fiecărei opere: `JURNAL.md`.
+
+## Website zoomedart.com (decis de Alex pe 22 oct 2026)
+- Strategia completă (conținut, SEO, comunitate, viitorul marketplace): https://claude.ai/artifact/T7Kj4rTjQqAgQmcXzeiZtu
+- Site static **Astro pe Cloudflare Pages**, generat din repo; fiecare operă are o singură pagină `/works/<slug>/` (articol + imagine explorabilă prin zoom, cu detaliile din `focus`). Site-ul e în engleză.
+- Primul grup de opere: **Bruegel** (Children's Games, Netherlandish Proverbs, Peasant Wedding, Fall of Icarus) + pagina artistului.
+- Paginile sunt semnate **„Zoomed Art”** (fără nume de persoană); credibilitatea vine din pagina de politică editorială și din sursele fiecărui fapt.
+- Newsletterul se amână până după primele pagini.
+- Domeniul: cumpărat prin Hostico (expiră 8 oct 2027, reînnoire automată), DNS pe Cloudflare din 22 oct 2026, verificat în Google Search Console. Transferul înregistrării la Cloudflare se poate face de pe 7 dec 2026. Nu adăuga de mână înregistrări A/CNAME: le pune Cloudflare Pages.
+- Marketplace-ul nu se începe înainte de porțile din strategie; plățile doar prin furnizor autorizat.
 
 ## Lucrul local pe Windows (VS Code + Claude Code)
 - Folderul proiectului: `D:\Munca\Zoom Art\zoom-art` (clona repo-ului). Tot ce e în proiect (scripturi, imagini, texte de postare, brand) stă aici; codul e în `pipeline/`.

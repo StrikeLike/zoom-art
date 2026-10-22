@@ -1,0 +1,28 @@
+---
+import Base from '../layouts/Base.astro';
+import Painting from '../components/Painting.astro';
+import Credit from '../components/Credit.astro';
+import Related from '../components/Related.astro';
+import site from '../data/site.json';
+import work from '../data/work.json';
+---
+<Base title={site.seo.homeTitle}>
+  <section class="home-intro wrap">
+    <div><p class="eyebrow">{site.home.eyebrow}</p><h1>{site.home.title.split(' ')[0]} <em>{site.home.title.split(' ').slice(1).join(' ')}</em></h1></div>
+    <div class="home-intro-aside"><span class="tiny-cross" aria-hidden="true">+</span><p>{site.home.deck}</p><a class="text-link" href="/works/childrens-games/">{site.ui.beginStory}<span aria-hidden="true">↗</span></a></div>
+  </section>
+  <section class="home-feature" aria-labelledby="featured-title">
+    <a class="home-canvas" href="/works/childrens-games/" aria-label={`${site.ui.beginStory}: ${work.title}`}>
+      <Painting eager shared sizes="100vw" />
+      <span class="home-focus focus-corners" aria-hidden="true"></span>
+    </a>
+    <div class="feature-caption wrap"><div><p class="eyebrow">{site.home.featureLabel}</p><h2 id="featured-title"><a href="/works/childrens-games/">{work.title}</a></h2><p class="artist-line">{work.artist}, {work.year}</p></div><div class="feature-hook"><p>{site.home.featureHook}</p><a class="round-link" href="/works/childrens-games/" aria-label={site.ui.beginStory}>↗</a></div></div>
+    <div class="wrap"><Credit /></div>
+  </section>
+  <section class="detail-invitation wrap section-space">
+    <div class="invitation-copy"><p class="eyebrow">{site.home.collectionLabel}</p><h2>{site.home.collectionTitle}</h2><p>{site.home.collectionDescription}</p><a class="text-link" href="/collections/hidden-details/">{site.home.collectionLink}<span aria-hidden="true">↗</span></a></div>
+    <a class="detail-pair" href="/works/childrens-games/#guided" aria-label={site.ui.guidedStory}><figure><img src="/images/childrens-games/detail-2.webp" width="960" height="510" alt={work.slides[2].text} loading="lazy" /><figcaption><span>01</span>{work.slides[2].headline}</figcaption></figure><figure><img src="/images/childrens-games/detail-6.webp" width="508" height="900" alt={work.slides[6].text} loading="lazy" /><figcaption><span>02</span>{work.slides[6].headline}</figcaption></figure></a>
+  </section>
+  <Related id="paintings" heading={site.home.paintingsTitle} />
+  <section class="manifesto wrap section-space"><p class="eyebrow">{site.home.aboutLabel}</p><h2>{site.home.aboutTitle}</h2><div><p>{site.home.aboutText}</p><a class="text-link" href="/editorial-policy/">{site.ui.readPolicy}<span aria-hidden="true">↗</span></a></div></section>
+</Base>
