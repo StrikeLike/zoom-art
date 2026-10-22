@@ -37,7 +37,7 @@ const daily = pool.map(({ work, step, i }) => ({
         return <li class="wall-item" style={`--ar:${(w / h).toFixed(3)};--h:${heights[i % heights.length]};--i:${i}`}>
           <a class="wall-link" href={`/works/${work.slug}/`}>
             <span class="wall-frame"><img src={`${work.image.base}/painting-768.webp`} srcset={`${work.image.base}/painting-480.webp ${work.image.sizes['480'][0]}w, ${work.image.base}/painting-768.webp ${w}w`} sizes="(max-width: 760px) 92vw, 420px" width={w} height={h} alt={work.image.alt} loading={i < 4 ? 'eager' : 'lazy'} fetchpriority={i < 2 ? 'high' : 'auto'} decoding="async" style={`view-transition-name:art-${work.slug}`} /></span>
-            <span class="wall-hook">{work.hook}</span>
+            <span class="wall-hook">{work.question}</span>
             <span class="wall-label">{work.title}<i>{work.artist}, {work.year}</i></span>
           </a>
         </li>;

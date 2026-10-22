@@ -57,7 +57,7 @@
     "beginStory": "Begin the story",
     "explorePainting": "Explore the painting",
     "readStory": "Read the story",
-    "readArticle": "Read the full article",
+    "readArticle": "Read the whole story",
     "nextPainting": "Next painting",
     "allPaintings": "All paintings",
     "meetArtist": "Meet the artist",
@@ -119,7 +119,9 @@
     "imageCredit": "Public domain, via Wikimedia Commons",
     "backHome": "Return to the gallery",
     "centimetres": "cm",
-    "keepLooking": "More paintings with a story to tell."
+    "keepLooking": "More paintings with a story to tell.",
+    "detailsCount": "details",
+    "everyDetail": "Every detail in the painting"
   },
   "home": {
     "eyebrow": "Art history, one detail at a time",

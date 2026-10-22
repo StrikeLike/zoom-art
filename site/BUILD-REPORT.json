@@ -32,7 +32,7 @@
     }
   ],
   "firstViewGzipBytes": 5904,
-  "imageFiles": 3195,
-  "imageBytes": 169167975,
+  "imageFiles": 3209,
+  "imageBytes": 170569241,
   "performanceNote": "Byte sizes are build measurements. LCP, CLS and INP require mobile 4G lab/field measurement; no pass claimed."
 }

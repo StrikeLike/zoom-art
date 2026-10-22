@@ -17,8 +17,10 @@ for(const route of routes){
   assert(!/src="[^"]*\/image\.jpg"/.test(html),`${route}: the original must never be sent whole`);
   const slug=route.match(/^\/works\/([^/]+)\/$/)?.[1];
   if(slug){
-    const script=JSON.parse((await readFile(path.join(root,'..','pipeline','works',slug,'script.json'),'utf8')).replace(/^﻿/,''));
-    for(const slide of script.slides.filter(s=>s.focus)){
+    const read=async name=>JSON.parse((await readFile(path.join(root,'..','pipeline','works',slug,name),'utf8')).replace(/^﻿/,''));
+    const script=await read('script.json');
+    const article=await read('article.json').catch(()=>({}));
+    for(const slide of article.details?.length ? article.details : script.slides.filter(s=>s.focus)){
       assert(slide.focus.length===4 && slide.focus.every(n=>n>=0 && n<=1),`${slug}: invalid focus data`);
       const escaped=slide.headline.replaceAll('&','&amp;').replaceAll("'",'&#39;').replaceAll('"','&quot;');
       assert(html.includes(escaped) || html.includes(slide.headline),`${slug}: guided step "${slide.headline}" missing from the HTML`);

@@ -22,7 +22,7 @@ type Slide = {
 export type ReelData = {
   title: string; artist: string; year: string; fps: number; fmt: "reel" | "carousel"; bg: string;
   width: number; height: number; img: [number, number]; slides: Slide[];
-  pad: number; brandY: number; safeTop: number; ctaHead: string; ctaSub: string; // platform safe zones, computed by render.py layout()
+  pad: number; brandY: number; safeTop: number; safeLeft?: number; safeRight?: number; ctaHead: string; ctaSub: string; // platform safe zones, computed by render.py layout()
 };
 
 // Frame height: 1920 for the reel, 1350 for the carousel. Each composition renders in its own page,
@@ -256,14 +256,15 @@ const SlideText: React.FC<{d: ReelData; s: Slide; k: number; v: View}> = ({d, s,
     // final slide: headline, then the "why", then the follow line in gold (text from render.py CTA_HEAD / CTA_SUB)
     const cy = H / 2 - (d.fmt === "reel" ? 110 : 0); // reel: keep clear of the like/share column
     const [why, follow] = d.ctaSub.includes("Follow") ? [d.ctaSub.slice(0, d.ctaSub.indexOf("Follow")).trim(), d.ctaSub.slice(d.ctaSub.indexOf("Follow"))] : [d.ctaSub, ""];
-    const block = {position: "absolute", left: (W - 860) / 2, width: 860, textAlign: "center"} as const;
+    const sl = d.safeLeft ?? 110, sr = d.safeRight ?? 110, mid = sl + (W - sl - sr) / 2;
+    const block = {position: "absolute", left: sl, width: W - sl - sr, textAlign: "center"} as const;
     const followP = interpolate(k, [30, 50], [0, 1], {...clamp, easing: Easing.spring({damping: 200})});
     return (
       <AbsoluteFill>
         <div style={{...block, top: cy - 300, font: `700 72px ${SERIF}`, lineHeight: "84px", color: WHITE, opacity: p, scale: String(0.94 + 0.06 * p)}}>
           {d.ctaHead}
         </div>
-        <div style={{position: "absolute", top: cy - 110, left: W / 2 - 60 * line, width: 120 * line, height: 3, background: GOLD, borderRadius: 2}} />
+        <div style={{position: "absolute", top: cy - 110, left: mid - 60 * line, width: 120 * line, height: 3, background: GOLD, borderRadius: 2}} />
         <div style={{...block, top: cy - 80, font: `italic 400 42px ${SERIF}`, lineHeight: "52px", color: "rgba(245,240,230,0.85)", opacity: sub, translate: `0px ${(1 - sub) * 14}px`}}>{why}</div>
         {follow && (
           <div style={{...block, top: cy + 10, font: `700 60px ${SERIF}`, color: GOLD, opacity: followP, scale: String(0.9 + 0.1 * followP)}}>

@@ -10,6 +10,17 @@ R.upscale_enabled = True
 s, img, slides = R.load(work)
 d = R._measure
 
+# Final slide. When the site has the full story (article.json with more details than the reel shows),
+# it sends viewers there instead (Alex, 2026-10-22): "That was 8 of 22 details. The other 14 are on zoomedart.com".
+cta_head, cta_sub = R.CTA_HEAD, R.CTA_SUB
+article_path = os.path.join(work, "article.json")
+if os.path.exists(article_path):
+    told = len(json.load(open(article_path, encoding="utf-8-sig")).get("details") or [])
+    shown = sum(1 for x in s["slides"] if "focus" in x)
+    if told > shown:
+        cta_head = f"That was {shown} of {told} details."
+        cta_sub = f"The other {told - shown} are on zoomedart.com Follow @zoomed.art"
+
 def slide_entries(size, fmt):
     shots = R.reel_shots(img, slides) if fmt == "reel" else None
     out = []
@@ -77,7 +88,9 @@ for fmt, size, name, bg in (("reel", R.REEL, "reel.json", "bg.jpg"), ("carousel"
             "fmt": fmt, "bg": bg, "img": [img.width, img.height], "slides": sl}
     L0 = R.layout(img, slides[1] if len(slides) > 1 else slides[0], size, fmt)
     data.update(pad=L0["pad"], brandY=L0["brand_y"], safeTop=L0["brand_y"] + 60)
-    data.update(ctaHead=R.CTA_HEAD, ctaSub=R.CTA_SUB)  # final slide text lives in render.py  # safe zones come from render.py
+    # side margins of the final slide: the reel keeps its text clear of the like/share column (REEL_SAFE)
+    data.update(safeLeft=R.REEL_SAFE["left"] if fmt == "reel" else 110, safeRight=R.REEL_SAFE["right"] if fmt == "reel" else 110)
+    data.update(ctaHead=cta_head, ctaSub=cta_sub)  # default final slide text lives in render.py (CTA_HEAD / CTA_SUB)
     json.dump(data, open(os.path.join(pub, name), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     if fmt == "reel":
         print("reel frames", sum(x["hold"] + x["move"] for x in sl), "img", img.size)

@@ -14,7 +14,7 @@ Starea fiecărei opere. Claude actualizează tabelul după fiecare randare sau p
 | Children's Games (Bruegel) | childrens-games | da, 8000 px (Commons, micșorată din 41519 px) | făcut 12 oct, în `gata/`, reel 58,8 s; text rescris ca poveste | verificat 10 oct; clopoțeii scoși, caption corectat (fără păpuși / blind man's buff) | da, TikTok (văzut 22 oct) |
 | The Derby Day (Frith) | derby-day | da, 4001 px (Commons, Google Art Project, 11 oct; înainte 1280 px) | făcut 10 oct, text-poveste; generat local 11 oct, în `gata/`, reel 58,8 s | verificat 10 oct (Smarthistory); slide-urile arată victima, nu hoțul | |
 | Netherlandish Proverbs (Bruegel) | netherlandish-proverbs | da, 5649x4000 (Commons) | script scris | vezi `_verify` | da, TikTok (văzut 22 oct, 823 vizualizări) |
-| The Ambassadors (Holbein) | the-ambassadors | da, 8000 px (Commons, micșorată din 30000 px) | script scris | vezi `_verify` | da, TikTok (văzut 22 oct, 785 vizualizări) |
+| The Ambassadors (Holbein) | the-ambassadors | da, 8000 px (Commons, micșorată din 30000 px) | script scris; **articol complet pe site** (`article.json`, 22 de detalii, 22 oct) + texte noi în `postari/` | verificat 22 oct (National Gallery, Wikipedia, LRB); vârstele 29/25 = „în al 29-lea/25-lea an” (NG: 28 și 24) | da, TikTok (văzut 22 oct, 785 vizualizări) |
 | Bacchus (Caravaggio) | bacchus-caravaggio | da, 4779x5485 (Commons) | script scris | vezi `_verify` | |
 | The Starry Night (Van Gogh) | starry-night | da, 8000 px (Commons, micșorată din 44567 px) | script scris | vezi `_verify` | da, TikTok (văzut 22 oct, 301 vizualizări) |
 | Arnolfini Portrait (van Eyck) | arnolfini | imagine provizorie | demo | coordonatele trebuie refăcute | |

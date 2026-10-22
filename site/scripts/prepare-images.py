@@ -2,8 +2,8 @@
 Run from anywhere: python site/scripts/prepare-images.py [slug ...] [--force]
 
 For every work in src/data/published.json (or only the slugs given) it writes into public/images/<slug>/:
-whole-painting WebPs, one crop per guided detail, and a DZI tile pyramid. Works whose image.jpg and
-script.json are older than their outputs are skipped unless --force is given.
+whole-painting WebPs, one crop per guided detail (from article.json when it has details, else from
+script.json), and a DZI tile pyramid. Works whose image.jpg, script.json and article.json are older than their outputs are skipped unless --force is given.
 Sizes go to src/data/images.json, which the pages read.
 """
 from pathlib import Path
@@ -27,8 +27,13 @@ def build(slug):
     source = ROOT / 'pipeline' / 'works' / slug
     dest = SITE / 'public' / 'images' / slug
     script = json.loads((source / 'script.json').read_text(encoding='utf-8-sig'))
+    article = source / 'article.json'
+    # The site tells every detail of the full article when there is one, otherwise the reel's details.
+    told = json.loads(article.read_text(encoding='utf-8-sig')).get('details') if article.exists() else None
+    told = told or [s for s in script['slides'] if 'focus' in s]
     dzi = dest / 'painting.dzi'
-    newest = max((source / 'image.jpg').stat().st_mtime, (source / 'script.json').stat().st_mtime)
+    inputs = [source / 'image.jpg', source / 'script.json'] + ([article] if article.exists() else [])
+    newest = max(p.stat().st_mtime for p in inputs)
     if not force and slug in index and dzi.exists() and dzi.stat().st_mtime > newest:
         print(slug, 'up to date', flush=True)
         return
@@ -44,7 +49,7 @@ def build(slug):
         out.save(dest / f'painting-{size}.webp', quality=82, method=6)
         sizes[str(size)] = list(out.size)
     details = []
-    for i, slide in enumerate(s for s in script['slides'] if 'focus' in s):
+    for i, slide in enumerate(told):
         cx, cy, w, h = slide['focus']
         crop = image.crop((round(max(0, cx - w / 2) * width), round(max(0, cy - h / 2) * height),
                            round(min(1, cx + w / 2) * width), round(min(1, cy + h / 2) * height)))

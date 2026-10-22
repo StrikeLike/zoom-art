@@ -126,3 +126,8 @@ p{max-width:65ch}p+p{margin-top:1.25rem}
 
 .sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 .guide-focus{background:none}.guide-focus>i{position:absolute;width:24px;height:24px;left:0;top:0}.guide-focus>i:nth-child(2){left:auto;right:0;transform:rotate(90deg)}.guide-focus>i:nth-child(3){left:auto;right:0;top:auto;bottom:0;transform:rotate(180deg)}.guide-focus>i:nth-child(4){top:auto;bottom:0;transform:rotate(270deg)}.guide-focus>i::before,.guide-focus>i::after{content:"";position:absolute;background:var(--gold);left:0;top:0}.guide-focus>i::before{width:24px;height:2px;transform-origin:left center}.guide-focus>i::after{width:2px;height:24px;transform-origin:center top}.focus-arrive>i::before{animation:draw-corner-x 700ms var(--ease-reveal) both}.focus-arrive>i::after{animation:draw-corner-y 700ms var(--ease-reveal) both}@keyframes draw-corner-x{from{transform:scaleX(0)}to{transform:scaleX(1)}}@keyframes draw-corner-y{from{transform:scaleY(0)}to{transform:scaleY(1)}}.explorer-frame{scroll-margin-top:1.25rem}
+/* full articles: long site titles and story sections */
+.arrival-heading h1.long-title{font-size:clamp(2.4rem,3.9vw,4.1rem);line-height:1.04;max-width:20ch}
+.article-section{margin-top:3.5rem}.article-section h2{font-size:clamp(1.9rem,2.6vw,2.5rem);margin-bottom:1.1rem}.article-section p{color:var(--text);font-size:1.0625rem;line-height:1.8}
+.article-bottom>section>p+p{margin-top:1.1rem}
+@media(max-width:760px){.arrival-heading h1.long-title{font-size:2.35rem}.article-section{margin-top:2.5rem}.article-section h2{font-size:1.85rem}}

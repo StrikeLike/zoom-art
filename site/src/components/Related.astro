@@ -8,6 +8,6 @@ const { works, heading = site.ui.relatedPaintings, intro = site.home.paintingsIn
   <div class="section-heading"><div><p class="eyebrow">{site.home.paintingsLabel}</p><h2>{heading}</h2></div><p>{intro}</p></div>
   <div class="painting-shelf">{works.map((work, i) => <a class="painting-card" href={`/works/${work.slug}/`}>
     <div class="shelf-image"><img src={`${work.image.base}/painting-768.webp`} alt={work.image.alt} width={work.image.sizes['768'][0]} height={work.image.sizes['768'][1]} loading="lazy" /></div>
-    <div class="shelf-caption"><span class="small-number">{String(i + 1).padStart(2, '0')}</span><div><h3>{work.title}</h3><p>{work.hook}</p></div><span class="arrow" aria-hidden="true">↗</span></div>
+    <div class="shelf-caption"><span class="small-number">{String(i + 1).padStart(2, '0')}</span><div><h3>{work.title}</h3><p>{work.question}</p></div><span class="arrow" aria-hidden="true">↗</span></div>
   </a>)}</div>
 </section>

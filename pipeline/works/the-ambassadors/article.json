@@ -1,0 +1,198 @@
+{
+  "_note": "Long-form story for zoomedart.com. The reel tells 8 details from script.json; the site tells all of them from here. Facts come from the sources below; interpretations are labelled.",
+  "title": "The Ambassadors by Holbein: the hidden skull and every secret in the painting",
+  "question": "Two skulls, a crucifix behind a curtain, a broken string. What else is hiding in this room?",
+  "seo": {
+    "keyword": "the ambassadors holbein meaning",
+    "secondary": ["the ambassadors skull", "the ambassadors hidden details", "holbein ambassadors objects", "anamorphic skull holbein"],
+    "intent": "informational",
+    "meta_title": "The Ambassadors by Holbein: Hidden Skull & Secrets Explained",
+    "meta_description": "A guided zoom through Holbein's The Ambassadors (1533): the stretched skull, a second skull, the hidden crucifix, the broken lute string and more."
+  },
+  "facts": {
+    "medium": "Oil on oak",
+    "size_cm": "207 x 209.5",
+    "museum": "National Gallery",
+    "city": "London",
+    "licence": "Public domain, via Wikimedia Commons"
+  },
+  "intro": "The Ambassadors is a double portrait painted by Hans Holbein the Younger in London in 1533. It shows two young Frenchmen, the diplomat Jean de Dinteville and the bishop Georges de Selve, surrounded by instruments, books and a lute. Across the floor lies a stretched, unreadable shape: a skull that only snaps into place when you look at the painting from the side. Almost every object in the room carries a second meaning.",
+  "sections": [
+    {
+      "heading": "Who are the two ambassadors?",
+      "paragraphs": [
+        "On the left stands Jean de Dinteville, lord of Polisy, the French king Francis I's ambassador at the court of Henry VIII for most of 1533. He commissioned the painting. On the right is his close friend Georges de Selve, Bishop of Lavaur, who visited London briefly that spring.",
+        "Neither name is written on the canvas. The two men were identified only in 1890 and 1900, by the scholars Sidney Colvin and Mary Hervey. Their ages, though, are hidden in plain sight: in the Latin on Dinteville's dagger and on the edge of Selve's book."
+      ]
+    },
+    {
+      "heading": "London, 1533",
+      "paragraphs": [
+        "It was a dramatic year to be a French diplomat in England. Henry VIII had married Anne Boleyn, and Dinteville had to stay on for her coronation in June and for the birth of her daughter, the future Elizabeth I, in September. Across Europe, Catholics and Protestants were tearing the Church apart.",
+        "Holbein, a German painter working in London, signed and dated the picture on the marble floor behind Dinteville. Then he filled the room with clues to that world: the sky above, the earth below, and a warning across the floor."
+      ]
+    },
+    {
+      "heading": "Heaven above, earth below",
+      "paragraphs": [
+        "The two-tier stand between the men is a cabinet of the latest knowledge. The upper shelf belongs to the heavens: a celestial globe and a set of instruments for measuring time and the position of the sun and stars. The lower shelf belongs to the earth: a terrestrial globe, a merchant's arithmetic book, a lute, flutes and a hymn book.",
+        "Look closer, and things start to go wrong. The sundials do not agree with each other. A lute string has snapped. One flute is missing. The globe is upside down. The guided look above walks through every one of them."
+      ]
+    },
+    {
+      "heading": "The skull you can only see from the side",
+      "paragraphs": [
+        "The strange grey shape floating above the floor is a human skull, painted in anamorphosis: stretched so far that it is unreadable from the front. Stand close to the painting on its right and look along the surface, and the skull suddenly appears, while the two men melt away.",
+        "The painting seems designed to surprise a viewer who approaches it from the side. In the middle of all this wealth and learning, death waits for the viewer who looks from the right angle. During the 1997 restoration, a large damaged area of the skull, part of the lower jaw and the nasal cavity, had to be reconstructed."
+      ]
+    },
+    {
+      "heading": "A painting about Good Friday? A theory",
+      "paragraphs": [
+        "In his 2002 book The Ambassadors' Secret, the historian of science John North argued that the instruments record a precise moment: 4 p.m. on 11 April 1533, which was Good Friday. He linked the stretched skull, the half-hidden crucifix and the sun's position into a hidden geometry.",
+        "Not everyone is convinced. Reviewing the book, the historian John Bossy called the sundial argument flimsy and the geometry shaky, while accepting Good Friday 1533 as a plausible date. Treat it as a fascinating theory, not a proven fact."
+      ]
+    },
+    {
+      "heading": "From Polisy to the National Gallery",
+      "paragraphs": [
+        "Dinteville probably took the painting home to his château at Polisy, where it is recorded in an inventory of 1589. It later passed through Paris collections, reached England by 1792 and was bought in 1808 by the 2nd Earl of Radnor.",
+        "In 1890 the National Gallery bought it from the 5th Earl of Radnor, together with two other paintings, for £55,000. It has been in London ever since."
+      ]
+    }
+  ],
+  "meaning": [
+    "There is no single official meaning, and the painting may have been meant to be read in several ways at once.",
+    "One reading is secular: a celebration of two learned young men and the science, music and diplomacy of their age. Another sees religious crisis: the broken lute string and the Lutheran hymn book suggest discord in a Europe split by the Reformation, while the hidden crucifix hints at faith behind the curtain.",
+    "Almost everyone agrees on the skull. It is a memento mori, a reminder that death outranks every globe, title and instrument in the room. Dinteville seems to have taken that idea personally: he wears a small skull on his own hat."
+  ],
+  "whereToSee": "National Gallery, London (inventory NG1314). It was listed in Room 4 in October 2026; check the gallery's website before you visit, as rooms change.",
+  "details": [
+    {
+      "headline": "Two young men, 1533",
+      "text": "Almost two metres square: a French diplomat on the left, a bishop on the right, and between them a stand full of objects. Everything here was chosen. Let's start with the men.",
+      "focus": [0.5, 0.5, 0.96, 0.96]
+    },
+    {
+      "headline": "Jean de Dinteville",
+      "text": "Fur-lined coat, pink satin, a heavy gold chain: the French king's ambassador at Henry VIII's court. He paid for this painting, and he takes up the whole left half of it.",
+      "focus": [0.25, 0.31, 0.46, 0.47]
+    },
+    {
+      "headline": "His age, on his dagger",
+      "text": "On the golden sheath in his right hand, tiny Latin letters read AET. SVÆ 29: \"in his 29th year\". The National Gallery reads it as 28 years old.",
+      "focus": [0.19, 0.535, 0.18, 0.07]
+    },
+    {
+      "headline": "Georges de Selve",
+      "text": "His friend wears a long dark gown, not a bishop's robes: he was not consecrated until 1534. He was only in London for a few weeks that spring.",
+      "focus": [0.83, 0.3, 0.3, 0.4]
+    },
+    {
+      "headline": "His age, on his book",
+      "text": "Under his elbow, the edge of a book reads AETATIS SVÆ 25: \"in his 25th year\". Two young men, then: 28 and 24, by the gallery's reading.",
+      "focus": [0.675, 0.333, 0.1, 0.045]
+    },
+    {
+      "headline": "Above: the heavens",
+      "text": "The upper shelf is the sky. Every instrument on it measures time, height or the position of the sun and stars. According to the National Gallery, the sundials were made by Nicholas Kratzer, Henry VIII's astronomer.",
+      "focus": [0.55, 0.255, 0.36, 0.2]
+    },
+    {
+      "headline": "The celestial globe",
+      "text": "Constellations instead of countries, and a brass ring set for a particular latitude. Scholars attribute the globe to the German mapmaker Johannes Schöner.",
+      "focus": [0.44, 0.255, 0.11, 0.15]
+    },
+    {
+      "headline": "A pocket sundial",
+      "text": "The little cylinder is a shepherd's dial: you read the hour from the shadow on its side. Some scholars read a date in its setting, which matters later.",
+      "focus": [0.485, 0.305, 0.04, 0.09]
+    },
+    {
+      "headline": "A quadrant and a folding dial",
+      "text": "Next to it stand a horary quadrant, for telling the time from the sun's height, and a white universal dial, which works at any latitude. Renaissance high-tech.",
+      "focus": [0.548, 0.288, 0.09, 0.11]
+    },
+    {
+      "headline": "A sundial that disagrees with itself",
+      "text": "The many-sided sundial shows two different times on its faces: about 9:30 on one, 10:30 on the others. A small sign that something in this room is out of joint.",
+      "focus": [0.624, 0.316, 0.055, 0.07]
+    },
+    {
+      "headline": "The torquetum",
+      "text": "Behind Selve's shoulder, the brass discs of a torquetum, an instrument for measuring the positions of the sun, moon and stars.",
+      "focus": [0.67, 0.215, 0.075, 0.15]
+    },
+    {
+      "headline": "A carpet from Anatolia",
+      "text": "The shelf is covered with a Turkish carpet. Holbein painted this type so often that such carpets are still called \"Holbein carpets\" today.",
+      "focus": [0.58, 0.41, 0.38, 0.14]
+    },
+    {
+      "headline": "Below: the earth, upside down",
+      "text": "The lower shelf is the world. Its globe is turned upside down: Africa and Europe hang head-first. Among the few French places marked on it is Polisy, Dinteville's own château.",
+      "focus": [0.45, 0.6, 0.11, 0.11]
+    },
+    {
+      "headline": "A book open at \"division\"",
+      "text": "Wedged open with a set square: Peter Apian's arithmetic book for merchants, at the page on division. In a room full of signs, the word is hard to miss.",
+      "focus": [0.462, 0.675, 0.1, 0.065]
+    },
+    {
+      "headline": "The broken string",
+      "text": "Look along the neck of the lute: one of its strings has snapped. A lute was a classic image of harmony. A broken one is usually read as discord.",
+      "focus": [0.6, 0.605, 0.17, 0.07]
+    },
+    {
+      "headline": "A Lutheran hymn book",
+      "text": "In front of the lute lies Johann Walter's hymn book, printed in Wittenberg in 1524, open at \"Come, Holy Ghost\" and the Ten Commandments. Protestant hymns, in a Catholic bishop's painting.",
+      "focus": [0.623, 0.662, 0.16, 0.06]
+    },
+    {
+      "headline": "One flute missing",
+      "text": "Beside the book, a leather case of flutes. Count the slots: one flute is gone. Another small break in the harmony.",
+      "focus": [0.705, 0.685, 0.1, 0.065]
+    },
+    {
+      "headline": "A floor from Westminster Abbey",
+      "text": "The geometric marble floor is based on the Cosmati pavement in Westminster Abbey, where Anne Boleyn was crowned that June. The historian Eric Ives read it as a nod to her coronation.",
+      "focus": [0.8, 0.915, 0.4, 0.16]
+    },
+    {
+      "headline": "And then, the skull",
+      "text": "Between their feet floats a stretched grey shape. From the front it is unreadable. Stand close on the right and look along the painting: a human skull snaps into focus.",
+      "focus": [0.5, 0.87, 0.44, 0.22]
+    },
+    {
+      "headline": "A second skull",
+      "text": "Now look back at Dinteville's black hat. On its silver badge sits a tiny skull. The man who ordered this painting carried death on his own head.",
+      "focus": [0.277, 0.106, 0.045, 0.035]
+    },
+    {
+      "headline": "Behind the curtain",
+      "text": "Last, the top left corner. Half hidden by the green curtain hangs a silver crucifix, so small and so far to the edge that most visitors never see it.",
+      "focus": [0.014, 0.04, 0.03, 0.08]
+    },
+    {
+      "headline": "Look again",
+      "text": "Skulls, a broken string, a missing flute, an upside-down world and a Christ behind a curtain. A portrait of two powerful men, and of everything that could undo them.",
+      "focus": [0.5, 0.5, 0.96, 0.96]
+    }
+  ],
+  "sources": [
+    {"title": "National Gallery, London: Jean de Dinteville and Georges de Selve ('The Ambassadors')", "url": "https://www.nationalgallery.org.uk/paintings/hans-holbein-the-younger-the-ambassadors", "note": "Sitters, commission, dates in London, medium and size, objects on both shelves, Kratzer, hymns, flutes, skull viewing, crucifix, signature, acquisition in 1890."},
+    {"title": "Wikipedia: The Ambassadors (Holbein)", "url": "https://en.wikipedia.org/wiki/The_Ambassadors_(Holbein)", "note": "Age inscriptions, identification of the sitters, Schöner globes, polyhedral dial times, Holbein carpet, Polisy on the globe, Walter hymnal, Cosmati pavement and Eric Ives, hat skull, provenance, 1997 restoration of the skull."},
+    {"title": "John Bossy, 'The Skull from Outer Space', London Review of Books, vol. 25 no. 4 (2003)", "url": "https://www.lrb.co.uk/v25/n04/john-bossy/the-skull-from-outer-space", "note": "Review of John North's The Ambassadors' Secret (2002): the 4 p.m., 11 April 1533 Good Friday reading and its weaknesses."}
+  ],
+  "_verify": [
+    "VERIFIED 2026-10-22 against the three sources above, with the details located on the image (crops checked one by one).",
+    "Ages: the inscriptions read 29 (dagger) and 25 (book), i.e. 'in his 29th/25th year'; the National Gallery text gives 28 and 24, its audio guide 29 and 25. The site says both, carefully.",
+    "Kratzer made the sundials: stated by the National Gallery; Wikipedia says 'possibly designed by Kratzer'. Attributed to the gallery in the text.",
+    "The broken lute string is documented by the National Gallery and Wikipedia; at the resolution of our image it is subtle, the zoom shows the strings area.",
+    "Holbein's signature on the floor behind Dinteville: stated by the National Gallery, not legible in our image, so it is mentioned in the text but not zoomed.",
+    "Good Friday, 4 p.m., 11 April 1533: John North's theory, presented as a theory with Bossy's reservations.",
+    "Eric Ives and the coronation link to the Cosmati pavement: presented as his reading.",
+    "Room 4: as listed on the National Gallery page in October 2026; rooms change.",
+    "Not used: Order of Saint Michael for Dinteville's pendant (no source checked yet); the lute case on the floor (not clearly visible in our image)."
+  ]
+}

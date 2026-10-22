@@ -19,6 +19,11 @@ Claude citește automat fișierul ăsta la începutul fiecărei sesiuni (Claude 
 - Numele operelor i le dai lui Alex în engleză, ca să le poată căuta.
 - **Hashtag-uri: maxim 5 pe postare** (Alex, 10 oct 2026), la carusel, reel și YouTube, și numai hashtag-uri cu reach mare (folosite pe milioane de postări, de ex. #art, #arthistory, #painting, #history, #oilpainting, #renaissance, #museum; pe TikTok #arttok). Fără hashtag-uri de nișă sau de brand. Textele stau în `postari/<nume>.md` (același nume ca folderul operei din `works/`).
 
+## Povestea completă pe site (Alex, 22 oct 2026)
+- **Pe site oamenii văd tot**: reel-ul și caruselul arată ~8 detalii, site-ul arată toate detaliile cunoscute ale operei, cu povestea întreagă. Textul stă în `pipeline/works/<nume>/article.json`, lângă `script.json`: `title` (titlul de pe site, **diferit** de cel din reel/carusel, gândit pentru Google), `question` (întrebarea de pe zidul de pe prima pagină, tot diferită), `seo`, `facts`, `intro`, `sections`, `meaning` (interpretări, marcate ca atare), `details` (toate detaliile, fiecare cu `focus` verificat pe imagine), `whereToSee`, `sources` (cu URL), `_verify`. Model: `works/the-ambassadors/article.json` (22 de detalii).
+- Fiecare fapt din articol are sursă; fiecare decupaj trebuie să arate exact ce spune textul. Ce nu se vede pe imagine se spune doar în text sau se scoate.
+- **Reel-ul trimite spre site**: când există `article.json` cu mai multe detalii decât reel-ul, ultimul slide devine automat „That was 8 of 22 details.” + „The other 14 are on zoomedart.com” + „Follow @zoomed.art” (`export_shots.py`); altfel rămâne CTA-ul din `render.py`. În `postari/<nume>.md`: un rând spre site în caption și textul pentru **comentariul fixat** (Alex îl pune și îl fixează manual). Se folosesc numai după ce site-ul e publicat.
+
 ## Formatul standard (aprobat de Alex, 9 oct 2026)
 Pentru fiecare operă, un singur text → două produse, făcute cu generatorul din `pipeline/` (vezi `pipeline/README.md`):
 1. **Carusel**: 10 imagini JPG 1080x1350. Max 9 slide-uri în script; ultimul slide se adaugă automat: „You may never see this page again.” + „The algorithm won't show us twice. Follow @zoomed.art” (ales de Alex pe 10 oct 2026; textul e în `CTA_HEAD` / `CTA_SUB` din `render.py`).
