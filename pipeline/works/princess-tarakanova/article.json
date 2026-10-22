@@ -1,0 +1,103 @@
+{
+  "_note": "Long-form story for zoomedart.com. Image: the 1864 Tretyakov version (1400 px on Commons, so zooms are soft).",
+  "title": "Princess Tarakanova by Flavitsky: the flood, the rats and a legend that never happened",
+  "question": "A woman in red, a flooding cell, rats climbing the bed. Who was she, and did she really die like this?",
+  "seo": {
+    "keyword": "princess tarakanova painting",
+    "secondary": ["princess tarakanova flavitsky", "princess tarakanova true story", "tarakanova flood painting", "tretyakov gallery princess tarakanova"],
+    "intent": "informational",
+    "meta_title": "Princess Tarakanova: the Painting and the True Story",
+    "meta_description": "A guided look at Flavitsky's Princess Tarakanova (1864): the flooded cell, the rats, the woman who claimed to be an empress's daughter, and the legend."
+  },
+  "facts": {
+    "medium": "Oil on canvas",
+    "size_cm": "245 x 187",
+    "museum": "State Tretyakov Gallery",
+    "city": "Moscow",
+    "licence": "Public domain, via Wikimedia Commons"
+  },
+  "intro": "Princess Tarakanova is a painting by the Russian artist Konstantin Flavitsky, completed in 1864 and now in the State Tretyakov Gallery in Moscow. A young woman in a red dress stands on her bed in a prison cell of the Peter and Paul Fortress in Saint Petersburg, as floodwater pours through the barred window and wet rats climb towards her feet. The scene follows a famous legend. History tells a different story.",
+  "sections": [
+    {
+      "heading": "Who was she?",
+      "paragraphs": [
+        "The woman known as Princess Tarakanova claimed to be the daughter of Empress Elizabeth of Russia. She even claimed to be a sister of the rebel leader Yemelyan Pugachev.",
+        "Empress Catherine II ordered her arrest. In May 1775 she was brought to the Peter and Paul Fortress and interrogated by Field Marshal Prince Golitsyn. She never revealed who she really was."
+      ]
+    },
+    {
+      "heading": "The legend and the record",
+      "paragraphs": [
+        "The legend says she drowned in her cell during the great Saint Petersburg flood of 21 September 1777. That is the moment Flavitsky painted.",
+        "The records say otherwise. She died of tuberculosis on 4 December 1775, almost two years before the flood, and kept the secret of her birth even from a priest. The flood story stuck in popular memory largely because of this painting."
+      ]
+    },
+    {
+      "heading": "A painter's masterpiece",
+      "paragraphs": [
+        "Flavitsky showed the painting at the Academy of Arts exhibition in 1864. It became his best-known work and helped earn him the title of professor of historical painting. The critic Vladimir Stasov called it \"the glory of our school, the most brilliant creation of Russian painting\".",
+        "Flavitsky died two years later, in 1866. Pavel Tretyakov acquired the painting for his collection after the artist's death. An earlier version from 1862 is in the Ekaterinburg Museum of Fine Arts, and a smaller 1864 version in the Penza Art Gallery."
+      ]
+    }
+  ],
+  "meaning": [
+    "Flavitsky painted a legend, not a fact, and he knew how to make it unforgettable: a beautiful young woman, a locked cell, water rising and no way out.",
+    "Seen today, the painting is also about how a powerful image can replace history. Most people who know the name Tarakanova know her from this picture, and from a death she never died."
+  ],
+  "whereToSee": "State Tretyakov Gallery, Moscow. Other versions are in the Ekaterinburg Museum of Fine Arts (1862) and the Penza Art Gallery.",
+  "details": [
+    {
+      "headline": "Saint Petersburg, 1777",
+      "text": "A prison cell in the Peter and Paul Fortress. Outside, the river is flooding the city. Inside, a woman is trapped.",
+      "focus": [0.5, 0.5, 0.96, 0.96]
+    },
+    {
+      "headline": "The woman in red",
+      "text": "She stands on her bed against the wall, head thrown back, eyes rolling up, as if she can no longer bear to look.",
+      "focus": [0.25, 0.25, 0.22, 0.22]
+    },
+    {
+      "headline": "A dress for a palace",
+      "text": "A red velvet gown over white silk, lace at the sleeves: the dress of a woman who claimed royal blood, now in a cell.",
+      "focus": [0.3, 0.55, 0.36, 0.5]
+    },
+    {
+      "headline": "The barred window",
+      "text": "High on the right, the only window is barred. Through it, the light of the flooded city.",
+      "focus": [0.93, 0.22, 0.12, 0.36]
+    },
+    {
+      "headline": "The water comes in",
+      "text": "Water pours through the window and spreads across the floor. There is nowhere left to stand except the bed.",
+      "focus": [0.92, 0.42, 0.14, 0.16]
+    },
+    {
+      "headline": "Rats",
+      "text": "Look at the pillow: a wet rat has climbed out of the water, crawling towards her.",
+      "focus": [0.59, 0.645, 0.1, 0.08]
+    },
+    {
+      "headline": "A prison meal",
+      "text": "On the little table: a jug and a piece of bread. All she was given.",
+      "focus": [0.88, 0.62, 0.22, 0.14]
+    },
+    {
+      "headline": "The flood",
+      "text": "Below, the floor is already under water, rising around the legs of the bed.",
+      "focus": [0.72, 0.88, 0.5, 0.2]
+    },
+    {
+      "headline": "But it never happened",
+      "text": "The records say she died of tuberculosis in December 1775, two years before the flood. Flavitsky painted the legend, and the legend won. Who do you think she was?",
+      "focus": [0.5, 0.5, 0.96, 0.96]
+    }
+  ],
+  "sources": [
+    {"title": "Wikipedia: Princess Tarakanova (painting)", "url": "https://en.wikipedia.org/wiki/Princess_Tarakanova_(painting)", "note": "Date, size, medium, Tretyakov Gallery, the scene (cell, flood, rats), the 1777 flood legend, her death from tuberculosis on 4 December 1775, her claims, the arrest and Golitsyn, Stasov's praise, Tretyakov's purchase, the other versions."}
+  ],
+  "_verify": [
+    "VERIFIED 2026-10-22 against Wikipedia; details located on our image (1400 px) and crops checked.",
+    "Bread and jug on the table: visible in the image.",
+    "Not used: Alexei Orlov luring her from Italy (not in the checked source)."
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "_note": "Long-form story for zoomedart.com. Violence rule: no zoom on the wounded or on blood; zooms stay on gestures, faces in the crowd, armour and the arena.",
+  "title": "Pollice Verso by Gérôme: the painting that invented 'thumbs down'",
+  "question": "Thumbs down means death. Everyone knows it. So why do historians say the Romans may never have done it?",
+  "seo": {
+    "keyword": "pollice verso painting meaning",
+    "secondary": [
+      "thumbs down gladiator painting",
+      "gerome pollice verso",
+      "pollice verso thumbs up or down",
+      "gladiator movie painting"
+    ],
+    "intent": "informational",
+    "meta_title": "Pollice Verso by Gérôme: the Painting Behind 'Thumbs Down'",
+    "meta_description": "A guided look at Gérôme's Pollice Verso (1872): the Vestals' gesture, the gladiators, the emperor's box and how the painting shaped the film Gladiator."
+  },
+  "facts": {
+    "medium": "Oil on canvas",
+    "size_cm": "96.5 x 149.2",
+    "museum": "Phoenix Art Museum",
+    "city": "Phoenix",
+    "licence": "Public domain, via Wikimedia Commons"
+  },
+  "intro": "Pollice Verso is a painting by the French artist Jean-Léon Gérôme from 1872, now in the Phoenix Art Museum in Arizona. In the Colosseum, a victorious gladiator stands over his defeated opponent and looks up at the crowd, while the Vestal Virgins thrust their thumbs down: kill him. The image is so convincing that it fixed \"thumbs down\" as the Roman sign for death. The problem is that nobody knows what the Roman gesture actually was.",
+  "sections": [
+    {
+      "heading": "\"With a turned thumb\"",
+      "paragraphs": [
+        "Pollice verso is Latin for \"with a turned thumb\". Roman writers use the phrase for the crowd's verdict on a defeated gladiator, but they never describe the gesture clearly. Was the thumb turned up, turned down, held sideways or hidden in the fist? Historians still do not know.",
+        "Gérôme chose thumbs down for death, and his painting made that choice famous. Since 1872, thumbs up for life and thumbs down for death have seemed like ancient history."
+      ]
+    },
+    {
+      "heading": "Painted like an archaeologist",
+      "paragraphs": [
+        "Gérôme was known for his research. The architecture of the Colosseum follows accurate drawings, and the gladiators' armour is modelled on pieces excavated at Pompeii, although the victor's armour mixes elements from different types.",
+        "The bloodthirsty Vestals may come from a passage by the Christian poet Prudentius, who disapproved of the carnage of the arena."
+      ]
+    },
+    {
+      "heading": "A record price, and a film",
+      "paragraphs": [
+        "The American businessman Alexander Turney Stewart bought the painting from Gérôme for 80,000 francs, a record for the artist, and showed it in New York. Its accuracy was argued over so much that a 26-page pamphlet appeared in 1879, including a letter from Gérôme himself.",
+        "More than a century later, it helped launch a film. When the producers of Gladiator (2000) showed Ridley Scott a reproduction before he had read the script, he said the image spoke to him of the Roman Empire in all its glory and wickedness."
+      ]
+    }
+  ],
+  "meaning": [
+    "Gérôme was painting a judgement, not a fight. The real drama is in the stands: thousands of spectators, and the women who were supposed to be the purest in Rome, deciding whether a man lives.",
+    "It is also a painting about how images shape history. The gesture we all \"know\" may be Gérôme's invention, and it has outlived every scholar who doubted it."
+  ],
+  "whereToSee": "Phoenix Art Museum, Phoenix, Arizona. Check the museum's website before you visit.",
+  "details": [
+    {
+      "headline": "Rome, the Colosseum",
+      "text": "A fight has just ended. One gladiator stands, one lies beaten in the sand. Now the crowd decides. Let's look at the stands, not the blood.",
+      "focus": [0.5, 0.5, 0.96, 0.96]
+    },
+    {
+      "headline": "The winner",
+      "text": "The victor, a murmillo in a huge bronze helmet, plants his foot and looks up at the crowd, waiting for the verdict.",
+      "focus": [0.32, 0.52, 0.14, 0.22]
+    },
+    {
+      "headline": "His helmet",
+      "text": "Gérôme modelled the gladiators' armour on pieces dug up at Pompeii. The helmet's wide brim and crest hide the man completely.",
+      "focus": [0.31, 0.47, 0.08, 0.09]
+    },
+    {
+      "headline": "Two fingers for mercy",
+      "text": "Below him, the beaten gladiator raises his hand with two fingers held up: the signal asking for mercy.",
+      "focus": [0.485, 0.72, 0.06, 0.08]
+    },
+    {
+      "headline": "Thumbs down",
+      "text": "Up in the stands, women in white lean out and thrust their thumbs down. These are the Vestal Virgins, the holiest women in Rome, demanding death.",
+      "focus": [0.8, 0.2, 0.36, 0.22]
+    },
+    {
+      "headline": "The emperor",
+      "text": "In the imperial box, on a gilded throne, the emperor sits wrapped in purple. The final word is his.",
+      "focus": [0.28, 0.305, 0.12, 0.12]
+    },
+    {
+      "headline": "A sea of faces",
+      "text": "Behind, the Colosseum is packed to the top tiers. Gérôme based its architecture on accurate drawings.",
+      "focus": [0.15, 0.18, 0.3, 0.26]
+    },
+    {
+      "headline": "Hangings on the wall",
+      "text": "Rich carpets and banners drape over the barrier below the Vestals, as at a festival.",
+      "focus": [0.76, 0.42, 0.4, 0.22]
+    },
+    {
+      "headline": "Golden eagles",
+      "text": "Gilded eagles and red columns crown the imperial box: the symbols of Rome's power.",
+      "focus": [0.25, 0.08, 0.14, 0.12]
+    },
+    {
+      "headline": "Was it really thumbs down?",
+      "text": "No Roman text says which way the thumb pointed. Gérôme chose down, and now everyone believes it. What would you have guessed?",
+      "focus": [0.5, 0.5, 0.96, 0.96]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Pollice Verso (Gérôme)",
+      "url": "https://en.wikipedia.org/wiki/Pollice_Verso_(G%C3%A9r%C3%B4me)",
+      "note": "Date, size, medium, Phoenix Art Museum, the meaning of the title, the uncertain gesture, the Vestals, the murmillo and retiarius, the emperor's box, the Colosseum drawings, the Pompeii armour, Prudentius, A. T. Stewart's 80,000 francs, the 1879 pamphlet, Gladiator and Ridley Scott."
+    }
+  ],
+  "_verify": [
+    "VERIFIED 2026-10-22 against Wikipedia; details located on our image (2425 px, so zooms are soft) and crops checked.",
+    "Violence: no zoom on the beaten gladiator's body or on blood; the 'two fingers' crop shows only the raised hand.",
+    "'Accurate drawings' and 'Pompeii' as in Wikipedia; 'mixes elements' paraphrases 'some inaccuracies'.",
+    "Golden eagles, carpets and banners: visible in the image."
+  ]
+}

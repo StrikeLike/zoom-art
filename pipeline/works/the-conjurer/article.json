@@ -1,0 +1,135 @@
+{
+  "_note": "Long-form story for zoomedart.com.",
+  "title": "The Conjurer after Bosch: the trick, the thief and the frog nobody notices",
+  "question": "A trick, a crowd, a man leaning in too far. Who in this picture is really being played?",
+  "seo": {
+    "keyword": "the conjurer bosch meaning",
+    "secondary": ["bosch conjurer painting", "the conjurer frog", "cups and balls painting", "bosch pickpocket painting"],
+    "intent": "informational",
+    "meta_title": "The Conjurer (after Bosch): the Trick, the Thief, the Frog",
+    "meta_description": "A guided zoom through The Conjurer, after Hieronymus Bosch (c. 1502): the cups-and-balls trick, the pickpocket, the frog, the owl and the dog in a hood."
+  },
+  "facts": {
+    "medium": "Oil on wood",
+    "size_cm": "53 x 65",
+    "museum": "Musée municipal",
+    "city": "Saint-Germain-en-Laye",
+    "licence": "Public domain, via Wikimedia Commons"
+  },
+  "intro": "The Conjurer is a painting from around 1502, attributed to Hieronymus Bosch or his workshop, in the municipal museum of Saint-Germain-en-Laye near Paris. Bosch's original is lost; this is considered a very good copy. A street magician performs the cups-and-balls trick for a crowd. While one well-dressed man leans in, spellbound, a man behind him quietly steals his purse. Everyone is watching the wrong thing.",
+  "sections": [
+    {
+      "heading": "The oldest trick",
+      "paragraphs": [
+        "On the right, the conjurer in red stands at his table with cups, little balls and a wand: the cups-and-balls trick, still performed by street magicians today. He holds up a small ball, a pearl, between his fingers, and every eye follows it.",
+        "That is exactly what he wants. The painting is not about the trick but about attention: about how easily people are fooled when they stop paying attention to what matters."
+      ]
+    },
+    {
+      "heading": "Look behind the leaning man",
+      "paragraphs": [
+        "The central figure is a man of rank, leaning so far over the table that he is almost falling. He is fixed on the pearl. Behind him, a man in spectacles looks innocently up at the sky, while his hand removes the purse hanging from the leaning man's belt.",
+        "A small boy has noticed. He grins at the victim, not at the trick. A Flemish proverb said it plainly: whoever lets himself be fooled by conjuring tricks loses his money and becomes the laughing stock of children."
+      ]
+    },
+    {
+      "heading": "A frog in his mouth",
+      "paragraphs": [
+        "Bosch adds his own strangeness. A frog jumps out of the leaning man's open mouth, and another sits on the table: a sign of how completely he has let go of reason. In the conjurer's basket, a little owl peeks out, a symbol of the trickster's cunning. At his feet sits a small dog dressed in a hood with ears, like a performer's animal.",
+        "Animals in the painting stand for the human failings that make the trick work: foolishness on one side, cleverness on the other."
+      ]
+    },
+    {
+      "heading": "Lost, copied and stolen",
+      "paragraphs": [
+        "Bosch's own painting is lost. Tree-ring analysis of the panel in Saint-Germain-en-Laye dates it to around 1502, and it is regarded as a faithful version from Bosch's workshop or circle. The museum keeps it locked in a safe and lends it only for special exhibitions.",
+        "It has been the victim of a trick itself: it was stolen from the museum on 1 December 1978 and recovered on 2 February 1979."
+      ]
+    }
+  ],
+  "meaning": [
+    "The message is a warning: the conjurer is a common criminal, and the crowd are his prey.",
+    "But Bosch spreads the blame. The thief steals, the conjurer distracts, and the victim makes it easy by giving his full attention to a pearl. The only one who sees the whole picture is a child."
+  ],
+  "whereToSee": "Musée municipal, Saint-Germain-en-Laye, France. The painting is kept in a safe and shown mainly in special exhibitions; check with the museum before you visit.",
+  "details": [
+    {
+      "headline": "A street show, around 1502",
+      "text": "A magician, a table, a crowd. Everyone is watching the trick. Let's watch everything else.",
+      "focus": [0.5, 0.5, 0.96, 0.96]
+    },
+    {
+      "headline": "The conjurer",
+      "text": "On the right, a man in red with a tall black hat holds up a tiny ball between his fingers. Every eye in the crowd follows it.",
+      "focus": [0.79, 0.37, 0.18, 0.28]
+    },
+    {
+      "headline": "The pearl",
+      "text": "Look at his hand: a small pearl, raised just high enough to be seen. That is the whole trick.",
+      "focus": [0.71, 0.415, 0.06, 0.06]
+    },
+    {
+      "headline": "Cups and balls",
+      "text": "On the table: cups, little balls and a wand. The cups-and-balls trick, still performed in streets today.",
+      "focus": [0.53, 0.56, 0.22, 0.12]
+    },
+    {
+      "headline": "The man leaning in",
+      "text": "A well-dressed man leans so far over the table that he is about to fall into it. Completely spellbound.",
+      "focus": [0.33, 0.42, 0.2, 0.16]
+    },
+    {
+      "headline": "A frog in his mouth",
+      "text": "Look at his face: a frog is jumping out of his open mouth. Bosch's way of saying he has lost his mind.",
+      "focus": [0.4, 0.43, 0.06, 0.06]
+    },
+    {
+      "headline": "Another frog",
+      "text": "And there is a second frog, sitting on the table among the conjurer's things.",
+      "focus": [0.415, 0.57, 0.05, 0.05]
+    },
+    {
+      "headline": "The innocent look",
+      "text": "Behind the victim, a man in spectacles gazes up at the sky, as if thinking about something else entirely.",
+      "focus": [0.15, 0.27, 0.08, 0.1]
+    },
+    {
+      "headline": "The hand",
+      "text": "But follow his arm down: his hand is lifting the purse from the leaning man's belt. Everyone is watching the wrong thing.",
+      "focus": [0.17, 0.52, 0.08, 0.1]
+    },
+    {
+      "headline": "The child sees",
+      "text": "Under the table's edge, a little boy with a toy windmill grins at the victim. He is the only one who has noticed.",
+      "focus": [0.31, 0.6, 0.1, 0.2]
+    },
+    {
+      "headline": "An owl in the basket",
+      "text": "Hanging from the conjurer's belt, a wicker basket. Inside, a little owl peeks out: the symbol of his cunning.",
+      "focus": [0.795, 0.63, 0.1, 0.12]
+    },
+    {
+      "headline": "A dog in costume",
+      "text": "At his feet, a small dog sits in a hood with pointed ears, like a performer's animal waiting for its cue.",
+      "focus": [0.665, 0.78, 0.08, 0.11]
+    },
+    {
+      "headline": "The audience",
+      "text": "Behind them, a whole row of faces: a nun, young men, a woman in red, a man in green. All looking at the trick.",
+      "focus": [0.32, 0.27, 0.42, 0.16]
+    },
+    {
+      "headline": "Who are you watching?",
+      "text": "The trick, the thief or the child? A proverb of the time said that whoever falls for conjuring tricks loses his money and becomes the laughing stock of children.",
+      "focus": [0.5, 0.5, 0.96, 0.96]
+    }
+  ],
+  "sources": [
+    {"title": "Wikipedia: The Conjurer (painting)", "url": "https://en.wikipedia.org/wiki/The_Conjurer_(painting)", "note": "Attribution to Bosch or his workshop, the lost original, dendrochronological date c. 1502, oil on wood 53 x 65 cm, Saint-Germain-en-Laye, the safe, the cups-and-balls scene, the pearl, the purse thief, the child, the owl, the frogs, the Flemish proverb, the 1978 theft and 1979 return."}
+  ],
+  "_verify": [
+    "VERIFIED 2026-10-22 against Wikipedia; details located on our image and crops checked.",
+    "The thief in spectacles: Wikipedia says 'a man is stealing the purse'; the spectacles and upward gaze are what the image shows.",
+    "The dog in a hood, the nun, the toy windmill: described visually, not in the source."
+  ]
+}

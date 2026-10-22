@@ -1,0 +1,15 @@
+{
+  "_note": "Site-only script: this work was posted on TikTok from material not in the repo (screenshot 22 Oct 2026). Only the cover hook is known; the full story is in article.json.",
+  "title": "The Conjurer",
+  "artist": "After Hieronymus Bosch",
+  "year": "c. 1502",
+  "image": "image.jpg",
+  "source": "Musée municipal, Saint-Germain-en-Laye (public domain). Wikimedia Commons: Hieronymus Bosch (follower) - The Conjurer (Musée Saint-Germain-en-Laye).jpg, 7480x6128.",
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Everyone is watching the wrong thing",
+      "sub": "After Hieronymus Bosch, The Conjurer, c. 1502"
+    }
+  ]
+}

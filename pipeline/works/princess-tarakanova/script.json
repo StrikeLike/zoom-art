@@ -1,0 +1,15 @@
+{
+  "_note": "Site-only script: this work was posted on TikTok from material not in the repo (screenshot 22 Oct 2026). Only the cover hook is known; the full story is in article.json.",
+  "title": "Princess Tarakanova",
+  "artist": "Konstantin Flavitsky",
+  "year": "1864",
+  "image": "image.jpg",
+  "source": "State Tretyakov Gallery, Moscow (public domain). Wikimedia Commons: Tarakanova.jpg, 1400x1845 (1864 version).",
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Who was the woman in red?",
+      "sub": "Konstantin Flavitsky, Princess Tarakanova, 1864"
+    }
+  ]
+}

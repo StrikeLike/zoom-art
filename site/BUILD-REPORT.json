@@ -1,5 +1,5 @@
 {
-  "routes": 19,
+  "routes": 24,
   "staticHTML": "passed",
   "internalLinks": "passed",
   "focusData": "passed",
@@ -32,7 +32,7 @@
     }
   ],
   "firstViewGzipBytes": 5904,
-  "imageFiles": 3209,
-  "imageBytes": 170569241,
+  "imageFiles": 3862,
+  "imageBytes": 206203617,
   "performanceNote": "Byte sizes are build measurements. LCP, CLS and INP require mobile 4G lab/field measurement; no pass claimed."
 }

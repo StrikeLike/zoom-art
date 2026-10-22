@@ -1,0 +1,125 @@
+{
+  "_note": "Long-form story for zoomedart.com. The image is the one after the 2021 restoration, with the Cupid uncovered.",
+  "title": "Girl Reading a Letter at an Open Window: the Cupid Vermeer's wall hid for 250 years",
+  "question": "A girl, a letter, a blank wall. Then the restorers found who was hiding behind the paint.",
+  "seo": {
+    "keyword": "girl reading a letter at an open window cupid",
+    "secondary": ["vermeer hidden cupid", "vermeer girl reading a letter restoration", "vermeer dresden letter", "vermeer love letter painting"],
+    "intent": "informational",
+    "meta_title": "Vermeer's Hidden Cupid: Girl Reading a Letter Explained",
+    "meta_description": "A guided zoom through Vermeer's Girl Reading a Letter at an Open Window (c. 1657-59): the Cupid painted over for centuries, the reflection, the letter."
+  },
+  "facts": {
+    "medium": "Oil on canvas",
+    "size_cm": "83 x 64.5",
+    "museum": "Gemäldegalerie Alte Meister",
+    "city": "Dresden",
+    "licence": "Public domain, via Wikimedia Commons"
+  },
+  "intro": "Girl Reading a Letter at an Open Window is a painting by Johannes Vermeer from around 1657 to 1659, in the Gemäldegalerie Alte Meister in Dresden. A young woman stands in the light of an open window, absorbed in a letter. For centuries the wall behind her was bare. Then scientific examination showed that someone, long after Vermeer's death, had painted over a picture hanging on that wall: a large Cupid. Since a restoration finished in 2021, he is back.",
+  "sections": [
+    {
+      "heading": "A quiet room in Delft",
+      "paragraphs": [
+        "A young woman in a green-and-yellow gown stands in profile by an open window, reading. A red curtain hangs over the window, and the glass reflects her face. In front, a table covered with a red carpet holds a tilted bowl of fruit, and a peach cut in half. A heavy curtain on the right half-hides the scene, as if we were looking in from outside."
+      ]
+    },
+    {
+      "heading": "The secret on the wall",
+      "paragraphs": [
+        "X-ray examination showed that something was hidden behind the girl: a picture of Cupid on the wall. In 2017, the conservator Christoph Schölzel found that the varnish over that area had been applied after Vermeer's death; the overpainting is now dated to the late 18th century.",
+        "So the decision was made to return the painting to what Vermeer intended. The restoration ran from 2018 to 2021, and the Cupid, painted as a picture within the picture, was shown to the public in 2021. It may be based on a painting that Vermeer owned; a similar Cupid by Caesar van Everdingen is known."
+      ]
+    },
+    {
+      "heading": "Why the Cupid matters",
+      "paragraphs": [
+        "With a bare wall, the letter could be anything. With Cupid, god of love, standing over her, it is almost certainly a love letter. Scholars read the newly revealed picture exactly that way.",
+        "The director of the gallery, Stephan Koja, went further: beyond the romance, he said, the painting is a fundamental statement about the essence of true love."
+      ]
+    },
+    {
+      "heading": "Mistaken for a Rembrandt",
+      "paragraphs": [
+        "In 1742 Augustus III, King of Poland and Elector of Saxony, bought the painting for Dresden believing it was by Rembrandt. In 1826 it was attributed to Pieter de Hooch. Only in 1860 did the French critic Théophile Thoré-Bürger recognise it as a Vermeer.",
+        "During the Second World War it was hidden from the bombing of Dresden in a tunnel in Saxony. The Red Army took it to the Soviet Union, and in 1955 the Soviets decided to return the Dresden paintings to Germany."
+      ]
+    }
+  ],
+  "meaning": [
+    "With the Cupid restored, the painting reads as a picture of love: a private moment, a letter from someone absent, and the god of love presiding over it.",
+    "Without him, generations saw something more mysterious: a woman alone with a secret. Both readings now belong to the painting's history. The restoration did not change what Vermeer painted; it gave back what someone else had taken away."
+  ],
+  "whereToSee": "Gemäldegalerie Alte Meister, Zwinger, Dresden, which has owned the painting since 1742. Check the museum's website before you visit.",
+  "details": [
+    {
+      "headline": "Delft, around 1658",
+      "text": "A young woman reads a letter by an open window. For centuries, that was all anyone saw. Look at the wall behind her.",
+      "focus": [0.5, 0.5, 0.96, 0.96]
+    },
+    {
+      "headline": "The reader",
+      "text": "She stands in profile, absorbed, in a green-and-yellow gown, lit by the window. She does not know we are here.",
+      "focus": [0.52, 0.64, 0.24, 0.34]
+    },
+    {
+      "headline": "The letter",
+      "text": "She holds it in both hands, close to her face. We will never read it.",
+      "focus": [0.37, 0.71, 0.1, 0.07]
+    },
+    {
+      "headline": "A reflection",
+      "text": "In the window panes, her face is reflected, faint and reddish. Vermeer painted her twice.",
+      "focus": [0.2, 0.55, 0.16, 0.2]
+    },
+    {
+      "headline": "The open window",
+      "text": "Light pours in from the left, the way it does in almost every Vermeer interior. The window frame is painted in deep blue.",
+      "focus": [0.12, 0.5, 0.24, 0.4]
+    },
+    {
+      "headline": "A red curtain",
+      "text": "Over the window, a red curtain hangs in heavy folds, painted with vermilion and madder lake.",
+      "focus": [0.17, 0.22, 0.3, 0.24]
+    },
+    {
+      "headline": "The fruit bowl",
+      "text": "On the table, a blue-and-white bowl of fruit is tipped forward, and a peach lies cut in half beside it, its stone showing.",
+      "focus": [0.47, 0.88, 0.24, 0.1]
+    },
+    {
+      "headline": "A curtain for us",
+      "text": "On the right, a heavy curtain hangs in front of the scene, as if we have just pulled it aside to look in.",
+      "focus": [0.85, 0.5, 0.3, 0.96]
+    },
+    {
+      "headline": "And on the wall",
+      "text": "For about 250 years, this wall was blank. Someone painted over it after Vermeer died.",
+      "focus": [0.6, 0.25, 0.36, 0.44]
+    },
+    {
+      "headline": "Cupid",
+      "text": "Since 2021, he is back: a large picture of Cupid, god of love, standing over her. Now we know what kind of letter she is reading.",
+      "focus": [0.62, 0.2, 0.22, 0.3]
+    },
+    {
+      "headline": "His bow",
+      "text": "He holds a bow, ready. A love letter, with love himself watching.",
+      "focus": [0.6, 0.31, 0.14, 0.14]
+    },
+    {
+      "headline": "What changed?",
+      "text": "One restored wall changed the whole story of the painting. Do you prefer it with Cupid, or without?",
+      "focus": [0.5, 0.5, 0.96, 0.96]
+    }
+  ],
+  "sources": [
+    {"title": "Wikipedia: Girl Reading a Letter at an Open Window", "url": "https://en.wikipedia.org/wiki/Girl_Reading_a_Letter_at_an_Open_Window", "note": "Date, size, medium, Dresden since 1742, the composition, the reflection, the fruit and the cut peach, the overpainted Cupid, Schölzel's 2017 finding, the 2018-2021 restoration, van Everdingen, Koja's quote, the Rembrandt and de Hooch attributions, Thoré-Bürger, the war and the 1955 return, pigments."}
+  ],
+  "_verify": [
+    "VERIFIED 2026-10-22 against Wikipedia; details located on the post-restoration image and crops checked.",
+    "'About 250 years': overpainted in the late 18th century, uncovered in 2021.",
+    "Window frame 'deep blue': visible in the image.",
+    "Not used: the X-ray date of 1979 (not in the source); the mask at Cupid's feet."
+  ]
+}
