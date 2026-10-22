@@ -1,0 +1,15 @@
+{
+  "_note": "Site-only script: the posted carousel/reel was made by hand from a composite (see postari/arcimboldo-gardener.md) and cannot be re-rendered from this file. image.jpg = image_src.jpg turned 180 degrees, bowl at the bottom (still-life orientation).",
+  "title": "The Vegetable Gardener",
+  "artist": "Giuseppe Arcimboldo",
+  "year": "c. 1587-1590",
+  "image": "image.jpg",
+  "source": "Museo Civico Ala Ponzone, Cremona (public domain). Image: works/arcimboldo-gardener/image_src.jpg (Wikimedia Commons; file name not recorded), turned 180 degrees.",
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Just a bowl of vegetables? Turn it upside down.",
+      "sub": "Giuseppe Arcimboldo, The Vegetable Gardener, c. 1587-1590"
+    }
+  ]
+}

@@ -28,7 +28,7 @@ const facts = work.facts
 <Base title={title} description={description} schema={schema} image={`${work.image.base}/painting-1280.webp`} noindex={!work.full}>
   <section class="arrival wrap">
     <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">{site.ui.home}</a><span aria-hidden="true">/</span><span>{work.title}</span></nav>
-    <figure class="arrival-figure"><Painting work={work} eager shared /><figcaption><Credit work={work} /></figcaption></figure>
+    <figure class="arrival-figure" data-flip-figure><Painting work={work} eager shared /><figcaption>{article.flip && <button class="flip-button" type="button" data-flip aria-pressed="false">{site.ui.flip}<span aria-hidden="true">↻</span></button>}<Credit work={work} /></figcaption></figure>
     <div class="arrival-heading"><div><p class="eyebrow">{work.title}{work.full && ` · ${work.steps.length} ${site.ui.detailsCount}`}</p><h1 class:list={{ 'long-title': work.heading.length > 40 }}>{work.heading}</h1><p class="artist-line">{artistHref ? <a href={artistHref}>{work.artist}</a> : work.artist}<span> · {work.year}</span></p></div><div><p>{work.question}</p><a class="button" href="#guided">{site.ui.beginStory}<span aria-hidden="true">↓</span></a><a class="subtle-link" href={work.full ? '#article' : '#explore'}>{work.full ? site.ui.readArticle : site.ui.explorePainting}</a></div></div>
   </section>
   <Guided work={work} />
@@ -50,3 +50,11 @@ const facts = work.facts
   <Related works={relatedTo(work)} intro={site.ui.keepLooking} />
   <div class="next-painting wrap"><span class="eyebrow">{site.ui.nextPainting}</span><a href={`/works/${next.slug}/`}>{next.title}<span aria-hidden="true">↗</span></a></div>
 </Base>
+<script>
+  // Reversible paintings (Arcimboldo): turn the whole picture upside down, as you would in your hands.
+  document.querySelector<HTMLButtonElement>('[data-flip]')?.addEventListener('click', event => {
+    const button = event.currentTarget as HTMLButtonElement;
+    const flipped = button.closest('[data-flip-figure]')!.classList.toggle('is-flipped');
+    button.setAttribute('aria-pressed', String(flipped));
+  });
+</script>

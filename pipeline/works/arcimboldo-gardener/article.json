@@ -1,0 +1,110 @@
+{
+  "_note": "Long-form story for zoomedart.com. 'flip': the site adds a button that turns the painting upside down. Coordinates are in the bowl orientation (image.jpg).",
+  "flip": true,
+  "title": "The Vegetable Gardener by Arcimboldo: the bowl of vegetables that turns into a face",
+  "question": "A bowl of onions, roots and nuts. Now turn it upside down. Who is looking at you?",
+  "seo": {
+    "keyword": "arcimboldo vegetable gardener upside down",
+    "secondary": ["the gardener arcimboldo", "arcimboldo reversible painting", "l'ortolano arcimboldo", "vegetables in a bowl painting"],
+    "intent": "informational",
+    "meta_title": "The Vegetable Gardener: Arcimboldo's Upside-Down Painting",
+    "meta_description": "Turn Arcimboldo's The Vegetable Gardener (c. 1587-1590) upside down and a bowl of vegetables becomes a grinning face. Every vegetable, explained."
+  },
+  "facts": {
+    "medium": "Oil on panel",
+    "size_cm": "36 x 24",
+    "museum": "Museo Civico Ala Ponzone",
+    "city": "Cremona",
+    "licence": "Public domain, via Wikimedia Commons"
+  },
+  "intro": "The Vegetable Gardener (L'ortolano), also called The Gardener or Vegetables in a Bowl, is a small painting by Giuseppe Arcimboldo from around 1587 to 1590, in the Museo Civico Ala Ponzone in Cremona. Seen one way, it is a still life: a dark metal bowl full of onions, roots, nuts and leaves. Turn it upside down, and the bowl becomes a hat and the vegetables become the grinning face of a gardener. Use the button under the painting to try it.",
+  "sections": [
+    {
+      "heading": "Two paintings in one",
+      "paragraphs": [
+        "Arcimboldo was famous for composite heads: portraits built from fruit, flowers, animals or books. The Vegetable Gardener goes one step further. It is a reversible picture, made to be turned around. Upright, nothing about it suggests a person; upside down, it is impossible not to see one.",
+        "The trick works because of pareidolia, the brain's habit of finding faces everywhere, in clouds, in sockets, in the front of a car. Arcimboldo used it four centuries before it had a name."
+      ]
+    },
+    {
+      "heading": "A court painter's games",
+      "paragraphs": [
+        "From 1562, Arcimboldo worked for more than 25 years at the Habsburg court, first for Emperor Ferdinand I in Vienna, then for Maximilian II and Rudolf II in Prague. His composite heads were court curiosities, made to delight and puzzle an audience that loved riddles and wonders.",
+        "According to the museum in Cremona, The Vegetable Gardener was probably painted soon after he returned home to Milan in 1587. The museum also connects it with the ideas of Giovan Battista Della Porta, who believed that plants could heal the parts of the body they resemble."
+      ]
+    },
+    {
+      "heading": "Forgotten, then found",
+      "paragraphs": [
+        "After his death, Arcimboldo was quickly forgotten. Centuries later the Surrealists, Salvador Dalí among them, rediscovered his strange heads and saw in him a forerunner.",
+        "The Vegetable Gardener entered the Cremona museum in 1842, with the bequest of Marquis Giuseppe Sigismondo Ala Ponzone, after whom the museum is named."
+      ]
+    }
+  ],
+  "meaning": [
+    "First of all, it is a joke, and a very good one: a still life that is secretly a portrait.",
+    "Some historians see more in the face: a grinning, rustic figure that can be read as Priapus, the ancient god of fertility and protector of gardens, a reading helped by some rather suggestive vegetables. Others point to the science and magic of the time, when plants were thought to mirror the human body.",
+    "Either way, the painting asks you to do something no other painting in a museum does: to turn it around."
+  ],
+  "whereToSee": "Museo Civico Ala Ponzone, Cremona, Italy. Until 10 January 2027 it is on loan to the exhibition \"Inventing Nature: Leonardo, Arcimboldo, Caravaggio\" at Palazzo Te in Mantua (from 26 September 2026), according to the museum.",
+  "details": [
+    {
+      "headline": "Just a bowl of vegetables",
+      "text": "A dark metal bowl, piled high with onions, roots, nuts and leaves. A modest still life. Or is it? Keep the button under the painting in mind.",
+      "focus": [0.5, 0.5, 0.96, 0.96]
+    },
+    {
+      "headline": "The bowl",
+      "text": "A heavy, dark metal basin catches the light along its rim. Turn the painting upside down, and it becomes the gardener's hat.",
+      "focus": [0.5, 0.81, 0.72, 0.3]
+    },
+    {
+      "headline": "A big onion",
+      "text": "In the middle, a huge golden onion with papery skin. Upside down, it swells into a round, ruddy cheek.",
+      "focus": [0.4, 0.5, 0.32, 0.26]
+    },
+    {
+      "headline": "Orange mushrooms",
+      "text": "Behind it, folded orange mushroom caps. Flip the painting, and they become a pair of thick lips.",
+      "focus": [0.66, 0.4, 0.24, 0.12]
+    },
+    {
+      "headline": "Pale roots",
+      "text": "On the right, fat white roots. A catalogue of the painting lists horseradish among the vegetables.",
+      "focus": [0.7, 0.53, 0.22, 0.18]
+    },
+    {
+      "headline": "Nuts at the rim",
+      "text": "Along the rim of the bowl lie walnuts and hazelnuts in their husks. In the upside-down face, they sit right where the eyes would be, under the brim of the hat.",
+      "focus": [0.45, 0.66, 0.42, 0.1]
+    },
+    {
+      "headline": "A spiky husk",
+      "text": "Up in the leaves, a round spiky husk. Turned around, it bristles at the edge of the jaw like stubble.",
+      "focus": [0.34, 0.28, 0.14, 0.11]
+    },
+    {
+      "headline": "Leaves that become a beard",
+      "text": "At the top, long leaves and roots spray out of the bowl. Upside down, they hang from the chin: a magnificent, shaggy beard.",
+      "focus": [0.6, 0.18, 0.56, 0.32]
+    },
+    {
+      "headline": "Now turn it around",
+      "text": "Press the button under the painting at the top of the page, or simply turn your phone upside down. The bowl is a hat, the onion a cheek, the leaves a beard. Which did you see first?",
+      "focus": [0.5, 0.5, 0.96, 0.96]
+    }
+  ],
+  "sources": [
+    {"title": "Wikipedia: The Gardener (Arcimboldo)", "url": "https://en.wikipedia.org/wiki/The_Gardener_(Arcimboldo)", "note": "Titles, date, oil on panel, 36 x 24 cm, Cremona, the bowl and the face, pareidolia, the Priapus reading."},
+    {"title": "Museo Civico Ala Ponzone, Cremona: The Gardener", "url": "https://musei.comune.cremona.it/en/museums/town-museum-ala-ponzone/room-of-the-16th-century/the-gardener", "note": "Reversible pictures, Rudolf II's court, Della Porta's Phytognomica, the loan to Palazzo Te, Mantua (26 Sept 2026 - 10 Jan 2027)."},
+    {"title": "Google Arts & Culture: L'Ortolano (Museo Civico Ala Ponzone)", "url": "https://artsandculture.google.com/asset/YgEItjbKaPkX9Q", "note": "The 1842 Ala Ponzone bequest; painted probably soon after the return to Milan in 1587 (checked 11 Oct 2026)."},
+    {"title": "Fondazione Zeri catalogue", "url": "https://catalogo.fondazionezeri.unibo.it/scheda/opera/86731", "note": "Contents of the bowl, including onion, hazelnuts, walnuts and horseradish (checked 11 Oct 2026)."},
+    {"title": "Wikipedia: Giuseppe Arcimboldo", "url": "https://en.wikipedia.org/wiki/Giuseppe_Arcimboldo", "note": "Court career from 1562, rediscovery by the Surrealists (checked 11 Oct 2026)."}
+  ],
+  "_verify": [
+    "VERIFIED 2026-10-22 against Wikipedia and the Cremona museum page; other points from the 11 Oct check recorded in postari/arcimboldo-gardener.md.",
+    "Onion = cheek, mushrooms = lips, bowl = hat: from two Italian secondary sources (11 Oct check); the nuts as eyes and the leaves as beard are described as what you see in the flipped image, not as documented intentions.",
+    "Priapus: an interpretation by some historians.",
+    "The image is the Commons file in our repo turned 180 degrees; which way up the museum hangs it is not stated here."
+  ]
+}

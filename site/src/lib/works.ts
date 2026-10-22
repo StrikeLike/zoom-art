@@ -11,7 +11,7 @@ export type Focus = [number, number, number, number];
 export interface Step { headline: string; text: string; focus: Focus; detail: [number, number]; }
 interface Source { title: string; note: string; url: string }
 interface Article {
-  title?: string; question?: string; intro?: string; whereToSee?: string;
+  title?: string; question?: string; intro?: string; whereToSee?: string; flip?: boolean;
   seo?: { keyword: string; meta_title: string; meta_description: string };
   facts?: { medium: string; size_cm: string; museum: string; city: string; licence: string };
   image?: { alt?: string; credit?: string; sourceUrl?: string };
