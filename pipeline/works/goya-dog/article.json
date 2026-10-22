@@ -1,0 +1,128 @@
+{
+  "_note": "Long-form story for zoomedart.com. The reel tells 7 details from script.json; the site tells all of them from here.",
+  "title": "The Dog by Goya: the Black Painting that may have lost its birds",
+  "question": "Just a dog's head and an empty sky. Why do painters call it the most beautiful picture in the world?",
+  "seo": {
+    "keyword": "goya the dog meaning",
+    "secondary": [
+      "goya dog painting",
+      "perro semihundido",
+      "goya black paintings dog",
+      "the dog prado"
+    ],
+    "intent": "informational",
+    "meta_title": "The Dog by Goya: Meaning, the Black Paintings and Lost Birds",
+    "meta_description": "A guided look at Goya's The Dog (c. 1819-1823): painted on his wall, never titled, and an old photograph that shows birds now lost. What is the dog looking at?"
+  },
+  "facts": {
+    "medium": "Oil mural on plaster, transferred to canvas",
+    "size_cm": "131.5 x 79.3",
+    "museum": "Museo del Prado",
+    "city": "Madrid",
+    "licence": "Public domain, via Wikimedia Commons"
+  },
+  "intro": "The Dog is a painting by Francisco Goya from around 1819 to 1823, now in the Museo del Prado. It is one of his Black Paintings, painted directly on the walls of his house outside Madrid and never meant for anyone else to see. Almost the whole picture is empty: a dirty ochre space above, a dark slope below, and between them the head of a small dog looking up. Goya never titled it and never explained it.",
+  "sections": [
+    {
+      "heading": "Painted on his own walls",
+      "paragraphs": [
+        "In 1819 Goya bought a two-storey house near Madrid, the Quinta del Sordo, the \"House of the Deaf Man\". He was 73, deaf since an illness in 1792, had survived two life-threatening illnesses and was embittered by war and political violence.",
+        "On the walls of its rooms he painted dark, private images, now known as the Black Paintings. The Dog was on the upper floor. These were not commissions. Nobody was meant to see them."
+      ]
+    },
+    {
+      "heading": "A picture with no title",
+      "paragraphs": [
+        "Goya gave the Black Paintings no titles. The names were added later by other people: The Dog, The Buried Dog, The Half-Drowned Dog; in Spanish El Perro or Perro semihundido. Even the idea that the dog is sinking comes from those titles, not from Goya."
+      ]
+    },
+    {
+      "heading": "From the walls to the Prado",
+      "paragraphs": [
+        "After some fifty years the murals were deteriorating. In 1874 the house passed to the banker Baron Émile d'Erlanger, who had them transferred from plaster to canvas under the supervision of Salvador Martínez Cubells, a curator at the Prado. He showed them at the 1878 Exposition Universelle in Paris and later gave them to the Spanish state.",
+        "Before the transfer, around 1874, the photographer Jean Laurent photographed the paintings on the walls. In his photograph of The Dog, where the dog is looking, there appear to be shapes like birds and a rocky outcrop. They are not in the painting today. If they were lost in the transfer, the dog may not have been drowning at all, only watching."
+      ]
+    },
+    {
+      "heading": "\"The world's most beautiful picture\"",
+      "paragraphs": [
+        "Few paintings have been loved this much by other painters. Antonio Saura called it the world's most beautiful picture. Rafael Canogar called it a visual poem and the first Symbolist painting of the West. On his last visit to the Prado, Joan Miró asked to see two works: Las Meninas and The Dog.",
+        "A Prado curator, Manuela Mena, put it simply: there is not a single contemporary painter in the world who does not pray in front of The Dog."
+      ]
+    }
+  ],
+  "meaning": [
+    "Nobody knows what Goya meant, and he left no clue.",
+    "The most common reading is despair: a creature swallowed by earth or quicksand, looking up for help that will not come. Others see loneliness or abandonment, painted by an old, deaf man living alone. Others read it as caution: a dog lifting its head, wary of something outside the frame.",
+    "The critic Robert Hughes summed it up: we do not know what it means, but its pathos moves us on a level below narrative."
+  ],
+  "whereToSee": "Museo del Prado, Madrid, with the other Black Paintings from the Quinta del Sordo. Check the Prado's website for the current room before you visit.",
+  "details": [
+    {
+      "headline": "Painted on his walls",
+      "text": "Around 1820, Goya, in his seventies and deaf, covers the walls of his house outside Madrid with dark, private paintings. One of them looks like almost nothing at all.",
+      "focus": [0.5, 0.5, 0.96, 0.96]
+    },
+    {
+      "headline": "Then, a dog",
+      "text": "Among witches and monsters, he paints this: just a dog's head, peering over a dark slope. No title. No explanation. Ever.",
+      "focus": [0.4, 0.8, 0.18, 0.09]
+    },
+    {
+      "headline": "Look at the eyes",
+      "text": "Wide, raised, fixed on something above and to the right. A few quick brushstrokes, and a simple animal has an almost human expression.",
+      "focus": [0.39, 0.79, 0.07, 0.045]
+    },
+    {
+      "headline": "Ears pulled back",
+      "text": "Behind the eye, a few pale strokes make the ear, pulled back. The whole dog is only a handful of brushstrokes.",
+      "focus": [0.352, 0.808, 0.08, 0.06]
+    },
+    {
+      "headline": "Sinking, or hiding?",
+      "text": "The body is gone, hidden by this brown mass that fades to black. Quicksand? Earth? Water? Nobody knows. Some even doubt the dog is sinking.",
+      "focus": [0.6, 0.85, 0.8, 0.28]
+    },
+    {
+      "headline": "And above: nothing",
+      "text": "More than half the picture is empty ochre. Goya gives the space to nothing, and it becomes the subject.",
+      "focus": [0.5, 0.4, 0.96, 0.6]
+    },
+    {
+      "headline": "A ghost in the corner",
+      "text": "Up in the top right, a faint dark shape. Some call it damage; most think it is a trace of an earlier painting underneath.",
+      "focus": [0.86, 0.08, 0.22, 0.12]
+    },
+    {
+      "headline": "Where the dog looks",
+      "text": "Here is where his eyes point. In a photograph taken around 1874, before the mural left the wall, shapes like birds and a rock seem to be here. Today: empty.",
+      "focus": [0.68, 0.5, 0.6, 0.4]
+    },
+    {
+      "headline": "Despair or curiosity?",
+      "text": "The painter Antonio Saura called it the world's most beautiful picture. Is the dog drowning, or just watching birds that are no longer there? What do you see?",
+      "focus": [0.5, 0.5, 0.96, 0.96]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: The Dog (Goya)",
+      "url": "https://en.wikipedia.org/wiki/The_Dog_(Goya)",
+      "note": "Date, medium, size, Prado, Black Paintings, Quinta del Sordo bought in 1819, upper floor, Goya's age and deafness, no titles, composition, the dark shape, Laurent's photograph, d'Erlanger, Martínez Cubells, 1878 Paris, Saura, Canogar, Miró, Mena, Hughes, interpretations."
+    },
+    {
+      "title": "Fundación Goya en Aragón: El perro",
+      "url": "https://fundaciongoyaenaragon.es/",
+      "note": "Laurent's negative showing the dog looking at two birds that disappeared in the transfer (checked on 11-12 Oct 2026 for the reel)."
+    },
+    {
+      "title": "Museo del Prado",
+      "url": "https://www.museodelprado.es/en",
+      "note": "Museum holding the painting."
+    }
+  ],
+  "_verify": [
+    "VERIFIED 2026-10-22 against Wikipedia; the birds also per Fundación Goya en Aragón (11-12 Oct check, recorded in script.json).",
+    "Laurent photo date: 'around 1874' (Wikipedia: c. 1874; Xataka: August 1874)."
+  ]
+}

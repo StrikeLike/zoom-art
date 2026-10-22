@@ -1,0 +1,163 @@
+{
+  "_note": "Long-form story for zoomedart.com. The reel tells 7 details from script.json; the site tells all of them from here.",
+  "title": "The Wedding at Cana by Veronese: the Louvre's giant feast, detail by detail",
+  "question": "130 guests, a miracle, painters in the band and a time-bomb on the table. What did you miss?",
+  "seo": {
+    "keyword": "wedding at cana veronese",
+    "secondary": [
+      "wedding at cana louvre",
+      "veronese wedding at cana details",
+      "wedding at cana napoleon",
+      "painting opposite mona lisa"
+    ],
+    "intent": "informational",
+    "meta_title": "The Wedding at Cana by Veronese: Every Detail Explained",
+    "meta_description": "A guided zoom through Veronese's Wedding at Cana (1563), the giant feast opposite the Mona Lisa: the wine, the painter-musicians, the hourglass and Napoleon."
+  },
+  "facts": {
+    "medium": "Oil on canvas",
+    "size_cm": "677 x 994",
+    "museum": "Musée du Louvre",
+    "city": "Paris",
+    "licence": "Public domain, via Wikimedia Commons"
+  },
+  "intro": "The Wedding at Cana is a painting by Paolo Veronese, finished in 1563 and now in the Louvre in Paris. Almost ten metres wide, it turns the Gospel story of Jesus changing water into wine into a lavish Venetian banquet with about 130 figures: musicians, servants, nobles, dogs and onlookers on the rooftops. It hangs in the same room as the Mona Lisa, and most visitors walk straight past it.",
+  "sections": [
+    {
+      "heading": "A contract with a barrel of wine",
+      "paragraphs": [
+        "On 6 June 1562, the Benedictine monks of San Giorgio Maggiore in Venice commissioned the painting for their new refectory, a dining hall designed by the architect Andrea Palladio. The contract promised Veronese 324 ducats, his keep, a barrel of wine and the right to eat with the monks, and it required the best colours, including expensive ultramarine.",
+        "Working with his brother Benedetto Caliari, Veronese delivered the canvas in September 1563, little more than a year later."
+      ]
+    },
+    {
+      "heading": "A miracle at a Venetian party",
+      "paragraphs": [
+        "The subject is the first miracle in the Gospel of John: at a wedding in Cana, the wine runs out, and Jesus turns water into wine. Veronese set it in the Venice of his own day, among marble columns, silk, gold plates and a crowd of about 130 people.",
+        "Jesus sits at the centre with his mother, almost lost in the crowd. Around them, the party carries on. Over the centuries, tradition has given names to many guests, including kings and emperors such as Francis I of France, Eleanor of Austria, Mary I of England, Charles V and Suleiman the Magnificent, and to the musicians, said to be Venice's leading painters."
+      ]
+    },
+    {
+      "heading": "Taken by Napoleon",
+      "paragraphs": [
+        "On 11 September 1797, soldiers of Napoleon's Army of Italy took the painting from the monastery. The huge canvas was cut horizontally, rolled up, carried to France and sewn back together there.",
+        "After Napoleon's fall, the sculptor Antonio Canova came to recover Italy's looted art. The Louvre's director, Vivant Denon, argued that the canvas was too fragile to travel, and Canova took a painting by Charles Le Brun back to Venice instead. The Wedding at Cana stayed in Paris. In 2007 a full-size facsimile was installed in its original place in the San Giorgio refectory."
+      ]
+    },
+    {
+      "heading": "A restoration and a fall",
+      "paragraphs": [
+        "A restoration that began in 1989 caused protests from artists. It also revealed a surprise: the steward's robe, long painted over in reddish brown, turned out to be green.",
+        "In June 1992, rainwater leaked onto the canvas and a support frame collapsed while the 1.5-tonne painting was being raised. It was torn in five places, all in the architecture and background, none in a face."
+      ]
+    }
+  ],
+  "meaning": [
+    "The religious meaning is clear in the details: the wine of the miracle, and above Jesus a man cutting meat, which many read as the lamb of sacrifice, a sign of his coming death.",
+    "The hourglass on the musicians' table is a traditional reminder of vanity: even at the happiest party, time is running out.",
+    "But Veronese was also painting Venice itself: its wealth, its music, its love of display. It is exactly what makes the painting so alive."
+  ],
+  "whereToSee": "Musée du Louvre, Paris, in the Salle des États, the same room as the Mona Lisa, on the wall opposite it. A facsimile hangs in the refectory of San Giorgio Maggiore in Venice.",
+  "details": [
+    {
+      "headline": "A giant in the Louvre",
+      "text": "Almost ten metres wide, around 130 people. It hangs right across from the Mona Lisa, behind the crowd. Let's find what everyone is missing.",
+      "focus": [0.5, 0.5, 0.96, 0.94]
+    },
+    {
+      "headline": "The guest of honour",
+      "text": "In the middle sits Jesus, calm, a halo of light around his head, his mother beside him. The wedding is in Cana. The party is pure Venice.",
+      "focus": [0.47, 0.645, 0.13, 0.09]
+    },
+    {
+      "headline": "The bridegroom",
+      "text": "At the far left end of the table, a servant boy hands the bridegroom a glass of the new wine. He has no idea where it came from.",
+      "focus": [0.08, 0.74, 0.16, 0.18]
+    },
+    {
+      "headline": "Kings among the guests",
+      "text": "Along this end of the table, turbans, crowns and jewels. Tradition has named kings and emperors among the guests, from Francis I of France to Suleiman the Magnificent.",
+      "focus": [0.15, 0.68, 0.3, 0.16]
+    },
+    {
+      "headline": "The steward in green",
+      "text": "Standing in the middle, a man in a long green robe supervises the service. For centuries his robe was painted over in reddish brown; the 1989 restoration found the green underneath.",
+      "focus": [0.3, 0.77, 0.1, 0.25]
+    },
+    {
+      "headline": "And then the wine runs out",
+      "text": "On the right, a servant tips a stone jar that was filled with water. What pours out is red.",
+      "focus": [0.75, 0.865, 0.1, 0.13]
+    },
+    {
+      "headline": "Someone checks the miracle",
+      "text": "Nearby, a guest in a gold-and-white brocade robe lifts his glass and studies the new wine.",
+      "focus": [0.69, 0.715, 0.08, 0.09]
+    },
+    {
+      "headline": "Meanwhile, the band plays on",
+      "text": "In front of the table, a group of musicians. Tradition says they are Venice's star painters.",
+      "focus": [0.5, 0.8, 0.24, 0.2]
+    },
+    {
+      "headline": "Veronese in white",
+      "text": "The one in white, playing a viola da braccio, is said to be Veronese himself.",
+      "focus": [0.42, 0.79, 0.08, 0.14]
+    },
+    {
+      "headline": "Titian in red",
+      "text": "And the man in red with the big bass viol, they say, is Titian, the greatest Venetian painter of the age. Tintoretto and Bassano are said to be in the band too.",
+      "focus": [0.565, 0.79, 0.09, 0.17]
+    },
+    {
+      "headline": "Look at their table",
+      "text": "Between them stands an hourglass. At the happiest party in town, time is running out.",
+      "focus": [0.499, 0.826, 0.03, 0.045]
+    },
+    {
+      "headline": "Two dogs",
+      "text": "At the musicians' feet, a greyhound stands and a smaller dog sprawls on the floor. Nobody is watching them either.",
+      "focus": [0.53, 0.92, 0.14, 0.12]
+    },
+    {
+      "headline": "Right above Jesus",
+      "text": "On the terrace above him, a man raises a cleaver over meat. Many read it as a warning: the lamb will be sacrificed.",
+      "focus": [0.5, 0.465, 0.1, 0.09]
+    },
+    {
+      "headline": "On the rooftops",
+      "text": "Up on the buildings, people lean and climb to get a view of the feast. Even the architecture is full of guests.",
+      "focus": [0.67, 0.15, 0.1, 0.26]
+    },
+    {
+      "headline": "A tower against the sky",
+      "text": "Behind it all, a bell tower rises into a bright sky. Columns, balustrades, marble: a dream of classical Venice.",
+      "focus": [0.585, 0.25, 0.07, 0.32]
+    },
+    {
+      "headline": "Taken by Napoleon",
+      "text": "In 1797 his soldiers cut it, rolled it up and carried it off from Venice. After his fall, the Louvre said it was too fragile to send back. It's still here.",
+      "focus": [0.5, 0.5, 0.96, 0.94]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: The Wedding at Cana (Veronese)",
+      "url": "https://en.wikipedia.org/wiki/The_Wedding_at_Cana_(Veronese)",
+      "note": "Date, size, medium, the 1562 contract, Palladio's refectory, Benedetto Caliari, about 130 figures, Jesus and Mary, the hourglass, the servant pouring wine, the steward in green, the carver and the lamb, the painter-musicians, the historical guests, the 1797 plunder and the cut canvas, Canova and Denon, the 2007 facsimile, the 1989 restoration and the 1992 accident."
+    },
+    {
+      "title": "Musée du Louvre",
+      "url": "https://www.louvre.fr/en",
+      "note": "Museum holding the painting; Salle des États, opposite the Mona Lisa (checked by web search on 12 Oct 2026)."
+    }
+  ],
+  "_verify": [
+    "VERIFIED 2026-10-22 against Wikipedia; details located on our image and the crops checked.",
+    "Musicians: Veronese, Titian, Tintoretto, Bassano is a tradition (Boschini, 17th c.); presented as 'tradition says' / 'said to be'.",
+    "Historical guests: traditional identifications listed by Wikipedia; the text says 'tradition has named'.",
+    "Not used: 'largest painting in the Louvre' (commonly said, not checked; the reel used it).",
+    "The carver and the lamb: interpretation ('many read it as').",
+    "Not used: Napoleon's soldiers 'cut it in half' as a dramatic claim beyond Wikipedia's 'cut horizontally'."
+  ]
+}
