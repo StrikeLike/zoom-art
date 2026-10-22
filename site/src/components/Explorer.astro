@@ -1,13 +1,14 @@
 ---
-import work from '../data/work.json';
 import site from '../data/site.json';
+import type { Work } from '../lib/works';
 import Painting from './Painting.astro';
-const steps = work.slides.slice(1);
+const { work } = Astro.props as { work: Work };
+const steps = work.steps;
 ---
 <section class="explorer wrap section-space" id="explore" data-explorer data-dzi={work.image.dzi} data-width={work.image.width} data-height={work.image.height} aria-labelledby="explore-heading">
   <div class="section-heading"><div><p class="eyebrow">{site.ui.exploreLabel}</p><h2 id="explore-heading">{site.ui.freeExplore}</h2></div><p>{site.ui.exploreIntro}</p></div>
   <div class="explorer-frame">
-    <div class="explorer-art"><Painting class="explorer-poster" /><div class="zoom-canvas" id="free-canvas" aria-label={site.ui.viewerLabel} aria-describedby="viewer-instructions"></div></div>
+    <div class="explorer-art"><Painting work={work} class="explorer-poster" /><div class="zoom-canvas" id="free-canvas" aria-label={site.ui.viewerLabel} aria-describedby="viewer-instructions"></div></div>
     <div class="explorer-controls" hidden><div class="zoom-buttons"><button data-zoom="in" aria-label={site.ui.zoomIn}>+</button><button data-zoom="out" aria-label={site.ui.zoomOut}>−</button><button data-zoom="home" class="reset-view">{site.ui.resetView}</button></div><p>{site.ui.publishedBy}</p></div>
     <p class="viewer-status" role="status" aria-live="polite" data-error={site.ui.viewerError} data-loading={site.ui.viewerLoading}></p>
   </div>

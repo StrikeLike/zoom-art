@@ -1,0 +1,76 @@
+/* The wall of mysteries: a museum room at night. Real proportions, a salon hang, a picture light on the painting you walk past. */
+.wall-intro{padding:4.5rem 0 4rem}
+.wall-intro h1{font-size:clamp(3rem,6.4vw,6.6rem);line-height:.98;letter-spacing:-.045em;max-width:13ch;margin-top:1.1rem}
+.wall-intro>p:last-child{margin-top:1.5rem;color:var(--muted);font-size:var(--text-lg);max-width:40ch}
+.wall-hang{list-style:none;padding:2rem 0 0;margin-block:0;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:6rem 3.75rem}
+.wall-item{flex:0 1 calc(var(--ar) * var(--h) * 1px);min-width:0}
+.wall-item.is-waiting{opacity:0;transform:translateY(28px)}
+.wall-item.is-in{transition:opacity 900ms var(--ease-reveal),transform 900ms var(--ease-reveal)}
+.wall-item.is-in:nth-child(3n+2){transition-delay:90ms}.wall-item.is-in:nth-child(3n){transition-delay:180ms}
+.wall-link{display:block;color:var(--heading)}
+.wall-link:hover{color:var(--heading)}
+.wall-frame{position:relative;display:block}
+.wall-frame img{width:100%;box-shadow:0 30px 55px -30px #000,0 0 0 1px rgb(255 255 255 / .05);transition:filter 1100ms var(--ease-reveal),transform 700ms var(--ease-reveal),box-shadow 1100ms var(--ease-reveal)}
+.wall-hook{display:block;font-family:var(--serif);font-size:1.35rem;line-height:1.2;margin-top:1.2rem;text-wrap:balance;transition:color 900ms var(--ease-reveal)}
+.wall-label{display:block;margin-top:.6rem;font-size:.625rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.wall-label i{display:block;text-transform:none;letter-spacing:0;font-family:var(--serif);font-size:.95rem;color:var(--muted);margin-top:.1rem}
+.is-dark .wall-frame img{filter:brightness(.4) saturate(.8)}
+.is-dark .wall-hook{color:var(--muted)}
+.is-dark .is-lit .wall-frame img,.is-dark .wall-link:hover .wall-frame img,.is-dark .wall-link:focus-visible .wall-frame img{filter:none}
+/* the picture light: a warm halo on the wall around the painting that is lit */
+.is-dark .is-lit .wall-frame img,.is-dark .wall-link:hover .wall-frame img,.is-dark .wall-link:focus-visible .wall-frame img{box-shadow:0 30px 55px -30px #000,0 0 0 1px rgb(255 255 255 / .07),0 -24px 110px -10px rgb(255 214 150 / .2)}
+.is-dark .is-lit .wall-hook,.is-dark .wall-link:hover .wall-hook,.is-dark .wall-link:focus-visible .wall-hook{color:var(--heading)}
+.wall-link:hover .wall-frame img{transform:translateY(-4px)}
+
+/* The Daily Detail */
+.daily{border-top:1px solid var(--line);padding-top:4.5rem}
+.daily-head{display:flex;justify-content:space-between;gap:3rem;align-items:flex-end;margin-bottom:3rem}
+.daily-head>p:last-child{color:var(--muted);max-width:36ch}
+.daily-head [data-daily-number]{color:var(--muted)}
+.daily-game{display:grid;grid-template-columns:minmax(250px,.75fr) minmax(0,2fr);grid-template-areas:"clue board" "panel board";grid-template-rows:auto 1fr;gap:2rem 3.5rem;align-items:start}
+.daily-clue{grid-area:clue}.daily-board{grid-area:board}.daily-panel{grid-area:panel}
+.daily-clue-frame{position:relative;display:inline-block;padding:14px}
+.daily-clue-frame img{max-height:260px;width:auto}
+.daily-clue figcaption{font-family:var(--serif);font-size:1.45rem;line-height:1.25;margin-top:.9rem;color:var(--heading);max-width:22ch}
+.daily-clue cite{font-style:italic;color:var(--gold)}
+.daily-status{min-height:1.7em;color:var(--muted);font-size:var(--text-sm)}
+.daily-reveal{background:none;border:0;border-bottom:1px solid var(--line);padding:10px 0;margin-top:.4rem;font-size:var(--text-sm);color:var(--muted);min-height:44px}
+.daily-reveal:hover{color:var(--gold)}
+.daily-result{border-top:1px solid var(--gold);padding-top:1.4rem;margin-top:.5rem}
+.daily-result h3{font-size:2rem;margin:.6rem 0 .7rem}
+.daily-result>p:not(.eyebrow){color:var(--muted)}
+.daily-stats{display:flex;gap:2.5rem;margin:1.6rem 0}
+.daily-stats dt{font-size:.6875rem;color:var(--muted)}.daily-stats dd{margin:0;font-family:var(--serif);font-size:1.7rem;color:var(--heading)}
+.daily-actions{display:flex;gap:1.5rem;align-items:center;flex-wrap:wrap}
+.daily-board{container-type:inline-size;overflow-x:auto;overflow-y:hidden;background:var(--surface);scrollbar-width:thin;scrollbar-color:var(--line) transparent}
+.daily-canvas{position:relative;height:min(72svh,700px,calc(100cqi / var(--ar)));aspect-ratio:var(--ar);margin-inline:auto;cursor:crosshair;overflow:hidden;touch-action:pan-x pan-y}
+.daily-canvas>img{width:100%;height:100%}
+.daily-canvas.is-done{cursor:default}
+.daily-hint{position:absolute;outline:1px dashed rgb(214 178 110 / .8);box-shadow:0 0 0 9999px rgb(0 0 0 / .5);pointer-events:none;animation:focus-opacity 700ms var(--ease-reveal) both}
+.daily-miss{position:absolute;width:36px;height:36px;margin:-18px 0 0 -18px;border:1.5px solid var(--heading);border-radius:50%;pointer-events:none;opacity:0}
+.daily-miss.is-missed{animation:daily-miss 750ms var(--ease-reveal)}
+@keyframes daily-miss{from{opacity:1;transform:scale(.55)}to{opacity:0;transform:scale(1.5)}}
+.daily-found{position:absolute;box-shadow:0 0 0 9999px rgb(0 0 0 / .5);pointer-events:none}
+.daily-found.is-arriving{animation:focus-opacity 700ms var(--ease-reveal) both}
+.daily-noscript{color:var(--muted)}
+.daily-clue-frame>i,.daily-found>i{position:absolute;width:20px;height:20px;left:0;top:0}
+.daily-clue-frame>i:nth-of-type(2),.daily-found>i:nth-of-type(2){left:auto;right:0;transform:rotate(90deg)}
+.daily-clue-frame>i:nth-of-type(3),.daily-found>i:nth-of-type(3){left:auto;right:0;top:auto;bottom:0;transform:rotate(180deg)}
+.daily-clue-frame>i:nth-of-type(4),.daily-found>i:nth-of-type(4){top:auto;bottom:0;transform:rotate(270deg)}
+.daily-clue-frame>i::before,.daily-clue-frame>i::after,.daily-found>i::before,.daily-found>i::after{content:"";position:absolute;background:var(--gold);left:0;top:0}
+.daily-clue-frame>i::before,.daily-found>i::before{width:20px;height:2px;transform-origin:left center}
+.daily-clue-frame>i::after,.daily-found>i::after{width:2px;height:20px;transform-origin:center top}
+.daily-found.is-arriving>i::before{animation:draw-corner-x 700ms var(--ease-reveal) both}
+.daily-found.is-arriving>i::after{animation:draw-corner-y 700ms var(--ease-reveal) both}
+@media(max-width:760px){
+  .wall-intro{padding:2.5rem 0}.wall-intro h1{font-size:clamp(2.8rem,12vw,4rem)}.wall-intro>p:last-child{font-size:1rem}
+  .wall-hang{gap:3.75rem 1.25rem;padding-top:1rem}
+  .wall-item{flex-basis:min(100%,calc(var(--ar) * var(--h) * 1.3px))}
+  .wall-hook{font-size:1.45rem}
+  .daily{padding-top:3rem}.daily-head{display:block;margin-bottom:2rem}.daily-head>p:last-child{margin-top:1rem}
+  .daily-game{grid-template-columns:1fr;grid-template-areas:"clue" "board" "panel";gap:1.25rem}
+  .daily-clue{display:flex;gap:1rem;align-items:center}.daily-clue-frame{padding:10px;flex-shrink:0}.daily-clue-frame img{max-height:120px;max-width:42vw}.daily-clue figcaption{font-size:1.2rem;margin:0}
+  .daily-board{margin-inline:calc(-1 * var(--gutter))}
+  .daily-canvas{height:min(58svh,480px)}
+}
+@media(prefers-reduced-motion:reduce){.wall-item.is-waiting{opacity:1;transform:none}}

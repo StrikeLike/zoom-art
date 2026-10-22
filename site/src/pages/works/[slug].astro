@@ -1,12 +1,45 @@
 ---
-import imageSizes from '../../data/image-sizes.json';
 import Base from '../../layouts/Base.astro';
+import Painting from '../../components/Painting.astro';
+import Credit from '../../components/Credit.astro';
+import Guided from '../../components/Guided.astro';
+import Explorer from '../../components/Explorer.astro';
+import Related from '../../components/Related.astro';
 import site from '../../data/site.json';
-import work from '../../data/work.json';
-export function getStaticPaths() { return work.related.map(painting => ({params:{slug:painting.slug},props:{painting}})); }
-const {painting} = Astro.props;
-const page = site.pages.pendingWork;
+import { works, nextWork, relatedTo, artistPages, type Work } from '../../lib/works';
+export function getStaticPaths() { return works.map(work => ({ params: { slug: work.slug }, props: { work } })); }
+const { work } = Astro.props as { work: Work };
+const url = `${site.brand.url}/works/${work.slug}/`;
+const next = nextWork(work);
+const artistHref = artistPages.includes(work.artistSlug) ? `/artists/${work.artistSlug}/` : undefined;
+const description = `${work.hook}. A guided look at ${work.title} by ${work.artist}, ${work.year}, one detail at a time.`.replace('?.', '?').replace('..', '.');
+const schema = [
+  {'@context':'https://schema.org','@type':'VisualArtwork','@id':`${url}#artwork`,name:work.title,creator:{'@type':'Person',name:work.artist},dateCreated:work.year,...(work.facts ? {artMedium:work.facts.medium} : {}),image:new URL(`${work.image.base}/painting-1920.webp`,site.brand.url).href},
+  {'@context':'https://schema.org','@type':'Article',headline:`${work.title}: ${work.hook}`,author:{'@type':'Organization',name:site.brand.author,url:site.brand.url},about:{'@id':`${url}#artwork`},mainEntityOfPage:url,description},
+  {'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:site.ui.home,item:site.brand.url},{'@type':'ListItem',position:2,name:work.title,item:url}]}
+];
+const facts = work.facts
+  ? [[site.ui.artist,work.artist],[site.ui.year,work.year],[site.ui.medium,work.facts.medium],[site.ui.dimensions,`${work.facts.size_cm} ${site.ui.centimetres}`],[site.ui.museum,`${work.facts.museum}, ${work.facts.city}`],[site.ui.licence,work.facts.licence]]
+  : [[site.ui.artist,work.artist],[site.ui.year,work.year],[site.ui.museum,work.museum],[site.ui.licence,'Public domain']];
 ---
-<Base title={`${painting.title} | ${site.brand.name}`} description={page.description} noindex>
-  <div class="wrap"><header class="page-heading"><p class="eyebrow">{page.eyebrow}</p><h1>{painting.title}</h1><p>{page.description}</p></header><figure class="wide-art"><img src={painting.image.replace('768','1280')} width={imageSizes[painting.image.replace("768","1280") as keyof typeof imageSizes][0]} height={imageSizes[painting.image.replace("768","1280") as keyof typeof imageSizes][1]} alt={painting.alt} fetchpriority="high" /><figcaption class="credit">{site.ui.imageCredit} · {site.ui.sourcePending}</figcaption></figure><div class="editorial-layout section-space"><aside>{painting.title}</aside><div class="editorial-prose"><h2>{page.title}</h2><p class="placeholder">{page.body}</p>{'attributionNote' in painting && <p class="pending-note">{painting.attributionNote}</p>}<a class="text-link" href={`/works/${work.slug}/`}>{page.returnLabel}<span aria-hidden="true">↗</span></a></div></div></div>
+<Base title={`${work.title} — ${work.artist} | ${site.brand.name}`} description={description} schema={schema} image={`${work.image.base}/painting-1280.webp`} noindex={!work.article}>
+  <section class="arrival wrap">
+    <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">{site.ui.home}</a><span aria-hidden="true">/</span><span>{work.title}</span></nav>
+    <figure class="arrival-figure"><Painting work={work} eager shared /><figcaption><Credit work={work} /></figcaption></figure>
+    <div class="arrival-heading"><div><p class="eyebrow">{site.home.featureLabel}</p><h1>{work.title}</h1><p class="artist-line">{artistHref ? <a href={artistHref}>{work.artist}</a> : work.artist}<span> · {work.year}</span></p></div><div><p>{work.hook}</p><a class="button" href="#guided">{site.ui.beginStory}<span aria-hidden="true">↓</span></a><a class="subtle-link" href="#explore">{site.ui.explorePainting}</a></div></div>
+  </section>
+  <Guided work={work} />
+  <Explorer work={work} />
+  <article class="article wrap section-space" id="article" aria-labelledby="article-heading">
+    <div class="article-intro"><p class="eyebrow">{site.ui.publishedBy}</p><h2 id="article-heading">{site.ui.storyBehind}</h2>{work.article ? <><p class="article-lead">{work.article.intro}</p>{!work.article.body.startsWith('[') && <p>{work.article.body}</p>}</> : <p class="article-lead">{work.hook}</p>}</div>
+    <aside class="facts" aria-labelledby="facts-heading"><h3 id="facts-heading">{site.ui.quickFacts}</h3><dl>{facts.map(([label,value]) => <div><dt>{label}</dt><dd>{value}</dd></div>)}</dl></aside>
+    <section class="article-details" id="details"><h2>{site.ui.detailsMissed}</h2><div class="detail-index">{work.steps.map((step,i) => <section class="article-detail" id={`detail-${i+1}`}><figure><img src={`${work.image.base}/detail-${i+1}.webp`} alt={step.text} loading="lazy" width={step.detail[0]} height={step.detail[1]} /><figcaption>{site.ui.detail} {String(i+1).padStart(2,'0')} · {work.title}</figcaption></figure><div><p class="eyebrow">{String(i+1).padStart(2,'0')}</p><h3>{step.headline}</h3><p>{step.text}</p><a class="text-link" href={`#step-${i+1}`}>{site.ui.backToPainting}<span aria-hidden="true">↑</span></a></div></section>)}</div></section>
+    <div class="article-bottom">
+      {work.article && !work.article.interpretation.startsWith('[') && <section><p class="eyebrow">{site.ui.interpretation}</p><h2>{site.ui.meaning}</h2><p>{work.article.interpretation}</p></section>}
+      <section><h2>{site.ui.whereToSee}</h2><p>{work.article?.whereToSee ?? `${work.museum}.`}</p></section>
+      <section><h2>{site.ui.sources}</h2>{work.article && <ol class="source-list">{work.article.sources.map(source => <li>{source.url ? <a href={source.url}>{source.title} ↗</a> : <span>{source.title}</span>}<p>{source.note}</p></li>)}</ol>}<Credit work={work} /><a class="text-link" href="/editorial-policy/">{site.ui.readPolicy}<span aria-hidden="true">↗</span></a></section>
+    </div>
+  </article>
+  <Related works={relatedTo(work)} intro={site.ui.keepLooking} />
+  <div class="next-painting wrap"><span class="eyebrow">{site.ui.nextPainting}</span><a href={`/works/${next.slug}/`}>{next.title}<span aria-hidden="true">↗</span></a></div>
 </Base>

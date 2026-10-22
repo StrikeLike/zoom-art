@@ -1,12 +1,13 @@
 ---
 import site from '../data/site.json';
-import work from '../data/work.json';
-const { heading = site.ui.relatedPaintings, id } = Astro.props;
+import type { Work } from '../lib/works';
+interface Props { works: Work[]; heading?: string; intro?: string; id?: string; }
+const { works, heading = site.ui.relatedPaintings, intro = site.home.paintingsIntro, id } = Astro.props;
 ---
 <section class="related wrap section-space" id={id}>
-  <div class="section-heading"><div><p class="eyebrow">{site.home.paintingsLabel}</p><h2>{heading}</h2></div><p>{site.home.paintingsIntro}</p></div>
-  <div class="painting-shelf">{work.related.map((item, i) => <a class="painting-card" href={item.href}>
-    <div class="shelf-image"><img src={item.image} alt={item.alt} width="768" height={i === 0 ? 544 : i === 1 ? 525 : 501} loading="lazy" /></div>
-    <div class="shelf-caption"><span class="small-number">0{i + 2}</span><div><h3>{item.title}</h3><p>{item.status}</p></div><span class="arrow" aria-hidden="true">↗</span></div>
+  <div class="section-heading"><div><p class="eyebrow">{site.home.paintingsLabel}</p><h2>{heading}</h2></div><p>{intro}</p></div>
+  <div class="painting-shelf">{works.map((work, i) => <a class="painting-card" href={`/works/${work.slug}/`}>
+    <div class="shelf-image"><img src={`${work.image.base}/painting-768.webp`} alt={work.image.alt} width={work.image.sizes['768'][0]} height={work.image.sizes['768'][1]} loading="lazy" /></div>
+    <div class="shelf-caption"><span class="small-number">{String(i + 1).padStart(2, '0')}</span><div><h3>{work.title}</h3><p>{work.hook}</p></div><span class="arrow" aria-hidden="true">↗</span></div>
   </a>)}</div>
 </section>

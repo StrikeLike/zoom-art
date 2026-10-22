@@ -1,28 +1,82 @@
 ---
 import Base from '../layouts/Base.astro';
-import Painting from '../components/Painting.astro';
-import Credit from '../components/Credit.astro';
-import Related from '../components/Related.astro';
 import site from '../data/site.json';
-import work from '../data/work.json';
+import { works } from '../lib/works';
+const t = site.home;
+// Salon hang: real proportions, a varied height per painting, never a uniform grid.
+const heights = [330, 250, 290, 235, 310, 260, 240, 300, 270, 225, 320, 255, 285, 245];
+
+// The Daily Detail: findable details (not the whole-painting overview), shuffled once with a fixed seed so
+// day N shows the same detail to everyone, and two days in a row never use the same painting.
+let seed = 20261022;
+const random = () => { seed = (seed * 1664525 + 1013904223) % 4294967296; return seed / 4294967296; };
+const candidates = works.flatMap(work => work.steps.map((step, i) => ({ work, step, i })))
+  .filter(({ step: { focus: [, , w, h] } }) => w <= 0.3 && h <= 0.35 && w * h >= 0.003 && w * h <= 0.05)
+  .map(c => ({ c, r: random() })).sort((a, b) => a.r - b.r).map(({ c }) => c);
+const pool: typeof candidates = [];
+while (candidates.length) {
+  const k = candidates.findIndex(c => c.work !== pool.at(-1)?.work);
+  pool.push(...candidates.splice(k < 0 ? 0 : k, 1));
+}
+const daily = pool.map(({ work, step, i }) => ({
+  slug: work.slug, title: work.title, artist: work.artist, year: work.year, alt: work.image.alt,
+  w: work.image.sizes['1920'][0], h: work.image.sizes['1920'][1], focus: step.focus,
+  headline: step.headline, text: step.text, step: i + 1, clue: step.detail,
+}));
 ---
 <Base title={site.seo.homeTitle}>
-  <section class="home-intro wrap">
-    <div><p class="eyebrow">{site.home.eyebrow}</p><h1>{site.home.title.split(' ')[0]} <em>{site.home.title.split(' ').slice(1).join(' ')}</em></h1></div>
-    <div class="home-intro-aside"><span class="tiny-cross" aria-hidden="true">+</span><p>{site.home.deck}</p><a class="text-link" href="/works/childrens-games/">{site.ui.beginStory}<span aria-hidden="true">↗</span></a></div>
+  <section class="wall" id="paintings" aria-labelledby="wall-title">
+    <header class="wall-intro wrap">
+      <p class="eyebrow">{t.wallEyebrow}</p>
+      <h1 id="wall-title">{t.wallTitle} <em>{t.wallTitleEm}</em></h1>
+      <p>{t.wallIntro}</p>
+    </header>
+    <ul class="wall-hang wrap" data-wall>
+      {works.map((work, i) => {
+        const [w, h] = work.image.sizes['768'];
+        return <li class="wall-item" style={`--ar:${(w / h).toFixed(3)};--h:${heights[i % heights.length]};--i:${i}`}>
+          <a class="wall-link" href={`/works/${work.slug}/`}>
+            <span class="wall-frame"><img src={`${work.image.base}/painting-768.webp`} srcset={`${work.image.base}/painting-480.webp ${work.image.sizes['480'][0]}w, ${work.image.base}/painting-768.webp ${w}w`} sizes="(max-width: 760px) 92vw, 420px" width={w} height={h} alt={work.image.alt} loading={i < 4 ? 'eager' : 'lazy'} fetchpriority={i < 2 ? 'high' : 'auto'} decoding="async" style={`view-transition-name:art-${work.slug}`} /></span>
+            <span class="wall-hook">{work.hook}</span>
+            <span class="wall-label">{work.title}<i>{work.artist}, {work.year}</i></span>
+          </a>
+        </li>;
+      })}
+    </ul>
   </section>
-  <section class="home-feature" aria-labelledby="featured-title">
-    <a class="home-canvas" href="/works/childrens-games/" aria-label={`${site.ui.beginStory}: ${work.title}`}>
-      <Painting eager shared sizes="100vw" />
-      <span class="home-focus focus-corners" aria-hidden="true"></span>
-    </a>
-    <div class="feature-caption wrap"><div><p class="eyebrow">{site.home.featureLabel}</p><h2 id="featured-title"><a href="/works/childrens-games/">{work.title}</a></h2><p class="artist-line">{work.artist}, {work.year}</p></div><div class="feature-hook"><p>{site.home.featureHook}</p><a class="round-link" href="/works/childrens-games/" aria-label={site.ui.beginStory}>↗</a></div></div>
-    <div class="wrap"><Credit /></div>
+
+  <section class="daily wrap section-space" id="daily" aria-labelledby="daily-title" data-daily data-epoch="2026-10-22">
+    <div class="daily-head">
+      <div><p class="eyebrow">{t.dailyEyebrow} <span data-daily-number></span></p>
+      <h2 id="daily-title">{t.dailyTitle} <em>{t.dailyTitleEm}</em></h2></div>
+      <p>{t.dailyIntro}</p>
+    </div>
+    <div class="daily-game" hidden>
+      <figure class="daily-clue"><span class="daily-clue-frame"><img data-daily-clue alt="" /><i></i><i></i><i></i><i></i></span><figcaption>{t.dailyQuestion} <cite data-daily-work></cite>?</figcaption></figure>
+      <div class="daily-board" data-daily-board>
+        <div class="daily-canvas"><img data-daily-painting alt="" /><span class="daily-hint" hidden></span><span class="daily-miss" hidden></span><span class="daily-found" hidden><i></i><i></i><i></i><i></i></span></div>
+      </div>
+      <div class="daily-panel">
+        <p class="daily-status" role="status" aria-live="polite" data-start={t.dailyStart} data-miss={t.dailyMiss} data-hint={t.dailyHint} data-copied={t.dailyCopied}></p>
+        <button class="daily-reveal" type="button" data-daily-reveal>{t.dailyReveal}</button>
+        <div class="daily-result" hidden>
+          <p class="eyebrow" data-daily-verdict data-found={t.dailyFound} data-revealed={t.dailyRevealed}></p>
+          <h3 data-daily-headline></h3>
+          <p data-daily-text></p>
+          <dl class="daily-stats"><div><dt>{t.dailyStreak}</dt><dd data-daily-streak></dd></div><div><dt>{t.dailyNext}</dt><dd data-daily-countdown></dd></div></dl>
+          <div class="daily-actions"><button class="button" type="button" data-daily-share>{t.dailyShare}<span aria-hidden="true">↗</span></button><a class="text-link" data-daily-story href="/">{t.dailyStory}<span aria-hidden="true">↗</span></a></div>
+        </div>
+      </div>
+    </div>
+    <noscript><p class="daily-noscript">{t.dailyNoScript}</p></noscript>
+    <script type="application/json" data-daily-pool set:html={JSON.stringify(daily).replaceAll('<', '\\u003c')} />
   </section>
-  <section class="detail-invitation wrap section-space">
-    <div class="invitation-copy"><p class="eyebrow">{site.home.collectionLabel}</p><h2>{site.home.collectionTitle}</h2><p>{site.home.collectionDescription}</p><a class="text-link" href="/collections/hidden-details/">{site.home.collectionLink}<span aria-hidden="true">↗</span></a></div>
-    <a class="detail-pair" href="/works/childrens-games/#guided" aria-label={site.ui.guidedStory}><figure><img src="/images/childrens-games/detail-2.webp" width="960" height="510" alt={work.slides[2].text} loading="lazy" /><figcaption><span>01</span>{work.slides[2].headline}</figcaption></figure><figure><img src="/images/childrens-games/detail-6.webp" width="508" height="900" alt={work.slides[6].text} loading="lazy" /><figcaption><span>02</span>{work.slides[6].headline}</figcaption></figure></a>
-  </section>
-  <Related id="paintings" heading={site.home.paintingsTitle} />
-  <section class="manifesto wrap section-space"><p class="eyebrow">{site.home.aboutLabel}</p><h2>{site.home.aboutTitle}</h2><div><p>{site.home.aboutText}</p><a class="text-link" href="/editorial-policy/">{site.ui.readPolicy}<span aria-hidden="true">↗</span></a></div></section>
+
+  <section class="manifesto wrap section-space"><p class="eyebrow">{t.aboutLabel}</p><h2>{t.aboutTitle}</h2><div><p>{t.aboutText}</p><a class="text-link" href="/editorial-policy/">{site.ui.readPolicy}<span aria-hidden="true">↗</span></a></div></section>
 </Base>
+<script>
+  import { initWall } from '../scripts/wall';
+  import { initDaily } from '../scripts/daily';
+  initWall();
+  initDaily();
+</script>

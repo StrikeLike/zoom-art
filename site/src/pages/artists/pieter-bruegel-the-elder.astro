@@ -4,9 +4,11 @@ import Painting from '../../components/Painting.astro';
 import Credit from '../../components/Credit.astro';
 import Related from '../../components/Related.astro';
 import site from '../../data/site.json';
-import work from '../../data/work.json';
+import { works } from '../../lib/works';
 const page = site.pages.artist;
+const own = works.filter(w => w.artistSlug === 'pieter-bruegel-the-elder');
+const [first, ...rest] = own;
 ---
-<Base title={`${page.title} | ${site.brand.name}`} description={page.description}>
-  <div class="wrap"><header class="page-heading"><p class="eyebrow">{page.eyebrow}</p><h1>{page.title}</h1><p>{page.description}</p></header><a href={`/works/${work.slug}/`} class="wide-art"><Painting eager shared /></a><Credit /><div class="editorial-layout section-space"><aside class="artist-line">{work.title}, {work.year}</aside><div class="editorial-prose"><section><h2>{page.lifeTitle}</h2><p class="placeholder">{page.life}</p></section><section><h2>{page.connectionsTitle}</h2><p class="placeholder">{page.connections}</p></section><a class="text-link" href={`/works/${work.slug}/`}>{site.ui.beginStory}<span aria-hidden="true">↗</span></a></div></div></div><Related heading={page.worksTitle} /><div class="wrap pending-note">{page.attributionNote}</div>
+<Base title={`${page.title} | ${site.brand.name}`} description={page.description} image={`${first.image.base}/painting-1280.webp`} noindex>
+  <div class="wrap"><header class="page-heading"><p class="eyebrow">{page.eyebrow}</p><h1>{page.title}</h1><p>{page.description}</p></header><a href={`/works/${first.slug}/`} class="wide-art"><Painting work={first} eager shared /></a><Credit work={first} /><div class="editorial-layout section-space"><aside class="artist-line">{first.title}, {first.year}</aside><div class="editorial-prose"><section><h2>{first.hook}</h2><p>{first.steps[0].text}</p></section><a class="text-link" href={`/works/${first.slug}/`}>{site.ui.beginStory}<span aria-hidden="true">↗</span></a></div></div></div><Related works={rest} heading={page.worksTitle} intro={page.description} /><div class="wrap pending-note">{page.attributionNote}</div>
 </Base>

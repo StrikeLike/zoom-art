@@ -1,0 +1,19 @@
+{
+  "_note": "Works shown on the site, in wall order. Each slug is a folder in pipeline/works/ with script.json and image.jpg. Add a slug here, run prepare-images.py, rebuild.",
+  "works": [
+    "las-meninas",
+    "childrens-games",
+    "the-swing",
+    "the-ambassadors",
+    "isle-of-the-dead",
+    "netherlandish-proverbs",
+    "the-nightmare",
+    "goya-dog",
+    "wedding-cana",
+    "starry-night",
+    "washington-delaware",
+    "zaporozhian-cossacks",
+    "peasant-wedding",
+    "fall-of-icarus"
+  ]
+}

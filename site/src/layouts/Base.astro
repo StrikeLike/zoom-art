@@ -2,10 +2,11 @@
 import site from '../data/site.json';
 import '../styles/global.css';
 import '../styles/fonts.css';
+import '../styles/home.css';
 import serifFont from '@fontsource-variable/eb-garamond/files/eb-garamond-latin-wght-normal.woff2?url';
 import sansFont from '@fontsource-variable/dm-sans/files/dm-sans-latin-wght-normal.woff2?url';
-interface Props { title: string; description?: string; schema?: object | object[]; noindex?: boolean; }
-const { title, description = site.seo.homeDescription, schema, noindex = false } = Astro.props;
+interface Props { title: string; description?: string; schema?: object | object[]; noindex?: boolean; image?: string; }
+const { title, description = site.seo.homeDescription, schema, noindex = false, image = '/images/las-meninas/painting-1280.webp' } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site);
 ---
 <!doctype html>
@@ -26,7 +27,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonical} />
-    <meta property="og:image" content={new URL('/images/childrens-games/painting-1280.webp', Astro.site)} />
+    <meta property="og:image" content={new URL(image, Astro.site)} />
     {noindex && <meta name="robots" content="noindex,follow" />}
     {schema && <script type="application/ld+json" set:html={JSON.stringify(schema).replaceAll('<', '\\u003c')} />}
   </head>

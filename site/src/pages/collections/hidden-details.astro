@@ -4,9 +4,11 @@ import Painting from '../../components/Painting.astro';
 import Credit from '../../components/Credit.astro';
 import Related from '../../components/Related.astro';
 import site from '../../data/site.json';
-import work from '../../data/work.json';
+import { getWork, works } from '../../lib/works';
 const page = site.pages.collection;
+const first = getWork('the-ambassadors');
 ---
-<Base title={`${page.title} | ${site.brand.name}`} description={page.description}>
-  <div class="wrap"><header class="page-heading"><p class="eyebrow">{page.eyebrow}</p><h1>{page.title}</h1><p>{page.description}</p></header><section class="collection-feature"><a href={`/works/${work.slug}/`}><Painting eager shared sizes="(max-width:760px) 100vw, 60vw" /></a><div><p class="eyebrow">{page.featuredLabel}</p><h2>{page.featuredTitle}</h2><p>{page.featuredText}</p><a class="button" href={`/works/${work.slug}/`}>{site.ui.beginStory}<span aria-hidden="true">↗</span></a></div></section><Credit /><div class="editorial-layout section-space"><aside>{page.intro}</aside><div class="editorial-prose"><h2>{page.moreTitle}</h2><p>{page.moreText}</p></div></div></div><Related />
+<Base title={`${page.title} | ${site.brand.name}`} description={page.description} image={`${first.image.base}/painting-1280.webp`} noindex>
+  <div class="wrap"><header class="page-heading"><p class="eyebrow">{page.eyebrow}</p><h1>{page.title}</h1><p>{page.description}</p></header><section class="collection-feature"><a href={`/works/${first.slug}/`}><Painting work={first} eager shared sizes="(max-width:760px) 100vw, 60vw" /></a><div><p class="eyebrow">{page.featuredLabel}</p><h2>{first.hook}</h2><p>{first.title}, {first.artist}, {first.year}</p><a class="button" href={`/works/${first.slug}/`}>{site.ui.beginStory}<span aria-hidden="true">↗</span></a></div></section><Credit work={first} /></div>
+  <Related works={works.filter(w => w !== first)} heading={page.moreTitle} intro={page.moreText} />
 </Base>

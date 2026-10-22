@@ -1,4 +1,5 @@
 ---
-import work from '../data/work.json';
+import type { Work } from '../lib/works';
+const { work } = Astro.props as { work: Work };
 ---
-<p class="credit"><a href={work.image.sourceUrl}>{work.image.credit}<span aria-hidden="true"> ↗</span></a></p>
+<p class="credit">{work.image.sourceUrl ? <a href={work.image.sourceUrl}>{work.image.credit}<span aria-hidden="true"> ↗</span></a> : work.image.credit}</p>

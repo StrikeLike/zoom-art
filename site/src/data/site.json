@@ -8,9 +8,18 @@
     "author": "Zoomed Art"
   },
   "navigation": [
-    { "label": "Paintings", "href": "/#paintings" },
-    { "label": "Hidden details", "href": "/collections/hidden-details/" },
-    { "label": "About", "href": "/about/" }
+    {
+      "label": "Paintings",
+      "href": "/#paintings"
+    },
+    {
+      "label": "Daily detail",
+      "href": "/#daily"
+    },
+    {
+      "label": "About",
+      "href": "/about/"
+    }
   ],
   "footer": {
     "line": "The camera moves. The painting never changes.",
@@ -20,10 +29,22 @@
     "policyLabel": "Editorial policy",
     "aboutLabel": "About Zoomed Art",
     "social": [
-      { "label": "Instagram", "href": "https://www.instagram.com/zoomed.art/" },
-      { "label": "TikTok", "href": "https://www.tiktok.com/@zoomed.art" },
-      { "label": "YouTube", "href": "https://www.youtube.com/@zoomed.art" },
-      { "label": "Facebook", "href": "https://www.facebook.com/zoomed.art/" }
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/zoomed.art/"
+      },
+      {
+        "label": "TikTok",
+        "href": "https://www.tiktok.com/@zoomed.art"
+      },
+      {
+        "label": "YouTube",
+        "href": "https://www.youtube.com/@zoomed.art"
+      },
+      {
+        "label": "Facebook",
+        "href": "https://www.facebook.com/zoomed.art/"
+      }
     ]
   },
   "ui": {
@@ -97,51 +118,62 @@
     "errorContact": "Message @zoomed.art on Instagram with the painting title, the detail in question and a source we can check.",
     "imageCredit": "Public domain, via Wikimedia Commons",
     "backHome": "Return to the gallery",
-    "centimetres": "cm"
+    "centimetres": "cm",
+    "keepLooking": "More paintings with a story to tell."
   },
   "home": {
     "eyebrow": "Art history, one detail at a time",
-    "title": "Look closer.",
-    "deck": "The painting stays still. Your eye keeps finding more.",
     "featureLabel": "A closer look · 01",
-    "featureTitle": "Children's Games",
-    "featureHook": "Around 80 games are hidden in this painting. How many did you play?",
-    "featureArtist": "Pieter Bruegel the Elder · 1560",
-    "featureDescription": "A town given over to play. Follow the hoops, the stilts and the small stories unfolding across Bruegel's canvas.",
-    "storyCount": "8 stops inside the painting",
     "paintingsLabel": "The next canvas",
     "paintingsTitle": "There is more to the story.",
     "paintingsIntro": "Stay with Bruegel a little longer.",
-    "collectionLabel": "A thread through the collection",
-    "collectionTitle": "Hidden in plain sight.",
-    "collectionDescription": "Start with a small detail. Let it lead you through the painting.",
-    "collectionLink": "Explore hidden details",
     "aboutLabel": "The way we look",
     "aboutTitle": "A painting is a document. A detail is a way in.",
-    "aboutText": "We look closely at real paintings and tell the stories behind them, keeping verified facts and interpretations distinct."
+    "aboutText": "We look closely at real paintings and tell the stories behind them, keeping verified facts and interpretations distinct.",
+    "wallEyebrow": "Art history, one detail at a time",
+    "wallTitle": "Every painting here",
+    "wallTitleEm": "hides a question.",
+    "wallIntro": "Pick one. We zoom in, detail by detail, until it answers.",
+    "dailyEyebrow": "The Daily Detail",
+    "dailyTitle": "Find it",
+    "dailyTitleEm": "in the painting.",
+    "dailyIntro": "One detail a day, the same for everyone. Find where it hides in the painting.",
+    "dailyQuestion": "Where is this in",
+    "dailyStart": "Tap the painting where you think it is.",
+    "dailyMiss": "Not there. Keep looking.",
+    "dailyHint": "A hint: it's somewhere in the lit area.",
+    "dailyFound": "Found it",
+    "dailyRevealed": "Here it is",
+    "dailyReveal": "Show me",
+    "dailyShare": "Share your result",
+    "dailyCopied": "Result copied. Paste it anywhere.",
+    "dailyStory": "See it in the story",
+    "dailyStreak": "Days in a row",
+    "dailyNext": "Next detail in",
+    "dailyNoScript": "The Daily Detail needs JavaScript. Every detail is also in the painting stories below."
   },
   "pages": {
     "artist": {
       "eyebrow": "The artist",
       "title": "Pieter Bruegel the Elder",
-      "description": "Start with Children's Games, then follow the thread to the other paintings named in this collection.",
+      "description": "Children's games, proverbs, a wedding feast and a fall nobody notices: Bruegel filled every canvas with small stories. Follow them one detail at a time.",
       "lifeTitle": "The life behind the paintings",
       "life": "[ARTICLE TEXT TO COME]",
       "worksTitle": "Paintings to look at closely",
       "connectionsTitle": "How the paintings connect",
       "connections": "[ARTICLE TEXT TO COME]",
-      "attributionNote": "The related works are supplied as editorial references. Individual artwork attribution and source records are to be checked before publication."
+      "attributionNote": "Landscape with the Fall of Icarus is attributed to Bruegel: lab tests suggest the canvas dates from after his death, so it may be a copy of a lost original."
     },
     "collection": {
       "eyebrow": "A curated thread",
       "title": "Hidden details",
-      "description": "A small gesture. A game at the edge of the square. The detail you notice changes the way you look at the whole.",
+      "description": "A small gesture. A skull you only see from the side. A boy upside down by a fence. The detail you notice changes the way you look at the whole.",
       "intro": "Begin with Children's Games. Follow the guided details, then return to the canvas and find your own way through it.",
       "featuredLabel": "Begin here",
       "featuredTitle": "A town full of games",
       "featuredText": "Knucklebones, hoops, leapfrog, stilts: familiar games unfold across Bruegel's 1560 painting.",
-      "moreTitle": "Continue the thread",
-      "moreText": "The next stories are in preparation."
+      "moreTitle": "Every painting in the collection",
+      "moreText": "Each one starts with a question. Follow the details to the answer."
     },
     "about": {
       "eyebrow": "About Zoomed Art",
@@ -149,9 +181,18 @@
       "description": "Zoomed Art tells art history through the details of real paintings.",
       "intro": "On Instagram, TikTok, Facebook and YouTube, @zoomed.art takes one painting and looks closer, detail by detail. Here, there is room to stay with the canvas beyond a 59-second reel.",
       "sections": [
-        { "title": "The camera moves. The painting never changes.", "text": "The artworks are historical documents. We move the view, frame a detail and give the story space. We do not redraw, recolour or animate the painting's figures." },
-        { "title": "A story you can check.", "text": "Our editorial standard is to check facts against sources and label interpretations as interpretations. Each painting page has space for its sources and image credit." },
-        { "title": "A closer look, in your hands.", "text": "Follow the guided story, explore the canvas freely, or read the full article. The painting is always the centre of the experience." }
+        {
+          "title": "The camera moves. The painting never changes.",
+          "text": "The artworks are historical documents. We move the view, frame a detail and give the story space. We do not redraw, recolour or animate the painting's figures."
+        },
+        {
+          "title": "A story you can check.",
+          "text": "Our editorial standard is to check facts against sources and label interpretations as interpretations. Each painting page has space for its sources and image credit."
+        },
+        {
+          "title": "A closer look, in your hands.",
+          "text": "Follow the guided story, explore the canvas freely, or read the full article. The painting is always the centre of the experience."
+        }
       ],
       "followTitle": "Find the next detail.",
       "followText": "Follow @zoomed.art for the next painting."
@@ -162,25 +203,35 @@
       "description": "How Zoomed Art treats facts, interpretations and the paintings themselves.",
       "intro": "A painting deserves care, and so does the story told about it. These are the standards behind Zoomed Art.",
       "sections": [
-        { "title": "Facts and sources", "text": "We check factual claims against sources. The source list belongs with the article so readers can follow the evidence. Missing article copy is marked [ARTICLE TEXT TO COME]." },
-        { "title": "Interpretation is labelled", "text": "An interpretation is not presented as a verified fact. Language such as “many see” or “tradition says” makes that distinction visible." },
-        { "title": "The artwork stays intact", "text": "We use public-domain paintings from Wikimedia Commons and museum open collections. Camera movement and focus frames guide the eye; the artwork is not redrawn, recoloured, AI-animated or altered into a new composition." },
-        { "title": "Image credits", "text": "Each painting is accompanied by its licence and source. For this prototype, the supplied Children's Games image is credited to Wikimedia Commons. Its exact source-file URL and the museum collection-record citation still need verification before publication; the linked Commons category is a collection reference." },
-        { "title": "What is still being prepared", "text": "This prototype preserves the supplied story verbatim, including the line “460 years later”. That relative-date wording needs editorial review before publication. The full articles, artist biography, interpretations and related-work source records are still being prepared." },
-        { "title": "Corrections", "text": "If you find an error, message @zoomed.art on Instagram with the painting title, the passage or detail, and a source we can check." }
+        {
+          "title": "Facts and sources",
+          "text": "We check factual claims against sources before a story is published. The source list belongs with the article so readers can follow the evidence."
+        },
+        {
+          "title": "Interpretation is labelled",
+          "text": "An interpretation is not presented as a verified fact. Language such as “many see” or “tradition says” makes that distinction visible."
+        },
+        {
+          "title": "The artwork stays intact",
+          "text": "We use public-domain paintings from Wikimedia Commons and museum open collections. Camera movement and focus frames guide the eye; the artwork is not redrawn, recoloured, AI-animated or altered into a new composition."
+        },
+        {
+          "title": "Image credits",
+          "text": "Each painting page names the museum that holds the work and links to the public-domain image on Wikimedia Commons where the exact file is recorded."
+        },
+        {
+          "title": "What is still being prepared",
+          "text": "Every painting already has its guided story, written from checked facts. Long-form articles, artist biographies and full source lists are added one painting at a time; until a painting has them, its page is not offered to search engines."
+        },
+        {
+          "title": "Corrections",
+          "text": "If you find an error, message @zoomed.art on Instagram with the painting title, the passage or detail, and a source we can check."
+        }
       ]
-    },
-    "pendingWork": {
-      "eyebrow": "The next painting",
-      "description": "The guided story for this painting is in preparation.",
-      "title": "A closer look is on its way.",
-      "body": "[ARTICLE TEXT TO COME]",
-      "returnLabel": "Explore Children's Games"
     }
   },
   "seo": {
     "homeTitle": "Zoomed Art — Art history, one detail at a time",
-    "homeDescription": "Look closely at Children's Games by Pieter Bruegel the Elder. Follow a guided zoom story, explore the painting and see the details you missed.",
-    "workDescription": "Around 80 games are hidden in Pieter Bruegel the Elder's Children's Games. Follow the details in a guided story and explore the painting for yourself."
+    "homeDescription": "Famous paintings, zoomed in. Pick a mystery, follow the story detail by detail, and find today's hidden detail."
   }
 }

@@ -38,6 +38,7 @@ Reguli care nu se negociază:
 4. `python3 render.py works/<nume> --preview` → verifică `out/reel_preview.jpg` (câteva secunde) înainte de randarea lungă.
 5. `pipeline/reel-remotion/make_post.sh <nume>` (pe Windows: `python make_post.py <nume>`) → carusel + reel (stilul nou) în `works/<nume>/out/` și postarea gata în `gata/<nume>/`. Verifică `out/carousel_preview.jpg` și câteva cadre din reel.
 6. Actualizează `JURNAL.md` (stare, ce e de verificat, când s-a postat).
+7. Site: adaugă numele operei în `site/src/data/published.json`, rulează `.venv\Scripts\python.exe site\scripts\prepare-images.py <nume>`, apoi în `site/` `npm run build` și `npm run verify` (vezi `site/README.md`). Pagina, zidul de pe prima pagină și jocul Daily Detail se fac singure din `script.json`.
 
 Imaginile mici se măresc automat cu Real-ESRGAN (`models/realesrgan_x4plus.onnx`, rezultat în `.cache/`).
 
