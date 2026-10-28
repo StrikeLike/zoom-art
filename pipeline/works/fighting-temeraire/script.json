@@ -1,0 +1,106 @@
+{
+  "title": "The Fighting Temeraire tugged to her last berth to be broken up",
+  "artist": "J. M. W. Turner",
+  "year": "1839",
+  "image": "image.jpg",
+  "source": "National Gallery, London, Turner Bequest 1856 (public domain). Wikimedia Commons file: Turner, J. M. W. - The Fighting Téméraire tugged to her last Berth to be broken.jpg (6000 x 4455 px; National Gallery London)",
+  "caption": "Britain voted it the nation's greatest painting. But Turner bent the truth more than once. Can you spot where? #navalhistory #trafalgar #jmwturner #fineart #artfacts",
+  "_verify": [
+    "VERIFIED 2026-10-28, National Gallery teachers' notes (nationalgallery.org.uk/media/pt0hady4/notes_turner-temeraire_rev.pdf): 98-gun three-decker launched 1798; at Trafalgar, 21 October 1805, defended Nelson's flagship Victory and captured two French ships; 1838 towed 55 miles up the Thames to Rotherhithe to be broken up; masts and rigging already removed, Turner painted them in, and painted her white and pale yellow instead of darker yellow and black, 'a deliberately idealised memory'; 'As the sun sets on the horizon to the right, the new moon rises in the sky'; one tug not powerful enough, two more likely; such a tow would never have happened at dusk; left to the nation in Turner's will; oil on canvas, 90.7 x 121.6 cm.",
+    "VERIFIED, National Gallery press release (nationalgallery.org.uk/about-us/press-and-media/press-releases/national-gallery-s-iconic-work-featured-on-new-bank-of-england-20-note): Turner called it his 'Darling', could not bring himself to part with it, left it to the nation; named 'Greatest Painting in Britain' in BBC Radio 4 Today programme poll (2005 per Wikipedia EN; Globe and Mail: BBC Radio 4 and the National Gallery, more than 25% of votes).",
+    "VERIFIED, Bank of England (bankofengland.co.uk/banknotes/polymer-20-pound-note): polymer £20 issued 20 February 2020, featuring The Fighting Temeraire.",
+    "VERIFIED, Wikipedia EN (en.wikipedia.org/wiki/The_Fighting_Temeraire): draft note 'no consid[eratio]ns of money or favour can induce me to lend my Darling again'; c. 1848 declined an offer reportedly of £5,000; towed by two tugs; tug in the painting the Monarch; 'the tow ran in the opposite direction', since the sun sets in the west and the estuary is at the east. Southwark News: looking north from Rotherhithe 'the sun effectively sets in the east'.",
+    "CAUTIOUS, slide 8 (direction): sources agree the geography is reversed but explain it differently (Wikipedia: tow direction; Southwark News: sun 'sets in the east'). Slide says 'seems off' and reasons from 'if that sun sets in the west'. Keep cautious.",
+    "CAUTIOUS: 'refused to sell' rests on the reported c. 1848 offer (Wikipedia: 'reportedly') and the NG's 'could not bring himself to part with it'. Slide 9 says only that he called it his 'darling' and left it to the nation. 'An ending, and a beginning' (slide 5) is interpretation, not a source claim. Title on slides/caption: 'nation's greatest/favourite painting' per the 2005 poll.",
+    "Focus boxes estimated from memory of the composition (landscape, ~1.34:1); the moon's exact position is not checked; re-tune on the real image.",
+    "2026-10-28 laptop, slide 4 text changed after checking the image: \"while a thin new moon rises above.\" -> \"while a thin new moon rises on the left.\". On the image the crescent moon is at the upper left (about x 0.10, y 0.18), not above the sun.",
+    "2026-10-28 laptop: crescent moon at the upper left, about x 0.10, y 0.18."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Britain's favourite painting bends the truth.",
+      "sub": "J. M. W. Turner, The Fighting Temeraire, 1839"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "The Thames, 1838",
+      "text": "The Thames, 1838. An old warship is towed upriver to be broken up. Turner painted her last journey. But not quite as it happened."
+    },
+    {
+      "focus": [
+        0.28,
+        0.5,
+        0.32,
+        0.64
+      ],
+      "headline": "A Trafalgar hero",
+      "text": "She's no ordinary ship: HMS Temeraire, 98 guns. At Trafalgar, 1805, she defended Nelson's Victory and captured two French ships. A hero."
+    },
+    {
+      "focus": [
+        0.36,
+        0.66,
+        0.2,
+        0.36
+      ],
+      "headline": "The black tug",
+      "text": "Now, 33 years later, a squat black steam tug drags her to the breakers' yard. Glorious sail, hauled off by smoky steam."
+    },
+    {
+      "focus": [
+        0.5,
+        0.48,
+        0.96,
+        0.7
+      ],
+      "headline": "Sunset, new moon",
+      "text": "Behind them, the sun sets in a blaze on the right, while a thin new moon rises on the left. An ending, and a beginning."
+    },
+    {
+      "focus": [
+        0.25,
+        0.48,
+        0.24,
+        0.62
+      ],
+      "headline": "Ghost masts",
+      "text": "But look at her tall masts. In reality, they had already been removed. Turner put them back, and painted her ghostly white and gold."
+    },
+    {
+      "focus": [
+        0.33,
+        0.65,
+        0.4,
+        0.4
+      ],
+      "headline": "One tug? At dusk?",
+      "text": "And the tow? One tug couldn't have moved her; it likely took two. And never at dusk: towing needed daylight. Turner chose drama."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.9,
+        0.8
+      ],
+      "headline": "Wrong way?",
+      "text": "Even the direction seems off. If that sun sets in the west, she's heading east, towards the sea. Really, she went upriver, to Rotherhithe."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "His darling",
+      "text": "Yet Turner called it his \"darling\" and left it to the nation. Today it's on the £20 note. Does the truth even matter here?"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "title": "The Lady of Shalott",
+  "artist": "John William Waterhouse",
+  "year": "1888",
+  "image": "image.jpg",
+  "source": "Tate Britain, London, N01543, presented by Sir Henry Tate 1894 (public domain). Wikimedia Commons file: John William Waterhouse - The Lady of Shalott - Google Art Project.jpg (4180 x 3208 px; Tate N01543 via Google Arts & Culture)",
+  "caption": "She was cursed never to look outside. Then one knight rode by. Would you have looked? #tragedy #poetry #preraphaelite #fineart #storytime",
+  "_verify": [
+    "VERIFIED 2026-10-28, Wikipedia EN (en.wikipedia.org/wiki/The_Lady_of_Shalott_(painting)): oil on canvas, 1888, Tate Britain, given by Sir Henry Tate in 1894; based on Tennyson's poem; under the curse she could see the outside world only through a mirror; when Lancelot passes the mirror cracks and the curse falls; crucifix near the bow with three candles beside it, two blown out (death soon to come); lantern at the front of the boat; she sits on the tapestry she has woven; she sings a lament as she sails to Camelot; naturalistic river details (water plants, swallows).",
+    "VERIFIED, Tate (tate.org.uk/art/artists/john-william-waterhouse-583/curse-lady-shalott): 'Forbidden to leave, she can only see the outside world through the reflection in a mirror'; she 'glimpses the handsome knight Lancelot in the mirror, her curse is fulfilled'; 'a crucifix symbolizing sacrifice and three candles', two gone out; 'Draped over the boat is the tapestry illustrating the Lady herself and Lancelot surrounded by other knights'. Tate artwork page: tate.org.uk/art/artworks/waterhouse-the-lady-of-shalott-n01543.",
+    "VERIFIED, Tennyson, The Lady of Shalott, 1842 text (rpo.library.utoronto.ca/poems/lady-shalott-1842): 'There she weaves by night and day / A magic web'; 'A curse is on her if she stay / To look down to Camelot'; she 'knows not what the curse may be'; 'The mirror crack'd from side to side; / \"The curse is come upon me,\" cried'; 'She loosed the chain'; 'Singing in her song she died'. The quote on slide 5 is the poem's own line.",
+    "VERIFIED with nuance, painted outdoors: Art UK (artuk.org, The Lady of Shalott 117690) says it was made during Waterhouse's brief period of plein-air painting, landscape 'highly naturalistic', exact location not identified; HASTA St Andrews: 'Painting en plein-air'; Smarthistory: Waterhouse drew on the 'plein air (open air) methods of the Impressionists'. Slide 9 says only 'painted in the open air', no river named. UNVERIFIED, not used: which river (Somerset/Devon guesses only).",
+    "CAUTIOUS: 'her lips are parted' on slide 8 is a visual description (painting shows the mouth slightly open); the singing is from the poem and Wikipedia. Death is implied, never described ('her song ends before she arrives').",
+    "CONFLICTING, not used: dimensions (Wikipedia 183 x 230 cm; Art UK 153 x 200 cm). Model 'traditionally said to be the artist's wife' (Art UK): not used.",
+    "CAUTIOUS: slide 4 says only 'This is her tapestry' (Tate: draped over the boat, shows the Lady and Lancelot among knights). Slide 5 follows the poem: she sees Lancelot in the mirror, leaves the web and looks down to Camelot; 'straight at him' is a light simplification.",
+    "Focus boxes are estimates from memory of the composition (landscape, about 1.26-1.31 width/height; prow with lantern, crucifix and candles at left); re-tune on the real image.",
+    "2026-10-28 laptop, slide 1 text changed after checking the image: \"in a boat, alone, toward a distant castle.\" -> \"in a boat, alone.\". No castle is visible in the painting.",
+    "2026-10-28 laptop: checked on the image: lips parted (yes); three candles, the first one still lit, a crucifix lying beside them; tapestry shows mounted knights."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "She was cursed never to look.",
+      "sub": "John William Waterhouse, The Lady of Shalott, 1888"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Alone on the river",
+      "text": "Waterhouse, 1888. A woman drifts downstream in a boat, alone. Who is she, and why does she look so lost?"
+    },
+    {
+      "focus": [
+        0.45,
+        0.4,
+        0.26,
+        0.3
+      ],
+      "headline": "The Lady of Shalott",
+      "text": "She comes from Tennyson's poem. Locked in a tower, she wove day and night, under a curse she didn't even understand."
+    },
+    {
+      "focus": [
+        0.46,
+        0.7,
+        0.36,
+        0.26
+      ],
+      "headline": "A world in a mirror",
+      "text": "The rule: never look out at Camelot. She saw the world only in a mirror, and wove what it showed. This is her tapestry."
+    },
+    {
+      "focus": [
+        0.45,
+        0.7,
+        0.18,
+        0.15
+      ],
+      "headline": "Then, Lancelot",
+      "text": "Then a knight rode by: Lancelot. She left the mirror and looked out, straight at him. The mirror cracked. \"The curse is come upon me.\""
+    },
+    {
+      "focus": [
+        0.29,
+        0.6,
+        0.22,
+        0.2
+      ],
+      "headline": "She lets go",
+      "text": "So she left her tower, found a boat by the river, and climbed in. Look at her hands: she is loosing the chain."
+    },
+    {
+      "focus": [
+        0.76,
+        0.48,
+        0.2,
+        0.17
+      ],
+      "headline": "Three candles",
+      "text": "Look closer at the prow: a crucifix and three candles. Two have already gone out. Only one flame still flickers. Time is running out."
+    },
+    {
+      "focus": [
+        0.43,
+        0.31,
+        0.12,
+        0.12
+      ],
+      "headline": "Her last song",
+      "text": "And her lips are parted. In the poem, she sings as the boat drifts toward Camelot, and her song ends before she arrives."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "One glance",
+      "text": "Waterhouse painted in the open air, so reeds, swallows and water feel alive. Only she is fading. Would you have risked that glance?"
+    }
+  ]
+}

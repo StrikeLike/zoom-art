@@ -1,0 +1,103 @@
+{
+  "title": "The Cardsharps",
+  "artist": "Caravaggio",
+  "year": "c. 1595",
+  "image": "image.jpg",
+  "source": "Kimbell Art Museum, Fort Worth, acquired 1987 (public domain). Wikimedia Commons file: Caravaggio (Michelangelo Merisi) - The Cardsharps - Google Art Project.jpg (4501 x 3239 px; Kimbell via Google Cultural Institute)",
+  "caption": "Three players, one table, and only one of them has no idea what's going on. Can you spot the cheat? #cardsharps #gambling #caravaggio #masterpiece #hiddendetails",
+  "_verify": [
+    "VERIFIED 2026-10-28, Kimbell Art Museum via Google Arts & Culture (artsandculture.google.com/asset/the-cardsharps/nAFtN9HI0FxbaQ): c. 1595, oil on canvas, 94.2 x 130.9 cm; the older cardsharp 'signals his accomplice with a raised, gloved hand', fingertips exposed to feel marked cards; the young cheat reaches behind his back for a hidden card; bought by Cardinal Francesco Maria del Monte, who gave Caravaggio quarters in his palace, leading to his first large public commission; del Monte's seal stamped on the back; location unknown for about ninety years, 'rediscovered in 1987 in a European private collection', bought by the Kimbell Art Foundation in 1987.",
+    "VERIFIED, Wikipedia EN (en.wikipedia.org/wiki/The_Cardsharps): cards 'tucked in his belt behind his back'; 'a dagger handy at his side'; 'the teenage cheat's anxious glance at his master'; 'split fingers on the older man's gloves'; disappeared in the 1890s, 'rediscovered in 1987 in a private collection in Zürich'; Del Monte 'became the artist's first important patron'.",
+    "VERIFIED, artnet (news.artnet.com/art-world/caravaggio-cardsharps-facts-2388780): 'gloves with slit fingers' to feel marked cards; lost for more than 90 years, identified by del Monte's wax seal on its back; entered the Kimbell in 1987.",
+    "CONFLICTING, date: brief said c. 1594 (artnet); Kimbell says c. 1595; Wikipedia c. 1596-97. Slides use 'around 1595' (museum).",
+    "CAUTIOUS: that the finger signal tells 'what the boy is holding' is the standard reading (Kimbell: signals his accomplice; Wikipedia: peers at the dupe's cards and signals) - slide 5 says only 'a signal to his partner'. 'Elegant', 'naive', 'trusting' (slide 3) are descriptions of the image. 'Even cheats start as apprentices' (slide 7) is commentary built on Wikipedia's 'glance at his master'.",
+    "Focus boxes estimated from memory of the composition (landscape, ~1.39:1); re-tune on the real image."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Three players. Only one doesn't know.",
+      "sub": "Caravaggio, The Cardsharps, c. 1595"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Rome, around 1595",
+      "text": "Rome, around 1595. A young Caravaggio paints a quiet card game. Three faces, one table. But only one of them is playing fair."
+    },
+    {
+      "focus": [
+        0.24,
+        0.4,
+        0.42,
+        0.62
+      ],
+      "headline": "The mark",
+      "text": "On the left, an elegant boy studies his cards, absorbed and trusting. Naive, well-off, and completely unaware of what's happening around him."
+    },
+    {
+      "focus": [
+        0.45,
+        0.28,
+        0.32,
+        0.4
+      ],
+      "headline": "The man behind him",
+      "text": "Because right behind him, an older man peers over his shoulder, reading every card in the boy's hand. Now watch his raised fingers."
+    },
+    {
+      "focus": [
+        0.475,
+        0.27,
+        0.14,
+        0.22
+      ],
+      "headline": "Cut fingertips",
+      "text": "It's a signal to his partner. And look at the glove: its fingertips are cut open, so bare skin can feel marked cards."
+    },
+    {
+      "focus": [
+        0.82,
+        0.62,
+        0.34,
+        0.46
+      ],
+      "headline": "Behind his back",
+      "text": "Meanwhile, his partner, barely older than the victim, reaches behind his back. Tucked in his belt: extra cards, hidden from the boy, not us."
+    },
+    {
+      "focus": [
+        0.72,
+        0.58,
+        0.36,
+        0.82
+      ],
+      "headline": "A dagger, just in case",
+      "text": "And if the trick fails? A dagger hangs at his side. Yet his eyes dart anxiously to his master: even cheats start as apprentices."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.75,
+        0.75
+      ],
+      "headline": "The con that made him",
+      "text": "The trick worked on collectors too. Cardinal del Monte bought the painting and gave Caravaggio rooms in his palace: the start of his career."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Lost, then found",
+      "text": "Then it vanished for about ninety years. In 1987 it resurfaced, del Monte's seal still on the back. Would you have spotted the cheat?"
+    }
+  ]
+}
