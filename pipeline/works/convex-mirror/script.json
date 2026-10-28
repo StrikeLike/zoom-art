@@ -1,0 +1,106 @@
+{
+  "title": "Self-Portrait in a Convex Mirror",
+  "artist": "Parmigianino",
+  "year": "c. 1524",
+  "image": "image.jpg",
+  "source": "Kunsthistorisches Museum, Vienna, Picture Gallery (public domain). Full resolution from Wikimedia Commons: Wikimedia Commons file: Francesco Mazzola, called Parmigianino - Self-Portrait in a Convex Mirror - Google Art Project.jpg (6565 x 6301 px; KHM Vienna via Google Cultural Institute)",
+  "caption": "A 21-year-old painter, a pope to impress, and a hand that's far too big. Something here isn't what it seems. #selfportrait #mirror #parmigianino #arthistory #didyouknow",
+  "_verify": [
+    "VERIFIED 2026-10-28, Kunsthistorisches Museum (khm.at/en/object/1407): c. 1523/24, self-portrait painted on a curved piece of wood, diameter 24.4 cm; given to Pope Clement VII to win commissions; provenance: acquired by Clement VII from the artist, then given to Pietro Aretino, then Valerio Belli and his son Elio, 1560 sold via Andrea Palladio to the sculptor Alessandro Vittoria, 1608 bequeathed to Emperor Rudolf II.",
+    "VERIFIED, Wikipedia EN (en.wikipedia.org/wiki/Self-Portrait_in_a_Convex_Mirror_(Parmigianino)): c. 1524, artist 'then twenty-one'; curved wooden panel mimicking the convex mirror; Vasari lists it among small paintings brought to Rome; donated to Clement VII, later given to Aretino (Vasari saw it in Aretino's house as a child); John Ashbery's poem of the same name, the book won the three major American poetry prizes.",
+    "VERIFIED, Vasari's account: quoted in Ashbery's poem (thestranger.com excerpt; dobianchi.com): 'In a convex mirror, such as is used by barbers', 'caused a ball of wood to be made / By a turner, and having divided it in half and / Brought it to the size of the mirror'; the pope and his court were 'stupefied'. Smarthistory (smarthistory.org/parmigianino-self-portrait-in-a-convex-mirror/): 21 years old, presented to Clement VII hoping for papal commissions, 'That did not happen'; the hand foregrounded.",
+    "CAUTION, date of Rome trip: Wikipedia Parmigianino says he went to Rome in 1524, the painting article says Vasari lists it among works brought in 1525. Slides give no year for the trip.",
+    "CAUTION, who gave it to Aretino: KHM says acquired by the pope 'then given to Pietro Aretino' without saying by whom. Slide 8 says only 'it ended up with the writer Pietro Aretino'.",
+    "INTERPRETIVE, slide 5 'bigger than his head': visual observation, check on the image.",
+    "CAUTION, slide 2 'Parma, around 1524': he was from Parma and left for Rome from there (Wikipedia Parmigianino); no source read says explicitly where this panel was painted.",
+    "ROUND PAINTING: all focus boxes kept inside the circle (centre 0.5,0.5, radius about 0.5, so whole-view boxes 0.7 x 0.7). Estimated without the image: re-tune on the real file. Least sure: the window (slide 4) and the hand (slides 5, 7).",
+    "2026-10-28 laptop: image.jpg cropped square to the round gilt frame (KHM photo had a white backdrop); the white outside the frame was replaced with the dark page colour (rgb 18,16,14). The painting and frame are untouched; original download kept in out/image_original_white.jpg."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Something about this portrait is very wrong",
+      "sub": "Parmigianino, Self-Portrait in a Convex Mirror, c. 1524"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.98
+      ],
+      "headline": "Parma, around 1524",
+      "text": "A young painter, about 21, wants to impress the most powerful patron in Italy. His weapon: one small, round portrait. Look closely."
+    },
+    {
+      "focus": [
+        0.52,
+        0.38,
+        0.28,
+        0.3
+      ],
+      "headline": "An angel's face",
+      "text": "At the centre, a calm, almost angelic face. Soft curls, steady eyes. Nothing strange so far. But follow the walls around him."
+    },
+    {
+      "focus": [
+        0.36,
+        0.22,
+        0.46,
+        0.26
+      ],
+      "headline": "The bending room",
+      "text": "The window and the ceiling curve around him, as if the room were melting. And then there's the thing right in front..."
+    },
+    {
+      "focus": [
+        0.58,
+        0.77,
+        0.46,
+        0.24
+      ],
+      "headline": "That hand",
+      "text": "His hand swells at the bottom, bigger than his face. It isn't a mistake. It's exactly what a convex mirror does to you."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.98
+      ],
+      "headline": "A barber's trick",
+      "text": "Vasari tells how: he studied himself in a convex barber's mirror, had a turner make a wooden ball, cut it, and painted on it."
+    },
+    {
+      "focus": [
+        0.5,
+        0.72,
+        0.8,
+        0.44
+      ],
+      "headline": "Painted on a curve",
+      "text": "So the picture itself bulges, just like the mirror. Then he carried it to Rome and presented it to Pope Clement VII."
+    },
+    {
+      "focus": [
+        0.52,
+        0.4,
+        0.34,
+        0.36
+      ],
+      "headline": "The pope's verdict",
+      "text": "Vasari says the papal court was stunned. Yet the dream commissions never really came. And the portrait ended up with the writer Pietro Aretino."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.98
+      ],
+      "headline": "Mirror or painting?",
+      "text": "Four centuries later it inspired John Ashbery's prize-winning poem. A reflection that never fades. Would it have fooled you at first glance?"
+    }
+  ]
+}

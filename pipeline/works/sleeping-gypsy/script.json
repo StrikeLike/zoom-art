@@ -1,0 +1,106 @@
+{
+  "title": "The Sleeping Gypsy",
+  "artist": "Henri Rousseau",
+  "year": "1897",
+  "image": "image.jpg",
+  "source": "The Museum of Modern Art, New York, 646.1939, gift of Mrs. Simon Guggenheim (public domain). Full resolution from Wikimedia Commons: Wikimedia Commons file: Henri Rousseau - La Bohémienne endormie - Google Art Project.jpg (6797 x 4416 px; MoMA via Google Arts & Culture)",
+  "caption": "A lion finds a woman asleep in the desert. What happens next is the real mystery. #lion #dreams #henrirousseau #painting #hiddendetails",
+  "_verify": [
+    "VERIFIED 2026-10-28, Wikipedia EN (en.wikipedia.org/wiki/The_Sleeping_Gypsy): 1897, oil on canvas, 129.5 x 200.7 cm, MoMA; woman in a striped robe, staff in her hand, mandolin and a tall jar beside her, full moon, lion sniffing her; Rousseau's own description: 'A lion chances to pass by, picks up her scent yet does not devour her' (quoted on slide 4); shown at the Salon des Independants 1897; he tried unsuccessfully to sell it to the mayor of his hometown, Laval.",
+    "VERIFIED, MoMA collection record (moma.org/collection/works/80172): provenance 'Private collection (charcoal merchant), Paris. Until early 1924', then Louis Vauxcelles (early 1924), Kahnweiler, John Quinn (Feb 1924), Drouot sale 1926, Henri Bing, Mme Ruckstuhl-Siegwart (1926-1939), bought for MoMA by Mrs. Simon Guggenheim (1939). NOTE: the brief said 1923; MoMA and Wikipedia say 1924, slide 9 uses 1924.",
+    "VERIFIED, letter to Laval: thearticle.com (Henri Rousseau's Sleeping Gypsy: a new interpretation) quotes his July 1898 letter written 'when trying to sell it to his hometown': 'A wandering Negress, a mandolin player, lies with her jar beside her.' Slide 5 paraphrases as 'a wandering mandolin player'; slide 8 says 1898.",
+    "VERIFIED, Rousseau: Wikipedia EN (en.wikipedia.org/wiki/Henri_Rousseau): born in Laval 1844; collector of the octroi (toll) of Paris from 1871; nicknamed Le Douanier (the customs officer); 'never left France or saw a jungle'; Mexico army story unfounded. History Hit: self-taught, never left France. CSMonitor 1987: nicknamed Le Douanier.",
+    "PARTLY VERIFIED, no footprints: thearticle.com says the lion's 'footprints ... are not shown'. That the sand around the woman is also unmarked is a visual observation: check on the real image before posting.",
+    "THEORY, flagged on slide 6 ('some see a dream'): the dream reading is an interpretation, not a fact.",
+    "UNVERIFIED, not used: the price Rousseau asked from Laval; the 1924 forgery controversy (mentioned by Wikipedia, outcome unclear); Cocteau's 1926 preface.",
+    "Focus boxes estimated without the image (landscape canvas, about 1.55:1): re-tune on the real file. Least sure: lion head (slide 3), woman's head (slide 4), mandolin and jar (slide 5).",
+    "2026-10-28 laptop: checked on the image: no footprints visible anywhere in the sand, around the woman or the lion."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "A lion. A sleeping woman. Then what?",
+      "sub": "Henri Rousseau, The Sleeping Gypsy, 1897"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Paris, 1897",
+      "text": "A painter who never left France paints a desert under a full moon. A woman sleeps in the sand. But she is not alone."
+    },
+    {
+      "focus": [
+        0.42,
+        0.45,
+        0.6,
+        0.46
+      ],
+      "headline": "The visitor",
+      "text": "A lion pads up behind her, tail raised, and lowers its head to sniff her. Any second now, surely. But it doesn't strike."
+    },
+    {
+      "focus": [
+        0.68,
+        0.68,
+        0.44,
+        0.38
+      ],
+      "headline": "Fast asleep",
+      "text": "She sleeps on, in a striped robe, staff in hand. The painter's own words: the lion picks up her scent \"yet does not devour her.\""
+    },
+    {
+      "focus": [
+        0.81,
+        0.8,
+        0.38,
+        0.3
+      ],
+      "headline": "Her only things",
+      "text": "Beside her lie a mandolin and a water jar. He called her a wandering mandolin player. Now look at the sand around her."
+    },
+    {
+      "focus": [
+        0.5,
+        0.84,
+        0.98,
+        0.3
+      ],
+      "headline": "No footprints",
+      "text": "No footprints anywhere. No trail, no path. How did she, or the lion, get here? Some see the whole scene as a dream."
+    },
+    {
+      "focus": [
+        0.83,
+        0.14,
+        0.24,
+        0.24
+      ],
+      "headline": "Who dreamed it?",
+      "text": "And the dreamer? Henri Rousseau, a self-taught painter who worked at the Paris toll gates. Friends nicknamed him Le Douanier, the customs officer."
+    },
+    {
+      "focus": [
+        0.5,
+        0.55,
+        0.9,
+        0.7
+      ],
+      "headline": "His hometown said no",
+      "text": "In 1898 he offered it to Laval, the town where he was born. Laval turned it down. Then the painting simply disappeared."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Found in 1924",
+      "text": "It resurfaced in 1924, at a Paris charcoal merchant's, and later reached MoMA. So tell us: what does the lion do next?"
+    }
+  ]
+}

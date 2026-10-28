@@ -1,0 +1,108 @@
+{
+  "title": "The Anatomy Lesson of Dr Nicolaes Tulp",
+  "artist": "Rembrandt van Rijn",
+  "year": "1632",
+  "image": "image.jpg",
+  "source": "Mauritshuis, The Hague, inv. 146 (public domain). Wikimedia Commons file: Rembrandt van Rijn - The Anatomy Lesson of Dr Nicolaes Tulp - 146 - Mauritshuis.jpg (6000 x 4520 px; Mauritshuis inv. 146)",
+  "caption": "Amsterdam, 1632: a famous doctor, a hanged thief, and an anatomy lesson that broke the rules. Can you spot how? #anatomy #medicalhistory #rembrandt #oilpainting #didyouknow",
+  "_verify": [
+    "VERIFIED 2026-10-28, Mauritshuis (mauritshuis.nl/en/our-collection/artworks/146-the-anatomy-lesson-of-dr-nicolaes-tulp): inv. 146, oil on canvas, 169.5 x 216.5 cm, signed 'Rembrant. fv: 1632'; anatomy lesson of January 1632 for the Amsterdam surgeons' guild; 'Rembrandt was only twenty-five' when asked; the corpse is Adriaen Adriaensz, alias Aris Kindt, 'arrested for stealing a winter coat and sentenced to death', hanged 31 January 1632; Tulp starts with the arm and hand, 'departing from customary practice': normally 'the abdominal cavity and the perishable bowels would be dissected first, followed by the head and limbs'; painted 'together with a few guild members who contributed towards the fee'; numbers and names on the sheet held by Hartman Hartmansz were added at the beginning of the 18th century, partly reversed in a recent restoration that revealed Rembrandt's original drawing of an arm; Vesalius's frontispiece shows the author holding a dissected arm, Tulp may have wanted to emulate him; the work 'firmly established Rembrandt's name as a portraitist'.",
+    "VERIFIED, Wikipedia EN (en.wikipedia.org/wiki/The_Anatomy_Lesson_of_Dr._Nicolaes_Tulp): Aris Kindt convicted of armed robbery, 'executed earlier on the same day'; lesson dated 31 January 1632; each sitter 'would have paid a certain amount of money to be included'; book in the lower right 'possibly' Vesalius's De humani corporis fabrica (1543); 2006 Dutch recreation found 'several discrepancies' in the exposed forearm, a 2007 study read the white cord as the tendon of a variant forearm muscle; 1828 sale blocked by King William I, Dutch state bought it for 32,000 guilders for the Mauritshuis.",
+    "CONFLICTING, age: brief said 26; Mauritshuis says 25 (born July 1606, lesson January 1632). Slide 2 says 25. Wikipedia EN says 26.",
+    "CONFLICTING, crime: Mauritshuis says theft of a winter coat (elsewhere 'robbery'), Wikipedia 'armed robbery'. Slide 3 says 'a thief arrested for stealing a winter coat' (Mauritshuis wording). executedtoday.com notes a minority date of 16 January; Mauritshuis and Wikipedia give 31 January (not on the slide).",
+    "CAUTIOUS, 'hanged that morning': sources say only 'earlier on the same day'. Slide 3 says 'earlier that same day'.",
+    "CAUTIOUS, book = Vesalius: only 'possibly' (Wikipedia). Slide 5 says 'may be' and asks 'Was Tulp copying him?' (Mauritshuis: he 'may have wanted to emulate' Vesalius).",
+    "CAUTIOUS, who paid: Mauritshuis 'a few guild members who contributed towards the fee', Wikipedia says each sitter paid. Slide 6 says 'they chipped in'.",
+    "Slide 8 compresses the medical debate (2006 discrepancies vs 2007 variant muscle) into one line. No graphic description of the dissection anywhere.",
+    "Focus boxes estimated from memory of the composition (landscape, ~1.28:1); re-tune on the real image.",
+    "2026-10-28 laptop, slide 6 text changed after checking the image: \"holds a sheet listing their names.\" -> \"holds a sheet that once listed their names.\". On this (post-restoration) image the sheet shows the arm drawing; the names are no longer visible.",
+    "2026-10-28 laptop, slide 6 text changed after checking the image: \"over his drawing of an arm.\" -> \"over his drawing of an arm, now visible again.\". Mauritshuis: a recent restoration partly reversed the additions and revealed the arm drawing."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "This anatomy lesson broke the rules. Why?",
+      "sub": "Rembrandt, The Anatomy Lesson of Dr Nicolaes Tulp, 1632"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Amsterdam, 1632",
+      "text": "Amsterdam, 1632. The surgeons' guild asks Rembrandt, just 25, to paint its yearly public dissection. But look closely: this lesson breaks the rules."
+    },
+    {
+      "focus": [
+        0.38,
+        0.77,
+        0.4,
+        0.26
+      ],
+      "headline": "The man on the table",
+      "text": "First, the man on the table: Aris Kindt, a thief arrested for stealing a winter coat. He was hanged earlier that same day."
+    },
+    {
+      "focus": [
+        0.66,
+        0.48,
+        0.42,
+        0.52
+      ],
+      "headline": "Why the arm?",
+      "text": "Now Dr Tulp, forceps in hand, points to the forearm. That's the odd part: by custom, the abdomen came first, then head and limbs."
+    },
+    {
+      "focus": [
+        0.86,
+        0.83,
+        0.28,
+        0.32
+      ],
+      "headline": "The book at his feet",
+      "text": "Why break the rules? The giant book at the feet may be Vesalius's anatomy, whose author posed holding a dissected arm. Was Tulp copying him?"
+    },
+    {
+      "focus": [
+        0.32,
+        0.38,
+        0.62,
+        0.5
+      ],
+      "headline": "Paying for a front seat",
+      "text": "Meanwhile, look at the faces crowding in. These surgeons weren't random onlookers: they chipped in to be painted here, beside the star doctor."
+    },
+    {
+      "focus": [
+        0.52,
+        0.37,
+        0.24,
+        0.3
+      ],
+      "headline": "The name list",
+      "text": "But one surgeon holds a sheet that once listed their names. Rembrandt didn't write them: they were added around 1700, over his drawing of an arm, now visible again."
+    },
+    {
+      "focus": [
+        0.6,
+        0.55,
+        0.5,
+        0.42
+      ],
+      "headline": "Is the arm right?",
+      "text": "And doctors still argue. A 2006 recreation found mismatches with a real arm; a 2007 study blamed a rare muscle variant, not Rembrandt."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "The painting that made him",
+      "text": "It made Rembrandt's name. In 1828 the king stopped its sale; the state bought it. Would you have paid to stand there?"
+    }
+  ]
+}

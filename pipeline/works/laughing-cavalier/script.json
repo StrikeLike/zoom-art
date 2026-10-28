@@ -1,0 +1,106 @@
+{
+  "title": "The Laughing Cavalier",
+  "artist": "Frans Hals",
+  "year": "1624",
+  "image": "image.jpg",
+  "source": "Wallace Collection, London (public domain). Wikimedia Commons file: Frans Hals – The Laughing Cavalier.jpg (6687 x 8165 px, used at 6552 x 8000; Commons source: Sotheby's article; no Wallace Collection file on Commons)",
+  "caption": "Millions know his name. Almost every word of it is wrong. Who do you think he really was? #portrait #mystery #franshals #oilpainting #didyouknow",
+  "_verify": [
+    "VERIFIED 2026-10-28, Wikipedia EN (en.wikipedia.org/wiki/Laughing_Cavalier): oil on canvas, 83 x 67.3 cm, Wallace Collection; inscription top right 'AE'TA SVAE 26/Ao 1624' = aetatis suae 26, anno 1624 (born 1597 or 1598); 'is in fact not laughing', 'an enigmatic smile, much amplified by his upturned moustache'; embroidery symbols of 'the pleasures and pains of love': bees, arrows, flaming cornucopiae, lovers' knots, tongues of fire; Mercury's cap and caduceus (fortune); sitter unknown, 19th-century titles suggest a military man but he could be a wealthy civilian; Pieter Biesboer suggests cloth merchant Tieleman Roosterman; title 'an invention of the Victorian public and press': catalogued as 'A Cavalier' at Bethnal Green 1872-1875, known as 'Laughing Cavalier' by the 1888 Royal Academy exhibition; bought 1865 at the Pourtales-Gorgier sale in Paris by the 4th Marquess of Hertford, outbidding Baron James de Rothschild, 'more than six times the sales estimate'.",
+    "VERIFIED, Wallace Collection lending press release (wallacecollection.org/documents/695/Laughing_Cavalier_Lending_Press_Release.pdf): 'He is neither laughing nor a cavalier'; 'His catchy moniker was earned rather late, in 1888'; Lord Hertford 'sensationally outbid Baron James de Rothschild', 51,000 francs; 'we know little about ... the identity of the sitter'. Google Arts & Culture (Wallace Collection text): title given 'around 1888'; doublet emblems of 'fortune, strength, love and virtue'.",
+    "THEORY, flagged on slide 6 ('One theory'): betrothal portrait. TRC Leiden (trc-leiden.nl, The Laughing Cavalier by Frans Hals): arrows, cornucopias and lovers' knots match emblem books and 'refer to the pleasures and pains of love'; 'The motifs may thus indicate that the painting was a betrothal portrait'; caduceus = Mercury, commerce, supports the merchant identification. The Wallace Collection text (Google Arts) says he was probably unmarried (left-facing, no pendant wife portrait), which fits an engagement rather than a wedding. Slide says 'getting engaged', not 'married'.",
+    "THEORY, flagged on slide 7 ('one historian suggests'): Tieleman Roosterman, Haarlem textile merchant (Wikipedia EN citing Biesboer; TRC Leiden 'possibly').",
+    "CAUTIOUS: 'bees' is in Wikipedia EN only; TRC Leiden lists arrows, caducei, cornucopias, knots and flames (no bees). Low risk, but the focus boxes for the embroidery are estimates; check on the real image that the symbols (and the caduceus on slide 7) are inside the box.",
+    "CAUTIOUS, slide 9: 'Victorian papers gave him a nickname' follows Wikipedia ('invention of the Victorian public and press'); exact first use not documented, sources agree on 1888.",
+    "NOT USED: the 'eyes follow you' effect, McEwan's beer logo, Scarlet Pimpernel link (verified in Wikipedia EN, usable in comment replies).",
+    "Focus boxes are estimates from memory of the composition (portrait format, about 0.81 width/height); re-tune on the real image.",
+    "2026-10-28 laptop: Mercury's staff (caduceus, winged staff with green snakes) located on the right sleeve at about x 0.81, y 0.62-0.72; inscription AETA SVAE 26 / A 1624 top right."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "This famous title is a lie.",
+      "sub": "Frans Hals, The Laughing Cavalier, 1624"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "A famous stranger",
+      "text": "Frans Hals, 1624. Millions know him as The Laughing Cavalier. But this famous name hides a puzzle: almost every word of it is wrong."
+    },
+    {
+      "focus": [
+        0.42,
+        0.29,
+        0.34,
+        0.24
+      ],
+      "headline": "Is he laughing?",
+      "text": "Start with the face. No open mouth, no laugh. Just a faint, knowing smile, lifted by that upturned moustache. Clue one: he isn't laughing."
+    },
+    {
+      "focus": [
+        0.84,
+        0.075,
+        0.3,
+        0.11
+      ],
+      "headline": "A note in the corner",
+      "text": "So who is he? Top right, Hals left a clue in Latin: the sitter was 26, in the year 1624. But no name."
+    },
+    {
+      "focus": [
+        0.74,
+        0.68,
+        0.36,
+        0.44
+      ],
+      "headline": "Is he a cavalier?",
+      "text": "Then is he a cavalier, a dashing soldier? Nothing proves it. Look instead at that sleeve: costly silk, covered in tiny embroidered symbols."
+    },
+    {
+      "focus": [
+        0.72,
+        0.7,
+        0.26,
+        0.24
+      ],
+      "headline": "Love, stitched in silk",
+      "text": "Look closer: arrows, bees, flaming horns of plenty, lovers' knots. Emblems of love's pleasures and pains. One theory: he was getting engaged."
+    },
+    {
+      "focus": [
+        0.81,
+        0.67,
+        0.14,
+        0.14
+      ],
+      "headline": "A merchant's sign?",
+      "text": "And there's Mercury's staff, symbol of trade. So one historian suggests a rich Haarlem cloth merchant, Tieleman Roosterman. Still, nobody can prove it."
+    },
+    {
+      "focus": [
+        0.5,
+        0.4,
+        0.8,
+        0.6
+      ],
+      "headline": "A bidding war",
+      "text": "So where did the famous name come from? Not Hals. In 1865, in Paris, Lord Hertford outbid Baron Rothschild, paying six times the estimate."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Named by Victorians",
+      "text": "Shown in London, Victorian papers gave him a nickname, and by 1888 it stuck. Not laughing, not a cavalier, no name. Who was he?"
+    }
+  ]
+}

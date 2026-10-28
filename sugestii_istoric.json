@@ -95,5 +95,59 @@
     "artist": "John Everett Millais",
     "date": "2026-10-12",
     "status": "sugerat"
+  },
+  {
+    "title": "The Fallen Angel",
+    "artist": "Alexandre Cabanel",
+    "date": "2026-10-28",
+    "status": "postat deja (spus de Alex pe 28 oct 2026; lipsește din works/ și JURNAL.md)"
+  },
+  {
+    "title": "Hope",
+    "artist": "George Frederic Watts",
+    "date": "2026-10-28",
+    "status": "sugerat"
+  },
+  {
+    "title": "The Sleeping Gypsy",
+    "artist": "Henri Rousseau",
+    "date": "2026-10-28",
+    "status": "sugerat"
+  },
+  {
+    "title": "Self-Portrait in a Convex Mirror",
+    "artist": "Parmigianino",
+    "date": "2026-10-28",
+    "status": "sugerat"
+  },
+  {
+    "title": "The Anatomy Lesson of Dr Nicolaes Tulp",
+    "artist": "Rembrandt van Rijn",
+    "date": "2026-10-28",
+    "status": "sugerat"
+  },
+  {
+    "title": "The Cardsharps",
+    "artist": "Caravaggio",
+    "date": "2026-10-28",
+    "status": "sugerat"
+  },
+  {
+    "title": "The Fighting Temeraire",
+    "artist": "J. M. W. Turner",
+    "date": "2026-10-28",
+    "status": "sugerat"
+  },
+  {
+    "title": "The Laughing Cavalier",
+    "artist": "Frans Hals",
+    "date": "2026-10-28",
+    "status": "sugerat"
+  },
+  {
+    "title": "The Lady of Shalott",
+    "artist": "John William Waterhouse",
+    "date": "2026-10-28",
+    "status": "sugerat"
   }
 ]

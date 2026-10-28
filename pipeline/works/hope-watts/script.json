@@ -1,0 +1,108 @@
+{
+  "title": "Hope",
+  "artist": "George Frederic Watts (with assistants)",
+  "year": "1886",
+  "image": "image.jpg",
+  "source": "Tate Britain, London, N01640, second version, presented by the artist 1897 (public domain). Full resolution from Wikimedia Commons: Wikimedia Commons file: Assistants and George Frederic Watts - Hope - Google Art Project.jpg (1738 x 2193 px; Tate N01640 via Google Arts & Culture)",
+  "caption": "Critics said this painting had the wrong title. The painter's answer is hidden in one string. #hope #inspiration #symbolism #fineart #storytime",
+  "_verify": [
+    "VERIFIED 2026-10-28, Tate collection page (tate.org.uk/art/artworks/watts-hope-n01640): \"'Hope', George Frederic Watts and assistants, 1886\", oil on canvas, N01640.",
+    "VERIFIED 2026-10-28, Tate Research Publication 'The Art of the Sublime' entry on Hope (tate.org.uk/art/research/content/1105604?project=3): 'Hope is blindfolded, seated on a globe and playing a lyre of which all but one of the strings are broken'; 'several critics argued that the work might have been more appropriately titled Despair'; Watts: 'Hope need not mean expectancy. It suggests here rather the music which can come from the remaining chord.' (quoted verbatim on slide 6); presented by Watts to the Tate in 1897.",
+    "VERIFIED, Wikipedia EN (en.wikipedia.org/wiki/Hope_(Watts)): single small star at the top, outside her field of vision; Theodore Child called it 'a ghastly and apocalyptic allegory' (slide 5); second version painted later in 1886 with assistant Cecil Schott, darker; first version sold to Joseph Ruston 1887, resold at Sotheby's 1986 for GBP 869,000.",
+    "VERIFIED, first version in a private collection: Christian Science Monitor, 28 Nov 2008 (csmonitor.com/World/Europe/2008/1128/p04s02-woeu.html): owned by a private collector, 'one of two versions', the other in Tate Britain. Not used on slides; current owner after 2008 not checked.",
+    "VERIFIED, Martin Luther King: Wikipedia EN (citing the King Center) says his 1959 sermon 'Shattered Dreams' used Hope; Big Think (bigthink.com/?p=48741) also says Hope 'inspired Martin Luther King Jr.'s 1959 sermon Shattered Dreams'. Where it was preached not confirmed; slide says only 'In 1959'.",
+    "VERIFIED with nuance, Jeremiah Wright: Wikipedia EN, sermon 'The Audacity to Hope' at Trinity United Church of Christ, Chicago, 1990; CSMonitor 2008: Wright used the image in a Chicago sermon about 20 years earlier; Obama used the phrase in his 2004 DNC keynote and as the title of his 2006 book The Audacity of Hope. Slide says 'Around 1990'.",
+    "UNVERIFIED / no evidence, NOT on slides: Nelson Mandela kept a print of Hope in his Robben Island cell. Wikipedia EN: 'a claim for which there is no evidence'. Only mentioned in the post as a claim with no evidence (optional).",
+    "UNVERIFIED, not used: Watts 'I made Hope blind so expecting nothing' (only Wikipedia); Egyptian troops given copies after 1967 (Wikipedia: no evidence).",
+    "Focus boxes estimated without the image (portrait canvas, about 142 x 112 cm): re-tune on the real file. Least sure: head/blindfold (slide 3) and lyre (slides 4, 6).",
+    "2026-10-28 laptop, slide 2 text changed after checking the image: \"she sits alone on a dim little globe, with\" -> \"she sits alone, with\". The globe is not in the head/blindfold crop.",
+    "2026-10-28 laptop: star found at the top, about x 0.375, y 0.015 (small, a few px wide in the 1738 px file)."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Critics said this title was wrong",
+      "sub": "George Frederic Watts, Hope, 1886"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "London, 1886",
+      "text": "Watts paints a lone woman sitting on top of the world, and calls it Hope. But critics looked closer and saw something else."
+    },
+    {
+      "focus": [
+        0.57,
+        0.29,
+        0.34,
+        0.2
+      ],
+      "headline": "She can't see",
+      "text": "Look at her face first: a blindfold. Head bowed, she sits alone, with no idea where she is going."
+    },
+    {
+      "focus": [
+        0.61,
+        0.2,
+        0.42,
+        0.27
+      ],
+      "headline": "Broken strings",
+      "text": "And her lyre? Every string has snapped except one. She presses her ear against it, straining to hear what is left."
+    },
+    {
+      "focus": [
+        0.5,
+        0.6,
+        0.85,
+        0.7
+      ],
+      "headline": "\"Call it Despair\"",
+      "text": "No wonder several critics said it should have been called Despair. One called it a ghastly and apocalyptic allegory. So why Hope?"
+    },
+    {
+      "focus": [
+        0.6,
+        0.19,
+        0.3,
+        0.22
+      ],
+      "headline": "The last string",
+      "text": "Watts answered simply: \"Hope need not mean expectancy. It suggests here rather the music which can come from the remaining chord.\""
+    },
+    {
+      "focus": [
+        0.375,
+        0.04,
+        0.16,
+        0.08
+      ],
+      "headline": "Look up",
+      "text": "And there is one more clue she cannot see: a single small star above her head. Decades later, preachers started noticing it too."
+    },
+    {
+      "focus": [
+        0.5,
+        0.47,
+        0.8,
+        0.62
+      ],
+      "headline": "From canvas to pulpit",
+      "text": "In 1959, Martin Luther King preached on it. Around 1990, Jeremiah Wright built a sermon on it: The Audacity to Hope."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "One string, one president",
+      "text": "In the pews sat Barack Obama. His 2006 book became The Audacity of Hope. So, do you see hope here, or despair?"
+    }
+  ]
+}
