@@ -1,0 +1,103 @@
+{
+  "title": "Gin Lane",
+  "artist": "William Hogarth",
+  "year": "1751",
+  "image": "image.jpg",
+  "source": "Engraving, 1751 (public domain); impressions in many collections (British Museum, Metropolitan Museum and others). The Commons file page does not name the collection it was scanned from, so credit: William Hogarth, Gin Lane, 1751 (public domain). Image from Wikimedia Commons: File:William Hogarth - Gin Lane.jpg (4000 x 4638 px, 5.72 MB, checked 2026-10-24 via a mirror of the file page)",
+  "caption": "Welcome to the worst street in 1751 London, where one shop is booming and everything else is falling apart. #gin #london #hogarth #arthistory #hiddendetails",
+  "_verify": [
+    "VERIFIED 2026-10-24, Wikipedia EN (en.wikipedia.org/wiki/Beer_Street_and_Gin_Lane): issued February 1751 as a companion to Beer Street, in support of what became the Gin Act 1751; set in the parish of St Giles; the central woman, addled by gin, lets her baby fall into the stairwell of the gin cellar while taking a pinch of snuff; the pawnbroker Mr Gripe takes the carpenter's saw and a housewife's cooking utensils for a few pennies; the cellar sign 'Drunk for a penny / Dead drunk for twopence / Clean straw for nothing'; the pawnbroker's sign forms a corrupted cross over the faint steeple of St George's, Bloomsbury; the only businesses that flourish serve the gin trade (gin sellers, distiller Kilman, pawnbroker Gripe, undertaker); the skeletal pamphlet-seller 'has pawned most of his clothes to buy the gin in his basket', pamphlet 'The Downfall of Mrs Gin'; gin production fell from 7 million gallons (1751) to 4.25 million (1752).",
+    "VERIFIED, ruined houses: Trusler's commentary via ENS Lyon (cle.ens-lyon.fr/anglais/arts/peinture/william-hogarth-gin-lane): 'the Houses are literally Ruins!'; pawnbroker, distiller and undertaker 'in a flourishing state'. Brooklyn Brainery: 'The buildings are obviously falling down'. Note: Wikipedia itself only mentions a 'dilapidated attic' and a 'broken-down wall', so slide 7 says 'crumble' and 'propped up by beams' (beams visible in the print, upper right).",
+    "VERIFIED, mother: RCPE (rcpe.ac.uk/heritage/hogarth-and-art-alcohol-abuse): she lets her child fall while taking a pinch of snuff; Mr Gripe the pawnbroker is the only thriving establishment. Kept non-graphic: slide 4 says the baby is 'slipping over the rail', no outcome shown.",
+    "VERIFIED with nuance, Gin Act: Wikipedia EN (Gin Act 1751): banned distillers from selling to unlicensed merchants, raised fees, eliminated small gin shops. Wikipedia (Beer Street and Gin Lane) says the Act passed 'in no small measure' because of Fielding's and Hogarth's propaganda; Gin Craze article: craze 'mostly ended by 1757'. Slide 9 says only that the Act passed the same year and the craze slowly faded, and asks the question, no direct causation claimed.",
+    "UNVERIFIED, not used: claim (Brooklyn Brainery) that the government commissioned Hogarth; 'blind drunk' variant of the sign; the barber's suicide in the attic and the child on the spike (left out on purpose, too dark for the reel).",
+    "Focus boxes estimated from the contact-sheet thumbnail (portrait 4000x4638); retune on the real image. Least sure: the cellar sign (slide 3, lower left) and the three-ball sign over the steeple (slide 6, top)."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Welcome to the worst street in London",
+      "sub": "William Hogarth, Gin Lane, 1751"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "London, 1751",
+      "text": "London, 1751. Cheap gin has flooded the poorest streets. William Hogarth engraves one of them, St Giles, as a warning. Look closer."
+    },
+    {
+      "focus": [
+        0.18,
+        0.86,
+        0.34,
+        0.26
+      ],
+      "headline": "The cellar's promise",
+      "text": "It starts underground. Over a gin cellar, the sign reads: drunk for a penny, dead drunk for twopence, clean straw for nothing."
+    },
+    {
+      "focus": [
+        0.45,
+        0.6,
+        0.42,
+        0.32
+      ],
+      "headline": "A mother on the steps",
+      "text": "Right above it, a mother sits on the steps, lost in gin, reaching for her snuff. She hasn't noticed her baby slipping over the rail."
+    },
+    {
+      "focus": [
+        0.2,
+        0.38,
+        0.36,
+        0.32
+      ],
+      "headline": "Business is booming",
+      "text": "Meanwhile, one shop is thriving. Mr Gripe the pawnbroker takes a carpenter's saw and a woman's cooking pots, for a few pennies of gin."
+    },
+    {
+      "focus": [
+        0.45,
+        0.15,
+        0.24,
+        0.28
+      ],
+      "headline": "A crooked cross",
+      "text": "Now look up. Gripe's sign hangs right over the church steeple, like a crooked cross. On this street, people worship something else."
+    },
+    {
+      "focus": [
+        0.8,
+        0.25,
+        0.36,
+        0.42
+      ],
+      "headline": "The street gives way",
+      "text": "And then the street itself gives way. Walls crumble, propped up by beams. Only the pawnbroker, the distiller and the undertaker are doing well."
+    },
+    {
+      "focus": [
+        0.78,
+        0.8,
+        0.34,
+        0.32
+      ],
+      "headline": "Skin and bone",
+      "text": "Down front, a skeletal man has pawned most of his clothes for gin. The pamphlet slipping from his basket: The Downfall of Mrs Gin."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "A law follows",
+      "text": "Hogarth paired it with a cheerful twin, Beer Street. That year, Parliament passed the Gin Act, and the craze faded. Can one picture change a law?"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "title": "Still Life with Flowers, a Silver-gilt Goblet, Dried Fruit, Sweetmeats, Bread Sticks, Wine and a Pewter Pitcher",
+  "artist": "Clara Peeters",
+  "year": "1611",
+  "image": "image.jpg",
+  "source": "Museo Nacional del Prado, Madrid, P001620 (public domain). Full resolution from Wikimedia Commons: Clara Peeters - Mesa (Prado) 01.jpg (3051 x 2162 px)",
+  "caption": "A feast from 1611, and the painter is hiding somewhere on the table. Can you find her before the zoom? #womeninart #stilllife #clarapeeters #oilpainting #hiddendetails",
+  "_verify": [
+    "VERIFIED, Museo del Prado (museodelprado.es/en/the-collection/art-work/still-life-with-flowers-a-silver-gilt-goblet/97a18fea-112a-417a-9a8a-6665a44cc331): THIS painting, P001620, 1611, 52 x 73 cm; 'Clara Peeters painted her self-portrait three times on the gilt goblet and four times on the pewter jug'; the many signatures and reflected self-portraits are 'a form of assertion, perhaps because she was a woman in a profession dominated by men'; they heighten the illusion that we see her as she paints; the half-eaten pretzel suggests someone has been at the table; reflections were a recognized artistic challenge she eagerly took up; signed and dated 'CLARA . P . Ao . 1611 .' lower left of the front.",
+    "VERIFIED, The Art Newspaper, 25 Oct 2016 (theartnewspaper.com/2016/10/25/it-only-took-200-years-prado-stages-its-first-show-dedicated-to-a-female-artist): in this Prado 1611 still life she appears 'in a headdress and ruff reflected in the flagon'; a 1612 Karlsruhe still life shows her holding brushes and palette (different painting, not used); one of the few women working as professional painters in 17th-century Europe; 39 attributed works; 'The Art of Clara Peeters' was the Prado's first exhibition dedicated to a female artist in its 200-year history (2016-2017).",
+    "VERIFIED, NPR, 30 Nov 2016 (npr.org/sections/parallels/2016/11/30/503129505): little is known about her; birth and death dates unclear; barely 40 paintings survive; curator Alejandro Vergara mentions 'seven reflections with her face'. Prado gives her dates as Antwerp (?) 1588 - Antwerp (?) 1621, other sources differ (1594-c.1640; c.1587-after 1636).",
+    "NOT CLAIMED: that it was painted in Antwerp (likely, unverified for this panel), or that the bouquet mixes seasons.",
+    "FOCUS WARNING: the reflections are tiny. At 3051 px the goblet cup is roughly 300-400 px wide and each face is likely only ~10-25 px; the slide 6/7 boxes can show the goblet and the jug, but the faces themselves will be barely legible. Signature box (slide 8) is a guess: lower left of the table front; re-tune on the real image."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Someone is hiding in this painting. Find her.",
+      "sub": "Clara Peeters, Still Life with Flowers and a Gilt Goblet, 1611"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "A feast in 1611",
+      "text": "1611: a feast on a table, flowers, gold, sweets and wine. The painter, Clara Peeters, was one of very few professional women painters."
+    },
+    {
+      "focus": [
+        0.2,
+        0.45,
+        0.36,
+        0.8
+      ],
+      "headline": "Who was Clara?",
+      "text": "Yet we know almost nothing about her: not when she was born, not when she died. Only about forty paintings survive. But she left clues."
+    },
+    {
+      "focus": [
+        0.86,
+        0.78,
+        0.28,
+        0.3
+      ],
+      "headline": "Someone was just here",
+      "text": "Look at the pretzels: one is half eaten. Someone was sitting at this table a moment ago. Who? Keep looking."
+    },
+    {
+      "focus": [
+        0.6,
+        0.32,
+        0.3,
+        0.42
+      ],
+      "headline": "Everything shines",
+      "text": "Every surface is polished: the wine glass, the pewter, the gold. Painting reflections was a test of skill, and she took it on eagerly."
+    },
+    {
+      "focus": [
+        0.51,
+        0.43,
+        0.14,
+        0.18
+      ],
+      "headline": "Look at the goblet",
+      "text": "Now zoom into the gilded goblet. On its round bumps, tiny faces appear: three reflections of Clara herself, as if painting this very picture."
+    },
+    {
+      "focus": [
+        0.85,
+        0.4,
+        0.28,
+        0.48
+      ],
+      "headline": "Four more",
+      "text": "And there's more. In the pewter jug she appears four more times, in a headdress and ruff. Seven self-portraits on one table."
+    },
+    {
+      "focus": [
+        0.075,
+        0.92,
+        0.15,
+        0.08
+      ],
+      "headline": "Signed, CLARA P.",
+      "text": "Why hide there? Perhaps to assert herself: she also signed it, CLARA P. 1611. A woman in a men's profession, refusing to vanish."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Did you find her?",
+      "text": "In 2016 she became the first woman with her own exhibition at the Prado, after almost 200 years. Did you spot her before the zoom?"
+    }
+  ]
+}

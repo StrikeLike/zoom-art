@@ -1,0 +1,102 @@
+{
+  "title": "The Sea of Ice (Das Eismeer)",
+  "artist": "Caspar David Friedrich",
+  "year": "1823-1824",
+  "image": "image.jpg",
+  "source": "Hamburger Kunsthalle, Hamburg (public domain). Full resolution from Wikimedia Commons: File:Caspar David Friedrich – Das Eismeer.jpg (3830 x 2902 px as given in the brief; Wikimedia unreachable from the cloud, size not re-checked 2026-10-24)",
+  "caption": "A mountain of broken ice under an empty sky. Or is it empty? Look to the right of the tower. #shipwreck #arctic #caspardavidfriedrich #fineart #hiddendetails",
+  "_verify": [
+    "VERIFIED 2026-10-24, Wikipedia EN (en.wikipedia.org/wiki/The_Sea_of_Ice): Kunsthalle Hamburg; 96.7 x 126.9 cm; first exhibited Prague Academy 1824; wreck is 'a minuscule detail' next to the ice tower; winter 1820-21 oil studies of ice floes on the Elbe near Dresden; 'still unsold when Friedrich died in 1840'; the earlier 1822 'A Wrecked Ship Off the Coast of Greenland', also known as 'The Wreck of Hope', was lost and that title 'came to be used for The Sea of Ice, on occasion'; theory of a commentary on Germany; met with incomprehension.",
+    "VERIFIED, Wikipedia DE (de.wikipedia.org/wiki/Das_Eismeer): capsized sailing ship buried on the right, only part of the stern, the mizzen mast, part of a sail and some rope visible; the wreck in this painting is nameless, while the 1822 polar picture bore the name 'Hoffnung' (Hope); title 'Gescheiterte Hoffnung' a mix-up (Stechow 1965); Böttiger 1825 described the 'second polar picture with the Griper wedged between ice blocks'; Griper was one of Parry's ships on the 1819/20 Northwest Passage expedition; political reading as a symbol of stagnation in Germany after the Karlsbad Decrees of 1819; bought by Dahl 1843, no buyer at auction 1859, sold 1905 to Lichtwark for the Kunsthalle.",
+    "CORRECTED, not as in the brief: there is no name 'Griper' visible on the hull; the wreck is nameless. The Griper link comes from Böttiger's 1825 description (slide 7 says so). Sartle also says Friedrich 'borrowed only the ship's name'. Wikipedia EN says Friedrich 'likely drew upon' Parry's account; influence unconfirmed. Parry expedition dated 1819-20 (Wikipedia EN gives both 1819-1820 and 1820-1821; DE and Sartle say 1819).",
+    "THEORY, flagged on slide 9 ('Some see'): political reading (frozen hopes in Restoration Germany). Not used: Sartle's claim that the work was 'commissioned' (unconfirmed elsewhere); link to the drowning of Friedrich's brother.",
+    "Focus boxes estimated from the contact sheet thumbnail, to be re-tuned on the real image. The wreck (slide 6) is the dark shape right of the ice tower, about x 0.78-0.86, y 0.42-0.52."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Look again. Something is buried here.",
+      "sub": "Caspar David Friedrich, The Sea of Ice, 1823-1824"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "A frozen wasteland",
+      "text": "Caspar David Friedrich, 1823–24. A mountain of shattered ice slabs under a cold, empty sky. No people, no animals. Or so it seems."
+    },
+    {
+      "focus": [
+        0.48,
+        0.4,
+        0.52,
+        0.52
+      ],
+      "headline": "Ice stacked like ruins",
+      "text": "At the centre, huge slabs of ice are pushed up into a jagged tower, piled like broken gravestones. Friedrich studied real ice for this."
+    },
+    {
+      "focus": [
+        0.45,
+        0.8,
+        0.82,
+        0.36
+      ],
+      "headline": "Ice from the Elbe",
+      "text": "In the winter of 1820–21, he painted oil studies of ice floes on the river Elbe near Dresden. Look how solid these blocks feel."
+    },
+    {
+      "focus": [
+        0.14,
+        0.33,
+        0.24,
+        0.22
+      ],
+      "headline": "Far beyond, more ice",
+      "text": "Meanwhile, far in the distance, more icebergs fade into the mist. The Arctic, endless. But now look to the right of the tower…"
+    },
+    {
+      "focus": [
+        0.81,
+        0.47,
+        0.2,
+        0.18
+      ],
+      "headline": "A ship, crushed",
+      "text": "There it is: the stern of a ship, almost swallowed by the ice. A mast, a scrap of sail, some rope. No crew in sight."
+    },
+    {
+      "focus": [
+        0.78,
+        0.48,
+        0.32,
+        0.28
+      ],
+      "headline": "An Arctic expedition",
+      "text": "In 1819–20, William Parry's ships hunted the Northwest Passage. An 1825 description named this wreck after one of them: the Griper."
+    },
+    {
+      "focus": [
+        0.66,
+        0.48,
+        0.62,
+        0.46
+      ],
+      "headline": "A ship called Hope",
+      "text": "A twist: an earlier, now lost Friedrich painting showed a wreck named Hope. After a mix-up, this one got nicknamed The Wreck of Hope."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Unsold, then famous",
+      "text": "Some see German political hopes frozen solid. Unsold when Friedrich died in 1840, it now hangs in Hamburg. Did you spot the ship first?"
+    }
+  ]
+}

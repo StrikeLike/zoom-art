@@ -1,0 +1,104 @@
+{
+  "title": "Portrait of an Unknown Woman",
+  "artist": "Ivan Kramskoi",
+  "year": "1883",
+  "image": "image.jpg",
+  "source": "State Tretyakov Gallery, Moscow, inv. 5893 (public domain). Oil on canvas, 75.5 x 99 cm (height x width, so the painting is landscape). Full resolution from Wikimedia Commons: File:Kramskoy Portrait of a Woman.jpg (2048 x 1543 px)",
+  "caption": "She has looked down at viewers since 1883, and nobody knows her name. Who was she? #portrait #annakarenina #kramskoi #masterpiece #didyouknow",
+  "_verify": [
+    "VERIFIED, Wikipedia EN (en.wikipedia.org/wiki/Portrait_of_an_Unknown_Woman): 1883, oil, 75.5 x 99 cm, Tretyakov Gallery (an earlier 1883 version in Kunsthalle Kiel); sitter unknown; titled 'Unknown'; Kramskoi never mentioned her in letters or diaries; open carriage on the Anichkov Bridge, Anichkov Palace in the background; critics assumed she was a prostitute; Tretyakov declined to buy it; it has appeared on covers of Anna Karenina, and Guggenheim curator Valerie Hillings (2008) said many see her as resembling Anna Karenina.",
+    "VERIFIED, RBC (rbc.ru/life/news/65407fed9a79472c118d7e4d): called the 'Mona Lisa (Gioconda) of Russian painting'; Stasov wrote in a letter 'Кокотка в коляске' (a cocotte in a carriage); riding alone in an open carriage was considered bad taste; model theories (all unconfirmed): ballerinas Ekaterina Chislova and Anna Kuznetsova, Ekaterina Dolgorukova (mistress of Alexander II), peasant Matryona Savvishna, Kramskoi's daughter Sofia.",
+    "VERIFIED, Russia Beyond / gw2ru (gw2ru.com/arts/2325-kramskoy-unknown-woman-painting) and znanierussia.ru: velvet 'Francis' hat with ostrich feather, 'Skobelev' coat, Swedish gloves; 'Russian Gioconda'; Tretyakov declined; entered the Tretyakov Gallery in 1925 after several owners (incl. the Kharitonenkos); inventory 5893 (znanierussia).",
+    "CONFLICTING, background: Wikipedia EN says Anichkov Bridge with Anichkov Palace behind; znanierussia says Nevsky Prospekt with Anichkov Bridge behind her; gw2ru says Alexandrinsky Theatre and Anichkov Palace. Slide 6 says only 'frosty St Petersburg, near the Anichkov Palace'.",
+    "VISUAL, not a source claim: 'she sits high in the carriage and looks down at us' describes the composition (low viewpoint). 'Proud, cool, maybe a little sad' paraphrases znanierussia ('haughty and defenceless gaze').",
+    "CAUTIOUS: Anna Karenina is a popular association, not a fact; slide 8 says 'many see' and 'her face appears on covers of the novel'.",
+    "Image note: the Commons file is landscape (2048 x 1543) and so is the painting (75.5 high x 99 wide); the file is the whole painting, not a crop. Focus boxes estimated from the contact sheet; re-tune on the real image."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Still, nobody knows who she is",
+      "sub": "Ivan Kramskoi, Portrait of an Unknown Woman, 1883"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "St Petersburg, 1883",
+      "text": "Winter in St Petersburg, 1883. A young woman rides alone in an open carriage. Kramskoi gave her no name, just one word: Unknown."
+    },
+    {
+      "focus": [
+        0.57,
+        0.29,
+        0.22,
+        0.24
+      ],
+      "headline": "That look",
+      "text": "She sits high in the carriage and looks down at us: proud, cool, maybe a little sad. And everything about her raised questions."
+    },
+    {
+      "focus": [
+        0.6,
+        0.36,
+        0.36,
+        0.68
+      ],
+      "headline": "Dressed to be noticed",
+      "text": "Look at her clothes: a velvet 'Francis' hat with an ostrich feather, a fur-trimmed 'Skobelev' coat, fine gloves. Very fashionable. Too fashionable?"
+    },
+    {
+      "focus": [
+        0.42,
+        0.68,
+        0.7,
+        0.6
+      ],
+      "headline": "A scandal",
+      "text": "Critics thought so. A lady alone in an open carriage? Many assumed she was a courtesan. Vladimir Stasov called her a cocotte in a carriage."
+    },
+    {
+      "focus": [
+        0.2,
+        0.45,
+        0.4,
+        0.62
+      ],
+      "headline": "Behind her",
+      "text": "Behind her, frosty St Petersburg, near the Anichkov Palace. Even Pavel Tretyakov refused to buy her. She reached his gallery only in 1925."
+    },
+    {
+      "focus": [
+        0.57,
+        0.3,
+        0.26,
+        0.3
+      ],
+      "headline": "Who was she?",
+      "text": "So who was she? Theories range from Tsar Alexander II's mistress to ballerinas, a peasant girl, even Kramskoi's own daughter. None is proven."
+    },
+    {
+      "focus": [
+        0.58,
+        0.28,
+        0.34,
+        0.4
+      ],
+      "headline": "Anna Karenina?",
+      "text": "Meanwhile, many see Tolstoy's Anna Karenina in her, and her face appears on covers of the novel. Today she's called the Russian Mona Lisa."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Still unknown",
+      "text": "Kramskoi never named her in his letters or diaries, and the secret went with him. Who do you think she was?"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "title": "The Desperate Man (Le Désespéré)",
+  "artist": "Gustave Courbet",
+  "year": "c. 1843-1845",
+  "image": "image.jpg",
+  "source": "Musée d'Orsay, Paris, long-term loan from Qatar Museums since 2025 (DO 2025 2), public domain. Wikimedia Commons: File:Gustave Courbet - Le Désespéré (1843).jpg (1500 x 1228 px; not re-checked on Commons, Wikimedia unreachable from the container)",
+  "caption": "He grabs his hair and stares right at you. Who is he, and why did he hide this face for 30 years? #selfportrait #despair #courbet #fineart #artfacts",
+  "_verify": [
+    "CORRECTION to the brief: no longer 'private collection'. Owner is Qatar Museums; on long-term loan to the Musée d'Orsay since 14 Oct 2025 (Orsay catalogue musee-orsay.fr/fr/oeuvres/272956: 'Prêt de longue durée de Qatar Museums, 2025', room 4, ground floor; QNA 14 Oct 2025 qna.org.qa; artnet news.artnet.com/art-world/gustave-courbet-desperate-man-2703520). Previously courtesy Conseil Investissement Art BNP Paribas; shown in the 2007-2008 Paris retrospective (then New York, Montpellier). First time in France in 17 years.",
+    "VERIFIED, Orsay catalogue: 'Autoportrait de l'artiste', also 'Désespoir' / 'Le Désespéré', c. 1844-1845, oil on canvas, 44 x 54 cm (landscape format); belongs to the 'têtes d'étude' tradition (showing the ability to paint emotions); tight framing, harsh light; Courbet kept it until his death (studio until 1877, then his sister Juliette, sold at Drouot 1881); signature and '41' in blood-red paint probably added when shown in Vienna in 1873, after his exile in Switzerland; first exhibited Vienna 1873, then Geneva 1877 as 'Désespoir', weeks before his death. Wikipedia EN gives 1843-1845 and 45 x 54 cm.",
+    "VERIFIED with a range, age: artnet says 24, QNA says about 25 (born 1819). Slide says 'in his mid-twenties'.",
+    "UNVERIFIED in a dedicated source but standard biography, slide 5: 'long before his scandals made him famous' (Courbet's breakthrough came at the 1849-1851 Salons). Low risk.",
+    "INTERPRETATION, flagged on slide 6: whether it shows real despair or an expression exercise is unknown (Wikipedia EN; Orsay calls it a 'tête d'étude'). 'Selfie' is our framing, not a source term.",
+    "Not used: Courbet's letter to Bruyas about a 'laughing mask' (Wikipedia EN, context unclear); reported price €50 million (Le Monde via artnet, unconfirmed); Disney Beauty and the Beast resemblance (Wikipedia, speculative).",
+    "Focus boxes estimated from the contact sheet; re-tune on the real image."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "This man looks terrified. Who is he?",
+      "sub": "Gustave Courbet, The Desperate Man, c. 1843-1845"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Paris, around 1844",
+      "text": "A young man grabs his hair and stares straight at you, as if something has just gone terribly wrong. But what?"
+    },
+    {
+      "focus": [
+        0.49,
+        0.4,
+        0.3,
+        0.26
+      ],
+      "headline": "Those eyes",
+      "text": "Look at the eyes. Wide open, locked on yours. The light hits hard, the frame is tight. There's nowhere to hide."
+    },
+    {
+      "focus": [
+        0.48,
+        0.3,
+        0.84,
+        0.58
+      ],
+      "headline": "Hands in his hair",
+      "text": "His fingers dig into his hair, elbows thrown wide. And the canvas is horizontal, unusual for a portrait. It feels almost like a selfie."
+    },
+    {
+      "focus": [
+        0.49,
+        0.47,
+        0.42,
+        0.6
+      ],
+      "headline": "It's the painter",
+      "text": "Because it is one. This is Gustave Courbet himself, in his mid-twenties, new to Paris, long before his scandals made him famous."
+    },
+    {
+      "focus": [
+        0.48,
+        0.42,
+        0.7,
+        0.75
+      ],
+      "headline": "Real panic, or acting?",
+      "text": "Was he truly desperate? Maybe not. Young painters made 'expression heads' to prove they could paint any emotion. Nobody knows."
+    },
+    {
+      "focus": [
+        0.5,
+        0.75,
+        0.7,
+        0.45
+      ],
+      "headline": "Never sold",
+      "text": "Meanwhile, he never let it go. He kept this face to himself, in his studio, until his death in 1877."
+    },
+    {
+      "focus": [
+        0.12,
+        0.91,
+        0.24,
+        0.16
+      ],
+      "headline": "A blood-red date",
+      "text": "And look bottom left. The blood-red signature says '41'. Experts think he added it decades later, in 1873, backdating his younger self."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Still staring",
+      "text": "Today, on loan from Qatar, he stares out again at the Musée d'Orsay, 180 years on. Real despair, or a brilliant performance?"
+    }
+  ]
+}

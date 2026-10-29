@@ -1,0 +1,105 @@
+{
+  "title": "The Battle of Alexander at Issus",
+  "artist": "Albrecht Altdorfer",
+  "year": "1529",
+  "image": "image.jpg",
+  "source": "Alte Pinakothek, Munich, inv. 688 (public domain). Wikimedia Commons file: Albrecht Altdorfer - Schlacht bei Issus (Alte Pinakothek, München) - Google Art Project.jpg (4592 x 6000 px, portrait)",
+  "caption": "Thousands of tiny soldiers, one king. Can you find Alexander the Great before the last slide? #alexanderthegreat #ancienthistory #renaissance #masterpiece #hiddendetails",
+  "_verify": [
+    "VERIFIED 2026-10-17, Alte Pinakothek (sammlung.pinakothek.de, inv. 688): 1529, 158.4 x 120.3 cm; part of a history cycle commissioned by Duke William IV (Bavaria) for the Munich Residence; victory over Darius III at Issus, 333 BC; the panel with the Latin inscription gives details and casualties of the battle.",
+    "VERIFIED 2026-10-17, Wikipedia EN (en.wikipedia.org/wiki/The_Battle_of_Alexander_at_Issus): oil on limewood; commissioned 1528 by William IV of Bavaria; thousands of horse and foot soldiers; Darius in a three-horse chariot pursued by Alexander and his cavalry, tiny inscriptions identify both; setting Sun linked to Alexander, crescent Moon to the Persians; view rises to show the Mediterranean, Cyprus, Sinai, Red Sea, Nile and the curve of the Earth; tablet hanging from the sky (text probably by Aventinus): 100,000 infantry and over 10,000 cavalry killed, Darius fled; a cord hangs from the tablet over the figures; Alexander's men in 16th-century steel armour, Persians in Turkish-style dress; often linked to the 1529 Ottoman siege of Vienna; taken by Napoleon's forces to Paris in 1800, Louvre until 1804, then kept by Napoleon; in 1814 Prussians at Saint-Cloud supposedly 'found it hanging in Napoleon's bathroom'; returned to Bavaria 1815.",
+    "VERIFIED 2026-10-17, Judith Dobrzynski (judithdobrzynski.com/6751/an-epic-poem-in-paint): Alexander 'on his white steed, leading two rows of charging cavalrymen'; 'a fleeing Darius, who looks anxiously over his shoulder from a chariot'; Prussians 'said to have found the painting hanging in Napoleon's bathroom in St. Cloud'; 'a swarming cast of thousands'.",
+    "LEGEND, flagged on slide 8: the bathroom story is reported as hearsay by both sources ('supposedly', 'was said to'). Slide says 'Legend says'.",
+    "INTERPRETATION: that the cord marks Alexander and Darius is Hagen's reading (Wikipedia). Slides say only 'follow its cord down' and 'under the cord'. Check on the real image that the cord really hangs above the pair; if not, change slide 5 to 'Near the centre'.",
+    "CAUTIOUS: link to the siege of Vienna is a common reading; slide 3 states only the fact that the Ottomans besieged Vienna in the same year (1529).",
+    "VERIFIED but not used: the panel was cut down on all sides, mostly at the top; the town by the sea is probably Tarsus; Altdorfer's signature on the tablet's lower edge.",
+    "Focus boxes estimated from the contact-sheet thumbnail; re-tune on the real image. Least certain: Alexander and Darius (slide 5), which must be found on the full-resolution file."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Can you find Alexander the Great?",
+      "sub": "Albrecht Altdorfer, The Battle of Alexander at Issus, 1529"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Issus, 333 BC",
+      "text": "Alexander the Great against the Persian king Darius III. Altdorfer painted it in 1529 for a Bavarian duke, with thousands of tiny soldiers."
+    },
+    {
+      "focus": [
+        0.5,
+        0.8,
+        0.98,
+        0.36
+      ],
+      "headline": "A sea of armour",
+      "text": "Look closer at the swarm: Alexander's men wear 16th-century steel armour, the Persians dress like Ottoman Turks. That same year, the Ottomans besieged Vienna."
+    },
+    {
+      "focus": [
+        0.49,
+        0.17,
+        0.42,
+        0.34
+      ],
+      "headline": "A sign in the sky",
+      "text": "Now look up. A tablet hangs from the sky, counting the dead: 100,000 infantry, over 10,000 horsemen. Follow its dangling cord down…"
+    },
+    {
+      "focus": [
+        0.43,
+        0.7,
+        0.3,
+        0.14
+      ],
+      "headline": "There he is",
+      "text": "Under the cord, on a white horse, leading the charge: Alexander. Just ahead, Darius flees in a three-horse chariot, glancing back anxiously."
+    },
+    {
+      "focus": [
+        0.5,
+        0.2,
+        0.98,
+        0.4
+      ],
+      "headline": "Sun versus Moon",
+      "text": "Meanwhile, the sky fights its own battle: a blazing sun for Alexander, a pale crescent moon for the Persians, swallowed by storm clouds."
+    },
+    {
+      "focus": [
+        0.5,
+        0.42,
+        0.98,
+        0.2
+      ],
+      "headline": "The Earth bends",
+      "text": "And the horizon curves. Altdorfer pulls back impossibly far: the Mediterranean, Cyprus, the Red Sea, the Nile, almost as if seen from space."
+    },
+    {
+      "focus": [
+        0.5,
+        0.62,
+        0.6,
+        0.32
+      ],
+      "headline": "Napoleon's bathroom",
+      "text": "Napoleon wanted it too. His troops took it from Munich in 1800, and he kept it for himself. Legend says it hung in his bathroom."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Did you find him?",
+      "text": "Returned to Munich in 1815, it still hangs there. Thousands of soldiers, one tiny king. Be honest: would you have found Alexander without help?"
+    }
+  ]
+}

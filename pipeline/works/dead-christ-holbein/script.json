@@ -1,0 +1,104 @@
+{
+  "title": "The Body of the Dead Christ in the Tomb",
+  "artist": "Hans Holbein the Younger",
+  "year": "1520-1522",
+  "image": "image.jpg",
+  "source": "Kunstmuseum Basel (public domain). Wikimedia Commons: File:Holbein — Dead Christ.jpg (4944 x 739 px; not re-checked on Commons, Wikimedia unreachable from the container)",
+  "caption": "Two metres long, 30 cm tall, and it stopped Dostoevsky in his tracks. Swipe and look closer. #faith #dostoevsky #holbein #arthistory #didyouknow",
+  "_verify": [
+    "VERIFIED, Wikipedia EN (en.wikipedia.org/wiki/The_Body_of_the_Dead_Christ_in_the_Tomb): Holbein the Younger, 1520-1522, oil and tempera on limewood, 30.5 x 200 cm, Kunstmuseum Basel; life-size figure; eyes and mouth left open; raised middle finger 'reach[es] towards the beholder' (Batschmann and Griener); commissioned probably by Bonifacius Amerbach; purpose unknown.",
+    "VERIFIED, Kunstmuseum Basel exhibition page 'Holbein and Dostoevsky' 2021 (ci.kunstmuseumbasel.ch/en/exhibitions/2021/holbein-and-dostojewski): painted inscription 'M D XXI' (1521), originally 1522 per infrared/X-ray; Dostoevsky visited Basel in 1867 while preparing The Idiot; Anna Grigoryevna in her memoirs: 'The picture made a shattering impression on Fyodor Mikhailovich and he stood frozen before it', his face showing 'traces of that horror' she had seen before epileptic seizures. Wikipedia EN: in 1867 his wife had to drag him away to prevent a possible seizure.",
+    "VERIFIED, The Idiot: Prince Myshkin, seeing a copy in Rogozhin's house, exclaims a man could lose his faith from that painting (Wikipedia EN, LitCharts; JSTOR Daily quotes the translation 'Why, a man's faith might be ruined by looking at that picture!'; another translation quoted on charlesreid1.com: 'A man could even lose his faith from that painting!'). Slide paraphrases, no direct quote.",
+    "UNVERIFIED LEGEND, flagged on slide 6 ('Legend says... Nobody can prove it'): Holbein used 'a body retrieved from the Rhine' as model (Wikipedia EN: 'According to legend'). Wikipedia does not say 'drowned', so the slide says 'a body pulled from the Rhine'.",
+    "INTERPRETATION, slide 9: 'not as a god, but as a man truly dead' is a common reading (Wikipedia: realistic dead flesh; Onfray), not a documented statement of Holbein's intent.",
+    "Not used: angels with Passion instruments and the 'IESVS NAZARENVS REX IVDAEORVM' paper (on the frame strip, probably not in the Commons file); Dostoevsky standing on a chair (JSTOR Daily, via Joseph Frank).",
+    "Focus boxes estimated from the contact sheet thumbnail (very wide panel): head at far left, hand with finger over the slab near the middle, feet at far right. Re-tune on the real image."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "A famous writer couldn't look away",
+      "sub": "Hans Holbein the Younger, The Body of the Dead Christ in the Tomb, 1520-1522"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Two metres of silence",
+      "text": "Basel, around 1521. Holbein paints a panel two metres long and barely 30 cm tall. Inside lies a life-size body, alone."
+    },
+    {
+      "focus": [
+        0.11,
+        0.5,
+        0.2,
+        0.95
+      ],
+      "headline": "Eyes still open",
+      "text": "Look at the face. The eyes and mouth are still open, as if death came a moment ago. No halo, no glory."
+    },
+    {
+      "focus": [
+        0.51,
+        0.55,
+        0.22,
+        0.9
+      ],
+      "headline": "A finger over the edge",
+      "text": "Then the hand. A middle finger slips over the edge of the slab, almost reaching out of the painting toward you."
+    },
+    {
+      "focus": [
+        0.88,
+        0.5,
+        0.22,
+        0.95
+      ],
+      "headline": "No room to move",
+      "text": "Meanwhile, the feet press against the end of the tomb. The stone ceiling sits just above him. He is completely shut in."
+    },
+    {
+      "focus": [
+        0.35,
+        0.5,
+        0.6,
+        0.95
+      ],
+      "headline": "A real dead man?",
+      "text": "Why so real? Legend says Holbein used a body pulled from the Rhine as his model. Nobody can prove it. But look at him."
+    },
+    {
+      "focus": [
+        0.2,
+        0.5,
+        0.4,
+        0.95
+      ],
+      "headline": "Basel, 1867",
+      "text": "Three centuries later, Fyodor Dostoevsky stands frozen in front of it. His wife Anna fears he is about to have an epileptic fit."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.6,
+        0.95
+      ],
+      "headline": "A dangerous painting",
+      "text": "And then he puts it in a novel. In The Idiot, Prince Myshkin says a man could lose his faith from that painting."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Doubt or faith?",
+      "text": "Holbein painted Christ not as a distant god, but as a man truly dead. Does it make you doubt, or believe even harder?"
+    }
+  ]
+}

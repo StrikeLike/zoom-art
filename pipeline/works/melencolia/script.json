@@ -1,0 +1,104 @@
+{
+  "title": "Melencolia I",
+  "artist": "Albrecht Dürer",
+  "year": "1514",
+  "image": "image.jpg",
+  "source": "Engraving, 1514 (public domain; impressions in many collections, e.g. National Gallery of Art, Washington). Full resolution from Wikimedia Commons: Albrecht Dürer - Melencolia I - Google Art Project (427760).jpg (4918 x 6257 px)",
+  "caption": "500 years of guessing, and this engraving still hasn't given up all its secrets. Grab a calculator and check the wall. #puzzle #magicsquare #albrechtdurer #masterpiece #hiddendetails",
+  "_verify": [
+    "VERIFIED, National Gallery of Art (nga.gov/artworks/6641-melencolia-i): engraving, 1514; inscribed in plate lower right '1514 / AD' (monogram).",
+    "VERIFIED, Wikipedia EN (en.wikipedia.org/wiki/Melencolia_I): winged figure usually read as a personification of melancholia, head on her fist, dark face, holding a compass and a closed book; large polyhedron = truncated rhombohedron, now called Dürer's solid, 'may have a faint skull or face'; emaciated dog asleep; bat-like creature carrying the banner 'Melencolia I'; rainbow and Saturn or a comet; hourglass with sundial, bell, balance scales on the building; scholars disagree on the 'I' (Panofsky/Agrippa first type of melancholy vs nigredo etc.).",
+    "VERIFIED, magic square: Wikipedia EN, johndcook.com and abakcus.com: every row, column and both diagonals sum to 34 (also corners, quadrants, centre); the two middle cells of the bottom row give 1514. Layout (checked by hand): 16 3 2 13 / 5 10 11 8 / 9 6 7 12 / 4 15 14 1. All rows, columns and diagonals = 34.",
+    "CAUTIOUS, phrased 'Perhaps' on slide 8: 4 and 1 = D and A (Dürer's initials). Stated by abakcus.com (abakcus.com/articles/melencolia-i-durer) and by a reader comment on johndcook.com; Wikipedia EN does not mention it. Popular observation, not documented as Dürer's intention.",
+    "VERIFIED, Wikipedia EN: Panofsky linked magic squares to planets; the 4x4 square belongs to Jupiter, an auspicious planet that counters melancholy. Slide 9 phrases the 'cure' as a question.",
+    "INTERPRETIVE, light: 'idle tools', 'everything is stalled', 'even the hound has given up', 'everything measures something' are storytelling readings, in line with Wikipedia EN ('negation of order'), not factual claims.",
+    "Focus boxes estimated from the contact sheet; the magic square is small (upper right, below the bell): re-tune on the real image."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "500 years of guessing. Can you crack it?",
+      "sub": "Albrecht Dürer, Melencolia I, 1514"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Melancholy herself",
+      "text": "In 1514, Albrecht Dürer engraves Melancholy herself: a winged figure surrounded by idle tools. Every object here is a clue. Start with her face."
+    },
+    {
+      "focus": [
+        0.66,
+        0.46,
+        0.42,
+        0.34
+      ],
+      "headline": "Head on her fist",
+      "text": "Head on her fist, face in shadow, she holds a compass but draws nothing. Around her, everything is stalled. Look at that stone."
+    },
+    {
+      "focus": [
+        0.22,
+        0.41,
+        0.38,
+        0.32
+      ],
+      "headline": "The impossible stone",
+      "text": "This huge block is a truncated rhombohedron, now called Dürer's solid. Some see a faint skull in its surface. And below it…"
+    },
+    {
+      "focus": [
+        0.18,
+        0.77,
+        0.36,
+        0.32
+      ],
+      "headline": "A sleeping dog",
+      "text": "A thin dog sleeps, curled up near a perfect sphere. Even the hound has given up. Now look up, into the sky."
+    },
+    {
+      "focus": [
+        0.24,
+        0.12,
+        0.46,
+        0.2
+      ],
+      "headline": "The title, on a bat",
+      "text": "A bat-like creature flies under a rainbow, carrying the title: MELENCOLIA I. Scholars still argue what the \"I\" means. But back on the wall…"
+    },
+    {
+      "focus": [
+        0.69,
+        0.16,
+        0.42,
+        0.28
+      ],
+      "headline": "Time on the wall",
+      "text": "An hourglass, a bell, a pair of scales. Everything up here measures something. And just beneath the bell, a grid of numbers."
+    },
+    {
+      "focus": [
+        0.84,
+        0.21,
+        0.16,
+        0.14
+      ],
+      "headline": "The magic square",
+      "text": "A magic square: every row, column and diagonal makes 34. Bottom middle: 15 14, the year. And 4, 1? Perhaps D, A: Dürer's initials."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "A cure in the wall?",
+      "text": "A 4x4 square belonged to Jupiter, the planet believed to fight melancholy. A cure hidden in the wall? Check it: does every line make 34?"
+    }
+  ]
+}

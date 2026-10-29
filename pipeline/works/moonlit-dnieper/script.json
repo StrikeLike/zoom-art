@@ -1,0 +1,104 @@
+{
+  "title": "Moonlit Night on the Dnieper",
+  "artist": "Arkhip Kuindzhi",
+  "year": "1880",
+  "image": "image.jpg",
+  "source": "State Russian Museum, St Petersburg (public domain). Oil on canvas, 105 x 144 cm. Full resolution from Wikimedia Commons: File:0857Ha. Куинджи А.И. Лунная ночь на Днепре.jpg (4067 x 2955 px)",
+  "caption": "In 1880, St Petersburg queued down the street to see just one painting. Some visitors even looked behind it. #moonlight #nightsky #kuindzhi #fineart #artfacts",
+  "_verify": [
+    "VERIFIED, Wikipedia EN (en.wikipedia.org/wiki/Moonlit_Night_on_the_Dnieper): 1880, oil on canvas, 105 x 144 cm, Russian Museum; Grand Duke Konstantin Konstantinovich bought it from the studio before it was exhibited; shown alone in the hall of the Society for the Encouragement of Artists, St Petersburg; curtains lowered, artificial light on the painting; long queue, visitors admitted in groups; 'some accounts say' visitors believed a lamp lit it from behind and searched for the light source.",
+    "VERIFIED, Izvestia (iz.ru/796997/sergei-uvarov/put-v-nochi-drama-arkhipa-kuindzhi-i-ego-glavnogo-shedevra): exhibition on Bolshaya Morskaya 38, dark hall, only a beam of electric light on the canvas; the queue reached almost to Nevsky Prospect; viewers looked behind the canvas for a lamp; the Grand Duke bought it unfinished (Kuindzhi: 'about five thousand'); loaded on the ship 'Duke of Edinburgh' in Sept 1880 and travelled with him until Jan 1882; Turgenev feared it would come back ruined by the salty sea air; the first version has darkened.",
+    "VERIFIED with nuance, bitumen: 360.ru (360.ru/tekst/obschestvo/volshebnyj-svet-i-bitum/): Kuindzhi experimented with pigments and actively used bitumen, which decomposes and darkens under light and air; the painting's paints changed irreversibly and darkened. The article does not prove bitumen is THE cause for this canvas; slide 8 says he experimented with pigments including bitumen, which darkens with age, and that the painting is darker today.",
+    "CAUTIOUS: 'looking behind the canvas for a lamp' is told as an anecdote (Wikipedia: 'some accounts say'); slide 5 says 'Accounts say'. Slide 3 says 'a single beam of light' (Izvestia: electric light; Wikipedia: artificial light).",
+    "INTERPRETATION, slide 6: that the dark bank and huts make the moonlight seem brighter is a visual reading of contrast, not a sourced quote.",
+    "UNVERIFIED, not used: exact exhibition dates, waiting times in hours, Mendeleev's role beyond visiting the studio (Wikipedia lists him among studio visitors), Kuindzhi's later withdrawal from exhibiting.",
+    "Focus boxes estimated from the contact sheet thumbnail; re-tune on the real image."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "A whole city queued for one painting",
+      "sub": "Arkhip Kuindzhi, Moonlit Night on the Dnieper, 1880"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "St Petersburg, 1880",
+      "text": "St Petersburg, 1880. Arkhip Kuindzhi shows just one painting, a simple landscape, alone in a hall. Yet the queue stretches down the street."
+    },
+    {
+      "focus": [
+        0.5,
+        0.42,
+        0.95,
+        0.7
+      ],
+      "headline": "A dark room",
+      "text": "Inside, the curtains are drawn. The room is dark, and a single beam of light falls on the canvas. Visitors enter in small groups."
+    },
+    {
+      "focus": [
+        0.5,
+        0.14,
+        0.36,
+        0.22
+      ],
+      "headline": "The moon",
+      "text": "Out of the blackness, a greenish moon breaks through the clouds. It doesn't look painted. It looks switched on."
+    },
+    {
+      "focus": [
+        0.47,
+        0.81,
+        0.52,
+        0.18
+      ],
+      "headline": "Light on the water",
+      "text": "Below, its light spills across the Dnieper. Accounts say some visitors were so baffled they checked behind the canvas for a hidden lamp."
+    },
+    {
+      "focus": [
+        0.66,
+        0.84,
+        0.34,
+        0.2
+      ],
+      "headline": "No lamp, just paint",
+      "text": "There was no lamp. Only paint: Kuindzhi kept the riverbank and its little huts nearly black, so the moonlight seems to burn."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "A Grand Duke's voyage",
+      "text": "But Grand Duke Konstantin Konstantinovich had already bought it, even before the show. Then he took it on a long sea voyage."
+    },
+    {
+      "focus": [
+        0.48,
+        0.78,
+        0.6,
+        0.26
+      ],
+      "headline": "Fading light",
+      "text": "Turgenev feared the salty air would ruin it. And Kuindzhi experimented with pigments, including bitumen, which darkens with age. Today it's much darker."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "A shadow of 1880",
+      "text": "What we see now is only a shadow of what those crowds saw. Be honest: would you have looked behind the canvas too?"
+    }
+  ]
+}

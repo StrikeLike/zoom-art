@@ -1,0 +1,109 @@
+{
+  "title": "The Toilet of Venus (The Rokeby Venus)",
+  "artist": "Diego Velázquez",
+  "year": "1647-1651",
+  "image": "image.jpg",
+  "source": "National Gallery, London, NG2057 (public domain). Image from Wikimedia Commons: File:Diego Velázquez - Rokeby Venus.jpg (6162 x 4226 px)",
+  "caption": "Look into the mirror in this 375-year-old painting. Something about that face is wrong. #venus #mirror #velazquez #masterpiece #didyouknow",
+  "_verify": [
+    "VERIFIED 2026-10-24, National Gallery (nationalgallery.org.uk/paintings/diego-velazquez-the-toilet-of-venus-the-rokeby-venus): 1647-51, oil on canvas, 122.5 x 177 cm; 'the only surviving female nude painted by Velázquez'; Cupid holds the mirror; 'Venus' reflection is blurred'; 'Cupid's face and far leg are very loosely painted'; mirror hangs from 'intertwining pink ribbons', which may allude to a blindfold or 'the shackles he used to bind the hearts of lovers'; presented by the Art Fund 1906.",
+    "VERIFIED, Wikipedia EN (en.wikipedia.org/wiki/Rokeby_Venus): Spanish art 'policed actively by members of the Spanish Inquisition', nudes extremely rare; reflected head much larger than it would be in reality; three proposed meanings of the ribbons (fetters, a way to hang the mirror, a blindfold); 10 March 1914 Mary Richardson attacked it with a meat cleaver, seven slashes, after the previous day's arrest of Emmeline Pankhurst; 1952 interview: she disliked 'the way men visitors gaped at it all day long'; all slashes repaired by Helmut Ruhemann.",
+    "VERIFIED, Venus effect: Wikipedia EN (en.wikipedia.org/wiki/Venus_effect): named after paintings of Venus with a mirror, including the Rokeby Venus; described by Marco Bertamini and colleagues, 2003 (University of Liverpool paper 'The Venus effect: people's understanding of mirror reflections in paintings'). Slide 6 explains it simply: if we see her face in the mirror, she sees us, not herself.",
+    "VERIFIED, Velázquez court painter to Philip IV (general knowledge, consistent with NG and Wikipedia); slide 2 says 'the king's own painter'. Note: Wikipedia says it was probably painted in Italy; slide 2 says 'Spain, around 1650' as the context of the Inquisition, not the place it was painted. Low risk, flagged.",
+    "VERIFIED, not used (word budget): Richardson's Times statement, 11 March 1914 (Wikipedia EN, Mary Richardson): 'the most beautiful woman in mythological history' vs Mrs Pankhurst 'the most beautiful character in modern history'. Also not used: the 2023 Just Stop Oil attack on the glass (Smithsonian, Art Newspaper). Good for comment replies.",
+    "Tasteful framing: no focus box on the body; boxes on Cupid, the ribbons, the mirror/reflection, the curtain and her hair, and the whole canvas. Focus boxes estimated from the contact sheet; retune on the real image."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Look into the mirror. Something's wrong.",
+      "sub": "Diego Velázquez, The Rokeby Venus, 1647-1651",
+      "focus": [
+        0.36,
+        0.32,
+        0.56,
+        0.5
+      ]
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "A forbidden subject",
+      "text": "Spain, around 1650. Nudes are extremely rare, and the Inquisition polices art. Yet the king's own painter, Velázquez, paints Venus, seen from behind."
+    },
+    {
+      "focus": [
+        0.15,
+        0.25,
+        0.28,
+        0.44
+      ],
+      "headline": "Her son, Cupid",
+      "text": "It's his only female nude that survives. Beside her kneels her son Cupid, holding up a mirror, his face barely sketched in."
+    },
+    {
+      "focus": [
+        0.38,
+        0.2,
+        0.2,
+        0.22
+      ],
+      "headline": "Pink ribbons",
+      "text": "Look at his hands. Pink silk ribbons loop over the frame and his wrists. Fetters of love? A hook? A blindfold? Nobody agrees."
+    },
+    {
+      "focus": [
+        0.43,
+        0.31,
+        0.16,
+        0.3
+      ],
+      "headline": "The face in the mirror",
+      "text": "But the real mystery is in the mirror. Her face is a blur, and far bigger than a true reflection would ever be."
+    },
+    {
+      "focus": [
+        0.42,
+        0.27,
+        0.2,
+        0.36
+      ],
+      "headline": "The Venus effect",
+      "text": "And the angle is wrong. If we can see her face, she is looking at us, not at herself. Psychologists call it the Venus effect."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "10 March 1914",
+      "text": "Then, in 1914, suffragette Mary Richardson smuggled a meat cleaver into London's National Gallery and slashed the canvas seven times."
+    },
+    {
+      "focus": [
+        0.3,
+        0.22,
+        0.3,
+        0.4
+      ],
+      "headline": "Her reasons",
+      "text": "Her protest: the arrest of Emmeline Pankhurst the day before. Decades later she added another reason: men visitors gaping at it all day."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Still watching",
+      "text": "Restorers repaired every slash, and she still hangs in London. So who is she really looking at in that mirror: herself, or you?"
+    }
+  ]
+}

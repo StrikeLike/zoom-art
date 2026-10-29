@@ -1,0 +1,104 @@
+{
+  "title": "The Conjurer",
+  "artist": "After Hieronymus Bosch (copy of a lost original, Bosch workshop or follower)",
+  "year": "c. 1502",
+  "image": "image.jpg",
+  "source": "Musée municipal, Saint-Germain-en-Laye (public domain). Wikimedia Commons file: The Conjurer, ca. 1502.jpg (29,280 x 23,970 px per the main session; downscale to 6000 px wide before use)",
+  "caption": "Everyone is watching the magician. Nobody is watching the thief. Can you find him before we do? #magic #scam #bosch #fineart #hiddendetails",
+  "_verify": [
+    "VERIFIED, Wikipedia EN (en.wikipedia.org/wiki/The_Conjurer_(painting)): 'Bosch or his workshop', c. 1502 from dendrochronology, oil on wood, 53 x 65 cm, Musée Municipal, Saint-Germain-en-Laye; five versions and one engraving, the Saint-Germain panel considered the most reliable copy (the original is lost); a man standing behind the victim steals his purse; frogs jump out of the victim's mouth (reason given up to bestial impulses); little owl in the basket at the conjurer's waist; a child illustrates a Flemish proverb about being fooled by conjuring tricks.",
+    "ATTRIBUTION, CAUTIOUS: Jheronimus Bosch Art Center review of the 2016 Saint-Germain catalogue (jeroenboschplaza.com/recensie/cat-saint-germain-en-laye/?lang=en): attributed to 'a talented artist from the first half of the sixteenth century working in the manner of Bosch', wood usable 'from 1498 on' (dendrochronology). Art in Society (artinsociety.com/deception-and-misdirection-hieronymus-boschrsquos-the-conjuror-248552.html): 'unsigned copy', 'the original disappeared centuries ago'. Slides say 'probably a copy of a lost Bosch original'; sub line says 'After Hieronymus Bosch'.",
+    "VERIFIED, Art in Society (same URL): conjurer holds 'a shining little ball'; table with cups, a brass container, balls and a wand; the dupe vomits 'a glistening dark frog', a second frog on the table; child crouching 'toy whirligig in hand', proverb 'become the laughingstock of children'; owl in the wicker basket at his belt; small dog 'dressed in what appears to be a joker's outfit', hoop by the table presumably for dog tricks; spectacled man in monk-like dress on the left 'stares skyward' while he 'surreptitiously cuts the dupe's purse from his belt'.",
+    "INTERPRETATION, flagged: that the thief is the conjurer's accomplice is the usual reading but not stated in the sources read; slides avoid calling him an accomplice outright (slide 6 calls the owl and dog 'the magician's helpers', which is our framing).",
+    "VERIFIED with conflicting day, theft: Wikipedia EN says stolen 1 December 1978, returned 2 February 1979; the Bosch Art Center review says stolen 13 December 1978 by the far-left group Action Directe, recovered 2 February 1979. Slide 8 says only 'stolen in 1978, back in 1979'. Action Directe not used (single source).",
+    "UNVERIFIED, phrased loosely: 'somewhere in the Netherlands' (slide 2) = Bosch was from 's-Hertogenbosch and the panel was likely made in Brabant/Antwerp per the Bosch Art Center; setting itself is generic.",
+    "Focus boxes estimated from the contact sheet; re-tune on the real image (thief's face + hand at the belt on slide 7 is the critical one)."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Everyone is watching the wrong thing",
+      "sub": "After Hieronymus Bosch, The Conjurer, c. 1502"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "A street show",
+      "text": "Around 1500, a street magician draws a crowd. Everyone is watching his trick. But someone here is stealing. Can you find him?"
+    },
+    {
+      "focus": [
+        0.67,
+        0.5,
+        0.54,
+        0.44
+      ],
+      "headline": "Watch the ball",
+      "text": "The magician holds up a tiny ball. On the table: cups, more balls, a wand. The oldest trick there is: look here, not there."
+    },
+    {
+      "focus": [
+        0.305,
+        0.41,
+        0.27,
+        0.26
+      ],
+      "headline": "The perfect victim",
+      "text": "And his perfect audience: a well-dressed man leaning so far in that a frog slips from his mouth. Reason gone, he believes everything."
+    },
+    {
+      "focus": [
+        0.3,
+        0.66,
+        0.18,
+        0.28
+      ],
+      "headline": "Even the kid knows",
+      "text": "At his feet, a child with a toy looks up, amused. An old Flemish saying: a fool like this becomes the laughingstock of children."
+    },
+    {
+      "focus": [
+        0.72,
+        0.72,
+        0.36,
+        0.32
+      ],
+      "headline": "The magician's helpers",
+      "text": "Meanwhile, look lower: an owl peeks from the basket on his belt, and a little dog in a fool's costume waits by its hoop."
+    },
+    {
+      "focus": [
+        0.19,
+        0.37,
+        0.22,
+        0.42
+      ],
+      "headline": "Found him?",
+      "text": "Now look left. A man in spectacles gazes innocently at the sky, while his hand quietly cuts the purse from the victim's belt."
+    },
+    {
+      "focus": [
+        0.25,
+        0.32,
+        0.38,
+        0.4
+      ],
+      "headline": "Stolen twice",
+      "text": "The irony? This panel, probably a copy of a lost Bosch original, was itself stolen from its museum in 1978. It came back in 1979."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Who's fooled now?",
+      "text": "Five centuries later, the trick still works: we watched the ball too. Be honest, did you spot the thief before slide seven?"
+    }
+  ]
+}

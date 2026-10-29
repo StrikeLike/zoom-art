@@ -1,0 +1,105 @@
+{
+  "title": "The Execution of Lady Jane Grey",
+  "artist": "Paul Delaroche",
+  "year": "1833",
+  "image": "image.jpg",
+  "source": "National Gallery, London (bequeathed by the 2nd Baron Cheylesmore, 1902; public domain). Wikimedia Commons: PAUL DELAROCHE - Ejecución de Lady Jane Grey (National Gallery de Londres, 1834).jpg (3936 x 3288 px)",
+  "caption": "She was queen for nine days. Then a painting of her last moment vanished for 45 years. #ladyjanegrey #tudorhistory #delaroche #oilpainting #storytime",
+  "_verify": [
+    "VERIFIED, Wikipedia EN (en.wikipedia.org/wiki/The_Execution_of_Lady_Jane_Grey): painted 1833, shown at the Paris Salon of 1834 where it caused a sensation; oil on canvas, 246 x 297 cm; National Gallery, London; Jane proclaimed queen 10 July 1553, deposed nine days later; beheaded 12 February 1554 aged 17; John Brydges, Lieutenant of the Tower, guides her in an almost fatherly manner; two grieving ladies-in-waiting; the execution really happened outdoors on Tower Green; Norman columns and arch belong to a much older era; believed destroyed in the 1928 Thames flood at the Tate; found in 1973 by Tate curator Christopher Johnstone (John Martin's 'Destruction of Pompeii and Herculaneum' was rolled up inside the Delaroche, which was in much better condition); restored and shown again from 1975.",
+    "VERIFIED, History Hit (historyhit.com/culture/doom-and-drama-in-the-execution-of-lady-jane-grey-painting/): 'long believed to have been destroyed in the Thames flood of 1928', 'discovered by chance in the basement of the Tate Gallery in 1973'; Jane blindfolded herself, could not find the block and asked where it was; one lady slumps holding her mistress's outer clothing, the other turns to the wall; executioner calmer and more compassionate than in Delaroche's 1832 sketches. MFAH blog (mfah.org) also says a Tate curator found 'the rolled-up canvas'.",
+    "CAUTIOUS, age: sources say 17; her birth year is uncertain (1536/1537), so slides say 'about 17'.",
+    "CAUTIOUS, the words she said: History Hit gives 'what shall I do? Where is the block?'; other versions read 'Where is it?'. Slide 4 paraphrases (she asks where it is), no quote.",
+    "CAUTIOUS, name: Wikipedia calls the Lieutenant John Brydges, History Hit both Thomas and John. Slides say only 'the Lieutenant of the Tower'.",
+    "VERIFIED general history, not sourced above beyond Wikipedia: Mary Tudor (Mary I) replaced her on the throne. Low risk.",
+    "No gore: no slide mentions the beheading itself; the straw and axe are not described. Focus on the executioner frames his upper body, not the axe.",
+    "Focus boxes estimated from the contact sheet thumbnail; re-tune on the real image."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "She was queen for only nine days.",
+      "sub": "Paul Delaroche, The Execution of Lady Jane Grey, 1833"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "London, 1554",
+      "text": "February 1554, the Tower of London. A teenage girl who was once proclaimed queen walks to her death. Delaroche paints that moment."
+    },
+    {
+      "focus": [
+        0.46,
+        0.4,
+        0.16,
+        0.16
+      ],
+      "headline": "The blindfold",
+      "text": "Lady Jane Grey, about 17, has tied the blindfold herself. She ruled for just nine days, before Mary Tudor took the crown."
+    },
+    {
+      "focus": [
+        0.41,
+        0.65,
+        0.26,
+        0.22
+      ],
+      "headline": "Searching hands",
+      "text": "Now she cannot see. Her hands reach out into the dark, feeling for the block, and she asks where it is."
+    },
+    {
+      "focus": [
+        0.54,
+        0.45,
+        0.22,
+        0.32
+      ],
+      "headline": "A gentle guide",
+      "text": "Beside her, the Lieutenant of the Tower leans in, almost fatherly, guiding her hands. Behind them, her women cannot bear it."
+    },
+    {
+      "focus": [
+        0.17,
+        0.5,
+        0.32,
+        0.62
+      ],
+      "headline": "Her ladies-in-waiting",
+      "text": "One turns to the wall, unable to watch. The other has slumped to the floor, still holding her mistress's clothes."
+    },
+    {
+      "focus": [
+        0.84,
+        0.32,
+        0.22,
+        0.42
+      ],
+      "headline": "The quiet executioner",
+      "text": "Meanwhile, on the right, the executioner waits, calm, almost reluctant. But this whole room is invented. It happened outdoors, on Tower Green."
+    },
+    {
+      "focus": [
+        0.5,
+        0.2,
+        0.56,
+        0.3
+      ],
+      "headline": "Drama over truth",
+      "text": "These heavy Norman arches belong to a far older age. Delaroche chose darkness for drama, and Paris was stunned in 1834."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Lost, then found",
+      "text": "Then, in 1928, the Thames flooded the Tate. Thought destroyed, it was found rolled up in 1973. Truth or drama: which matters more?"
+    }
+  ]
+}

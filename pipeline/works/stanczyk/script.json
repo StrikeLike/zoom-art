@@ -1,0 +1,66 @@
+{
+  "title": "Stańczyk",
+  "artist": "Jan Matejko",
+  "year": "1862",
+  "image": "image.jpg",
+  "source": "National Museum in Warsaw (public domain). Full title: Stańczyk during a Ball at the Court of Queen Bona in the Face of the Loss of Smolensk. Wikimedia Commons file: Jan Matejko, Stańczyk.jpg (5766 x 4289 px, landscape)",
+  "caption": "A royal party, a court jester, and a letter nobody else has read. Why is the clown the only one not laughing? #jester #melancholy #matejko #oilpainting #hiddendetails",
+  "_verify": [
+    "VERIFIED 2026-10-17, Wikipedia EN (en.wikipedia.org/wiki/Stańczyk_(painting)): full title 'Stańczyk during a ball at the court of Queen Bona in the face of the loss of Smolensk'; completed 1862 when Matejko was 24; oil on canvas 120 x 88 cm; National Museum, Warsaw; Stańczyk sits alone in a dark room while a ball goes on next door; 'Matejko used his own face for Stańczyk'; letter on the table likely reports the loss of Smolensk to Moscow, only the jester grasps its importance; marotte (bauble) 'lies discarded on the floor'; window 'thrown, or blown, open'; darkened profile of Wawel Cathedral visible, with a comet next to it as an omen; Smolensk lost 30 July 1514.",
+    "VERIFIED 2026-10-17, culture.pl (culture.pl/en/work/stanczyk-jan-matejko): letter on the table on his right; siege of Smolensk 1514; 'an unusual self-portrait of Matejko' (painted himself slightly older); comet through the window, 'a clear omen of an upcoming catastrophe'; party visible through an open door.",
+    "VERIFIED 2026-10-17, Britannica (britannica.com/topic/Stanczyk): Stańczyk was a real court jester to several Renaissance Polish kings, known for 'extraordinary wisdom' and satirical wit against the powerful; the painting's face is a self-portrait of Matejko.",
+    "CAUTIOUS: the letter's content is an interpretation. Wikipedia notes the letter bears the year 1533 and mentions Samogitia, which does not match 1514 (debated). Slide 4 says the letter 'is usually read as' news of Smolensk.",
+    "NOTE, not on slides: the title is anachronistic. In 1514 Sigismund the Old was married to Barbara Zápolya; Bona Sforza married him only in 1518 (Wikipedia EN). Slides avoid naming Queen Bona; good for a comment reply.",
+    "CAUTIOUS: slide 2 says 'as Matejko imagined it' (the ball scene is the painter's staging, not a documented event).",
+    "General history, not from the painting sources: Poland had been partitioned by Russia, Prussia and Austria since 1795, so in 1862 there was no independent Polish state (slide 8 says 'carved up by its neighbours for generations'). Low risk.",
+    "UNVERIFIED, not used: any claim that Matejko painted it as a direct comment on the January Uprising (1863), which came after the painting.",
+    "Focus boxes estimated from the contact-sheet thumbnail; re-tune on the real image (bauble on the floor and the comet in the window are the least certain)."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Everyone's dancing. Except one man.",
+      "sub": "Jan Matejko, Stańczyk, 1862"
+    },
+    {
+      "focus": [0.5, 0.5, 0.98, 0.95],
+      "headline": "Kraków, 1514",
+      "text": "Kraków, 1514, as Matejko imagined it. The royal court throws a ball: music, laughter. But in a dark room next door, one man sits alone."
+    },
+    {
+      "focus": [0.49, 0.42, 0.34, 0.6],
+      "headline": "The court jester",
+      "text": "It's Stańczyk, the court jester, a real man famous for his sharp wit. Tonight he's slumped in his chair, staring at nothing. Why?"
+    },
+    {
+      "focus": [0.25, 0.47, 0.3, 0.14],
+      "headline": "The letter",
+      "text": "Look at the table. The letter there is usually read as terrible news: the great fortress of Smolensk has fallen to Moscow."
+    },
+    {
+      "focus": [0.9, 0.38, 0.2, 0.56],
+      "headline": "Meanwhile, next door",
+      "text": "Meanwhile, through the doorway, the court dances on in warm red light, unaware. Only the fool understands what has just been lost."
+    },
+    {
+      "focus": [0.73, 0.86, 0.14, 0.12],
+      "headline": "The dropped bauble",
+      "text": "And look down: his jester's bauble lies abandoned on the floor. No jokes tonight. He has stopped playing the fool."
+    },
+    {
+      "focus": [0.07, 0.2, 0.14, 0.36],
+      "headline": "A comet outside",
+      "text": "Behind him, the window has blown open. Above the dark outline of Wawel Cathedral, a comet streaks across the night: an omen of disaster."
+    },
+    {
+      "focus": [0.52, 0.24, 0.16, 0.18],
+      "headline": "A familiar face",
+      "text": "And that face? Matejko gave the jester his own, aged just 24, when Poland had been carved up by its neighbours for generations."
+    },
+    {
+      "focus": [0.5, 0.5, 0.98, 0.95],
+      "headline": "The wisest man there",
+      "text": "Matejko made the clown the wisest man, while the powerful keep dancing. Have you ever been the only one who saw it coming?"
+    }
+  ]
+}

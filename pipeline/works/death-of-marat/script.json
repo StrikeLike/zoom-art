@@ -1,0 +1,103 @@
+{
+  "title": "The Death of Marat",
+  "artist": "Jacques-Louis David",
+  "year": "1793",
+  "image": "image.jpg",
+  "source": "Royal Museums of Fine Arts of Belgium, Brussels, inv. 3260 (public domain). Full resolution from Wikimedia Commons: File:Jacques-Louis David - Marat assassinated - Google Art Project 2.jpg (16134 x 20762 px; dimensions as given by the main session, Commons not reachable from this container; downscale before use)",
+  "caption": "A revolutionary in his bath, a letter in his hand, and a crime scene that was carefully staged. #frenchrevolution #truecrime #jacqueslouisdavid #arthistory #hiddendetails",
+  "_verify": [
+    "VERIFIED 2026-10-24, Wikipedia EN (en.wikipedia.org/wiki/The_Death_of_Marat): murder 13 July 1793 by Charlotte Corday, a Girondin who blamed Marat for the September Massacres; skin condition kept him in his bath, where he worked; often compared to Michelangelo's Pietà (hanging arm) and Caravaggio's Entombment; original in Brussels, studio replica in the Louvre; 162 x 128 cm.",
+    "VERIFIED 2026-10-24, BBC Culture 2025-10-28 (bbc.com/culture/article/20251028-the-death-of-marat-unlocking-the-complex-clues..., read via a mirror): Corday's letter 'It is enough that I am very unhappy', a ploy to exploit his kindness; Marat's own unfinished note pledging money to 'that mother of five children whose husband died in defence of the fatherland', held down by an assignat; signed 'To Marat, David' (A MARAT, DAVID) and dated 'l'an deux'; dangling arm echoes Christ in the Pietà and the Entombment; knife on the floor.",
+    "VERIFIED 2026-10-24, Mental Floss (mentalfloss.com/article/64750/...): David shows Marat 'free of such superficial flaws' (no skin disease); excludes the killer almost completely, she appears only in writing; reproductions made for propaganda; David was Marat's friend. Google Arts & Culture (artsandculture.google.com/asset/7QGjl9R141MCBw): the National Convention asked David to paint Marat; 'political propaganda opportunities' of the assassination.",
+    "VERIFIED 2026-10-24, Alpha History (alphahistory.com/frenchrevolution/charlotte-corday/): Corday executed 17 July 1793, four days after the murder; she called Marat 'a monster'. (Alpha History says she got in by claiming information on Girondin fugitives; the letter ploy is from BBC/Wikipedia. Slide 3 says only that she used his kindness to get in.)",
+    "CAUTIOUS: 'kitchen knife' (Eclectic Light 2025, BBC); slide 4 says only 'a knife'. The wound is not described or zoomed on; slide 6 box (head and arm) may include the chest in a wide frame, keep it wide.",
+    "CAUTIOUS: 'Half the canvas is empty darkness' is my description of the composition (upper half dark wall), not a sourced quote."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "This crime scene was staged. Look closer.",
+      "sub": "Jacques-Louis David, The Death of Marat, 1793"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Paris, July 1793",
+      "text": "Paris, July 1793. Jean-Paul Marat, firebrand of the Revolution, works in his bath to soothe a painful skin disease. Then a visitor arrives."
+    },
+    {
+      "focus": [
+        0.75,
+        0.57,
+        0.26,
+        0.14
+      ],
+      "headline": "Her letter",
+      "text": "Look at his left hand. Her note pleads: \"It is enough that I am very unhappy…\" Charlotte Corday used his kindness to get in."
+    },
+    {
+      "focus": [
+        0.24,
+        0.93,
+        0.3,
+        0.1
+      ],
+      "headline": "On the floor",
+      "text": "Minutes later, she struck. Yet David leaves her out: only her name on the letter and a knife on the floor remain."
+    },
+    {
+      "focus": [
+        0.68,
+        0.66,
+        0.3,
+        0.12
+      ],
+      "headline": "Meanwhile, on the box",
+      "text": "Meanwhile, on the wooden box: a banknote and his unfinished note, pledging money to a war widow, mother of five. Generous to the end?"
+    },
+    {
+      "focus": [
+        0.3,
+        0.66,
+        0.56,
+        0.6
+      ],
+      "headline": "Too perfect",
+      "text": "But look at his skin: flawless. David, his friend, erased the disease, and the hanging arm echoes Christ carried to the tomb."
+    },
+    {
+      "focus": [
+        0.72,
+        0.92,
+        0.32,
+        0.15
+      ],
+      "headline": "Signed like a tombstone",
+      "text": "And then the signature, like an epitaph: \"To Marat, David.\" Dated Year Two of the Revolution, a whole new calendar."
+    },
+    {
+      "focus": [
+        0.5,
+        0.24,
+        0.95,
+        0.44
+      ],
+      "headline": "The empty dark",
+      "text": "Above him, half the canvas is empty darkness. The Convention asked for this image, and copies spread it as propaganda: a revolutionary martyr."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Martyr or monster?",
+      "text": "Corday went to the guillotine four days later. To her, Marat was a monster. So tell us: martyr or monster? Who was the victim?"
+    }
+  ]
+}

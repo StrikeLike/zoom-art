@@ -1,0 +1,105 @@
+{
+  "title": "The Angelus",
+  "artist": "Jean-François Millet",
+  "year": "1857-1859",
+  "image": "image.jpg",
+  "source": "Musée d'Orsay, Paris (public domain). Oil on canvas, 55.5 x 66 cm. Full resolution from Wikimedia Commons: File:Jean-François Millet - The Angelus - Google Art Project.jpg (7053 x 5864 px)",
+  "caption": "Two peasants stop to pray at dusk. So why did this quiet painting haunt Salvador Dalí for decades? #prayer #mystery #millet #oilpainting #hiddendetails",
+  "_verify": [
+    "VERIFIED, Musée d'Orsay (musee-orsay.fr/en/artworks/langelus-345): oil on canvas, 55.5 x 66 cm, painted 1857-1859; commissioned c. 1857 by Thomas Gold Appleton, who never took it; Millet's memory that his grandmother always made them stop work in the fields when the bell rang to say the Angelus 'for the poor departed'; Secrétan sale 1889, American Art Association 1889-1890, Alfred Chauchard 1890-1909, bequest accepted by the State 1910, Louvre 1909-1986, Orsay since 1986; 'lacerated by a madman' in 1932; venerated by Dalí.",
+    "VERIFIED, Wikipedia EN (en.wikipedia.org/wiki/The_Angelus_(painting)): first titled 'Prayer for the Potato Crop'; steeple of Chailly-en-Bière, potato field near Barbizon; at the 1889 Secrétan sale the Louvre bid against the American Art Association, price driven to 553,000 francs; 1890 sold to Alfred Chauchard for 750,000 francs; Dalí thought the couple might be mourning a child, called the basket a child's coffin and the woman a praying mantis; at Dalí's request the Louvre X-rayed the painting, revealing an 'oblong geometrical shape' at the figures' feet; Dalí called it a coffin, but this reading 'has not been widely accepted'.",
+    "VERIFIED, 1932 attack: TIME, 22 Aug 1932, 'Art: Stabbed at Prayers' (time.com/archive/6767119/art-stabbed-at-prayers/): in the Louvre, Pierre Guillard slashed it with a jackknife (five slashes, several stabs), was overcome by a guard and judged insane; experts began repairs. Slide 6 says only 'slashed with a knife' and 'restorers repaired the cuts'.",
+    "VERIFIED with nuance, Dalí timeline: meer.com (meer.com/it/82075-salvador-dali-e-lossessione-per-langelus-di-millet) and artlectio.substack.com/p/the-angelus: Dalí first saw a reproduction at school; in his book he says the image returned to him with unusual force in June 1932; book written 1932-1935 (published 1963). Slide 6 says 'that same year, it began to haunt Dalí', which follows Dalí's own account. Low risk, flagged.",
+    "CAUTIOUS, X-ray: meer.com dates the X-ray request to 1963 and calls the shape a parallelepiped; Wikipedia gives no year. Slides give no year and do NOT say a coffin was found: 'a dark, oblong geometric shape', 'Dalí saw a coffin', 'many experts see an earlier sketch' (meer.com: critics said it was simply a preparatory drawing).",
+    "UNVERIFIED, not used: popular versions that Millet painted out a real coffin on a friend's advice, or that the X-ray 'proved' a child's coffin. Myth; kept out.",
+    "NUANCE, 'bought back by France': France (the Louvre) LOST the 1889 auction; it was the French collector Alfred Chauchard who bought it back from the Americans in 1890 and bequeathed it to the State. Slide 5 says exactly that, without naming him.",
+    "Focus boxes estimated from the contact sheet thumbnail; re-tune on the real image."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Why did this quiet painting haunt Dalí?",
+      "sub": "Jean-François Millet, The Angelus, 1857-1859"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Dusk, near Barbizon",
+      "text": "Dusk in a potato field near Barbizon. A distant church bell rings, and two peasants stop work to pray. Peaceful? Look closer."
+    },
+    {
+      "focus": [
+        0.75,
+        0.31,
+        0.2,
+        0.14
+      ],
+      "headline": "The bell",
+      "text": "The bell rings from that steeple on the horizon. Millet remembered his grandmother halting all work in the fields to pray for the dead."
+    },
+    {
+      "focus": [
+        0.33,
+        0.5,
+        0.26,
+        0.66
+      ],
+      "headline": "Hat in hand",
+      "text": "So the man clutches his hat. Millet's first title was humble: Prayer for the Potato Crop. But this little scene became a sensation."
+    },
+    {
+      "focus": [
+        0.5,
+        0.53,
+        0.66,
+        0.78
+      ],
+      "headline": "A bidding war",
+      "text": "In 1889, American buyers outbid the Louvre itself: 553,000 francs. A year later, a French collector paid 750,000 to bring it back."
+    },
+    {
+      "focus": [
+        0.66,
+        0.54,
+        0.3,
+        0.72
+      ],
+      "headline": "Slashed, 1932",
+      "text": "In 1932, a man attacked it in the Louvre with a knife. Restorers repaired the cuts. That same year, it began to haunt Salvador Dalí."
+    },
+    {
+      "focus": [
+        0.62,
+        0.38,
+        0.22,
+        0.3
+      ],
+      "headline": "Praying, or mourning?",
+      "text": "Dalí had known it since his school days. Now he saw the bowed woman as a praying mantis, and the couple as mourning, not praying."
+    },
+    {
+      "focus": [
+        0.54,
+        0.85,
+        0.3,
+        0.2
+      ],
+      "headline": "The X-ray",
+      "text": "Mourning what? He suspected the basket hid something, and the Louvre X-rayed it. Beneath: a dark, oblong geometric shape. Dalí saw a child's coffin."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Potatoes or a grave?",
+      "text": "Many experts see only an earlier sketch, not a coffin. The answer still lies in the paint. What do you see at their feet?"
+    }
+  ]
+}

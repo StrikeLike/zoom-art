@@ -1,0 +1,103 @@
+{
+  "title": "The School of Athens",
+  "artist": "Raphael (Raffaello Sanzio)",
+  "year": "1509-1511",
+  "image": "image.jpg",
+  "source": "Wikimedia Commons, File:The School of Athens by Raffaello Sanzio da Urbino, Vatican.jpg (original 19376 x 13171 px; used as the 3840 x 2610 px Commons thumbnail). License: PD-Art (PD-Art-two-auto, artist died 1520), photo released CC0. Fresco, Stanza della Segnatura, Apostolic Palace, Vatican Museums, about 5 x 7.7 m.",
+  "caption": "Dozens of geniuses, and not one name label. Can you find the painter who hid himself in the crowd? #philosophy #renaissance #raphael #masterpiece #hiddendetails",
+  "_verify": [
+    "VERIFIED, Wikipedia EN (en.wikipedia.org/wiki/The_School_of_Athens): fresco 1509-1511, 500 x 770 cm, Apostolic Palace; Plato holds Timaeus, Aristotle his Ethics; Leonardo believed portrayed as Plato, Michelangelo as Heraclitus; Raphael's self-portrait beside Ptolemy; white-robed figure most commonly identified as Hypatia or Francesco Maria I della Rovere (unresolved); the cartoon in the Pinacoteca Ambrosiana lacks Heraclitus, Raphael and Protogenes; architecture inspired by Bramante and resembling new St Peter's.",
+    "VERIFIED, Vatican Museums (museivaticani.va, Stanza della Segnatura / School of Athens): Plato pointing upward with Timaeus, Aristotle with Ethics; Heraclitus leaning on a marble block is a portrait of Michelangelo 'who was then painting the nearby Sistine Chapel'; Euclid on the right teaching geometry; far right, black beret, self-portrait of Raphael. The Vatican page does NOT name Leonardo or Bramante.",
+    "VERIFIED, Pinacoteca Ambrosiana (ambrosiana.it video page on portraits in the cartoon): Plato's features 'seem to be those of Leonardo da Vinci'; Bramante portrayed as Euclid; the figure seen as a tribute to Michelangelo is 'missing in the Cartoon'. Also Smarthistory-style textbook uen.pressbooks.pub: Euclid a portrait of Bramante, Plato resembles Leonardo.",
+    "COMMON KNOWLEDGE, low risk: commissioned by Pope Julius II for the Stanza della Segnatura, used as his library; Raphael born 1483 (26 in 1509); Bramante architect of the new St Peter's; Francesco Maria della Rovere Duke of Urbino from 1508.",
+    "CAUTIOUS: 'Many see Leonardo' and 'usually read as Michelangelo's' because these are traditional identifications, never labelled by Raphael. 'Someone joined later' rests on the figure's absence from the cartoon (the usual inference that it was added after Raphael saw the Sistine ceiling is common but not stated by the Vatican).",
+    "NOT USED: the 'R.V.S.M.' signature on Euclid's collar (not confirmed in the sources read); Heraclitus' boots; varicose-vein study."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Dozens of geniuses. Not one name tag.",
+      "sub": "Raphael, The School of Athens, 1509-1511"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "One wall, one genius",
+      "text": "Vatican, 1509. Pope Julius II gives a 26-year-old Raphael a wall in his private library. Raphael fills it with ancient Greece's greatest minds."
+    },
+    {
+      "focus": [
+        0.505,
+        0.66,
+        0.13,
+        0.21
+      ],
+      "headline": "Up or down?",
+      "text": "At the centre, Plato points up, to the world of ideas. Aristotle, beside him, holds his palm down, toward the world we can touch."
+    },
+    {
+      "focus": [
+        0.473,
+        0.597,
+        0.05,
+        0.065
+      ],
+      "headline": "A familiar face",
+      "text": "But look at Plato's face. Many see Leonardo da Vinci, the old master Raphael admired, cast as the greatest philosopher of all."
+    },
+    {
+      "focus": [
+        0.437,
+        0.86,
+        0.14,
+        0.21
+      ],
+      "headline": "The late arrival",
+      "text": "Now the brooding man in front, leaning on a marble block. He is missing from Raphael's full-size drawing for the fresco. Someone joined later."
+    },
+    {
+      "focus": [
+        0.428,
+        0.789,
+        0.06,
+        0.065
+      ],
+      "headline": "The rival",
+      "text": "His face is usually read as Michelangelo's, who was painting the Sistine Chapel ceiling next door at that very moment. A rival, honoured."
+    },
+    {
+      "focus": [
+        0.75,
+        0.855,
+        0.17,
+        0.23
+      ],
+      "headline": "The architect",
+      "text": "And the bald man bending with a compass? Euclid, with the face of Bramante, the architect of the new St Peter's Basilica."
+    },
+    {
+      "focus": [
+        0.302,
+        0.74,
+        0.08,
+        0.15
+      ],
+      "headline": "The woman in white",
+      "text": "Meanwhile a figure in white gazes straight out. Hypatia, the woman philosopher? Or a young duke of Urbino? Scholars still disagree."
+    },
+    {
+      "focus": [
+        0.903,
+        0.684,
+        0.045,
+        0.07
+      ],
+      "headline": "The last face",
+      "text": "Far right, a young man in a dark beret looks at you. It's Raphael, who slipped himself in too. Which genius would you add?"
+    }
+  ]
+}

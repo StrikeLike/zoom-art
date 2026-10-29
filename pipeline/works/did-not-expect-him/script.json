@@ -1,0 +1,105 @@
+{
+  "title": "They Did Not Expect Him",
+  "artist": "Ilya Repin",
+  "year": "1884-1888",
+  "image": "image.jpg",
+  "source": "State Tretyakov Gallery, Moscow (public domain). Also known as Unexpected Visitors. Wikimedia Commons file: Ilya Repin Unexpected visitors.jpg (2740 x 2630 px)",
+  "caption": "A thin, ragged man walks into a family's living room. Each person reacts differently. Who recognises him first? #homecoming #family #repin #fineart #storytime",
+  "_verify": [
+    "VERIFIED 2026-10-17, Wikipedia EN (en.wikipedia.org/wiki/They_Did_Not_Expect_Him): 1884-1888, oil on canvas 160.5 x 167.5 cm, Tretyakov Gallery; an exile returns home, most likely a member of Narodnaya Volya back from a remote region of Russia; mother rises from her armchair toward her son and pushes a chair aside; wife at the piano, 'hesitant' joy; boy at the table (model Sergei Kostychev); young girl probably unaware of who the man is (model: Repin's eldest daughter Vera); maid with wary astonishment; Repin changed the exile's expression and head tilt at least three times, revisiting it in 1887 and 1888; final expression questioning, uncertain, mixing heroism and suffering; wall: portraits of Nekrasov and Shevchenko, Christ on Golgotha, Alexander II on his deathbed after his assassination by the Narodniki.",
+    "VERIFIED 2026-10-17, Vokrug Sveta (vokrugsveta.ru/article/246306/): political prisoner released early turns up unannounced (amnesties of the early 1880s); in 1887, while Tretyakov was away, Repin came to the gallery with paints and repainted the head; Tretyakov was furious; Repin reworked it again the next year; girl frightened, probably too young to remember her father; Nekrasov and Shevchenko as the Narodniki's inspirers; photograph of Alexander II in his coffin (killed 1881). Also gw2ru.com (Russia Beyond) on the 1887 gallery repainting: Tretyakov 'enraged'.",
+    "SOURCE NUANCE: Wikipedia says Alexander II on his deathbed, Vokrug Sveta says in his coffin. Slide 7 says only 'lying dead'.",
+    "INTERPRETATION: that the boy recognises his father is a common reading, not stated by Wikipedia (which says the boy adds warmth and life). Slide 6 says 'seems to recognise'.",
+    "SOURCE CONFLICT, not used: models for the mother (Wikipedia: Repin's wife Vera and Varvara Komarova; Vokrug Sveta: Repin's mother-in-law Yevgenia Shevtsova). The model for the man (Vsevolod Garshin) is 'thought to be', not used on slides.",
+    "UNVERIFIED, not used: Siberia as the place of exile (sources say only a remote region); how many years he was away (slide 9 asks a hypothetical question instead).",
+    "Not used (word budget): mother and wife both wear black, which Vokrug Sveta reads as mourning; Tretyakov bought it for 7,000 rubles.",
+    "Focus boxes estimated from the contact-sheet thumbnail; re-tune on the real image (the wife by the piano and which wall picture is which are the least certain)."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "A stranger walks into the living room",
+      "sub": "Ilya Repin, They Did Not Expect Him, 1884-1888"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Russia, 1880s",
+      "text": "A quiet family afternoon: homework on the table, music on the piano. Then the door opens, and a thin, ragged man walks in."
+    },
+    {
+      "focus": [
+        0.24,
+        0.48,
+        0.18,
+        0.52
+      ],
+      "headline": "Back from exile",
+      "text": "He's a political exile, most likely a revolutionary, back from a remote corner of the empire. Nobody knew he was coming home."
+    },
+    {
+      "focus": [
+        0.6,
+        0.6,
+        0.42,
+        0.7
+      ],
+      "headline": "His mother rises",
+      "text": "First, the woman in black rises from her armchair, pushing it aside. She's his mother, and her whole body leans towards him."
+    },
+    {
+      "focus": [
+        0.53,
+        0.47,
+        0.16,
+        0.2
+      ],
+      "headline": "His wife hesitates",
+      "text": "Behind her, by the piano, his wife turns. Her joy is still hesitant, as if she can't quite believe her eyes."
+    },
+    {
+      "focus": [
+        0.88,
+        0.47,
+        0.24,
+        0.2
+      ],
+      "headline": "Two children, two reactions",
+      "text": "Then the children. The boy's face lights up: he seems to recognise his father. His little sister looks wary, probably too young to remember him."
+    },
+    {
+      "focus": [
+        0.68,
+        0.26,
+        0.42,
+        0.18
+      ],
+      "headline": "Clues on the wall",
+      "text": "And look at the wall: poets Nekrasov and Shevchenko, heroes of young radicals, and Tsar Alexander II, assassinated by revolutionaries in 1881, lying dead."
+    },
+    {
+      "focus": [
+        0.24,
+        0.29,
+        0.12,
+        0.12
+      ],
+      "headline": "A face repainted",
+      "text": "Look at his face again. Repin reworked it at least three times, once in the gallery while the owner was away. The owner was furious."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Who would know you?",
+      "text": "The final face is uncertain: half hero, half broken man, wondering if he still belongs here. If you vanished for years, who'd recognise you first?"
+    }
+  ]
+}

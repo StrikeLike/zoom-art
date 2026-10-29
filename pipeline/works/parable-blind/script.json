@@ -1,0 +1,104 @@
+{
+  "title": "The Blind Leading the Blind (The Parable of the Blind)",
+  "artist": "Pieter Bruegel the Elder",
+  "year": "1568",
+  "image": "image.jpg",
+  "source": "Museo di Capodimonte, Naples (public domain). Image from Wikimedia Commons: File:The Blind leading the Blind by Pieter Bruegel the Elder Google Art.jpg (6000 x 4280 px)",
+  "caption": "Six men set out on a walk in 1568. Follow the line from left to right and watch closely. #blindness #bible #bruegel #fineart #hiddendetails",
+  "_verify": [
+    "VERIFIED 2026-10-24, Wikipedia EN (en.wikipedia.org/wiki/The_Blind_Leading_the_Blind): 1568, signed 'BRVEGEL.M.D.LX.VIII', distemper on linen (tüchlein), 86 x 154 cm, Museo di Capodimonte, Naples; six men; Matthew 15:14; 'The diagonal composition reinforces the off-kilter motion of the six figures falling in progression'; church resembles St Anna's in Sint-Anna-Pede (Dilbeek); medical readings by Charcot and Richer (1889), Torrilhon (1957) and Zeynel Karcioglu (2002): man 2 eyes removed, man 3 corneal leukoma, man 4 atrophy of the globe, man 5 no light perception or photophobic, man 6 pemphigus / bullous pemphigoid (counting from the leader).",
+    "VERIFIED, Matthew 15:14 wording: 'if the blind lead the blind, both shall fall into the ditch' (KJV, quoted by Hektoen International, hekint.org/2021/08/30/pieter-bruegel-and-the-parable-of-the-blind/).",
+    "VERIFIED, medical study: Rutecki 2016, The Pharos (alphaomegaalpha.org/wp-content/uploads/2021/06/2016-1-Rutecki.pdf): enucleation, corneal leukoma, atrophy of the globes, photophobia, pemphigus; diagnoses by Charcot, Richer and Torrilhon, reviewed by ophthalmologist Karcioglu. Dates differ slightly (Torrilhon thesis 1957 vs 1958). Slide 7 says 'doctors who studied the faces have suggested', no names or dates. CAUTION: Torrilhon's claim that Bruegel must have been a physician is unproven, not used.",
+    "VERIFIED, sequence: mydailyartdisplay.uk and artinsociety.com: leader fallen on his back in the ditch, the second stumbling over him, the stick pulled forward, the rear men still unaware / alarmed by the cries. Church seen through the gap between the fourth and fifth men from the left (artinsociety.com).",
+    "CORRECTED, the cow: artinsociety.com says a small cow, a herdsman and fowl to the right of the church were 'abraded at some stage in the past' and survive only in early copies (Wikipedia still mentions a cowherd). So the slides do NOT say a cow is untroubled; slide 8 only says nobody comes to help. Good fact for comment replies.",
+    "VERIFIED, Bruegel died 9 September 1569 in Brussels (Wikipedia EN, Pieter Bruegel the Elder). NOT claimed: 'his last painting' (Wikipedia names The Storm at Sea as probably his last).",
+    "Focus boxes estimated from the contact sheet (6000x4280); retune on the real image. Least sure: the church (slide 8) and the faces for the eye conditions (slide 7)."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Six men set out. Watch closely.",
+      "sub": "Pieter Bruegel the Elder, The Blind Leading the Blind, 1568"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "A line from Jesus",
+      "text": "1568. Bruegel paints a warning from the Gospel: if the blind lead the blind, both shall fall into the ditch. He takes it literally."
+    },
+    {
+      "focus": [
+        0.16,
+        0.45,
+        0.32,
+        0.62
+      ],
+      "headline": "At the back, calm",
+      "text": "Start on the left. The last men still walk calmly, holding a shoulder or a stick, trusting whoever is in front."
+    },
+    {
+      "focus": [
+        0.4,
+        0.5,
+        0.32,
+        0.56
+      ],
+      "headline": "Something's wrong",
+      "text": "But move right, and the mood changes. Heads lift, faces tense: the men in the middle can hear the cries ahead."
+    },
+    {
+      "focus": [
+        0.66,
+        0.62,
+        0.34,
+        0.56
+      ],
+      "headline": "The stick jerks",
+      "text": "Then the stick they share is yanked forward. One man loses his footing, the next is already going down. A fall in slow motion."
+    },
+    {
+      "focus": [
+        0.84,
+        0.84,
+        0.26,
+        0.3
+      ],
+      "headline": "The leader, in the ditch",
+      "text": "And at the front, the leader already lies on his back in the ditch. Everyone behind him is about to follow."
+    },
+    {
+      "focus": [
+        0.3,
+        0.4,
+        0.5,
+        0.22
+      ],
+      "headline": "Look at their eyes",
+      "text": "Look closer at their faces. Doctors who studied them have suggested different conditions: eyes removed, a clouded white cornea, shrunken eyeballs."
+    },
+    {
+      "focus": [
+        0.64,
+        0.33,
+        0.2,
+        0.3
+      ],
+      "headline": "Meanwhile, the church",
+      "text": "Meanwhile, through a gap in the line, a solid village church looks on, much like Sint-Anna in Pede, near Brussels. Nobody comes to help."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Who's leading?",
+      "text": "Bruegel died the next year. More than 450 years later, the warning still lands. Who do you think is leading the blind today?"
+    }
+  ]
+}

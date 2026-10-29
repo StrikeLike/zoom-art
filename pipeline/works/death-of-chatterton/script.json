@@ -1,0 +1,103 @@
+{
+  "title": "The Death of Chatterton",
+  "artist": "Henry Wallis",
+  "year": "1856",
+  "image": "image.jpg",
+  "source": "Tate Britain, London (public domain; bequeathed by Charles Gent Clement 1899). Full resolution from Wikimedia Commons: File:Henry Wallis - The Death of Chatterton - Google Art Project.jpg (5038 x 3773 px; dimensions as given by the main session, Commons not reachable from this container)",
+  "caption": "A boy poet, a London attic at dawn, and a second tragedy hiding behind the face you see. #tragedy #poetry #preraphaelite #oilpainting #storytime",
+  "_verify": [
+    "VERIFIED 2026-10-24, Wikipedia EN (en.wikipedia.org/wiki/The_Death_of_Chatterton): oil on canvas, 1856, Tate Britain, 62.2 x 93.3 cm; Chatterton, 17-year-old poet, poisoned himself with arsenic in 1770; model was the young George Meredith; painted in a friend's chamber in Gray's Inn with St Paul's visible through the window, close to the Brooke Street garret where Chatterton died; RA 1856; Ruskin 'faultless and wonderful'; smaller versions in Birmingham and Yale.",
+    "VERIFIED 2026-10-24, Smarthistory (smarthistory.org/wallis-chatterton): tattered/torn-up manuscripts, poison vial ('bottle of arsenic'), candle completely burned down with smoke rising, dormer window looking at sunrise over London with St Paul's in the distance, dying rose dropping petals on the sill; Meredith posed because no actual portraits of the poet were available to copy.",
+    "VERIFIED 2026-10-24, Wikipedia EN Thomas Chatterton (en.wikipedia.org/wiki/Thomas_Chatterton): died 24 August 1770 in his attic in Brooke Street, Holborn, aged 17 years 9 months, arsenic, after tearing up his literary remains; 'some speculation' of an accidental arsenic overdose (used for venereal disease). Rowley poems passed off as 15th-century works: Wikipedia EN + hoaxes.org (hoaxes.org/archive/permalink/thomas_chatterton_and_the_rowley_poems, search snippet).",
+    "VERIFIED 2026-10-24, Art UK story (artuk.org/discover/stories/the-painter-the-poet-and-the-models-wife-...) and Wikipedia EN George Meredith: Meredith was 27, a decade older than the poet; his wife Mary Ellen (daughter of Thomas Love Peacock) became Wallis's lover; son Harold born April 1858, fathered by Wallis; she spent part of 1858 with Wallis in Capri; Modern Love (1862), 50 sonnets tracing the decline of a marriage.",
+    "CAUTIOUS: suicide vs accident. Slide 4 says 'Most say yes; some suspect an accidental overdose' (Wikipedia: 'some speculation'). Slide 9 does not claim Modern Love is about his own marriage (widely said, not confirmed in the sources I read); it only says what the book is about.",
+    "CAUTIOUS: 'dawn'/sunrise is Smarthistory's reading of the light. Positions of the candle (assumed on the small table at right) and of St Paul's in the window are estimated; re-tune focus on the real image."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "This painting hides a second tragedy.",
+      "sub": "Henry Wallis, The Death of Chatterton, 1856"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "London, August 1770",
+      "text": "A London attic, August 1770. Thomas Chatterton, a poet of just 17, lies across his bed at dawn. He will never wake."
+    },
+    {
+      "focus": [
+        0.26,
+        0.87,
+        0.48,
+        0.22
+      ],
+      "headline": "Torn to pieces",
+      "text": "Look at the floor: his poems, torn to shreds. He had even passed some off as a medieval monk's. But fame never came."
+    },
+    {
+      "focus": [
+        0.53,
+        0.88,
+        0.2,
+        0.18
+      ],
+      "headline": "The little bottle",
+      "text": "And then his hand, dropping toward a small empty bottle. Arsenic. Did he mean to die? Most say yes; some suspect an accident."
+    },
+    {
+      "focus": [
+        0.88,
+        0.4,
+        0.16,
+        0.22
+      ],
+      "headline": "A candle gone out",
+      "text": "Meanwhile, on the table, the candle has burned out. A last thread of smoke still rises: a life gone only moments ago."
+    },
+    {
+      "focus": [
+        0.52,
+        0.22,
+        0.36,
+        0.3
+      ],
+      "headline": "Through the window",
+      "text": "Above him, a dying rose drops petals on the sill, and beyond the glass, St Paul's Cathedral catches the sunrise. Now, the twist."
+    },
+    {
+      "focus": [
+        0.2,
+        0.58,
+        0.22,
+        0.24
+      ],
+      "headline": "Not his face",
+      "text": "Wallis had no portrait of Chatterton to copy. So he borrowed a face: George Meredith, a struggling young writer, ten years older."
+    },
+    {
+      "focus": [
+        0.4,
+        0.6,
+        0.75,
+        0.4
+      ],
+      "headline": "The model's wife",
+      "text": "And then real life turned darker. Meredith's wife, Mary Ellen, fell for the painter. In 1858 she had Wallis's son."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Two tragedies",
+      "text": "Years later, Meredith published Modern Love, sonnets about a marriage falling apart. So whose tragedy is this painting really about?"
+    }
+  ]
+}

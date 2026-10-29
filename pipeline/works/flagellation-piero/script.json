@@ -1,0 +1,105 @@
+{
+  "title": "The Flagellation of Christ",
+  "artist": "Piero della Francesca",
+  "year": "c. 1460",
+  "image": "image.jpg",
+  "source": "Galleria Nazionale delle Marche, Palazzo Ducale, Urbino (public domain). Full resolution from Wikimedia Commons: Piero della Francesca Flagellazione-gndm-full.jpg (3470 x 2440 px)",
+  "caption": "Something terrible happens in this painting, and the three men in front don't even look. Who are they? 500 years later, nobody knows for sure. #mystery #perspective #pierodellafrancesca #arthistory #didyouknow",
+  "_verify": [
+    "VERIFIED, Wikipedia EN (en.wikipedia.org/wiki/Flagellation_of_Christ_(Piero_della_Francesca)): tempera on panel, 67.5 x 91 cm (some sources say oil and tempera), Galleria Nazionale delle Marche, Urbino; dated 1459-1460 there. Wikipedia IT (it.wikipedia.org/wiki/Flagellazione_di_Cristo_(Piero_della_Francesca)): dating ranges 1444 (Longhi) to 1472 (Battisti), most scholars 1458-1459. Slides say 'Around 1460'.",
+    "VERIFIED, Wikipedia EN: the biblical event takes place in an open gallery in the middle distance; the seated man on the left is 'in one sense certainly Pontius Pilate'; signed under the seated figure 'OPVS PETRI DE BVRGO S[AN]C[T]I SEPVLCRI' (not used); a classical figure atop the column behind Christ. Smarthistory (smarthistory.org/?p=1542): golden statue; Pilate ordered Christ flogged; three men dominate the foreground, identities disputed. artrkl.com: the three foreground men are larger in scale than the sacred figures.",
+    "VISUAL, not sourced in text: the man in a turban seen from behind (Lavin reads the interior scene as Pilate showing Herod 'with his back turned', Wikipedia EN). Slide 4 only describes what is visible.",
+    "THEORY, flagged on slides ('One old theory', 'Another theory', 'A third'): (1) Oddantonio da Montefeltro between his counsellors Manfredo dei Pio and Tommaso dell'Agnello (Wikipedia EN, 'conventional Urbino view'); Oddantonio, first Duke of Urbino, was killed with both counsellors on the night of 21-22 July 1444, aged about 16 (en.wikipedia.org/wiki/Oddantonio_da_Montefeltro). (2) Ginzburg / Ronchey: from left, Cardinal Bessarion, Thomas Palaiologos, Niccolò III d'Este; linked to Byzantium, crusades and the Council of Mantua 1459 (Wikipedia EN + IT). (3) Past, present and future / three ages of man (Marinazzo, Wikipedia EN + IT). Other theories not used: Lavin (Ludovico Gonzaga, Ottaviano Ubaldini), King (Regiomontanus), Gombrich, Pope-Hennessy (Dream of St Jerome).",
+    "VERIFIED, perspective: Wikipedia IT says scholars reconstructed the floor in plan and calculated the ideal distance of the viewer's eye; module 4.699 cm (Kenneth Clark), painting 7 x 10 modules. Classic study: R. Wittkower and B.A.R. Carter, 'The perspective of Piero della Francesca's Flagellation', Journal of the Warburg and Courtauld Institutes 16 (1953), pp. 292-302 (philarchive.org/rec/WITTPO). Piero wrote De prospectiva pingendi (Smarthistory, Wikipedia IT).",
+    "VERIFIED, theft: Wikipedia IT: stolen from the Palazzo Ducale in Urbino on 6 February 1975 together with the Madonna di Senigallia; both recovered in Locarno, Switzerland, on 22 March 1976. Finestre sull'Arte (finestresullarte.info, Madonna of Senigallia article): stolen night of 5-6 February 1975 with the Flagellation and Raphael's La Muta, recovered the following year in Locarno. Slide 9 says 'a year later in Switzerland'.",
+    "NOTE: the 'Convenerunt in unum' frame inscription (lost, reported) is not used.",
+    "Focus boxes estimated from the contact sheet; re-tune on the real image."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Something terrible happens here. Nobody looks.",
+      "sub": "Piero della Francesca, The Flagellation of Christ, c. 1460"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Around 1460",
+      "text": "Around 1460, Piero della Francesca paints the Flagellation of Christ. But the scene in the title is not where you'd expect it."
+    },
+    {
+      "focus": [
+        0.36,
+        0.56,
+        0.3,
+        0.56
+      ],
+      "headline": "Pushed to the back",
+      "text": "Look deep into the hall: Christ, tiny, tied to a column under a golden statue. Calm, almost still, while the whip is raised."
+    },
+    {
+      "focus": [
+        0.14,
+        0.66,
+        0.26,
+        0.4
+      ],
+      "headline": "The judge watches",
+      "text": "On the left sits Pilate, who ordered it, watching. A man in a turban stands with his back to us. But step outside…"
+    },
+    {
+      "focus": [
+        0.77,
+        0.55,
+        0.44,
+        0.85
+      ],
+      "headline": "Three men, looking away",
+      "text": "In the sunlit foreground, three men, far bigger than Christ, stand calmly and ignore what happens behind them. Who are they? Nobody knows."
+    },
+    {
+      "focus": [
+        0.79,
+        0.58,
+        0.2,
+        0.8
+      ],
+      "headline": "A murdered young duke?",
+      "text": "One old theory: the barefoot youth is Oddantonio, Urbino's first duke, murdered in 1444 at about 16, beside the two advisers killed with him."
+    },
+    {
+      "focus": [
+        0.625,
+        0.4,
+        0.17,
+        0.5
+      ],
+      "headline": "Or a call to crusade?",
+      "text": "Another theory: Cardinal Bessarion, urging a crusade after Constantinople fell in 1453. A third: past, present, future. Meanwhile, the floor hides mathematics."
+    },
+    {
+      "focus": [
+        0.27,
+        0.84,
+        0.5,
+        0.22
+      ],
+      "headline": "A floor you can rebuild",
+      "text": "Piero wrote a whole treatise on perspective. Scholars have redrawn the floor plan from these tiles, and even calculated where your eye should be."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Stolen, then found",
+      "text": "In 1975 thieves stole it from Urbino's palace; it was found in Switzerland a year later. Who do you think the three men are?"
+    }
+  ]
+}

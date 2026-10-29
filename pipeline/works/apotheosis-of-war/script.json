@@ -1,0 +1,105 @@
+{
+  "title": "The Apotheosis of War",
+  "artist": "Vasily Vereshchagin",
+  "year": "1871",
+  "image": "image.jpg",
+  "source": "State Tretyakov Gallery, Moscow (public domain). Wikimedia Commons: File:Vasily Vereshchagin - Апофеоз войны - Google Art Project.jpg (4000 x 2511 px; not re-checked on Commons, Wikimedia unreachable from the container)",
+  "caption": "A pyramid in the desert, a sky full of crows, and a dedication on the frame that still stings. #war #peace #vereshchagin #painting #hiddendetails",
+  "_verify": [
+    "VERIFIED, Wikipedia EN (en.wikipedia.org/wiki/The_Apotheosis_of_War): 1871, 127 x 197 cm, Tretyakov Gallery, Moscow; part of the Turkestan Series; carrion birds on and around the skull pile; Samarkand at the far right with breached walls (siege of 1868); frame inscription 'to all great conquerors, past, present and to come'. NOTE: the Wikipedia 'Turkestan Series' page dates it 1872; museum and main article give 1871.",
+    "VERIFIED, inscription wording varies by translation: Wikipedia 'past, present and to come'; ArtReview (artreview.com/the-haunting-return-of-vasily-vereshchagin-the-apotheosis-of-war) 'Dedicated to all the great conquerors: past, present and future'; RBTH 'past, present and future'. Slide 8 uses 'past, present and to come', the brief's wording.",
+    "VERIFIED, Tamerlane: RBTH (rbth.com/arts/334217-tretyakov-gallery-scandalous-paintings): first titled 'The Triumph of Tamerlane', referring to a legend that Timur's soldiers built pyramids of skulls of their enemies. Slide 7 says 'legends'.",
+    "VERIFIED, Wikipedia EN Vasily Vereshchagin: joined Kaufman's Turkestan expedition 1867; Cross of St George for the siege of Samarkand (June 1868); died 13 April 1904 at Port Arthur aboard the battleship Petropavlovsk with Admiral Makarov, the ship struck two mines and sank.",
+    "VERIFIED, ArtReview: barren desert, ruined city in the background, leafless trees, crows the only life; Tretyakov curators: Vereshchagin's later life was devoted to protest against all wars.",
+    "UNCERTAIN, focus slide 6: Wikipedia places the ruined city at the far right; on the thumbnail the ruins are not clear. Box set on the right horizon; check on the real image.",
+    "Not used: the claim that the 'conquerors' dedication irritated the military (Turkestan Series page says Apotheosis and Left Behind were criticised as defeatist; not detailed enough).",
+    "Image note (24 Oct): the Commons file shows the canvas only, the frame with the inscription is not visible; slide 7 shows the whole pyramid, text speaks about the frame without pointing to it."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "A desert, a pyramid, and a warning",
+      "sub": "Vasily Vereshchagin, The Apotheosis of War, 1871"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Central Asia, 1871",
+      "text": "A blazing desert, an empty sky, and in the middle, a strange pyramid. Vasily Vereshchagin painted it in 1871. Now come closer."
+    },
+    {
+      "focus": [
+        0.6,
+        0.76,
+        0.42,
+        0.34
+      ],
+      "headline": "It's not stone",
+      "text": "Those blocks aren't stones. Every one is a human skull, piled high. No bodies, no blood, just skull after skull."
+    },
+    {
+      "focus": [
+        0.6,
+        0.26,
+        0.5,
+        0.44
+      ],
+      "headline": "The only life",
+      "text": "The only living things are crows. Some circle overhead, others have already landed on the pile. They know what war leaves behind."
+    },
+    {
+      "focus": [
+        0.14,
+        0.44,
+        0.26,
+        0.36
+      ],
+      "headline": "Nothing grows here",
+      "text": "Look around: trees with no leaves, scorched ground. Nothing grows here anymore. Meanwhile, on the horizon, something else lies broken."
+    },
+    {
+      "focus": [
+        0.86,
+        0.46,
+        0.28,
+        0.2
+      ],
+      "headline": "A ruined city",
+      "text": "A city with breached walls, empty and silent. Vereshchagin knew this land: he had fought in the siege of Samarkand in 1868."
+    },
+    {
+      "focus": [
+        0.6,
+        0.34,
+        0.32,
+        0.34
+      ],
+      "headline": "Tamerlane's trophy",
+      "text": "Its first title was The Triumph of Tamerlane, after legends of the conqueror's soldiers building pyramids from their enemies' skulls."
+    },
+    {
+      "focus": [
+        0.5,
+        0.6,
+        0.98,
+        0.75
+      ],
+      "headline": "Read the frame",
+      "text": "But then he renamed it, and wrote on the frame: 'Dedicated to all great conquerors, past, present and to come.'"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "The painter's own war",
+      "text": "In 1904, Vereshchagin died aboard the battleship Petropavlovsk, sunk by mines off Port Arthur. Who would you dedicate this painting to?"
+    }
+  ]
+}

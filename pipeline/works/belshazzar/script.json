@@ -1,0 +1,103 @@
+{
+  "title": "Belshazzar's Feast",
+  "artist": "Rembrandt",
+  "year": "about 1635-1638",
+  "image": "image.jpg",
+  "source": "National Gallery, London, NG6350 (public domain). Full resolution from Wikimedia Commons: File:Rembrandt-Belsazar.jpg (5308 x 4226 px as given in the brief; Wikimedia unreachable from the cloud, size not re-checked 2026-10-24)",
+  "caption": "A royal party, a hand out of nowhere, and a message no one in the room could read. Look at how the letters run. #bible #writingonthewall #rembrandt #oilpainting #didyouknow",
+  "_verify": [
+    "VERIFIED 2026-10-24, National Gallery (nationalgallery.org.uk/paintings/NG6350): Belshazzar, King of Babylon, feasts using sacred vessels his father Nebuchadnezzar took from the Temple of Jerusalem; a hand appears from a cloud and writes in Hebrew 'Mene, mene tekel upharsin'; the wise men of Babylon cannot read it; Hebrew is read right to left, but Rembrandt's neighbour, the Jewish scholar Menasseh ben Israel, published an interpretation that the letters were also written top to bottom, which confused the wise men, and Rembrandt followed his formula; Daniel: 'weighed in the balance and found wanting'; the king dies within hours; a woman on the right spills her wine; about 1636-8; 167.6 x 209.2 cm, oil on canvas.",
+    "VERIFIED, Wikipedia EN (en.wikipedia.org/wiki/Belshazzar%27s_Feast_(Rembrandt)): letters 'arranged in columns, rather than right to left'; form derived from a book by Menasseh ben Israel; date unknown, most sources 1635-1638; acquired by the National Gallery in 1964 (Earl of Derby, Knowsley Hall, since 1736). Daniel 5:30: 'In that night was Belshazzar the king of the Chaldeans slain.'",
+    "CAUTIOUS, slide 7 says 'likely': the National Gallery catalogue (MacLaren and Brown 1991) says Menasseh's De termino vitae (1639) uses the same formula and that Rembrandt getting it directly from him 'seems likely'; a blog (bombaxo.com/?p=5615) notes Steven Nadler found no clear evidence of a working relationship. 'Neighbour' is the National Gallery's word; 'friend' (Wikipedia) not used.",
+    "CAUTIOUS, slide 8 'Some scholars point out': the miscopied last letter (zayin instead of final nun, bottom of the leftmost column) is in Wikipedia EN (footnote) and bombaxo.com (which also says the samekh is drawn as a final mem); not in the National Gallery texts read, whose catalogue only notes 'small changes in the lettering'.",
+    "VERIFIED, not used: signature 'Rembrand/F 163(?)' above the falling woman's shoulder, last digit lost; pentimenti (turban originally higher).",
+    "Focus boxes estimated from the contact sheet thumbnail, to be re-tuned on the real image. The inscription letters are small: slide 8 box is tight on the bottom of the leftmost column."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "A message nobody in the room could read",
+      "sub": "Rembrandt, Belshazzar's Feast, about 1635-1638"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "A royal feast",
+      "text": "Babylon. King Belshazzar throws a feast, drinking from sacred vessels looted from the Temple of Jerusalem. Then, mid-party, something impossible happens."
+    },
+    {
+      "focus": [
+        0.74,
+        0.16,
+        0.34,
+        0.3
+      ],
+      "headline": "A hand from nowhere",
+      "text": "Out of a cloud, a hand appears and writes on the wall in Hebrew: Mene, Mene, Tekel, Upharsin. The king turns, frozen."
+    },
+    {
+      "focus": [
+        0.6,
+        0.3,
+        0.56,
+        0.48
+      ],
+      "headline": "The king's terror",
+      "text": "Look at Belshazzar's face: eyes wide, body twisting away, his hand pushing back against the air. The most powerful man in Babylon, terrified."
+    },
+    {
+      "focus": [
+        0.8,
+        0.64,
+        0.38,
+        0.6
+      ],
+      "headline": "Panic at the table",
+      "text": "Meanwhile, panic spreads. On the right, a woman recoils, and wine pours from her golden goblet. Everyone stares at the wall."
+    },
+    {
+      "focus": [
+        0.79,
+        0.14,
+        0.24,
+        0.24
+      ],
+      "headline": "Why nobody could read it",
+      "text": "But Babylon's wise men couldn't read it. Look closer: Rembrandt wrote the letters top to bottom, in columns, not right to left."
+    },
+    {
+      "focus": [
+        0.76,
+        0.17,
+        0.34,
+        0.32
+      ],
+      "headline": "A neighbour's clue",
+      "text": "That idea likely came from his neighbour, the Jewish scholar Menasseh ben Israel, who explained the riddle this way. And one more detail…"
+    },
+    {
+      "focus": [
+        0.74,
+        0.17,
+        0.14,
+        0.14
+      ],
+      "headline": "One letter is off",
+      "text": "Some scholars point out the last letter seems miscopied: a zayin where a final nun should be. Even a miracle with a typo?"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "That same night",
+      "text": "Daniel read it: you have been weighed and found wanting. That very night, Belshazzar was killed. Could you have read the writing on the wall?"
+    }
+  ]
+}

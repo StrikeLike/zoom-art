@@ -1,0 +1,105 @@
+{
+  "title": "The Tempest",
+  "artist": "Giorgione",
+  "year": "c. 1504-1508",
+  "image": "image.jpg",
+  "source": "Gallerie dell'Accademia, Venice (public domain). Wikimedia Commons file: Giorgione 019.jpg (3329 x 3696 px)",
+  "caption": "A storm, a soldier, a nursing mother, and 500 years of nobody knowing what it means. #mystery #storm #giorgione #painting #artfacts",
+  "_verify": [
+    "VERIFIED, Gallerie dell'Accademia (gallerieaccademia.it/en/tempest) and cultura.gov.it press page: 'a young soldier and a naked mother suckling her child', relationship unclear; sky split by lightning gives the title; proposed dates 1503-1509, the museum favours c. 1504 for Gabriele Vendramin; Marcantonio Michiel saw it in Vendramin's collection in 1530; oil on canvas, 82 x 73 cm; Falciani's recent reading (Silvius and Lavinia). Wikipedia EN gives c. 1506-1508, so the year field says c. 1504-1508 and slide 2 says 'early 1500s'.",
+    "VERIFIED, atuttarte.it PDF (atuttarte.it/opera/giorgione-tempesta.pdf) and finestresullarte.info: Michiel's note 'un paesetto in tela cum la tempesta cum la cingana et soldato' (a small landscape on canvas with the storm, the gypsy and the soldier); slide 3 paraphrases it, no invented quote.",
+    "VERIFIED, X-ray: Wikipedia EN, Sartle and atuttarte: the man on the left was originally another female nude, 'seated in the man's place' (atuttarte); Utah pressbooks art history text (uen.pressbooks.pub/arth2720/chapter/giorgione-the-tempest/) gives X-radiography in 1939 (single source for the year). UNVERIFIED: that she was bathing / feet in the stream; slides say only 'seated in his place'.",
+    "VERIFIED, gaze: the woman 'gazes outward as if questioning our intrusion' (uen.pressbooks.pub) and 'stares directly at the viewer' (sartle.com).",
+    "VISUAL, low risk: the two columns are broken off at the top (visible; finestresullarte calls them 'two columns' among classical ruins). Over 100 interpretations: uen.pressbooks.pub.",
+    "THEORY, flagged on the slide as questions: Adam, Eve and Cain (Settis 1978), Paris and his wet nurse (Richter 1937), Fortitude and Charity (Wind 1969), per finestresullarte.info and Wikipedia EN. Moses theory not used (not confirmed).",
+    "CAUTIOUS: Byron's favourite painting, per Wikipedia EN, slide 9 says 'reportedly'.",
+    "Focus boxes estimated from the contact sheet; re-tune on the real image."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "500 years later, nobody knows what this is",
+      "sub": "Giorgione, The Tempest, c. 1504-1508"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "A painting without answers",
+      "text": "Venice, early 1500s. Giorgione paints a soldier, a nursing mother and a storm for a nobleman. Nobody ever wrote down what it means."
+    },
+    {
+      "focus": [
+        0.55,
+        0.26,
+        0.5,
+        0.34
+      ],
+      "headline": "The storm",
+      "text": "Above the town, lightning cracks the sky. Around 1530, a visitor described it simply: a small landscape with the storm, a gypsy and a soldier."
+    },
+    {
+      "focus": [
+        0.11,
+        0.74,
+        0.22,
+        0.46
+      ],
+      "headline": "The soldier",
+      "text": "On the left, a young man in fine clothes leans on a staff. He looks across the stream toward her. Soldier? Shepherd? Nobody knows."
+    },
+    {
+      "focus": [
+        0.78,
+        0.67,
+        0.38,
+        0.34
+      ],
+      "headline": "She's watching you",
+      "text": "On the right, a nearly naked woman nurses a baby. She ignores him and looks straight at us, as if we interrupted something."
+    },
+    {
+      "focus": [
+        0.3,
+        0.6,
+        0.26,
+        0.3
+      ],
+      "headline": "Broken columns",
+      "text": "Between them, two broken columns stand on a ruined wall, leading nowhere. A clue, or just decoration? And then came the X-rays."
+    },
+    {
+      "focus": [
+        0.13,
+        0.74,
+        0.28,
+        0.46
+      ],
+      "headline": "The woman underneath",
+      "text": "In 1939 they revealed a surprise: the soldier wasn't there at first. Giorgione had painted another nude woman, seated in his place."
+    },
+    {
+      "focus": [
+        0.5,
+        0.65,
+        0.9,
+        0.6
+      ],
+      "headline": "Over 100 theories",
+      "text": "So what is it? Adam and Eve with baby Cain? Paris and his nurse? Fortitude and Charity? Scholars have proposed over a hundred theories."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Your turn",
+      "text": "Maybe Giorgione wanted no single story at all. Lord Byron reportedly loved it for exactly that. So what do you think is happening here?"
+    }
+  ]
+}

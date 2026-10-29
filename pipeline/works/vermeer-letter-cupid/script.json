@@ -1,0 +1,111 @@
+{
+  "title": "Girl Reading a Letter at an Open Window",
+  "artist": "Johannes Vermeer",
+  "year": "c. 1657-1659",
+  "image": "image.jpg",
+  "source": "Gemäldegalerie Alte Meister, Staatliche Kunstsammlungen Dresden (public domain). Wikimedia Commons file: VermeerGirlWindowCupid.jpg (1580 x 2058 px, restored state with the Cupid on the back wall)",
+  "caption": "A love letter, an open window, and a secret painted over on the wall behind her for centuries. #loveletter #cupid #vermeer #masterpiece #hiddendetails",
+  "_verify": [
+    "VERIFIED, Wikipedia EN (en.wikipedia.org/wiki/Girl_Reading_a_Letter_at_an_Open_Window): Vermeer, c. 1657-1659, oil on canvas, 83 x 64.5 cm, Dresden since 1742 (bought as a Rembrandt); window reflects the girl in its lower right quadrant; tasselled curtain masks a quarter of the room in the right foreground; fruit in a tilted bowl, a peach cut in half; Schneider reads the fruit as 'a symbol of extramarital relations'; restored 2018-2021; Cupid resembles a Van Everdingen painting; overpainted wall per Wikipedia 'late 18th century' (not used, other sources only say decades after his death).",
+    "VERIFIED, CODART (codart.nl/?p=85374): 1979 X-ray revealed the naked Cupid, published 1982; 'scientists assumed that Vermeer had rejected the Cupid image and painted over the back wall of the room himself'; new tests (X-ray, infrared, microscopy, paint samples at the Dresden Academy of Fine Arts, 2017 XRF scan with the Rijksmuseum) show the overpaint was applied decades later, 'most certainly after his death'; overpaint removed with a scalpel.",
+    "VERIFIED, Smithsonian (smithsonianmag.com/smart-news/restoration-reveals-long-lost-cupid-painted-over-after-vermeers-death-180972143/): 'a layer of dirt above the original varnish on the Cupid' (Uta Neidhardt), so the Cupid was exposed for decades before being covered; same Cupid as in A Young Woman Standing at a Virginal (National Gallery, London); widow's 1676 inventory lists 'a Cupid'.",
+    "VERIFIED, designboom (designboom.com/art/vermeer-girl-reading-a-letter-at-the-open-window-restored-08-26-2021/) and finestresullarte.info: restoration 2017 to early 2021; Cupid with bow, arrows and two masks, stepping on disguise masks, read as sincere love overcoming deceit; shown restored in Dresden from 10 Sept 2021.",
+    "INTERPRETATION, flagged: 'some read' the fruit as a hint of forbidden love (one scholar, Schneider). The letter being a love letter is the usual reading, strengthened by the Cupid, not documented.",
+    "BEFORE STATE (text only): for about two and a half centuries the wall behind her looked bare (The Art Newspaper headline: hidden 'after two and a half centuries'). The renderer uses only the restored image; slide boxes are on the restored state.",
+    "Focus boxes estimated from the contact sheet; re-tune on the real image (reflection in the glass on slide 3 and the masks at Cupid's feet on slide 8 are the uncertain ones).",
+    "COVER: framed on the girl and window (focus on slide 0) so the restored Cupid is not visible on the cover/thumbnail; the reveal stays on slide 6."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "For centuries, this wall hid a secret",
+      "sub": "Johannes Vermeer, Girl Reading a Letter at an Open Window, c. 1657-1659",
+      "focus": [
+        0.42,
+        0.72,
+        0.6,
+        0.34
+      ]
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "A quiet moment",
+      "text": "A young woman reads a letter by an open window. For centuries, the wall behind her looked bare and calm. But it wasn't always."
+    },
+    {
+      "focus": [
+        0.27,
+        0.53,
+        0.26,
+        0.26
+      ],
+      "headline": "Her reflection",
+      "text": "First, look at the glass: her face floats faintly in the open window, a second self lost in the same words. Who wrote to her?"
+    },
+    {
+      "focus": [
+        0.36,
+        0.84,
+        0.5,
+        0.2
+      ],
+      "headline": "Spilled fruit",
+      "text": "Below, fruit tumbles from a tilted bowl, a peach cut open beside it. Some read it as a hint of forbidden love."
+    },
+    {
+      "focus": [
+        0.83,
+        0.5,
+        0.3,
+        0.9
+      ],
+      "headline": "A curtain pulled aside",
+      "text": "A heavy curtain hangs in front, as if we were peeking into a private moment. And then, in 1979, an X-ray peeked deeper."
+    },
+    {
+      "focus": [
+        0.6,
+        0.22,
+        0.36,
+        0.38
+      ],
+      "headline": "The hidden Cupid",
+      "text": "Under the bare wall: a painting of a naked Cupid. For decades experts assumed Vermeer had changed his mind and painted it out himself."
+    },
+    {
+      "focus": [
+        0.6,
+        0.22,
+        0.36,
+        0.38
+      ],
+      "headline": "Not Vermeer's hand",
+      "text": "But a restoration begun in 2017 proved otherwise: someone else covered it decades after Vermeer's death. So conservators scraped it off, with a scalpel."
+    },
+    {
+      "focus": [
+        0.58,
+        0.32,
+        0.34,
+        0.18
+      ],
+      "headline": "Love beats deceit",
+      "text": "Revealed in 2021, Cupid stands over masks lying on the floor: true love defeating deceit. Suddenly, there's no doubt what the letter is about."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Which do you prefer?",
+      "text": "The same Cupid hangs in another Vermeer, in London. Here he was hidden for centuries. Empty wall or Cupid: which version do you prefer?"
+    }
+  ]
+}

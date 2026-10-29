@@ -1,0 +1,104 @@
+{
+  "title": "The Wounded Angel",
+  "artist": "Hugo Simberg",
+  "year": "1903",
+  "image": "image.jpg",
+  "source": "Ateneum Art Museum, Finnish National Gallery, Helsinki (public domain). Full resolution from Wikimedia Commons: File:The Wounded Angel - Hugo Simberg.jpg (8537 x 6870 px as given in the brief; Wikimedia unreachable from the cloud, size not re-checked 2026-10-24)",
+  "caption": "Two boys, one blindfolded angel, and a painter who refused to explain. Look closer at the boy on the right. #angel #mystery #symbolism #painting #hiddendetails",
+  "_verify": [
+    "VERIFIED 2026-10-24, Wikipedia EN (en.wikipedia.org/wiki/The_Wounded_Angel): Hugo Simberg, Finnish symbolist, 1903, oil, 127 x 154 cm, Ateneum Helsinki; boys carry an injured angel with a bandaged forehead/eyes and a bloodied wing, bearers in sombre clothing; setting Eläintarha park, Helsinki, Töölönlahti Bay in the background; angel clutches snowdrops, 'symbolic of healing and rebirth'; several charity institutions were in Eläintarha, the boys carry her toward the Blind Girls' School and the Home for Cripples; Simberg had suffered from meningitis, the painting a source of strength during his recovery; he declined to explain it, viewers should draw their own conclusions; 2006 Ateneum vote named it Finland's 'national painting'.",
+    "VERIFIED, DailyArt Magazine (dailyartmagazine.com/wounded-angel-by-hugo-simberg): eyes bandaged, wing bloodied, snowdrops; Eläintarha with Töölönlahti Bay, 'The pathway along Töölönlahti Bay remains there to this day'; Blind Girls' School and Home for Cripples; meningitis; 'Simberg himself hated to explain his works and he always refused to do so'. Yle (yle.fi/a/3-10247437): voted national painting in 2006.",
+    "CORRECTED, not as in the brief: 'one boy looks straight at you' is contradicted by Wikipedia EN ('gaze fixated beyond and to the right of the viewer'). Slide 6 says only that he turns his head out of the painting, 'almost at us'.",
+    "CAUTIOUS: 'while recovering from meningitis' follows Wikipedia ('source of strength during his recovery') and DailyArt ('helped him recover'); the exact timing of the illness vs the painting is not stated in the sources read. Slide 8 'The boys seem to be heading there' is phrased softer than Wikipedia, which states it as fact; it is an interpretation of the route.",
+    "THEORY / rhetorical, flagged: slide 6 'Asking for help, or accusing?' is a question to the viewer, not a claim about Simberg's intent. Snowdrops as 'spring's first flowers' is general botany, not from an art source.",
+    "VERIFIED, not used (word budget): a larger version was painted for the Tampere Cathedral frescoes (1905-06); praised at the 1903 Ateneum autumn exhibition.",
+    "Focus boxes estimated from the contact sheet thumbnail, to be re-tuned on the real image."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Two boys. One fallen angel. Zero answers.",
+      "sub": "Hugo Simberg, The Wounded Angel, 1903"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Helsinki, 1903",
+      "text": "Helsinki, 1903. Two boys carry a wounded angel on a stretcher. Hugo Simberg never explained it. So let's follow the clues."
+    },
+    {
+      "focus": [
+        0.56,
+        0.4,
+        0.34,
+        0.5
+      ],
+      "headline": "Blindfolded, head bowed",
+      "text": "First, the angel. A bandage covers her eyes, one wing hangs damaged, her head is bowed. She barely holds on to the stretcher."
+    },
+    {
+      "focus": [
+        0.38,
+        0.57,
+        0.14,
+        0.12
+      ],
+      "headline": "Look at her hand",
+      "text": "But look at her hand. She clutches a few snowdrops, spring's first flowers, often read as a sign of healing and rebirth."
+    },
+    {
+      "focus": [
+        0.22,
+        0.27,
+        0.26,
+        0.34
+      ],
+      "headline": "The boy in black",
+      "text": "Meanwhile, the boy in front, dressed in sombre black, stares at the ground and keeps walking. He never looks back."
+    },
+    {
+      "focus": [
+        0.8,
+        0.19,
+        0.24,
+        0.36
+      ],
+      "headline": "The boy who turns",
+      "text": "But the second boy turns his head out of the painting, almost at us. A hard stare. Asking for help, or accusing?"
+    },
+    {
+      "focus": [
+        0.5,
+        0.2,
+        0.98,
+        0.34
+      ],
+      "headline": "A real Helsinki park",
+      "text": "And the place is real: Eläintarha park in Helsinki, beside Töölönlahti Bay. That waterside path is still there today. But where are they going?"
+    },
+    {
+      "focus": [
+        0.45,
+        0.72,
+        0.85,
+        0.44
+      ],
+      "headline": "Toward the blind school",
+      "text": "Back then, charities stood in this park, including a school for blind girls and a home for disabled people. The boys seem headed there."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Finland's national painting",
+      "text": "Simberg painted it while recovering from meningitis. In a 2006 Ateneum vote, it became Finland's national painting. What do you think happened to her?"
+    }
+  ]
+}

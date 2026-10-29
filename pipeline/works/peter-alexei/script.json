@@ -1,0 +1,102 @@
+{
+  "title": "Peter the Great Interrogating the Tsarevich Alexei Petrovich at Peterhof",
+  "artist": "Nikolai Ge",
+  "year": "1871",
+  "image": "image.jpg",
+  "source": "State Tretyakov Gallery, Moscow, inv. 2630 (public domain; full-size replica of 1872 in the State Russian Museum). Image from Wikimedia Commons: File:Peter the Great Interrogating the Tsarevich Alexei Petrovich.jpg (2048 x 1588 px, source bibliotekar.ru, checked 2026-10-24 via a mirror of the Commons page; the page does not say which of the two versions it shows)",
+  "caption": "A father, a son, a table full of papers, and a question only one of them will survive. #fatherandson #russianhistory #peredvizhniki #fineart #storytime",
+  "_verify": [
+    "VERIFIED 2026-10-24, Wikipedia EN (en.wikipedia.org/wiki/Peter_the_Great_Interrogating_the_Tsarevich_Alexei_Petrovich_at_Peterhof): 1871, Tretyakov Gallery inv. 2630, bought by Pavel Tretyakov; replica 1872 for Alexander II in the Russian Museum; set in Monplaisir, Peterhof, which Ge visited once and reconstructed from memory (fireplace, cornices, four Dutch-school paintings); Peter seated right in a red-velvet chair, Alexei standing left; scattered documents, one fallen to the floor, which Kostomarov read as Afrosinya's testimony; black-and-white floor read as a chessboard for Alexei's 'final game'; red-and-black tablecloth as 'colours of mourning'; shown at the first Peredvizhniki exhibition, Nov 1871; Alexei died of torture in the Peter and Paul Fortress, 26 June [7 July] 1718.",
+    "VERIFIED 2026-10-24, Wikipedia EN Alexei Petrovich (en.wikipedia.org/wiki/Alexei_Petrovich,_Tsarevich_of_Russia): fled to Vienna in Nov 1716 under the protection of Emperor Charles VI, then moved to Naples; Peter sent Peter Tolstoy, Alexei agreed to return on a promise of no punishment and marriage to Afrosinya; Afrosinya testified against him (April 1718); knout in June; 127 senators and magistrates sentenced him to death on 24 June (O.S.); died 26 June 1718 aged 28.",
+    "CAUTIOUS: 'one historian read the papers as Afrosinya's testimony' (Kostomarov's interpretation, phrased as such on slide 5). The chessboard and mourning colours are interpretations, slide 7 says 'Some see'. The scene itself is imagined: no source says this meeting happened at Monplaisir exactly as shown; slide 2 just sets it there, as the title does.",
+    "CAUTIOUS: torture is mentioned once on slide 9, not described. Age 28 per Wikipedia, not used on slides. 'Two days later' = sentence 24 June, death 26 June (O.S.).",
+    "UNVERIFIED: which version the Commons file reproduces (Tretyakov original or Russian Museum replica); the two are near identical. Source credited to the Tretyakov as instructed."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "A father. A son. One deadly question.",
+      "sub": "Nikolai Ge, Peter the Great Interrogating the Tsarevich Alexei, 1871"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Peterhof, 1718",
+      "text": "Peterhof, 1718. In his seaside palace, Monplaisir, Peter the Great confronts his son and heir, Tsarevich Alexei. This is no family chat."
+    },
+    {
+      "focus": [
+        0.27,
+        0.5,
+        0.24,
+        0.85
+      ],
+      "headline": "The son who ran",
+      "text": "In 1716, Alexei had fled abroad, to the Emperor in Vienna, then to Naples. To his father, it was betrayal of the worst kind."
+    },
+    {
+      "focus": [
+        0.7,
+        0.5,
+        0.32,
+        0.8
+      ],
+      "headline": "The promise",
+      "text": "So Peter sent an envoy with a promise: come home, and you won't be punished. Alexei believed it and came back. Big mistake."
+    },
+    {
+      "focus": [
+        0.47,
+        0.68,
+        0.32,
+        0.4
+      ],
+      "headline": "Papers on the table",
+      "text": "Now look at the table. Papers spill across it, one onto the floor. One historian read them as testimony from Afrosinya, the woman Alexei loved."
+    },
+    {
+      "focus": [
+        0.48,
+        0.25,
+        0.62,
+        0.3
+      ],
+      "headline": "Eyes lowered",
+      "text": "Meanwhile, Alexei can't meet his father's gaze. Pale, silent, eyes down, he waits. Peter just stares, the evidence at his elbow."
+    },
+    {
+      "focus": [
+        0.5,
+        0.78,
+        0.9,
+        0.42
+      ],
+      "headline": "The final game",
+      "text": "Look down: some see this black-and-white floor as a chessboard, Alexei's final game. The red and black tablecloth? Colours of mourning."
+    },
+    {
+      "focus": [
+        0.7,
+        0.5,
+        0.32,
+        0.8
+      ],
+      "headline": "The verdict",
+      "text": "And then the verdict. In June 1718, 127 senators and officials sentenced Alexei to death. His own father had brought him home."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Father and son",
+      "text": "Two days later, Alexei died in the Peter and Paul Fortress, after interrogation and torture. Was Peter a just ruler, or a cruel father?"
+    }
+  ]
+}

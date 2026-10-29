@@ -1,0 +1,105 @@
+{
+  "title": "Pollice Verso",
+  "artist": "Jean-Léon Gérôme",
+  "year": "1872",
+  "image": "image.jpg",
+  "source": "Phoenix Art Museum, Phoenix, Arizona (museum purchase, 1968; public domain). Wikimedia Commons: Jean-Leon Gerome Pollice Verso.jpg (2425 x 1630 px)",
+  "caption": "One gesture, one painting, and an idea about Rome that everyone still believes. #gladiator #ancientrome #gerome #arthistory #didyouknow",
+  "_verify": [
+    "VERIFIED, Wikipedia EN (en.wikipedia.org/wiki/Pollice_Verso_(Gérôme)): 1872, oil on canvas, 96.5 x 149.2 cm, Phoenix Art Museum; spectators give the thumbs-down to the victorious gladiator; the defeated retiarius raises two fingers pleading for mercy; the Vestal Virgins among the spectators signal death; the emperor watches from his box; the exact gesture behind 'pollice verso' is unknown (up, down, horizontal or hidden in the fist); the painting did much to popularise thumbs up = life, thumbs down = death.",
+    "VERIFIED, Phoenix Art Museum blog (phxart.org/?p=29472): 'pollice verso simply means with a turned thumb'; no historical record confirms thumbs-down meant death; begun before 1869, finished 1872 after a pause for the Franco-Prussian War; acquired by PhxArt in 1968; the victor looks up to the crowd 'or perhaps the Roman emperor himself' for permission.",
+    "VERIFIED, Gladiator: Wikipedia EN and Artnet (news.artnet.com/art-world/gladiator-painting-film-2581507): producers Walter Parkes and Douglas Wick showed Ridley Scott a reproduction of the painting before he read the script; Scott: 'That image spoke to me of the Roman Empire in all its glory and wickedness.' Slide 9 paraphrases, no quote on the slide.",
+    "VERIFIED, Vestals: Eclectic Light (eclecticlight.co/2018/07/26/too-real-the-narrative-paintings-of-jean-leon-gerome-4/) counts a row of six Vestals at the right, described by critics as 'baying for blood'; Encyclopaedia Romana (penelope.uchicago.edu/encyclopaedia_romana/gladiators/polliceverso.html): Prudentius describes a Vestal turning her thumb to urge the kill; Suetonius says Vestals had their own seats at the games.",
+    "VERIFIED with nuance, the emperor's final word: Artnet says the gesture was typically reserved for the emperor when present; Encyclopaedia Romana cites Anthony Corbeill that the editor of the games conveyed the verdict. Slide 6 only says the emperor watches and the decision is his, which fits the painting's scene.",
+    "UNVERIFIED, not used: the emperor eating (figs or other food) in his box. No source I could read (Wikipedia, PhxArt, Artnet, GetDailyArt, LACMA, Eclectic Light) mentions it; Rampley & Co. describes him 'watching over the victor with glee'. Check on the full image before mentioning it in a comment.",
+    "VERIFIED, not on slides: winner identified as a murmillo (Wikipedia) or secutor (GetDailyArt); armour based on finds from Pompeii, with inaccuracies. Slides say only 'bronze helmet'. A.T. Stewart bought it for 80,000 francs (Wikipedia).",
+    "Focus boxes estimated from the contact sheet thumbnail; re-tune on the real image. Kept away from the bodies and the blood on the sand (slide 4 frames only the raised hand)."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "You know this gesture. Rome might not.",
+      "sub": "Jean-Léon Gérôme, Pollice Verso, 1872"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Inside the Colosseum",
+      "text": "1872. Gérôme takes us into the Colosseum. The fight is over, the winner stands over his opponent, and the whole arena waits for one signal."
+    },
+    {
+      "focus": [
+        0.32,
+        0.47,
+        0.16,
+        0.18
+      ],
+      "headline": "The victor waits",
+      "text": "The winner, face hidden behind a gleaming bronze helmet, looks up at the stands. He will not strike until Rome decides."
+    },
+    {
+      "focus": [
+        0.49,
+        0.71,
+        0.12,
+        0.14
+      ],
+      "headline": "Two fingers raised",
+      "text": "Beneath him, the beaten fighter lifts two fingers, begging for mercy. But up in the front row, the answer is already coming."
+    },
+    {
+      "focus": [
+        0.8,
+        0.21,
+        0.36,
+        0.24
+      ],
+      "headline": "The Vestal Virgins",
+      "text": "Look closer: Rome's holiest priestesses, sworn to purity, lean over the wall and demand his death, thumbs turned firmly down."
+    },
+    {
+      "focus": [
+        0.31,
+        0.28,
+        0.24,
+        0.18
+      ],
+      "headline": "The emperor watches",
+      "text": "Meanwhile, in his shaded box, the emperor watches. The crowd has made its wish clear. Now the decision is his."
+    },
+    {
+      "focus": [
+        0.8,
+        0.09,
+        0.38,
+        0.16
+      ],
+      "headline": "Pollice verso",
+      "text": "But here's the twist: 'pollice verso' simply means 'with a turned thumb'. No Roman text tells us which way it turned."
+    },
+    {
+      "focus": [
+        0.33,
+        0.5,
+        0.22,
+        0.34
+      ],
+      "headline": "A painter's guess",
+      "text": "Up, down, sideways, hidden in the fist: historians still argue. Gérôme's picture is what made 'thumbs down means death' stick."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "From canvas to Gladiator",
+      "text": "Over a century later, producers showed Ridley Scott this image and he signed on to direct Gladiator. What do you think Romans really did?"
+    }
+  ]
+}
