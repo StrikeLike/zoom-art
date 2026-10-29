@@ -1,0 +1,102 @@
+{
+  "title": "The Children of Edward (The Princes in the Tower)",
+  "artist": "Paul Delaroche",
+  "year": "1830",
+  "image": "image.jpg",
+  "source": "Musée du Louvre, Paris (public domain); photographed on loan at the Musée des Beaux-Arts de Lyon, 2014. Wikimedia Commons: Les Enfants d'Édouard - Paul Delaroche - MBA Lyon 2014.jpg (4008 x 3196 px)",
+  "caption": "Two boys. A locked room. The dog hears someone. #truecrime #princesinthetower #delaroche #oilpainting #unsolvedmysteries",
+  "_verify": [
+    "VERIFIED, Wikipedia EN (en.wikipedia.org/wiki/The_Children_of_Edward): Delaroche 1830, oil on canvas 181 x 215 cm, Louvre; the Princes in the Tower, Edward V and Richard of Shrewsbury, imprisoned after Edward IV's death; Richard III usually believed to have ordered their murder, no concrete evidence; 'the small dog in alert' and light entering under the door 'suggest an imminent entrance'; book shows a miniature of the Annunciation; ribbon of the Order of the Garter on one child's leg; shown at the Salon of 1831, called a 'tearjerker'; bought by the State 1831.",
+    "VERIFIED, Patrick Comerford blog (Wallace Collection version): 'an ominous shadow can be seen at the bottom of the door'; 'the dog and perhaps the young Duke of York sense the arrival of the approaching murderers'; Edward the 12-year-old uncrowned boy king; open missal with the Annunciation.",
+    "GENERAL HISTORY (low risk, not re-sourced today): Edward IV died April 1483; Edward V born Nov 1470 (12); the boys were not seen after summer 1483; their uncle Richard of Gloucester crowned Richard III July 1483; bones of two children found in the Tower in 1674. Slides avoid Richard's exact age (sources say 9 or 10).",
+    "CHECK ON THE REAL IMAGE: where the door and dog are (slides 6-7), which boy holds the book and which leg has the Garter ribbon (slides 4-5). If the Garter ribbon is too small to read, merge slide 5 into a face close-up and keep the text.",
+    "Focus boxes are rough guesses; re-tune on the real image."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Two boys. A locked room. The dog hears someone.",
+      "sub": "Paul Delaroche, The Children of Edward, 1830"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "London, 1483",
+      "text": "1483, the Tower of London. King Edward IV has just died. His older son, only twelve, should now be crowned King Edward V."
+    },
+    {
+      "focus": [
+        0.63,
+        0.4,
+        0.36,
+        0.46
+      ],
+      "headline": "The brothers",
+      "text": "Instead, he and his little brother Richard are kept in the Tower by their uncle. Now they sit on a bed, holding on to each other."
+    },
+    {
+      "focus": [
+        0.665,
+        0.44,
+        0.15,
+        0.13
+      ],
+      "headline": "A prayer book",
+      "text": "They were reading a prayer book, open on a painting of the Annunciation. Then something made them stop."
+    },
+    {
+      "focus": [
+        0.69,
+        0.575,
+        0.1,
+        0.08
+      ],
+      "headline": "A king's ribbon",
+      "text": "On one leg, the ribbon of the Order of the Garter. A boy king, with nothing left but a ribbon."
+    },
+    {
+      "focus": [
+        0.11,
+        0.81,
+        0.18,
+        0.24
+      ],
+      "headline": "The dog",
+      "text": "But look at the little dog. It has turned away from the boys, alert, staring at the door."
+    },
+    {
+      "focus": [
+        0.1,
+        0.71,
+        0.22,
+        0.16
+      ],
+      "headline": "Under the door",
+      "text": "Because under the door, there is light, and a shadow. Someone is standing on the other side, about to come in."
+    },
+    {
+      "focus": [
+        0.63,
+        0.28,
+        0.2,
+        0.19
+      ],
+      "headline": "They know",
+      "text": "Look at their eyes. The younger one has heard it too. Their uncle has already taken the crown as Richard III."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Vanished",
+      "text": "The princes were never seen again. In 1674, workers found the bones of two children in the Tower. Who opened that door?"
+    }
+  ]
+}

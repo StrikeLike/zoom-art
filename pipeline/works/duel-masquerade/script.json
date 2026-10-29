@@ -1,0 +1,101 @@
+{
+  "title": "The Duel After the Masquerade",
+  "artist": "Jean-Léon Gérôme",
+  "year": "1857",
+  "image": "image.jpg",
+  "source": "Musée Condé, Chantilly (original, public domain). Wikimedia Commons: Suites d'un bal masqué - Gérôme - Musée Condé.jpg (5744 x 3928 px)",
+  "caption": "A clown is dying in the snow. Why? #masquerade #paris #gerome #fineart #storytime",
+  "_verify": [
+    "VERIFIED, Wikipedia EN (en.wikipedia.org/wiki/The_Duel_After_the_Masquerade): Gérôme 1857, original 'Suite d'un bal masqué' in the Musée Condé, Chantilly (bought by the duc d'Aumale 1858); replicas in the Walters (Baltimore) and the Hermitage; shown at the 1857 Salon, 'became famous almost overnight', critics speculated about the source of the incident; grey winter morning in the Bois de Boulogne, snow; Pierrot mortally wounded, collapsed into the arms of a man dressed as the Duc de Guise; a surgeon dressed as a Venetian doge tries to stop the bleeding; a domino clutches his head; the survivor dressed as an American Indian walks away with his second, Harlequin, leaving his weapon and feathers from his headdress; carriage waits in the background; blood on the Pierrot.",
+    "CAUTIOUS: the reason for the duel is unknown; slide 2 says only 'something went wrong'. No claim about who the men were.",
+    "NO GORE: focus on Pierrot's face/body, not the blood stain.",
+    "Focus boxes estimated; re-tune on the real image (Pierrot group on the left, winner and Harlequin on the right, sword and feathers in the snow between them, carriage far right)."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "A clown is dying in the snow. Why?",
+      "sub": "Jean-Léon Gérôme, The Duel After the Masquerade, 1857"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Paris, at dawn",
+      "text": "A grey winter dawn in the Bois de Boulogne, Paris. A few hours ago, these men were dancing at a masked ball. Then something went wrong."
+    },
+    {
+      "focus": [
+        0.3,
+        0.68,
+        0.3,
+        0.42
+      ],
+      "headline": "Pierrot",
+      "text": "Dressed as Pierrot, the sad clown of the theatre, a man sinks into the snow. He has just lost a sword duel."
+    },
+    {
+      "focus": [
+        0.22,
+        0.6,
+        0.22,
+        0.46
+      ],
+      "headline": "The Duke",
+      "text": "A friend in the costume of the Duc de Guise holds him up. Last night it was a game. Now it is real."
+    },
+    {
+      "focus": [
+        0.37,
+        0.64,
+        0.2,
+        0.24
+      ],
+      "headline": "The doge",
+      "text": "Even the surgeon is still in costume, a Venetian doge, kneeling in the snow, trying to stop the bleeding."
+    },
+    {
+      "focus": [
+        0.345,
+        0.545,
+        0.13,
+        0.13
+      ],
+      "headline": "The black domino",
+      "text": "Behind them, another masked guest in a black domino clutches his head. No one expected the party to end like this."
+    },
+    {
+      "focus": [
+        0.82,
+        0.55,
+        0.24,
+        0.44
+      ],
+      "headline": "The winner",
+      "text": "Meanwhile, on the right, the winner walks away, dressed as an American Indian, his second Harlequin at his side."
+    },
+    {
+      "focus": [
+        0.8,
+        0.885,
+        0.34,
+        0.12
+      ],
+      "headline": "Left behind",
+      "text": "He leaves his sword lying in the snow, with a few feathers from his headdress. He doesn't look back."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "No answer",
+      "text": "Paris was obsessed with it in 1857 and argued about what really happened. Gérôme never said. What do you think started it?"
+    }
+  ]
+}

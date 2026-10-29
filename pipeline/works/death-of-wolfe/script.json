@@ -1,0 +1,101 @@
+{
+  "title": "The Death of General Wolfe",
+  "artist": "Benjamin West",
+  "year": "1770",
+  "image": "image.jpg",
+  "source": "National Gallery of Canada, Ottawa (public domain). Wikimedia Commons: The Death of General Wolfe B.West,1770.jpg (3456 x 2304 px)",
+  "caption": "A general is dying. Something here is false. #militaryhistory #quebec #benjaminwest #arthistory #didyouknow",
+  "_verify": [
+    "VERIFIED, Wikipedia EN (en.wikipedia.org/wiki/The_Death_of_General_Wolfe): 1770, National Gallery of Canada; Battle of the Plains of Abraham (Quebec), 13 September 1759; 'only four of the fourteen men depicted were actually at the battleground'; kneeling warrior with chin on his fist looking at Wolfe; a runner in the background waves his hat and carries a captured fleur-de-lis flag (news of the French defeat); composition resembles a Lamentation, Wolfe Christ-like; Reynolds urged classical attire, West refused; George III declined to buy it because of the modern clothing, later commissioned a copy (1771, Royal Collection).",
+    "CAUTIOUS: 'Legend says Wolfe heard the news before he died' is phrased as legend (traditional account).",
+    "GENERAL (low risk): Britain and France fighting for North America (Seven Years' War); Wolfe was shot during the battle.",
+    "Focus boxes estimated; re-tune on the real image (Wolfe centre-left lying, warrior lower left, runner with flag in the background left, officers around)."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "A general is dying. Something here is false.",
+      "sub": "Benjamin West, The Death of General Wolfe, 1770"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Quebec, 1759",
+      "text": "13 September 1759, outside Quebec. Britain and France are fighting for North America. The British general, James Wolfe, has just been shot."
+    },
+    {
+      "focus": [
+        0.55,
+        0.65,
+        0.28,
+        0.32
+      ],
+      "headline": "The dying general",
+      "text": "Wolfe lies in the arms of his officers, pale, eyes turned to heaven, posed almost like Christ taken down from the cross."
+    },
+    {
+      "focus": [
+        0.1,
+        0.4,
+        0.2,
+        0.16
+      ],
+      "headline": "The news",
+      "text": "On the left, a ranger points to the distant battle. News is coming: the French are retreating. Legend says Wolfe heard it before dying."
+    },
+    {
+      "focus": [
+        0.25,
+        0.75,
+        0.2,
+        0.4
+      ],
+      "headline": "The warrior",
+      "text": "In front, a Native warrior kneels, chin on his fist, watching Wolfe in silence, the calmest witness in the scene."
+    },
+    {
+      "focus": [
+        0.5,
+        0.45,
+        0.8,
+        0.5
+      ],
+      "headline": "The witnesses",
+      "text": "All around, officers grieve, each face a real portrait. But here is the twist: of these fourteen men, only four were actually there."
+    },
+    {
+      "focus": [
+        0.8,
+        0.6,
+        0.36,
+        0.6
+      ],
+      "headline": "Modern clothes",
+      "text": "Even more shocking then: real modern uniforms. Joshua Reynolds urged West to dress them like ancient heroes. West refused."
+    },
+    {
+      "focus": [
+        0.62,
+        0.3,
+        0.3,
+        0.5
+      ],
+      "headline": "The king says no",
+      "text": "King George III would not buy it: modern uniforms seemed undignified for a hero. Yet a year later, he ordered his own copy."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Truth or legend?",
+      "text": "West invented witnesses to build a perfect hero, and it worked: this is how the world remembers Wolfe. Can a painting lie?"
+    }
+  ]
+}

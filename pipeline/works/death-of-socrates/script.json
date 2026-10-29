@@ -1,0 +1,102 @@
+{
+  "title": "The Death of Socrates",
+  "artist": "Jacques-Louis David",
+  "year": "1787",
+  "image": "image.jpg",
+  "source": "The Metropolitan Museum of Art, New York, 31.45 (Open Access, CC0). Wikimedia Commons: The Death of Socrates MET DP-13139-001.jpg (4000 x 2663 px)",
+  "caption": "He could have run. He chose the poison. #philosophy #ancientgreece #jacqueslouisdavid #neoclassical #storytime",
+  "_verify": [
+    "VERIFIED, Wikipedia EN (en.wikipedia.org/wiki/The_Death_of_Socrates): 1787, Salon of 1787, Met; Socrates' execution by hemlock as told in Plato's Phaedo; Socrates one hand over the cup, the other gesturing in the air, still teaching; Plato at the foot of the bed, slumped; Crito clutches his knee/thigh; young man holding the cup looks away, face in his free hand; Xanthippe glances back from the stairway; David's full signature under Crito, initials under Plato; Plato was young at Socrates' death but shown old.",
+    "VERIFIED, Mental Floss: Plato 'wasn't actually present at the scene', about 29 then; 'L. David' on the bench under Crito, 'L.D.' on Plato's bench; Xanthippe in the hallway waving her hand.",
+    "GENERAL (low risk): trial 399 BC, Socrates about 70, charged with corrupting the youth and impiety; in Plato's Crito his friends arrange an escape and he refuses. Plato's absence: Phaedo says Plato was ill. Not re-sourced today.",
+    "Slide 3 says 'one finger pointing up': check on the image (his raised hand points upward). Slide 8: Xanthippe is small on the stairs in the background; widen the box if needed.",
+    "Focus boxes estimated; re-tune on the real image."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "He could have run. He chose the poison.",
+      "sub": "Jacques-Louis David, The Death of Socrates, 1787"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Athens, 399 BC",
+      "text": "Athens condemns its wisest man. Socrates, about 70, is accused of corrupting the young. His sentence: drink a cup of hemlock."
+    },
+    {
+      "focus": [
+        0.61,
+        0.44,
+        0.24,
+        0.4
+      ],
+      "headline": "Still teaching",
+      "text": "His friends had arranged an escape. He refused it. Now, in his last minutes, he is still teaching, one hand raised toward the sky."
+    },
+    {
+      "focus": [
+        0.46,
+        0.45,
+        0.22,
+        0.24
+      ],
+      "headline": "The cup",
+      "text": "His other hand reaches for the poison without even looking at it. Yet the young man handing it over cannot bear to watch."
+    },
+    {
+      "focus": [
+        0.74,
+        0.66,
+        0.24,
+        0.46
+      ],
+      "headline": "Crito",
+      "text": "His old friend Crito grips his leg, pleading with his eyes. And under Crito, David signed his full name."
+    },
+    {
+      "focus": [
+        0.22,
+        0.64,
+        0.26,
+        0.42
+      ],
+      "headline": "The old man",
+      "text": "At the foot of the bed, an old man slumps, turned away from it all. This is Plato, who later wrote the scene down."
+    },
+    {
+      "focus": [
+        0.225,
+        0.78,
+        0.08,
+        0.07
+      ],
+      "headline": "A deliberate mistake",
+      "text": "But Plato was young then, and he wasn't even in the room. David made him old, and painted his own initials under him."
+    },
+    {
+      "focus": [
+        0.2,
+        0.45,
+        0.12,
+        0.2
+      ],
+      "headline": "Leaving",
+      "text": "Up the stairs, his wife Xanthippe turns back for one last look, as she is led away."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "His choice",
+      "text": "Paris called it a masterpiece in 1787. Socrates chose death over running from his own beliefs. Would you have taken the escape?"
+    }
+  ]
+}

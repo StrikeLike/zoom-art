@@ -1,0 +1,100 @@
+{
+  "title": "Past and Present No. 1",
+  "artist": "Augustus Egg",
+  "year": "1858",
+  "image": "image.jpg",
+  "source": "Tate Britain, London (public domain). Wikimedia Commons: Past and Present Number One.jpg (1536 x 1272 px, upscaled)",
+  "caption": "One letter just destroyed this family. #victorian #betrayal #augustusegg #oilpainting #hiddendetails",
+  "_verify": [
+    "VERIFIED, Wikipedia EN (en.wikipedia.org/wiki/Past_and_Present_(paintings)): three oil paintings 1858, Tate since 1918; shown untitled at the Royal Academy with a fictional diary entry; No. 1: wife collapsed on the carpet, gold serpent bracelet looks like manacles; husband stunned holding a letter revealing the affair, his foot on a miniature portrait of her lover; apple cut in two, one half pierced by a knife, the other on the floor near her; daughters' house of cards built on a Balzac novel collapsing; mirror reflects the open door, packed bag and umbrella hint at her departure; No. 2: years later, the night of the husband's death, daughters; No. 3: the wife under the Adelphi Arches by the Thames holding a bundle with an infant's legs; 'The artist leaves the viewer to determine whether the woman should be condemned or pitied.'",
+    "IMAGE small (1536 px), AI-upscaled: the miniature under his foot and the apple are tiny; keep boxes >= 0.14 and check they read.",
+    "Focus boxes estimated; re-tune on the real image (husband right, wife on the floor, daughters left, mirror/door, apple)."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "One letter just destroyed this family.",
+      "sub": "Augustus Egg, Past and Present No. 1, 1858"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "London, 1858",
+      "text": "A comfortable London drawing room, 1858. It looks like an ordinary afternoon. But something has just happened here. Look for the clues."
+    },
+    {
+      "focus": [
+        0.76,
+        0.53,
+        0.32,
+        0.42
+      ],
+      "headline": "The letter",
+      "text": "The husband sits frozen, a letter in his hand. It has just told him everything: his wife has been unfaithful."
+    },
+    {
+      "focus": [
+        0.7,
+        0.86,
+        0.5,
+        0.26
+      ],
+      "headline": "On the floor",
+      "text": "His wife lies collapsed on the carpet at his feet, her face buried in her arms. She cannot even look at him."
+    },
+    {
+      "focus": [
+        0.88,
+        0.92,
+        0.2,
+        0.14
+      ],
+      "headline": "Gold chains",
+      "text": "Look at her wrists: gold serpent bracelets, almost like handcuffs. And in the dark, under his shoe, lies a crushed portrait of her lover."
+    },
+    {
+      "focus": [
+        0.45,
+        0.72,
+        0.16,
+        0.4
+      ],
+      "headline": "The apple",
+      "text": "On the table, an apple cut in two. One half is pierced by a knife, the other has rolled to the floor near her."
+    },
+    {
+      "focus": [
+        0.17,
+        0.62,
+        0.32,
+        0.34
+      ],
+      "headline": "House of cards",
+      "text": "Meanwhile, their two little daughters play, unaware. Their house of cards, built on a French novel by Balzac, is collapsing."
+    },
+    {
+      "focus": [
+        0.58,
+        0.34,
+        0.18,
+        0.18
+      ],
+      "headline": "The open door",
+      "text": "And in the mirror, the door stands open, as if she is already leaving. Egg painted two more scenes of what came next."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Condemn or pity?",
+      "text": "Years later he is dead, and she is homeless by the Thames, holding a baby. Egg never judged her. Would you?"
+    }
+  ]
+}

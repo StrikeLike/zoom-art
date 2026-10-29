@@ -1,0 +1,102 @@
+{
+  "title": "The Third of May 1808",
+  "artist": "Francisco Goya",
+  "year": "1814",
+  "image": "image.jpg",
+  "source": "Museo del Prado, Madrid (public domain). Wikimedia Commons: El Tres de Mayo, by Francisco de Goya, from Prado thin black margin.jpg (29294 x 22626 px, downscaled)",
+  "caption": "He has seconds to live. Look at his hands. #napoleonicwars #spanishhistory #goya #masterpiece #hiddendetails",
+  "_verify": [
+    "VERIFIED, Wikipedia EN (en.wikipedia.org/wiki/The_Third_of_May_1808): oil on canvas 1814, 268 x 347 cm, Prado; Dos de Mayo uprising 2 May 1808 against the French occupation; before dawn on 3 May hundreds of Spaniards rounded up and shot; central man arms flung wide 'in either appeal or defiance', white shirt, labourer; stigmata-like mark on his right hand; square lantern on the ground is the light source; firing squad seen from behind, faces not visible; monk in prayer among victims; corpses lower left; townscape with steeple; Picasso's Guernica cites it as influence; Kenneth Clark: 'the first great picture which can be called revolutionary'.",
+    "CAUTIOUS: unknown whether Goya witnessed the events; slides don't claim he did.",
+    "NO GORE: no focus on the dead in the lower left. Slide 6 box is the raised right hand only (on the viewer's left side of the man): check the mark is visible; if not, widen to hand+arm.",
+    "Slide 8: the line of prisoners climbing behind the man, some covering their faces. Check position on the real image.",
+    "Focus boxes estimated from memory of the composition; re-tune on the real image."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "He has seconds to live. Look at his hands.",
+      "sub": "Francisco Goya, The Third of May 1808, 1814"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Madrid, 3 May 1808",
+      "text": "The day before, Madrid rose up against Napoleon's army. Before dawn, the French round up hundreds of people and shoot them on a hillside."
+    },
+    {
+      "focus": [
+        0.765,
+        0.62,
+        0.47,
+        0.56
+      ],
+      "headline": "No faces",
+      "text": "On the right, the firing squad. Goya hides every single face. They are no longer men, just a machine of rifles, boots and bayonets."
+    },
+    {
+      "focus": [
+        0.6,
+        0.73,
+        0.17,
+        0.22
+      ],
+      "headline": "One lantern",
+      "text": "The only light comes from a lantern on the ground. It falls on the victims alone, while the soldiers stay in the dark."
+    },
+    {
+      "focus": [
+        0.31,
+        0.54,
+        0.26,
+        0.4
+      ],
+      "headline": "The white shirt",
+      "text": "And it falls on him. A labourer in a white shirt, arms flung wide. Is he begging for his life, or daring them to fire?"
+    },
+    {
+      "focus": [
+        0.215,
+        0.4,
+        0.08,
+        0.07
+      ],
+      "headline": "His palm",
+      "text": "Look at his raised right hand. Critics see a mark in the palm, like the wound of a nail. Like a man on a cross."
+    },
+    {
+      "focus": [
+        0.26,
+        0.62,
+        0.16,
+        0.22
+      ],
+      "headline": "The monk",
+      "text": "Beside him, a monk kneels with his hands clasped in prayer. But tonight, prayer will not stop the volley."
+    },
+    {
+      "focus": [
+        0.42,
+        0.55,
+        0.16,
+        0.18
+      ],
+      "headline": "Next in line",
+      "text": "Behind them, the next prisoners climb the hill, hiding their faces. They already know what the next shot means."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "No heroes",
+      "text": "Goya painted it six years later, in 1814. No glory, only fear. Picasso's Guernica would echo it. What would you have done?"
+    }
+  ]
+}

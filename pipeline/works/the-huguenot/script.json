@@ -1,0 +1,101 @@
+{
+  "title": "A Huguenot, on St. Bartholomew's Day",
+  "artist": "John Everett Millais",
+  "year": "1852",
+  "image": "image.jpg",
+  "source": "Makins Collection, private (public domain). Wikimedia Commons: Sir John Everett Millais. A Huguenot, on St. Bartholomew's Day Refusing to Shield Himself from Danger by Wearing the Roman Catholic Badge..jpg (1630 x 2509 px, upscaled)",
+  "caption": "She can save his life with one ribbon. #lovestory #frenchhistory #millais #preraphaelite #storytime",
+  "_verify": [
+    "VERIFIED, Wikipedia EN (en.wikipedia.org/wiki/A_Huguenot): Millais 1851-52, shown at the Royal Academy 1852 with the Duke of Guise's order that 'each good Catholic must bind a strip of white linen round his arm'; a Catholic woman tries to get her Protestant lover to wear the white armband, he pulls it off while embracing her and gazes at her pleading face; massacre 24 August 1572, about 3,000 Huguenots killed in Paris, ~20,000 in France; a few escaped by wearing white armbands; background painted from a real brick wall beside an orchard near Ewell, Surrey; blue Canterbury bells may signify faith and constancy; models Arthur Lemprière and Anne Ryan; Makins Collection (private).",
+    "CAUTIOUS: Canterbury bells meaning is 'may signify' in the source; slide 8 says 'often a sign of'.",
+    "IMAGE small (1630 px), AI-upscaled: avoid very tight zooms on faces; check faces are not distorted.",
+    "Focus boxes estimated; re-tune on the real image (which side each lover stands, where the armband and his hand are)."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "She can save his life with one ribbon.",
+      "sub": "John Everett Millais, A Huguenot, on St. Bartholomew's Day, 1852"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Paris, August 1572",
+      "text": "Paris, 24 August 1572. Catholic mobs are about to hunt down the Protestants, the Huguenots. Thousands will be dead by morning."
+    },
+    {
+      "focus": [
+        0.5,
+        0.33,
+        0.72,
+        0.52
+      ],
+      "headline": "Two lovers",
+      "text": "Behind a garden wall, two lovers meet in secret. She is Catholic. He is a Huguenot. And she knows what is coming."
+    },
+    {
+      "focus": [
+        0.45,
+        0.225,
+        0.18,
+        0.12
+      ],
+      "headline": "Her plea",
+      "text": "Look at her face, lifted up to his. She is begging him, because she has found a way to save him."
+    },
+    {
+      "focus": [
+        0.56,
+        0.32,
+        0.36,
+        0.14
+      ],
+      "headline": "The white band",
+      "text": "The order says every good Catholic must tie a strip of white linen round his arm. She is tying it on him."
+    },
+    {
+      "focus": [
+        0.56,
+        0.36,
+        0.26,
+        0.13
+      ],
+      "headline": "His answer",
+      "text": "But look at his hand. While he holds her close, he is quietly pulling the band away. He will not pretend."
+    },
+    {
+      "focus": [
+        0.57,
+        0.15,
+        0.18,
+        0.12
+      ],
+      "headline": "His choice",
+      "text": "He looks at her calmly. His mind is made up. To wear it would mean denying his faith, even to stay alive."
+    },
+    {
+      "focus": [
+        0.1,
+        0.72,
+        0.24,
+        0.16
+      ],
+      "headline": "The garden",
+      "text": "At the edge of the wall grow Canterbury bells, often a sign of faith and constancy. Millais painted every brick of this wall from life."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Love or faith",
+      "text": "About 3,000 people died in Paris that day. Millais never tells us his fate. Would you have worn the ribbon?"
+    }
+  ]
+}

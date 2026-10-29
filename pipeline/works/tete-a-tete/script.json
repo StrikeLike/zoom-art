@@ -1,0 +1,101 @@
+{
+  "title": "Marriage A-la-Mode: 2, The Tête à Tête",
+  "artist": "William Hogarth",
+  "year": "c. 1743",
+  "image": "image.jpg",
+  "source": "National Gallery, London (public domain). Wikimedia Commons: William Hogarth - Marriage A-la-Mode 2 The Tête à Tête.jpg (5547 x 4226 px)",
+  "caption": "What did they do last night? #scandal #georgian #hogarth #artlovers #hiddendetails",
+  "_verify": [
+    "VERIFIED, National Gallery (nationalgallery.org.uk/paintings/william-hogarth-marriage-a-la-mode-2-the-tete-a-tete): clock shows shortly after noon; the bride stretches sleepily after a night of cards; two fiddle cases on an overturned chair suggest more intimate activities than whist; the steward rolls his eyes up to heaven as he leaves with a wad of unpaid bills; the small dog tugs a girl's muslin cap out of the husband's pocket; the sword is broken; servant in hair curlers in the next room; the Viscountess may be signalling with a pocket mirror.",
+    "VERIFIED, Wikipedia EN (Marriage A-la-Mode (Hogarth)): six paintings 1743-45; arranged marriage between a bankrupt earl's son and a merchant's daughter; he later catches her with her lover, a lawyer, and is fatally wounded; the lover is hanged; she poisons herself.",
+    "Left out: the syphilis mark on his neck, the curtained painting with a bare foot (keep it clean).",
+    "Focus boxes estimated; re-tune on the real image (wife left in chair, husband right of centre, dog at his pocket, broken sword at his feet, steward on the left, overturned chair with fiddle cases)."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "What did they do last night?",
+      "sub": "William Hogarth, Marriage A-la-Mode: The Tête à Tête, c. 1743"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "London, after noon",
+      "text": "Just after noon in a grand London house. A young lord and the merchant's daughter he married for money have only just got up."
+    },
+    {
+      "focus": [
+        0.54,
+        0.57,
+        0.24,
+        0.44
+      ],
+      "headline": "The bride",
+      "text": "She stretches and yawns. Last night she hosted a card party that lasted until dawn. Or was it only cards?"
+    },
+    {
+      "focus": [
+        0.17,
+        0.86,
+        0.36,
+        0.22
+      ],
+      "headline": "Fiddle cases",
+      "text": "Look at the overturned chair, with two fiddle cases piled on it. Someone was playing more than cards in this house."
+    },
+    {
+      "focus": [
+        0.78,
+        0.63,
+        0.38,
+        0.5
+      ],
+      "headline": "The husband",
+      "text": "Meanwhile, he has only just come home. He slumps in his chair, exhausted, not even looking at his wife."
+    },
+    {
+      "focus": [
+        0.89,
+        0.74,
+        0.17,
+        0.19
+      ],
+      "headline": "The dog knows",
+      "text": "But the little dog has found something in his pocket: a woman's lace cap. And it isn't his wife's."
+    },
+    {
+      "focus": [
+        0.86,
+        0.915,
+        0.22,
+        0.08
+      ],
+      "headline": "A broken sword",
+      "text": "At his feet lies his sword, snapped in two. Did he fight someone last night? Hogarth leaves us guessing."
+    },
+    {
+      "focus": [
+        0.13,
+        0.57,
+        0.22,
+        0.58
+      ],
+      "headline": "The steward",
+      "text": "On the left, the steward walks out, eyes rolled up to heaven, clutching a pile of unpaid bills. The money is running out."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "How it ends",
+      "text": "This is scene two of six. By the end, he is killed by her lover, and she poisons herself. Who is more to blame?"
+    }
+  ]
+}

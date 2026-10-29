@@ -1,0 +1,101 @@
+{
+  "title": "The Kiss",
+  "artist": "Francesco Hayez",
+  "year": "1859",
+  "image": "image.jpg",
+  "source": "Pinacoteca di Brera, Milan (public domain). Wikimedia Commons: El Beso (Pinacoteca de Brera, Milán, 1859).jpg (6329 x 7885 px)",
+  "caption": "Why is he hiding his face? #romance #italianhistory #hayez #masterpiece #hiddenmessage",
+  "_verify": [
+    "VERIFIED, Wikipedia EN (en.wikipedia.org/wiki/The_Kiss_(Hayez)): 1859, Pinacoteca di Brera, commissioned by Count Alfonso Maria Visconti di Saliceto (given to the Brera 1886); read as a tribute to the alliance between France and the Kingdom of Sardinia against Austria, blue and red tones echoing the French flag; ambiguous metaphors to avoid censorship, couple not identifiable; a dagger hidden in the man's cloak suggests rebellion; his foot on the step suggests he is about to leave, she grips him tightly; shadowy forms on the left suggest conspiracy and danger; symbol of the ideals of Italian unification; later versions 1861 (white dress) and one with a green cloak.",
+    "GENERAL (low risk): in 1859 Italy was not yet unified; Lombardy (Milan) was under Austrian rule until June 1859.",
+    "CAUTIOUS: dagger is 'some see' on slide 9; check whether anything is visible; if not, keep the wording as is (it is an interpretation).",
+    "Focus boxes estimated; re-tune on the real image."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Why is he hiding his face?",
+      "sub": "Francesco Hayez, The Kiss, 1859"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Milan, 1859",
+      "text": "Milan, 1859. Italy is not yet one country, and the north is ruled by Austria. Censors watch every painting. Then Hayez paints a kiss."
+    },
+    {
+      "focus": [
+        0.5,
+        0.55,
+        0.5,
+        0.8
+      ],
+      "headline": "A medieval kiss",
+      "text": "A young couple in medieval clothes, in a stone hallway. It looks like a simple love scene. But nothing here is simple."
+    },
+    {
+      "focus": [
+        0.5,
+        0.3,
+        0.26,
+        0.2
+      ],
+      "headline": "Hidden face",
+      "text": "His face is hidden under his hat. We never learn who he is. Hayez made the couple impossible to identify, on purpose."
+    },
+    {
+      "focus": [
+        0.68,
+        0.79,
+        0.2,
+        0.14
+      ],
+      "headline": "One foot on the step",
+      "text": "Look down: his foot is already on the step. He is not arriving. He is leaving, maybe for good."
+    },
+    {
+      "focus": [
+        0.4,
+        0.34,
+        0.18,
+        0.14
+      ],
+      "headline": "Her grip",
+      "text": "She holds him tightly, as if she knows it. This is not a first kiss. It is a farewell."
+    },
+    {
+      "focus": [
+        0.05,
+        0.63,
+        0.1,
+        0.12
+      ],
+      "headline": "The shadow",
+      "text": "And on the left, a dark figure lurks in the corridor. Someone is watching them. Danger, a conspiracy, a secret."
+    },
+    {
+      "focus": [
+        0.5,
+        0.6,
+        0.5,
+        0.6
+      ],
+      "headline": "The colours",
+      "text": "Now the colours: her blue, his red. Many read them as the French flag, Italy's new ally against Austria. A political message."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "A secret message",
+      "text": "It became a symbol of Italian unity. Some even see a dagger hidden in his cloak. Love story, or call to arms?"
+    }
+  ]
+}

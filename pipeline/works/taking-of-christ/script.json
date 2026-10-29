@@ -1,0 +1,100 @@
+{
+  "title": "The Taking of Christ",
+  "artist": "Caravaggio",
+  "year": "1602",
+  "image": "image.jpg",
+  "source": "On indefinite loan to the National Gallery of Ireland, Dublin, from the Jesuit Community, Leeson Street (public domain). Wikimedia Commons: Caravaggio, cattura di cristo, 1602, dalla casa gesuitica di leeson street a dublino 01,0.jpg (photo by Sailko at the National Gallery of Ireland, 4088 x 3262 px, frame cropped)",
+  "caption": "One kiss. Then this masterpiece vanished. #caravaggio #betrayal #baroque #masterpiece #lostart",
+  "_verify": [
+    "VERIFIED, Wikipedia EN (en.wikipedia.org/wiki/The_Taking_of_Christ_(Caravaggio)): c. 1602 for Ciriaco Mattei; Judas has just kissed Jesus to identify him to the soldiers; a soldier's polished metal armour at the centre; St John flees at the far left while a soldier grabs his cloak; the lantern holder is believed to be a self-portrait of Caravaggio; long considered a copy after a lost original by Gerard van Honthorst (error in the Mattei records and the 1802 sale); recognised in the early 1990s by Sergio Benedetti, conservator at the National Gallery of Ireland, at the Jesuit residence in Leeson Street, Dublin; on indefinite loan to the NGI.",
+    "CAUTIOUS: 'red cloak' for John: check the colour on the image; 'hands folded': check (Jesus' hands are clasped/interlocked).",
+    "Focus boxes estimated; re-tune on the real image (John far left, Jesus and Judas left of centre, armour centre, lantern holder right)."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "One kiss. Then this masterpiece vanished.",
+      "sub": "Caravaggio, The Taking of Christ, 1602"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Night in the garden",
+      "text": "Night, in the garden of Gethsemane. Caravaggio crowds everyone into one tight, dark frame, so close you feel pushed into the scene."
+    },
+    {
+      "focus": [
+        0.3,
+        0.34,
+        0.26,
+        0.24
+      ],
+      "headline": "The kiss",
+      "text": "Judas has just kissed Jesus. It was the signal for the soldiers: the man I kiss is the one you want."
+    },
+    {
+      "focus": [
+        0.45,
+        0.9,
+        0.16,
+        0.12
+      ],
+      "headline": "Clasped hands",
+      "text": "Jesus does not fight back. His face is sad, his hands clasped, while the arrest closes in around him."
+    },
+    {
+      "focus": [
+        0.48,
+        0.5,
+        0.34,
+        0.36
+      ],
+      "headline": "Shining armour",
+      "text": "In the centre, a soldier's polished armour shines like a mirror. Cold metal, grabbing a man in plain clothes."
+    },
+    {
+      "focus": [
+        0.18,
+        0.3,
+        0.36,
+        0.4
+      ],
+      "headline": "Running away",
+      "text": "On the far left, a young follower, John, screams and runs, as a soldier grabs his cloak."
+    },
+    {
+      "focus": [
+        0.85,
+        0.24,
+        0.2,
+        0.22
+      ],
+      "headline": "The lantern",
+      "text": "And on the right, a man raises a lantern to see better. Experts believe it is Caravaggio himself, watching the betrayal."
+    },
+    {
+      "focus": [
+        0.5,
+        0.45,
+        0.7,
+        0.6
+      ],
+      "headline": "Lost",
+      "text": "Then the painting disappeared from view. For two centuries, people thought it was only a copy by a Dutch painter, Honthorst."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Found in Dublin",
+      "text": "In the early 1990s, a restorer recognised it in a Jesuit house in Dublin. How many masterpieces still hide in plain sight?"
+    }
+  ]
+}
