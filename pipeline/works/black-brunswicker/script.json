@@ -1,0 +1,102 @@
+{
+  "title": "The Black Brunswicker",
+  "artist": "John Everett Millais",
+  "year": "1860",
+  "image": "image.jpg",
+  "source": "Lady Lever Art Gallery, Port Sunlight (public domain). Wikimedia Commons: John Everett Millais The Black Brunswicker.jpg (1768 x 2672 px, upscale)",
+  "caption": "One door. One night before the battle. #waterloo #lovestory #millais #preraphaelite #storytime",
+  "_verify": [
+    "VERIFIED, Wikipedia EN (The Black Brunswicker): 1860, Lady Lever Art Gallery; a Brunswick soldier leaves for battle, his sweetheart in a ballgown pushes the door shut while he pulls it open; linked to the Duchess of Richmond's ball, 15 June 1815, before Quatre Bras; her dog watches; engraving of David's Napoleon Crossing the Alps on the wall; model Kate Perugini (Dickens's daughter); the soldier's model posed separately, the two never met; pendant to A Huguenot; Gambart paid 1,000 guineas.",
+    "GENERAL HISTORY (low risk): Brunswick troops wore black with a death's-head badge; Duke Frederick William of Brunswick was killed at Quatre Bras on 16 June 1815.",
+    "CHECK ON IMAGE: skull badge on the cap (slide 3), red ribbon on the dog (slide 6).",
+    "IMAGE small (1768 px), upscale; check faces.",
+    "Focus boxes estimated without seeing the image; re-tune on the real image and fix any text that names a detail that is not visible."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "One door. One night before the battle.",
+      "sub": "John Everett Millais, The Black Brunswicker, 1860"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Brussels, 1815",
+      "text": "Brussels, June 1815. Napoleon's army is close. That night, at the Duchess of Richmond's ball, officers are called away to fight."
+    },
+    {
+      "focus": [
+        0.36,
+        0.27,
+        0.24,
+        0.2
+      ],
+      "headline": "The soldier",
+      "text": "He wears the black uniform of the Brunswick troops, with its silver skull badge. His regiment marches at first light."
+    },
+    {
+      "focus": [
+        0.7,
+        0.35,
+        0.36,
+        0.3
+      ],
+      "headline": "The door",
+      "text": "He pulls the door open, ready to leave. She pushes it shut with her hand. For a moment, neither of them lets go."
+    },
+    {
+      "focus": [
+        0.55,
+        0.25,
+        0.26,
+        0.2
+      ],
+      "headline": "Her",
+      "text": "She is still in her ballgown, pressing against him, eyes lowered. She cannot ask him to stay, but she won't let him go."
+    },
+    {
+      "focus": [
+        0.18,
+        0.78,
+        0.22,
+        0.26
+      ],
+      "headline": "The dog",
+      "text": "At their feet, her little dog with a red ribbon looks up at them both. Even it seems to know."
+    },
+    {
+      "focus": [
+        0.12,
+        0.17,
+        0.26,
+        0.3
+      ],
+      "headline": "On the wall",
+      "text": "On the wall hangs a print of Napoleon crossing the Alps. The enemy he must go and fight is already in the room."
+    },
+    {
+      "focus": [
+        0.45,
+        0.45,
+        0.7,
+        0.6
+      ],
+      "headline": "The models",
+      "text": "The woman was Kate, the daughter of Charles Dickens. The soldier posed separately. The two models never actually met."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Quatre Bras",
+      "text": "The next day, at Quatre Bras, the Duke of Brunswick himself was killed. Millais never tells us if this soldier came back. Did he?"
+    }
+  ]
+}

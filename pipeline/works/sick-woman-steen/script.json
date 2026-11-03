@@ -1,0 +1,101 @@
+{
+  "title": "The Sick Woman",
+  "artist": "Jan Steen",
+  "year": "about 1663-66",
+  "image": "image.jpg",
+  "source": "Rijksmuseum, Amsterdam, SK-C-230 (public domain). Wikimedia Commons: De zieke vrouw Rijksmuseum SK-C-230.jpeg (4478 x 5396 px)",
+  "caption": "She isn't really sick. Find the clue. #dutchgoldenage #rijksmuseum #jansteen #genrepainting #hiddendetails",
+  "_verify": [
+    "VERIFIED, Rijksmuseum SK-C-230 (The Sick Woman, c. 1663-66, 76 x 63.5 cm): a young woman leans her head on a cushion while a doctor takes her pulse; bed, lute and clock in the background; a stove and a small test at lower left: a quack would put a strip of the patient's clothing in a brazier and the smell would reveal her secret (pregnancy); the doctor's old-fashioned clothes mark him as a comic charlatan. Hektoen International: 'the doctor has placed a piece of the woman's dress in a heated vessel as a test for pregnancy'.",
+    "GENERAL (low risk): Steen painted many doctor's-visit scenes; lute as a love symbol is a common Dutch genre convention.",
+    "Title: use 'The Sick Woman' (Rijksmuseum title), not 'The Doctor's Visit'.",
+    "Focus boxes estimated without seeing the image; re-tune on the real image and fix any text that names a detail that is not visible."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "She isn't really sick. Find the clue.",
+      "sub": "Jan Steen, The Sick Woman, about 1663-66"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "A house call",
+      "text": "A Dutch home in the 1660s. A young woman leans weakly on a pillow. The doctor has come, and he takes her pulse very seriously."
+    },
+    {
+      "focus": [
+        0.5,
+        0.45,
+        0.22,
+        0.16
+      ],
+      "headline": "The patient",
+      "text": "She looks pale and tired, her head resting on a cushion. But Steen's buyers would have smiled the moment they saw her."
+    },
+    {
+      "focus": [
+        0.68,
+        0.45,
+        0.36,
+        0.5
+      ],
+      "headline": "The doctor",
+      "text": "Look at his clothes: old-fashioned, almost theatrical. In Steen's time this costume meant one thing: a quack, a comic fake doctor."
+    },
+    {
+      "focus": [
+        0.22,
+        0.89,
+        0.3,
+        0.16
+      ],
+      "headline": "The test",
+      "text": "Down in the corner, a small heated vessel. Inside, a strip of her dress is burning. It is an old folk test."
+    },
+    {
+      "focus": [
+        0.35,
+        0.58,
+        0.42,
+        0.5
+      ],
+      "headline": "The secret",
+      "text": "Quacks claimed the smell of the burning cloth would reveal her condition. She is not ill at all. She is pregnant."
+    },
+    {
+      "focus": [
+        0.22,
+        0.3,
+        0.44,
+        0.36
+      ],
+      "headline": "The bed",
+      "text": "Behind them stands the bed. In Steen's paintings, details like this were jokes the viewer was meant to catch."
+    },
+    {
+      "focus": [
+        0.72,
+        0.2,
+        0.56,
+        0.24
+      ],
+      "headline": "Lute and clock",
+      "text": "Nearby hang a lute, an old symbol of love, and a clock. Time is passing, and soon everyone will know."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Lovesick",
+      "text": "Steen painted scenes like this again and again, and buyers loved them. The real illness? Love. So who is the father?"
+    }
+  ]
+}

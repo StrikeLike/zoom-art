@@ -1,0 +1,102 @@
+{
+  "title": "The Assassination of the Duke of Guise",
+  "artist": "Paul Delaroche",
+  "year": "1834",
+  "image": "image.jpg",
+  "source": "Musée Condé, Chantilly (public domain). Wikimedia Commons: Paul Delaroche - L'assassinat du duc de Guise au chateau de Blois en 1588 - Google Art Project.jpg (4207 x 2408 px). Verify the file description says Musée Condé (the 1834 oil), not a replica or the 1832 watercolour.",
+  "caption": "A duke lies dead. Who gave the order? #truecrime #frenchhistory #delaroche #renaissance #storytime",
+  "_verify": [
+    "VERIFIED, Wikipedia EN (The Assassination of the Duke of Guise (Delaroche)): 1834, 57 x 98 cm, Musée Condé; assassination of Henry I, Duke of Guise, by Henry III's guard (the Forty-Five) on 23 December 1588 at Blois; Henry III appears from behind a curtain to see the body. Victorian Web: murder in the king's own bedroom at Blois; Delaroche presents Guise as a sort of Christian martyr.",
+    "GENERAL HISTORY (low risk): Guise led the Catholic League and was hugely popular; summoned early in the morning and stabbed; Henry III was himself assassinated in August 1589.",
+    "CAUTIOUS: 'taller dead than alive' is a traditional anecdote, phrased as legend on slide 7.",
+    "Small figures: zoom boxes must stay readable; if the king is tiny, widen slide 6-7 boxes.",
+    "Focus boxes estimated without seeing the image; re-tune on the real image and fix any text that names a detail that is not visible."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "A duke lies dead. Who gave the order?",
+      "sub": "Paul Delaroche, The Assassination of the Duke of Guise, 1834"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Blois, 1588",
+      "text": "Château de Blois, 23 December 1588. France is torn apart by religious war, and one man is more popular than the king himself."
+    },
+    {
+      "focus": [
+        0.8,
+        0.86,
+        0.34,
+        0.16
+      ],
+      "headline": "The duke",
+      "text": "Henry, Duke of Guise, leader of the Catholic League, lies dead on the floor. A few minutes ago he was the most feared man in France."
+    },
+    {
+      "focus": [
+        0.32,
+        0.68,
+        0.36,
+        0.46
+      ],
+      "headline": "The killers",
+      "text": "Across the room, his killers wait, still holding their weapons. They are the king's own bodyguards, the Forty-Five."
+    },
+    {
+      "focus": [
+        0.88,
+        0.55,
+        0.26,
+        0.8
+      ],
+      "headline": "The bedroom",
+      "text": "And this is the king's own bedroom. The duke was summoned early in the morning and stabbed as he came in."
+    },
+    {
+      "focus": [
+        0.12,
+        0.62,
+        0.16,
+        0.34
+      ],
+      "headline": "The king",
+      "text": "Now look at the curtain. Stepping out from behind it: King Henry III himself. He ordered the murder, and now he comes to look."
+    },
+    {
+      "focus": [
+        0.12,
+        0.57,
+        0.1,
+        0.16
+      ],
+      "headline": "Taller dead",
+      "text": "Legend says the king stared at the body and said the duke looked even taller dead than alive."
+    },
+    {
+      "focus": [
+        0.8,
+        0.84,
+        0.38,
+        0.2
+      ],
+      "headline": "A martyr?",
+      "text": "Yet Delaroche lays the duke out almost like a Christian martyr. The killer is a king, and the victim looks like a saint."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "What came next",
+      "text": "The murder did not end the war. Months later, Henry III was stabbed to death himself. Who was the real villain here?"
+    }
+  ]
+}

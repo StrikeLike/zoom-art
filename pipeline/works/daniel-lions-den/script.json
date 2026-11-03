@@ -1,0 +1,101 @@
+{
+  "title": "Daniel in the Lions' Den",
+  "artist": "Briton Rivière",
+  "year": "1872",
+  "image": "image.jpg",
+  "source": "Walker Art Gallery, Liverpool (public domain; verify museum in the Commons file description). Wikimedia Commons: Daniel in the Lions' Den, by Briton Rivière.jpg (1600 x 1006 px, upscale)",
+  "caption": "Thrown to the lions. Why don't they attack? #biblestory #lions #animalart #victorianart #storytime",
+  "_verify": [
+    "VERIFIED (pmamtraveller substack on the 1872 painting): Daniel with bowed head and bound hands; lions around him not attacking, in states of rest and mild curiosity; very naturalistic fur, muscles and faces. Bible, Daniel 6: Daniel, an official of King Darius, prays despite the royal decree (set up by jealous rivals); the king cannot revoke his own law; the den is sealed with a stone; the king spends the night without food or sleep; at dawn Daniel is alive, an angel shut the lions' mouths.",
+    "CHECK ON IMAGE: where Daniel stands and whether his hands are tied behind his back (slides 3-4 say only 'tied'); museum Walker Art Gallery to confirm.",
+    "IMAGE small (1600 px), upscale; avoid very tight zooms.",
+    "Focus boxes estimated without seeing the image; re-tune on the real image and fix any text that names a detail that is not visible."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Thrown to the lions. Why don't they attack?",
+      "sub": "Briton Rivière, Daniel in the Lions' Den, 1872"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Babylon",
+      "text": "Babylon. Daniel, a trusted official of King Darius, is caught praying to his God against a royal order. The punishment: the lions."
+    },
+    {
+      "focus": [
+        0.79,
+        0.58,
+        0.16,
+        0.72
+      ],
+      "headline": "Daniel",
+      "text": "His hands are tied. He has no weapon and nowhere to run. He does not fight or beg. He simply stands and waits."
+    },
+    {
+      "focus": [
+        0.79,
+        0.3,
+        0.12,
+        0.14
+      ],
+      "headline": "Head bowed",
+      "text": "His head is bowed. Is it fear, or prayer? Rivière never shows us his eyes, only his stillness."
+    },
+    {
+      "focus": [
+        0.38,
+        0.6,
+        0.72,
+        0.5
+      ],
+      "headline": "The lions",
+      "text": "The lions gather around him, huge and close enough to touch. But look at them: restless, curious, not attacking."
+    },
+    {
+      "focus": [
+        0.57,
+        0.52,
+        0.22,
+        0.24
+      ],
+      "headline": "Real beasts",
+      "text": "Rivière was a famous animal painter. Look at the fur, the muscles, the eyes: these lions feel completely real."
+    },
+    {
+      "focus": [
+        0.13,
+        0.58,
+        0.16,
+        0.22
+      ],
+      "headline": "The trap",
+      "text": "Jealous rivals had pushed the king into that order just to catch Daniel. Darius liked him, but could not take back his own law."
+    },
+    {
+      "focus": [
+        0.5,
+        0.3,
+        0.9,
+        0.5
+      ],
+      "headline": "The night",
+      "text": "In the Bible, the king seals the den with a stone, then spends the whole night unable to eat or sleep."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Morning",
+      "text": "At dawn, the king runs to the den. Daniel is alive: an angel shut the lions' mouths. Faith, or something else?"
+    }
+  ]
+}

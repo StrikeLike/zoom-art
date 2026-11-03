@@ -1,0 +1,101 @@
+{
+  "title": "Doña Juana la Loca (Joanna the Mad)",
+  "artist": "Francisco Pradilla",
+  "year": "1877",
+  "image": "image.jpg",
+  "source": "Museo del Prado, Madrid, P04584 (public domain). Wikimedia Commons: Doña Juana \"la Loca\" (Pradilla).jpg (3051 x 2088 px). Not the Buenos Aires or other copies.",
+  "caption": "She won't let them bury him. #spanishhistory #prado #pradilla #lovestory #storytime",
+  "_verify": [
+    "VERIFIED, Wikipedia EN (Doña Joanna the Mad): 1877, Prado; Joanna watches over the coffin of Philip I, who died suddenly; she stands upright, empty expression, hands clenched; courtiers look bored and tired; said to carry the coffin with her, believing he would wake; medal of honour at the 1878 National Exhibition in Madrid. Prado easy-read page: winter landscape at dusk; coffin moved from Burgos to Granada; they stopped at a convent, Joanna thought it was friars, it was nuns, so she refused to stay and took the coffin into the countryside; court rests by a bonfire, faces show boredom and compassion; a monk prays in front of her, a woman looks at her.",
+    "GENERAL HISTORY (low risk): Philip died in 1506 aged 28; Joanna was confined at Tordesillas for decades, by her father and later her son.",
+    "CAUTIOUS: jealousy as the reason for leaving the convent is phrased 'it is said' (slide 5).",
+    "Focus boxes estimated without seeing the image; re-tune on the real image and fix any text that names a detail that is not visible."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "She won't let them bury him.",
+      "sub": "Francisco Pradilla, Joanna the Mad, 1877"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Castile, 1506",
+      "text": "Castile, 1506. King Philip the Handsome dies suddenly, at just 28. His wife, Queen Joanna, will not let him rest."
+    },
+    {
+      "focus": [
+        0.33,
+        0.66,
+        0.32,
+        0.28
+      ],
+      "headline": "The coffin",
+      "text": "She has his coffin carried across Spain, from Burgos to Granada, in the middle of winter. The whole court must follow."
+    },
+    {
+      "focus": [
+        0.52,
+        0.58,
+        0.18,
+        0.56
+      ],
+      "headline": "The queen",
+      "text": "Here they stop in an open field. Joanna stands in black, perfectly still, eyes fixed on the coffin, hands clenched."
+    },
+    {
+      "focus": [
+        0.86,
+        0.27,
+        0.18,
+        0.12
+      ],
+      "headline": "The convent",
+      "text": "There was a convent nearby, but it belonged to nuns. Joanna refused to stay. It is said she would let no woman near him."
+    },
+    {
+      "focus": [
+        0.8,
+        0.6,
+        0.4,
+        0.6
+      ],
+      "headline": "The court",
+      "text": "So her courtiers huddle by a fire in the cold, exhausted and bored. Some look at her with pity. How many more nights?"
+    },
+    {
+      "focus": [
+        0.2,
+        0.55,
+        0.28,
+        0.32
+      ],
+      "headline": "The prayer",
+      "text": "A monk prays in front of her. A lady watches her face. People whispered that she believed her husband would wake up."
+    },
+    {
+      "focus": [
+        0.52,
+        0.38,
+        0.12,
+        0.14
+      ],
+      "headline": "Mad?",
+      "text": "Was she mad, or a widow whose grief no one understood? Her father, then her son, kept her locked away for decades."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Love or madness",
+      "text": "Pradilla's painting won the top medal in Madrid in 1878 and made her story famous. Was it love, or madness?"
+    }
+  ]
+}

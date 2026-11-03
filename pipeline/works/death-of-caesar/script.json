@@ -1,0 +1,102 @@
+{
+  "title": "The Death of Caesar",
+  "artist": "Jean-Léon Gérôme",
+  "year": "1859-67",
+  "image": "image.jpg",
+  "source": "The Walters Art Museum, Baltimore (public domain). Wikimedia Commons: Jean-Léon Gérôme - The Death of Caesar - Walters 37884.jpg (1798 x 1057 px, upscale)",
+  "caption": "Caesar is dead. One man didn't move. #juliuscaesar #ancientrome #gerome #idesofmarch #storytime",
+  "_verify": [
+    "VERIFIED, Wikipedia EN (The Death of Caesar (Gérôme)): Walters; aftermath of the assassination on the Ides of March 44 BC at the Theatre of Pompey; 'Gérôme has depicted not the incident itself, but its immediate aftermath'. Eclectic Light (History of Rome in Paintings 14): body almost concealed in his toga; his chair overturned; footprints lead from the chair toward the petition, which lies by a floor mosaic of Medusa's head; conspirators walk away with backs to viewer brandishing blades; a white cloak abandoned on a seat, scrolls scattered, others hurrying away; a lone senator still sitting far off at the right edge.",
+    "GENERAL HISTORY (low risk): the murder led to civil war and the end of the Republic; warning note to Caesar is phrased as legend (slide 8).",
+    "NO graphic detail: do not zoom on the bloodstain or bloody footprints; slide 4 box shows the chair and floor, wide.",
+    "IMAGE small (1798 px), upscale; dark: brighten slightly.",
+    "Focus boxes estimated without seeing the image; re-tune on the real image and fix any text that names a detail that is not visible."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Caesar is dead. One man didn't move.",
+      "sub": "Jean-Léon Gérôme, The Death of Caesar, 1859-67"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "The Ides of March",
+      "text": "Rome, the Ides of March, 44 BC. In a Senate hall by the Theatre of Pompey, Julius Caesar has just been stabbed by senators."
+    },
+    {
+      "focus": [
+        0.3,
+        0.78,
+        0.5,
+        0.34
+      ],
+      "headline": "Caesar",
+      "text": "There he lies, almost hidden under his toga, alone on the floor. The most powerful man in the world, abandoned."
+    },
+    {
+      "focus": [
+        0.2,
+        0.68,
+        0.2,
+        0.2
+      ],
+      "headline": "The chair",
+      "text": "His chair is overturned. Follow the floor from it, and you can trace the last few steps he took before he fell."
+    },
+    {
+      "focus": [
+        0.45,
+        0.58,
+        0.34,
+        0.36
+      ],
+      "headline": "The killers",
+      "text": "The killers walk away together, raising their blades in triumph. Gérôme paints the moment just after the murder, not the murder itself."
+    },
+    {
+      "focus": [
+        0.6,
+        0.68,
+        0.3,
+        0.3
+      ],
+      "headline": "Panic",
+      "text": "A white cloak dropped on a bench, scrolls scattered on the floor. In the distance, others who had nothing to do with it are fleeing."
+    },
+    {
+      "focus": [
+        0.92,
+        0.6,
+        0.14,
+        0.2
+      ],
+      "headline": "One man stays",
+      "text": "And far on the right, one senator is still sitting in his seat. Frozen with shock? Or quietly approving?"
+    },
+    {
+      "focus": [
+        0.43,
+        0.81,
+        0.2,
+        0.12
+      ],
+      "headline": "The petition",
+      "text": "On the floor lies a petition, beside a mosaic of Medusa's head. Legend says Caesar was handed a warning that morning, unread."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Freedom?",
+      "text": "The killers called it freedom. Instead it led to years of civil war and the end of the Republic. Heroes, or traitors?"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "title": "The Awakening Conscience",
+  "artist": "William Holman Hunt",
+  "year": "1853",
+  "image": "image.jpg",
+  "source": "Tate Britain, London (public domain). Wikimedia Commons: William Holman Hunt - The Awakening Conscience - Google Art Project.jpg (4402 x 6040 px)",
+  "caption": "It looks like a love scene. Look again. #victorian #preraphaelite #holmanhunt #tatebritain #hiddendetails",
+  "_verify": [
+    "VERIFIED, Wikipedia EN (The Awakening Conscience): 1853, Tate, 76 x 56 cm; a kept woman rises from her lover's lap gazing out of the window; no wedding ring on her left hand; a cat toys with a bird under the table; unfinished tapestry with unravelled threads; sheet music 'Tears, Idle Tears' on the floor; glove and top hat; the mirror reflects a sunlit spring garden; commissioned by Thomas Fairbairn, who found her expression too painful and asked Hunt to soften it; retouched 1864 and 1886.",
+    "CHECK ON IMAGE: where the glove lies (slide 7 does not say where).",
+    "Focus boxes estimated without seeing the image; re-tune on the real image and fix any text that names a detail that is not visible."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "It looks like a love scene. Look again.",
+      "sub": "William Holman Hunt, The Awakening Conscience, 1853"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "London, 1853",
+      "text": "A London room, 1853. A young man has pulled a woman onto his lap at the piano. A happy couple? Not quite."
+    },
+    {
+      "focus": [
+        0.22,
+        0.43,
+        0.32,
+        0.18
+      ],
+      "headline": "Him",
+      "text": "He is still singing, carefree, one arm around her. He has no idea that something has just changed in her."
+    },
+    {
+      "focus": [
+        0.56,
+        0.22,
+        0.2,
+        0.14
+      ],
+      "headline": "Her",
+      "text": "She suddenly rises from his lap, staring at something beyond the room. Her face shows a painful realisation."
+    },
+    {
+      "focus": [
+        0.57,
+        0.53,
+        0.18,
+        0.1
+      ],
+      "headline": "The hand",
+      "text": "Look at her hands. Rings on almost every finger, but none on the wedding finger. She is not his wife but his mistress."
+    },
+    {
+      "focus": [
+        0.08,
+        0.76,
+        0.2,
+        0.14
+      ],
+      "headline": "The cat",
+      "text": "Under the table, a cat plays with a bird it has caught. The bird is trying to escape. Just like her."
+    },
+    {
+      "focus": [
+        0.5,
+        0.92,
+        0.96,
+        0.14
+      ],
+      "headline": "The clues",
+      "text": "A glove tossed aside, tangled threads, a song sheet called Tears, Idle Tears. Everything in this room hints at a wasted life."
+    },
+    {
+      "focus": [
+        0.32,
+        0.24,
+        0.3,
+        0.3
+      ],
+      "headline": "The mirror",
+      "text": "Now the mirror behind them. It reflects a sunlit spring garden, the world outside. That is what she sees: a way out."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Too painful",
+      "text": "The buyer found her face too painful to live with and asked Hunt to soften it. Hunt repainted it. Does she leave him?"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "title": "The Alchemist Discovering Phosphorus",
+  "artist": "Joseph Wright of Derby",
+  "year": "1771",
+  "image": "image.jpg",
+  "source": "Derby Museum and Art Gallery (public domain). Wikimedia Commons: Joseph Wright of Derby The Alchemist.jpg (4724 x 6126 px)",
+  "caption": "He wanted gold. He found something stranger. #alchemy #historyofscience #josephwright #chemistry #artfacts",
+  "_verify": [
+    "VERIFIED, Wikipedia EN (The Alchemist Discovering Phosphorus) + Revolutionary Players (Derby Museums): full title The Alchymist, in Search of the Philosopher's Stone, Discovers Phosphorus...; exhibited 1771, reworked 1795; the alchemist kneels with hands outstretched before a shining vessel; an assistant is singled out by the light; medieval gothic arches and high pointed windows like a church; instruments, glass vessels and books; probably refers to Hennig Brand of Hamburg, who discovered phosphorus in 1669; phosphorus made by boiling down urine (1730 account: 50-60 pails); phosphorus was called 'the Devil's element'; Wright knew Lunar Society scientists.",
+    "IMAGE is dark: brighten slightly for phone if faces vanish; check the cover reads on a phone.",
+    "CHECK ON IMAGE: where the assistant(s) are (slide 6 says only 'nearby').",
+    "Focus boxes estimated without seeing the image; re-tune on the real image and fix any text that names a detail that is not visible."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "He wanted gold. He found something stranger.",
+      "sub": "Joseph Wright of Derby, The Alchemist, 1771"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "The search",
+      "text": "For centuries, alchemists hunted for the philosopher's stone, a magic substance that could turn ordinary metal into gold."
+    },
+    {
+      "focus": [
+        0.55,
+        0.77,
+        0.4,
+        0.36
+      ],
+      "headline": "The alchemist",
+      "text": "This one kneels with his arms spread wide before his own experiment, as if he were praying in a church."
+    },
+    {
+      "focus": [
+        0.7,
+        0.7,
+        0.16,
+        0.14
+      ],
+      "headline": "The light",
+      "text": "Inside the glass vessel, something is glowing with a strange, bright light. Not gold. Something no one had seen before."
+    },
+    {
+      "focus": [
+        0.62,
+        0.72,
+        0.34,
+        0.3
+      ],
+      "headline": "Phosphorus",
+      "text": "He has found phosphorus. The scene is thought to show Hennig Brand of Hamburg, who discovered it by accident in 1669."
+    },
+    {
+      "focus": [
+        0.3,
+        0.6,
+        0.26,
+        0.18
+      ],
+      "headline": "The recipe",
+      "text": "Behind him, two assistants work by candlelight. Brand's recipe was hardly magical: dozens of buckets of boiled-down urine."
+    },
+    {
+      "focus": [
+        0.6,
+        0.25,
+        0.8,
+        0.45
+      ],
+      "headline": "The church",
+      "text": "Wright set it under gothic arches and tall pointed windows, like a cathedral. Science, painted like a religious miracle."
+    },
+    {
+      "focus": [
+        0.72,
+        0.5,
+        0.32,
+        0.2
+      ],
+      "headline": "The tools",
+      "text": "Around him lie flasks, instruments and books. Wright knew real scientists of his day and painted their new world with wonder."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "The Devil's element",
+      "text": "Phosphorus was later nicknamed the Devil's element. He was looking for gold. Did he find something better, or worse?"
+    }
+  ]
+}

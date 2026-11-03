@@ -1,0 +1,101 @@
+{
+  "title": "The Sacrifice of Isaac",
+  "artist": "Caravaggio",
+  "year": "about 1603",
+  "image": "image.jpg",
+  "source": "Gallerie degli Uffizi, Florence (public domain). Wikimedia Commons: Sacrifice of Isaac-Caravaggio (Uffizi).jpg (7972 x 6142 px)",
+  "caption": "A father. A knife. One second left. #caravaggio #biblestory #baroque #oilpainting #hiddendetails",
+  "_verify": [
+    "VERIFIED, Wikipedia EN (The Sacrifice of Isaac (Caravaggio)): Uffizi, 1603, 104 x 135 cm, for Cardinal Maffeo Barberini (later Pope Urban VIII), payments May 1603 to Jan 1604; the angel stops Abraham's knife; the angel's hand on the ram mirrors Abraham's hand on Isaac; Isaac modelled by Cecco (Boneri), X-ray suggests Cecco also posed for the angel.",
+    "CHECK ON IMAGE: Isaac's open mouth / terror (slide 4); angel on the left grabbing Abraham's wrist (slide 5); ram beside Isaac (slide 6).",
+    "CAUTIOUS: attribution partly disputed (some propose Cavarozzi); not mentioned in texts.",
+    "Focus boxes estimated without seeing the image; re-tune on the real image and fix any text that names a detail that is not visible."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "A father. A knife. One second left.",
+      "sub": "Caravaggio, The Sacrifice of Isaac, about 1603"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "A test of faith",
+      "text": "In the Bible, God orders Abraham to sacrifice his only son, Isaac. Abraham obeys. Caravaggio paints the very last second."
+    },
+    {
+      "focus": [
+        0.5,
+        0.45,
+        0.42,
+        0.6
+      ],
+      "headline": "The father",
+      "text": "Abraham pins the boy's head down on the stone with one hand. In the other, the knife is already at his throat."
+    },
+    {
+      "focus": [
+        0.76,
+        0.8,
+        0.22,
+        0.2
+      ],
+      "headline": "The son",
+      "text": "Isaac's face is pressed against the rock, his mouth open in terror. He is a boy, and he knows what is coming."
+    },
+    {
+      "focus": [
+        0.27,
+        0.45,
+        0.5,
+        0.62
+      ],
+      "headline": "The angel",
+      "text": "Then a young angel bursts in and grabs Abraham's wrist. Abraham turns, startled, the blade frozen in the air."
+    },
+    {
+      "focus": [
+        0.86,
+        0.68,
+        0.26,
+        0.32
+      ],
+      "headline": "The ram",
+      "text": "Beside the boy, a ram waits. It will die instead. The angel's other hand points toward it: take the animal, not the child."
+    },
+    {
+      "focus": [
+        0.48,
+        0.52,
+        0.9,
+        0.75
+      ],
+      "headline": "The same face?",
+      "text": "Now compare the angel and Isaac. X-rays suggest the same young model, Cecco, posed for both: the victim and the rescuer."
+    },
+    {
+      "focus": [
+        0.45,
+        0.24,
+        0.28,
+        0.3
+      ],
+      "headline": "The old man",
+      "text": "Abraham shows no joy at being stopped, only shock. Caravaggio painted it for Cardinal Maffeo Barberini, the future Pope Urban VIII."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Faith or horror?",
+      "text": "Most painters showed calm obedience. Caravaggio shows a terrified child and a father ready to kill. Is this faith, or horror?"
+    }
+  ]
+}

@@ -149,5 +149,65 @@
     "artist": "John William Waterhouse",
     "date": "2026-10-28",
     "status": "sugerat"
+  },
+  {
+    "title": "The Sacrifice of Isaac",
+    "artist": "Caravaggio",
+    "date": "2026-11-02",
+    "status": "sugerat"
+  },
+  {
+    "title": "The Oath of the Horatii",
+    "artist": "Jacques-Louis David",
+    "date": "2026-11-02",
+    "status": "sugerat"
+  },
+  {
+    "title": "The Awakening Conscience",
+    "artist": "William Holman Hunt",
+    "date": "2026-11-02",
+    "status": "sugerat"
+  },
+  {
+    "title": "The Assassination of the Duke of Guise",
+    "artist": "Paul Delaroche",
+    "date": "2026-11-02",
+    "status": "sugerat"
+  },
+  {
+    "title": "Joanna the Mad (Doña Juana la Loca)",
+    "artist": "Francisco Pradilla",
+    "date": "2026-11-02",
+    "status": "sugerat"
+  },
+  {
+    "title": "The Alchemist Discovering Phosphorus",
+    "artist": "Joseph Wright of Derby",
+    "date": "2026-11-02",
+    "status": "sugerat"
+  },
+  {
+    "title": "The Death of Caesar",
+    "artist": "Jean-Léon Gérôme",
+    "date": "2026-11-02",
+    "status": "sugerat"
+  },
+  {
+    "title": "Daniel in the Lions' Den",
+    "artist": "Briton Rivière",
+    "date": "2026-11-02",
+    "status": "sugerat"
+  },
+  {
+    "title": "The Doctor's Visit (The Sick Woman)",
+    "artist": "Jan Steen",
+    "date": "2026-11-02",
+    "status": "sugerat"
+  },
+  {
+    "title": "The Black Brunswicker",
+    "artist": "John Everett Millais",
+    "date": "2026-11-02",
+    "status": "sugerat"
   }
 ]

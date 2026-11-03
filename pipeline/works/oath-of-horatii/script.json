@@ -1,0 +1,100 @@
+{
+  "title": "The Oath of the Horatii",
+  "artist": "Jacques-Louis David",
+  "year": "1784",
+  "image": "image.jpg",
+  "source": "Musée du Louvre, Paris (public domain). Wikimedia Commons: \"Oath of the Horatii\" by Jacques-Louis David.jpg (3600 x 2844 px). Do NOT use the Google Art Project 6156 px file: that is the Toledo replica.",
+  "caption": "Three brothers swear an oath. Why are the women crying? #ancientrome #jacqueslouisdavid #neoclassicism #louvre #storytime",
+  "_verify": [
+    "VERIFIED, Wikipedia EN (Oath of the Horatii): 1784-85, Louvre, 329.8 x 424.8 cm, painted in Rome; three Horatii (Rome) vs three Curiatii (Alba Longa); Camilla, a Horatii sister, is engaged to one of the Curiatii; Sabina, a Curiatii sister, is married to one of the Horatii; the father holds three swords (two curved, one straight, interpreted as a hint that only one brother survives); women and children on the right, one child hides her face; the scene is David's own invention; in the legend the surviving brother kills Camilla for mourning.",
+    "CHECK ON IMAGE: which seated woman is Camilla and which is Sabina (slides 6-7).",
+    "Focus boxes estimated without seeing the image; re-tune on the real image and fix any text that names a detail that is not visible."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Three brothers swear an oath. Why are the women crying?",
+      "sub": "Jacques-Louis David, The Oath of the Horatii, 1784"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Rome against Alba",
+      "text": "Ancient Rome is at war with the city of Alba Longa. To end it, each side chooses three brothers to fight to the death."
+    },
+    {
+      "focus": [
+        0.26,
+        0.6,
+        0.38,
+        0.66
+      ],
+      "headline": "The oath",
+      "text": "For Rome: the three Horatii brothers. Arms stretched out, they swear to win or die. Not one of them hesitates."
+    },
+    {
+      "focus": [
+        0.46,
+        0.43,
+        0.16,
+        0.32
+      ],
+      "headline": "Three swords",
+      "text": "Their father raises the three swords. Look closely: two are curved, one is straight. Some see a hint that only one will survive."
+    },
+    {
+      "focus": [
+        0.8,
+        0.73,
+        0.4,
+        0.42
+      ],
+      "headline": "The women",
+      "text": "On the right, the women collapse in grief. They are not only afraid for the brothers. Their pain is more complicated than that."
+    },
+    {
+      "focus": [
+        0.86,
+        0.68,
+        0.2,
+        0.36
+      ],
+      "headline": "Camilla",
+      "text": "Camilla, the brothers' sister, is engaged to one of the enemy brothers. Whatever happens tomorrow, she will lose someone she loves."
+    },
+    {
+      "focus": [
+        0.88,
+        0.7,
+        0.24,
+        0.38
+      ],
+      "headline": "Sabina",
+      "text": "Next to her, Sabina is a sister of the enemy brothers, married to one of the Horatii. Her family will kill her family."
+    },
+    {
+      "focus": [
+        0.69,
+        0.64,
+        0.18,
+        0.24
+      ],
+      "headline": "The children",
+      "text": "Behind them, the children cling to the women. One child hides her face, as if she already understands what this oath means."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "After the oath",
+      "text": "The moment is David's own invention. In the legend, one brother survives, then kills Camilla for weeping. Duty or family?"
+    }
+  ]
+}
