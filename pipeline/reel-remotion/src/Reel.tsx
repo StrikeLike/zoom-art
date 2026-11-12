@@ -18,10 +18,14 @@ type Slide = {
   head?: Block;
   body?: Block;
   sub?: Block;
+  line?: Block; // one big sentence per slide (2026-11-12)
+  cover?: {full: string; bare: string | null; head: Block & {top: number};
+    ring: {x: number; y: number; r: number; label: string; lx: number; ly: number; size: number} | null};
 };
 export type ReelData = {
   title: string; artist: string; year: string; fps: number; fmt: "reel" | "carousel"; bg: string;
   width: number; height: number; img: [number, number]; slides: Slide[];
+  flash: number; // frames the finished cover is shown first, for the thumbnail
   pad: number; brandY: number; safeTop: number; ctaHead: string; ctaSub: string; // platform safe zones, computed by render.py layout()
 };
 
@@ -35,7 +39,18 @@ const SERIF = "ZSerif, serif", SANS = "ZSans, sans-serif";
 const MOVE_EASE = Easing.bezier(0.65, 0, 0.35, 1);
 const OUT_FRAMES = 10; // text leaves during the last frames of a hold
 
-export const totalFrames = (d: ReelData) => d.slides.reduce((n, s) => n + s.hold + s.move, 0);
+export const totalFrames = (d: ReelData) => (d.flash || 0) + d.slides.reduce((n, s) => n + s.hold + s.move, 0);
+
+// *word* (or *several words*) is the gold key word of a line; words with digits are gold too
+const richWords = (lines: string[]) => {
+  let on = false;
+  return lines.map((line) => line.split(" ").map((w) => {
+    if (w.startsWith("*")) on = true;
+    const gold = on || /\d/.test(w);
+    if (/\*[.,!?;:'"]*$/.test(w)) on = false;
+    return {w: w.replace(/\*/g, ""), gold};
+  }));
+};
 
 const clamp = {extrapolateLeft: "clamp", extrapolateRight: "clamp"} as const;
 
@@ -193,7 +208,7 @@ const Pulse: React.FC<{x: number; y: number; k: number; out: number}> = ({x, y, 
 const Word: React.FC<{w: string; k: number; delay: number; color: string}> = ({w, k, delay, color}) => {
   const p = interpolate(k, [delay, delay + 16], [0, 1], {...clamp, easing: Easing.spring({damping: 200})});
   return (
-    <span style={{display: "inline-block", opacity: p, translate: `0px ${(1 - p) * 26}px`, filter: `blur(${(1 - p) * 6}px)`, color: /\d/.test(w) ? GOLD : color, whiteSpace: "pre"}}>
+    <span style={{display: "inline-block", opacity: p, translate: `0px ${(1 - p) * 26}px`, filter: `blur(${(1 - p) * 6}px)`, color, whiteSpace: "pre"}}>
       {w}
     </span>
   );
@@ -203,9 +218,9 @@ const Headline: React.FC<{b: Block; top: number; k: number; start: number}> = ({
   let n = 0;
   return (
     <div style={{position: "absolute", left: PAD, top, font: `700 ${b.size}px ${SERIF}`, lineHeight: `${b.lh}px`, color: WHITE, textShadow: "0 2px 18px rgba(0,0,0,0.45)"}}>
-      {b.lines.map((line, li) => (
+      {richWords(b.lines).map((line, li) => (
         <div key={li} style={{whiteSpace: "nowrap"}}>
-          {line.split(" ").map((w, wi, arr) => <Word key={wi} w={w + (wi < arr.length - 1 ? " " : "")} k={k} delay={start + 2.5 * n++} color={WHITE} />)}
+          {line.map(({w, gold}, wi, arr) => <Word key={wi} w={w + (wi < arr.length - 1 ? " " : "")} k={k} delay={start + 2.5 * n++} color={gold ? GOLD : WHITE} />)}
         </div>
       ))}
     </div>
@@ -248,7 +263,6 @@ const SlideText: React.FC<{d: ReelData; s: Slide; k: number; v: View}> = ({d, s,
   const lift = (1 - out) * -12;
   // Reel cover is fully visible from frame 0 (same design as carousel slide 1), so the platforms
   // pick it as the thumbnail (Alex, 2026-10-10). Its text skips the word-by-word reveal.
-  if (d.fmt === "reel" && s.type === "cover") k += 120;
   if (s.type === "cta") {
     const p = interpolate(k, [0, 22], [0, 1], {...clamp, easing: Easing.spring({damping: 200})});
     const sub = interpolate(k, [14, 32], [0, 1], {...clamp, easing: Easing.bezier(0.16, 1, 0.3, 1)});
@@ -273,6 +287,43 @@ const SlideText: React.FC<{d: ReelData; s: Slide; k: number; v: View}> = ({d, s,
         <div style={{...block, top: cy + 110, font: `400 26px ${SANS}`, color: "rgba(245,240,230,0.7)", opacity: sub}}>
           {d.title} · {d.artist}, {d.year}
         </div>
+      </AbsoluteFill>
+    );
+  }
+  if (s.type === "cover" && s.cover) {
+    if (d.fmt === "carousel") return <Img src={staticFile(s.cover.full)} style={{position: "absolute", width: W, height: H}} />;
+    // reel: the hook builds word by word over the bare cover, then the gold circle draws itself around the clue
+    const c = s.cover, hk = c.head;
+    const words = hk.lines.join(" ").split(" ").length;
+    const ringAt = 8 + 2.5 * words + 8;
+    const draw = interpolate(k, [ringAt, ringAt + 20], [0, 1], {...clamp, easing: Easing.bezier(0.16, 1, 0.3, 1)});
+    const lab = interpolate(k, [ringAt + 12, ringAt + 26], [0, 1], {...clamp, easing: Easing.bezier(0.16, 1, 0.3, 1)});
+    const glow = 0.55 + 0.45 * Math.sin((k / 30) * Math.PI * 0.9);
+    const r = c.ring;
+    return (
+      <AbsoluteFill style={{opacity: out}}>
+        <Headline b={hk} top={hk.top} k={k} start={6} />
+        {r && (
+          <svg width={W} height={H} style={{position: "absolute"}}>
+            <circle cx={r.x} cy={r.y} r={r.r} fill="none" stroke={GOLD} strokeWidth={5} pathLength={1} strokeDasharray="1 1"
+              strokeDashoffset={1 - draw} transform={`rotate(-90 ${r.x} ${r.y})`}
+              style={{filter: `drop-shadow(0 0 ${6 + 8 * glow}px rgba(214,178,110,${0.4 + 0.35 * glow}))`}} />
+          </svg>
+        )}
+        {r && r.label && (
+          <div style={{position: "absolute", left: r.lx, top: r.ly - 4, font: `700 ${r.size}px ${SANS}`, color: "white", whiteSpace: "nowrap",
+            opacity: lab, translate: `0px ${(1 - lab) * 10}px`, textShadow: "2px 3px 6px rgba(0,0,0,0.85)"}}>{r.label}</div>
+        )}
+      </AbsoluteFill>
+    );
+  }
+  if (s.line) {
+    const bar = interpolate(k, [2, 18], [0, 1], {...clamp, easing: Easing.bezier(0.16, 1, 0.3, 1)});
+    return (
+      <AbsoluteFill style={{opacity: out, translate: `0px ${lift}px`}}>
+        <div style={{position: "absolute", left: PAD, top: s.textTop - 24, width: 70 * bar, height: 4, background: GOLD, borderRadius: 2}} />
+        <Headline b={s.line} top={s.textTop} k={k} start={6} />
+        {s.map && <MiniMap m={s.map} v={v} img={d.img} k={k} out={out} />}
       </AbsoluteFill>
     );
   }
@@ -313,6 +364,20 @@ const Shot: React.FC<{d: ReelData; i: number; k: number; v: View; moving: boolea
   })();
   const out = s.hold ? interpolate(k, [s.hold - OUT_FRAMES, s.hold], [1, 0], clamp) : 1;
   const shade = !s.hold ? 1 : s.type === "cover" ? out : Math.min(out, interpolate(k, [0, 8], [0, 1], clamp));
+  if (s.type === "cover" && s.cover && d.fmt === "reel") {
+    // hold: the bare cover breathes in slowly; move: it fades away over the first shot of the story
+    const zoom = moving ? 1.03 : 1 + 0.03 * (k / Math.max(1, s.hold - 1));
+    const fade = moving ? interpolate(k, [0, s.move], [1, 0], clamp) : 1;
+    return (
+      <>
+        {moving && <Painting v={v} img={d.img} bg={d.bg} />}
+        <AbsoluteFill style={{opacity: fade}}>
+          <Img src={staticFile(s.cover.bare!)} style={{width: W, height: H, scale: String(zoom), transformOrigin: "50% 45%"}} />
+        </AbsoluteFill>
+        {!moving && <SlideText d={d} s={s} k={k} v={v} />}
+      </>
+    );
+  }
   return (
     <>
       <Painting v={v} img={d.img} bg={d.bg} />
@@ -327,10 +392,16 @@ const Shot: React.FC<{d: ReelData; i: number; k: number; v: View; moving: boolea
 
 export const Reel: React.FC<{data: ReelData}> = ({data: d}) => {
   H = d.height; PAD = d.pad;
-  const frame = useCurrentFrame();
+  const raw = useCurrentFrame();
+  const cover = d.slides[0].cover;
+  // first frames: the finished cover, still, so the apps take it as the thumbnail; then the video starts
+  if (d.flash && raw < d.flash && cover) return <Img src={staticFile(cover.full)} style={{width: W, height: H}} />;
+  const frame = raw - (d.flash || 0);
   const {i, k, moving} = locate(d, frame);
   const s = d.slides[i];
-  const v = moving
+  const v = moving && s.cover
+    ? d.slides[i + 1].start
+    : moving
     ? lerpView(s.end, d.slides[i + 1].start, MOVE_EASE(Math.min(1, k / Math.max(1, s.move - 1))))
     : lerpView(s.start, s.end, k / Math.max(1, s.hold - 1)); // slow push-in
   return (

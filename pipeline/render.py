@@ -41,6 +41,9 @@ DEFAULT_BOX_ASPECT = 0.62
 # the app header covers the top ~260 px; the like/comment/share column covers x > ~900 from y ~1000 down;
 # username + caption cover the bottom ~480 px. Text, logo and mini-map stay inside these margins.
 REEL_SAFE = {"top": 270, "bottom": 480, "left": 90, "right": 200}  # h/w in pixels when a focus box has no h
+# Reel opens on the finished cover for this long, so the apps can take it as the thumbnail, then the
+# video starts for real (Alex, 2026-11-12: a fraction of a second, not seen once the video plays)
+COVER_FLASH = 0.3
 MAX_UPSCALE_W = 6000  # never upscale beyond this width (memory and render time)
 upscale_enabled = True
 
@@ -72,7 +75,7 @@ def wrap(draw, text, f, max_w):
         cur = ""
         for word in para.split():
             test = (cur + " " + word).strip()
-            if draw.textlength(test, font=f) <= max_w:
+            if draw.textlength(test.replace("*", ""), font=f) <= max_w:
                 cur = test
             else:
                 if cur:
@@ -80,6 +83,35 @@ def wrap(draw, text, f, max_w):
                 cur = word
         lines.append(cur)
     return lines
+
+def rich_words(lines):
+    """Words of wrapped lines with a gold flag: *word* or *several words* is gold (the key word of a line),
+    and so is any word with a digit. Returns [[(word, gold), ...], ...] per line, markers removed."""
+    out, on = [], False
+    for line in lines:
+        row = []
+        for w in line.split(" "):
+            if w.startswith("*"):
+                on = True
+            gold = on or any(c.isdigit() for c in w)
+            if w.rstrip(".,!?;:'\"").endswith("*"):
+                on = False
+            row.append((w.replace("*", ""), gold))
+        out.append(row)
+    return out
+
+def rich_block(draw, x, y, lines, f, lh, alpha=255, shadow=False):
+    """Draw wrapped lines with gold key words. Returns y after the last line."""
+    sp = draw.textlength(" ", font=f)
+    for row in rich_words(lines):
+        xx = x
+        for w, gold in row:
+            if shadow:
+                draw.text((xx + 2, y + 3), w, font=f, fill=(0, 0, 0, int(alpha * 0.8)))
+            draw.text((xx, y), w, font=f, fill=(GOLD if gold else WHITE) + (alpha,))
+            xx += draw.textlength(w, font=f) + sp
+        y += lh
+    return y
 
 def text_block(draw, x, y, text, f, max_w, fill, spacing=1.25):
     lh = int(f.size * spacing)
@@ -234,10 +266,20 @@ def layout(img, slide, size, fmt):
     L = {"pad": pad, "maxw": maxw, "brand_y": brand_y, "map": None, "text_top": H}
     t = slide.get("type", "detail")
     if t == "cover":
-        fh = fit_font(_measure, slide["headline"], SERIF_B, 92, maxw, 4)
-        hh = block_height(_measure, slide["headline"], fh, maxw, 1.1)
-        L.update(fh=fh, text_top=text_bottom - (0 if fmt == "reel" else 40) - hh - 45
-                 - block_height(_measure, slide.get("sub", "x"), font(SERIF_I, 40), maxw))  # sub may wrap
+        # Cover (Alex, 2026-11-12): short hook at the top on dark, max 2 lines, the painting large below it
+        head_top = brand_y + 56 if fmt == "reel" else 112
+        fh = fit_font(_measure, slide["headline"], SERIF_B, 104 if fmt == "reel" else 96, maxw, 2)
+        if fh.size < 72:
+            fh = fit_font(_measure, slide["headline"], SERIF_B, 84, maxw, 3)
+        hh = len(wrap(_measure, slide["headline"], fh, maxw)) * int(fh.size * 1.08)
+        L.update(fh=fh, head_top=head_top, img_top=head_top + hh + 36)
+    elif t == "detail" and not (slide.get("headline") and slide.get("text")):
+        # One big sentence per slide (Alex, 2026-11-12): a slide with only "text" (or only "headline")
+        line = slide.get("text") or slide.get("headline", "")
+        fl = fit_font(_measure, line, SERIF_B, 66 if fmt == "reel" else 62, maxw, 4)
+        th = len(wrap(_measure, line, fl, maxw)) * int(fl.size * 1.15)
+        L.update(fl=fl, line=line, text_top=text_bottom - th)
+        add_map(L, img, slide, fmt, pad, brand_y, W)
     elif t == "detail":
         fh = fit_font(_measure, slide["headline"], SERIF_B, 64, maxw, 3)
         ft = fit_font(_measure, slide.get("text", ""), SANS, 36, maxw, 6)
@@ -245,13 +287,93 @@ def layout(img, slide, size, fmt):
         th = block_height(_measure, slide.get("text", ""), ft, maxw, 1.35)
         bottom = text_bottom
         L.update(fh=fh, ft=ft, text_top=bottom - th - 28 - hh)
-        if slide.get("focus") and slide.get("map", True):
-            box_w = 170 if fmt == "carousel" else 190
-            k = min(box_w / img.width, 2 * box_w / img.height)
-            mw, mh = int(img.width * k) + 6, int(img.height * k) + 6
-            right = pad if fmt == "carousel" else REEL_SAFE["left"]  # top-right is free below the app header
-            L["map"] = (W - right - mw, 120 if fmt == "carousel" else brand_y, mw, mh)
+        add_map(L, img, slide, fmt, pad, brand_y, W)
     return L
+
+def add_map(L, img, slide, fmt, pad, brand_y, W):
+    if slide.get("focus") and slide.get("map", True):
+        box_w = 170 if fmt == "carousel" else 190
+        k = min(box_w / img.width, 2 * box_w / img.height)
+        mw, mh = int(img.width * k) + 6, int(img.height * k) + 6
+        right = pad if fmt == "carousel" else REEL_SAFE["left"]  # top-right is free below the app header
+        L["map"] = (W - right - mw, 120 if fmt == "carousel" else brand_y, mw, mh)
+
+def make_cover(img, slide, size, fmt, text=True, brand=True, ring=True):
+    """Cover / thumbnail: hook at the top on dark, the painting large below it, an optional gold circle
+    on the clue. Script fields on the cover slide:
+      "crop": [x0, y0, x1, y1]   part of the painting to show (fractions); default: as large as fits,
+                                 centred on "center" [cx, cy] (default [0.5, 0.4])
+      "clue": {"at": [cx, cy], "r": 0.05, "label": "Who is he?", "inset": [fx, fy]}
+              at/r = the clue on the painting (r = radius, fraction of the painting's width);
+              inset = optional spot in the frame (fractions) where a round close-up of the clue is shown
+    Returns (RGBA image, meta for the animated reel)."""
+    W, H = size
+    L = layout(img, slide, size, fmt)
+    pad, top = L["pad"], L["img_top"]
+    iw, ih = img.size
+    if slide.get("crop"):
+        x0, y0, x1, y1 = slide["crop"]
+        x0, y0, cw, ch = x0 * iw, y0 * ih, (x1 - x0) * iw, (y1 - y0) * ih
+    else:
+        a = W / (H - top)
+        cx, cy = slide.get("center", [0.5, 0.4])
+        ch = min(ih, iw / a); cw = ch * a
+        x0 = min(max(cx * iw - cw / 2, 0), iw - cw); y0 = min(max(cy * ih - ch / 2, 0), ih - ch)
+    k = W / cw
+    ph = int(ch * k)
+    piece = img.convert("RGB").crop((int(x0), int(y0), int(x0 + cw), int(y0 + ch))).resize((W, ph), Image.LANCZOS)
+    im = Image.new("RGBA", size, INK + (255,))
+    im.paste(piece, (0, top))
+    shade = Image.new("L", (1, H), 0)
+    for y in range(top, min(H, top + 140)):                     # soft top edge under the hook
+        shade.putpixel((0, y), int(255 * (1 - (y - top) / 140)))
+    if top + ph < H:                                            # soft bottom edge if the painting ends early
+        for y in range(max(top, top + ph - 160), H):
+            shade.putpixel((0, y), max(shade.getpixel((0, y)), int(255 * min(1, (y - top - ph + 160) / 160))))
+    dark = Image.new("RGBA", size, INK + (0,)); dark.putalpha(shade.resize(size))
+    im.alpha_composite(dark)
+    d = ImageDraw.Draw(im)
+    meta = {"head": None, "ring": None}
+    c = slide.get("clue")
+    if c:
+        X, Y = (c["at"][0] * iw - x0) * k, top + (c["at"][1] * ih - y0) * k
+        R = c.get("r", 0.05) * iw * k
+        fl = font(SANS_B, 40 if fmt == "reel" else 36)
+        tw = d.textlength(c.get("label", ""), font=fl)
+        if c.get("inset"):
+            IR = 150 if fmt == "reel" else 130
+            X, Y = c["inset"][0] * W, c["inset"][1] * H
+            r_img = c.get("r", 0.05) * iw
+            cc = img.convert("RGB").crop((int(c["at"][0] * iw - r_img), int(c["at"][1] * ih - r_img),
+                                          int(c["at"][0] * iw + r_img), int(c["at"][1] * ih + r_img))).resize((2 * IR, 2 * IR), Image.LANCZOS)
+            m = Image.new("L", (2 * IR, 2 * IR), 0); ImageDraw.Draw(m).ellipse([0, 0, 2 * IR - 1, 2 * IR - 1], fill=255)
+            im.paste(cc, (int(X - IR), int(Y - IR)), m)
+            R = IR + 2
+            lx, ly = X - tw / 2, Y + R + 16
+        else:
+            R += 10
+            right_edge = W - (REEL_SAFE["right"] if fmt == "reel" else pad)
+            lx = X + R + 22 if X + R + 22 + tw <= right_edge else X - R - 22 - tw
+            ly = Y - fl.size * 0.6
+        meta["ring"] = {"x": round(X), "y": round(Y), "r": round(R), "label": c.get("label", ""),
+                        "lx": round(lx), "ly": round(ly), "size": fl.size}
+        if ring:
+            for n in range(5):
+                d.ellipse([X - R - n, Y - R - n, X + R + n, Y + R + n], outline=GOLD + (255,))
+            if c.get("label"):
+                d.text((lx + 2, ly + 3), c["label"], font=fl, fill=(0, 0, 0, 220))
+                d.text((lx, ly), c["label"], font=fl, fill=WHITE + (255,))
+    fh = L["fh"]
+    lines = wrap(_measure, slide["headline"], fh, L["maxw"])
+    meta["head"] = {"lines": lines, "size": fh.size, "lh": int(fh.size * 1.08), "top": L["head_top"]}
+    if text:
+        rich_block(d, pad, L["head_top"], lines, fh, int(fh.size * 1.08), shadow=True)
+        if fmt == "carousel":
+            sw = font(SANS_B, 30)
+            d.text((W - pad - d.textlength("Swipe  →", font=sw), H - 78), "Swipe  →", font=sw, fill=WHITE + (230,))
+    if brand:
+        d.text((pad, L["brand_y"]), BRAND, font=font(SANS_B, 26), fill=GOLD + (230,), spacing=4)
+    return im, meta
 
 def safe_area(img, slide, size, fmt):
     """Vertical band (top, bottom) in frame pixels where a detail can sit without touching text or mini-map."""
@@ -313,7 +435,7 @@ def draw_overlay(frame, s, slide, idx, total, img, view, alpha=1.0, fmt="carouse
         d.text((W - pad - d.textlength(num, font=fb), 58), num, font=fb, fill=WHITE + (200,))
 
     L = layout(img, slide, frame.size, fmt)
-    if t == "cover":
+    if t == "cover_old":
         fh = L["fh"]
         fs = font(SERIF_I, 40)
         sub = slide.get("sub", f'{s["artist"]}, {s["year"]}')
@@ -339,6 +461,13 @@ def draw_overlay(frame, s, slide, idx, total, img, view, alpha=1.0, fmt="carouse
         fc = font(SANS, 26)
         w = d.textlength(cap, font=fc)
         d.text(((W - w) / 2, y + 40), cap, font=fc, fill=WHITE + (int(a * 0.7),))
+    elif "line" in L:
+        d.rectangle([pad, L["text_top"] - 24, pad + 70, L["text_top"] - 20], fill=GOLD + (a,))
+        rich_block(d, pad, L["text_top"], wrap(d, L["line"], L["fl"], maxw), L["fl"], int(L["fl"].size * 1.15), a)
+        if L["map"]:
+            m = inset_map(img, view, frame.size, 170 if fmt == "carousel" else 190).convert("RGBA")
+            m.putalpha(int(235 * alpha))
+            over.alpha_composite(m, (L["map"][0], L["map"][1]))
     else:
         fh, ft = L["fh"], L["ft"]
         y = L["text_top"]
@@ -357,6 +486,12 @@ def draw_overlay(frame, s, slide, idx, total, img, view, alpha=1.0, fmt="carouse
 
 def compose(img, bg, s, slide, idx, total, view, size, fmt, alpha=1.0):
     t = slide.get("type", "detail")
+    if t == "cover":
+        frame, _ = make_cover(img, slide, size, fmt)
+        if fmt == "carousel":
+            dd = ImageDraw.Draw(frame); fb = font(SANS_B, 26); num = f"{idx + 1}/{total}"
+            dd.text((size[0] - 72 - dd.textlength(num, font=fb), 58), num, font=fb, fill=WHITE + (200,))
+        return frame
     frame = render_view(img, bg, view, size)
     if t == "cta":
         frame = Image.blend(frame, Image.new("RGBA", size, INK + (255,)), 0.72)
