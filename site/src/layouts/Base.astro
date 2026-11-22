@@ -15,7 +15,9 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#0c0b0a" />
-    <script is:inline>document.documentElement.classList.add('js');</script>
+    <script is:inline>document.documentElement.classList.add('js');
+      // A painting opened from the gallery: its page settles in around it (see hall.ts and global.css).
+      addEventListener('pagereveal', e => { try { if (e.viewTransition && sessionStorage.getItem('zoomed-art-arrival') === location.pathname) e.viewTransition.types.add('from-gallery'); sessionStorage.removeItem('zoomed-art-arrival'); } catch {} });</script>
     <link rel="preload" href={serifFont} as="font" type="font/woff2" crossorigin />
     <link rel="preload" href={sansFont} as="font" type="font/woff2" crossorigin />
     <title>{title}</title>

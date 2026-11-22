@@ -94,7 +94,7 @@
 .is-hall .hall-sign .eyebrow{font-size:calc(var(--u) * 1.1)}
 .is-hall .hall-sign p:last-child{font-family:var(--serif);font-size:calc(var(--u) * 4);line-height:1.02;letter-spacing:-.03em;color:var(--heading);margin-top:calc(var(--u) * 1.4)}
 .is-hall .wall-hang{position:absolute;left:0;top:0;width:auto;margin:0;padding:0;display:block;transform-style:preserve-3d}
-.is-hall .wall-hang .wall-item{position:absolute;left:0;top:0;transform-origin:0 0;flex:none;opacity:1;transition:none}
+.is-hall .wall-hang .wall-item{position:absolute;left:0;top:0;transform-origin:0 0;flex:none;opacity:1}
 .is-hall .wall-hang .wall-item::before{content:"";position:absolute;left:calc(var(--u) * -10);right:calc(var(--u) * -10);top:calc(var(--u) * -24);height:calc(var(--u) * 62);background:radial-gradient(ellipse 50% 52% at 50% 36%,rgb(255 214 150 / .17),transparent 72%);opacity:0;transition:opacity 900ms var(--ease-reveal);pointer-events:none}
 .is-hall .wall-hang .wall-item.is-front::before{opacity:1}
 .is-hall .wall-hang .wall-item .wall-frame img{filter:brightness(.38) saturate(.75);box-shadow:0 0 0 calc(var(--u) * .7) #0b0a08,0 calc(var(--u) * 2.5) calc(var(--u) * 5) rgb(0 0 0 / .7);transition:filter 900ms var(--ease-reveal)}
@@ -114,7 +114,13 @@
 .is-walking .hall-hint{opacity:0}
 .is-hall .hall-progress{display:block;position:absolute;z-index:2;left:var(--gutter);right:var(--gutter);bottom:1.5rem;height:1px;background:var(--line)}
 .hall-progress i{display:block;height:100%;background:var(--gold);transform-origin:left;transform:scaleX(0)}
-.is-approaching .hall-world{transition:transform 900ms var(--ease-camera)}
+/* Walking up to a painting: the room goes dark around it, the painting comes into full light. */
+.is-hall .hall-walls>i,.is-hall .wall-hang .wall-item,.is-hall .hall-sign{transition:opacity 900ms var(--ease-reveal)}
+.is-approaching .hall-walls>i,.is-approaching .hall-sign{opacity:.3}
+.is-hall .wall-hang .wall-item.is-behind{opacity:0;pointer-events:none}
+.is-approaching .wall-hang .wall-item:not(.is-chosen){opacity:0}
+.is-hall .wall-hang .wall-item.is-chosen .wall-frame img{filter:none;box-shadow:0 0 0 calc(var(--u) * .7) #0b0a08,0 0 calc(var(--u) * 14) calc(var(--u) * 2) rgb(255 214 150 / .14)}
+.is-approaching .wall-label,.is-approaching .hall-progress{opacity:0;transition:opacity 500ms}
 .is-approaching .hall-caption,.is-approaching .hall-hint{opacity:0!important}
 @media(max-width:760px){
   .is-hall .wall-intro{padding:2rem 0 1.5rem}

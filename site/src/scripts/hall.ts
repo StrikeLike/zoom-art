@@ -6,7 +6,7 @@ const STORE = 'zoomed-art-view';
 const NEAR = 0.12;     // paintings closer than this (x screen height) are hidden: CSS 3D cannot draw behind the camera
 const WALK_PER = 0.55; // scroll length per painting, x screen height
 
-interface Item { el: HTMLElement; link: HTMLAnchorElement; img: HTMLImageElement; style: string; ar: number; theta: number; w: number; h: number; }
+interface Item { el: HTMLElement; link: HTMLAnchorElement; img: HTMLImageElement; style: string; ar: number; theta: number; w: number; h: number; r: number; }
 interface Piece { el: HTMLElement; theta: number; }
 
 export function initHall() {
@@ -27,7 +27,7 @@ export function initHall() {
   const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
   const items: Item[] = [...list.querySelectorAll<HTMLElement>('.wall-item')].map(el => {
     const img = el.querySelector('img')!;
-    return { el, link: el.querySelector('a')!, img, style: el.getAttribute('style') ?? '', ar: +img.getAttribute('width')! / +img.getAttribute('height')!, theta: 0, w: 0, h: 0 };
+    return { el, link: el.querySelector('a')!, img, style: el.getAttribute('style') ?? '', ar: +img.getAttribute('width')! / +img.getAttribute('height')!, theta: 0, w: 0, h: 0, r: 0 };
   });
   let segments: Piece[] = [];
   let H = 0, R = 0, F = 0, camZ = 0, yaw = 0, look = 0, eye = 0, signTheta = 0;
@@ -70,8 +70,9 @@ export function initHall() {
     const off = (w: number) => R - (w / 2 + unit * 0.1) ** 2 / (2 * R) - 4;
     for (const it of items) {
       it.theta /= R;
-      it.el.setAttribute('style', `${it.style};width:${it.w}px;transform:${place(it.theta, eye, off(it.w), it.w, it.h)}`);
-      it.img.sizes = `${Math.round(it.w * 1.5)}px`;
+      it.r = off(it.w);
+      it.el.setAttribute('style', `${it.style};width:${it.w}px;transform:${place(it.theta, eye, it.r, it.w, it.h)}`);
+      it.img.sizes = `${Math.round(it.w * 2)}px`;
     }
     sign.style.transform = place(signTheta, eye - unit * 0.02, off(unit * 0.45), unit * 0.45, unit * 0.3);
     sign.style.width = `${unit * 0.45}px`;
@@ -109,8 +110,7 @@ export function initHall() {
     items.forEach((it, i) => {
       const d = depth(it.theta + walk);
       // Behind the camera: transparent and not clickable, but not visibility:hidden, which would block keyboard focus.
-      it.el.style.opacity = d > H * NEAR ? '' : '0';
-      it.el.style.pointerEvents = d > H * NEAR ? '' : 'none';
+      it.el.classList.toggle('is-behind', d <= H * NEAR);
       const gap = Math.abs(it.theta + walk - look);
       if (gap < bestGap) { bestGap = gap; best = i; }
     });
@@ -147,14 +147,46 @@ export function initHall() {
     if (!raf) raf = requestAnimationFrame(frame);
   }
 
-  // A click walks up to the painting, face to face, then opens its story.
+  // A click walks up to the painting: the visitor turns to face it, steps closer, and stops where the painting
+  // will stand on its own page. The page then opens around it (a view transition on view-transition-name
+  // art-<slug>; the arrival styles are in global.css and the pagereveal hook in Base.astro).
+  const camera = (y: number, z: number, turn: number, w: number) =>
+    `translateZ(${F}px) rotateY(${turn}rad) translate3d(0,${y}px,${z}px) rotateY(${w}rad)`;
+  let flight: Animation | null = null;
   function approach(it: Item, href: string) {
-    if (reduce) { location.href = href; return; }
+    const path = new URL(href).pathname;
+    try { sessionStorage.setItem('zoomed-art-arrival', path); } catch {}
+    if (reduce || !world.animate) { location.href = href; return; }
     leaving = true;
-    const dist = it.h * F / (H * 0.62);
+    cancelAnimationFrame(raf); raf = 0;
+    // Where the painting stands on its page (Painting.astro, .arrival-figure in global.css): centred, below the
+    // header and breadcrumb, at most 68vh (72svh and full width on a phone).
+    const W = stage.clientWidth, narrow = W < 760, gutter = Math.min(80, Math.max(20, W * 0.045));
+    let h = narrow ? W / it.ar : Math.min(innerHeight * 0.68, 850);
+    if (narrow) h = Math.min(h, innerHeight * 0.72);
+    else h = Math.min(h, (W - 2 * gutter) / it.ar);
+    const centre = (narrow ? 133 : 166) + h / 2 - stage.getBoundingClientRect().top;
+    const dist = it.h * F / h, origin = world.offsetTop;
+    const y = (centre - H / 2) * dist / F + (H / 2 - origin) - eye;
+    // Fetch the page and its big image while the camera moves (same srcset and sizes as Painting.astro, so the
+    // page finds it in the cache). The painting on the wall keeps its image: swapping it mid-flight blanks it.
+    const big = new Image();
+    big.sizes = '(max-width: 700px) 100vw, 92vw';
+    big.srcset = it.img.dataset.full ?? '';
+    const preload = document.createElement('link');
+    preload.rel = 'prefetch'; preload.href = href;
+    document.head.append(preload);
     section.classList.add('is-approaching');
-    world.style.transform = `translateZ(${F}px) rotateY(0rad) translate3d(0,${-eye}px,${R - dist}px) rotateY(${-it.theta}rad)`;
-    setTimeout(() => { location.href = href; }, 900);
+    it.el.classList.add('is-chosen');
+    // Halfway, already facing it, a little closer than at the start: the painting only ever grows.
+    const start = Math.max(dist, depth(it.theta + walk, it.r)), half = start + (dist - start) * 0.35;
+    const from = camera(0, camZ, -yaw, walk), facing = camera(y * 0.4, it.r - half, 0, -it.theta), close = camera(y, it.r - dist, 0, -it.theta);
+    flight = world.animate([
+      { transform: from, easing: 'cubic-bezier(.45,0,.4,1)' },
+      { transform: facing, offset: 0.45, easing: 'cubic-bezier(.3,0,.15,1)' },
+      { transform: close },
+    ], { duration: 1300, fill: 'forwards' });
+    flight.finished.then(() => setTimeout(() => { location.href = href; }, 120), () => {});
   }
   list.addEventListener('click', event => {
     const link = (event.target as Element).closest<HTMLAnchorElement>('.wall-link');
@@ -174,11 +206,16 @@ export function initHall() {
     const top = track.getBoundingClientRect().top + scrollY, length = track.offsetHeight - H;
     scrollTo({ top: top + length * (i + 1) / items.length, behavior: 'instant' });
   });
+  // Back from a painting's page: the camera steps back out to where the visitor was standing.
   addEventListener('pageshow', event => {
     if (!event.persisted || !leaving) return;
-    leaving = false;
     section.classList.remove('is-approaching');
-    onScroll();
+    items.forEach(it => it.el.classList.remove('is-chosen'));
+    const done = () => { flight?.cancel(); flight = null; leaving = false; render(); onScroll(); };
+    if (!flight || reduce) return done();
+    flight.updatePlaybackRate(1.6);
+    flight.reverse();
+    flight.finished.then(done, done);
   });
 
   function setMode(mode: 'hall' | 'list') {
@@ -194,7 +231,7 @@ export function initHall() {
       render();
       onScroll();
     } else {
-      items.forEach(it => { it.el.setAttribute('style', it.style); it.img.sizes = '(max-width: 760px) 92vw, 420px'; it.el.classList.remove('is-front'); });
+      items.forEach(it => { it.el.setAttribute('style', it.style); it.img.sizes = '(max-width: 760px) 92vw, 420px'; it.el.classList.remove('is-front', 'is-behind'); });
       track.style.height = '';
       world.style.transform = '';
     }
