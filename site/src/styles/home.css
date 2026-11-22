@@ -1,7 +1,7 @@
 /* The wall of mysteries: a museum room at night. Real proportions, a salon hang, a picture light on the painting you walk past. */
 .wall-intro{padding:4.5rem 0 4rem}
 .wall-intro h1{font-size:clamp(3rem,6.4vw,6.6rem);line-height:.98;letter-spacing:-.045em;max-width:13ch;margin-top:1.1rem}
-.wall-intro>p:last-child{margin-top:1.5rem;color:var(--muted);font-size:var(--text-lg);max-width:40ch}
+.wall-intro>div>p:last-child{margin-top:1.5rem;color:var(--muted);font-size:var(--text-lg);max-width:40ch}
 .wall-hang{list-style:none;padding:2rem 0 0;margin-block:0;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:6rem 3.75rem}
 .wall-item{flex:0 1 calc(var(--ar) * var(--h) * 1px);min-width:0}
 .wall-item.is-waiting{opacity:0;transform:translateY(28px)}
@@ -63,7 +63,7 @@
 .daily-found.is-arriving>i::before{animation:draw-corner-x 700ms var(--ease-reveal) both}
 .daily-found.is-arriving>i::after{animation:draw-corner-y 700ms var(--ease-reveal) both}
 @media(max-width:760px){
-  .wall-intro{padding:2.5rem 0}.wall-intro h1{font-size:clamp(2.8rem,12vw,4rem)}.wall-intro>p:last-child{font-size:1rem}
+  .wall-intro{padding:2.5rem 0}.wall-intro h1{font-size:clamp(2.8rem,12vw,4rem)}.wall-intro>div>p:last-child{font-size:1rem}
   .wall-hang{gap:3.75rem 1.25rem;padding-top:1rem}
   .wall-item{flex-basis:min(100%,calc(var(--ar) * var(--h) * 1.3px))}
   .wall-hook{font-size:1.45rem}
@@ -74,3 +74,53 @@
   .daily-canvas{height:min(58svh,480px)}
 }
 @media(prefers-reduced-motion:reduce){.wall-item.is-waiting{opacity:1;transform:none}}
+
+/* The gallery (hall.ts): the wall as a round room at night, walked through by scrolling. Everything below
+   applies only with .is-hall; without JavaScript or in List view the salon hang above is what shows. */
+.wall-intro{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:2rem}
+.view-switch{display:flex;border:1px solid var(--line);flex-shrink:0}
+.view-switch button{background:none;border:0;padding:.55rem 1.15rem;min-height:44px;font-size:var(--text-xs);letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.view-switch button:hover{color:var(--gold)}
+.view-switch button[aria-pressed=true]{background:var(--gold);color:var(--bg)}
+.hall-walls,.hall-sign,.hall-caption,.hall-hint,.hall-progress{display:none}
+.is-hall .wall-intro{padding-bottom:2.5rem}
+.is-hall .hall{position:relative}
+.is-hall .hall-stage{position:sticky;top:0;height:100svh;overflow:hidden;background:linear-gradient(#060505 0,#0a0908 44%,#100e0b 52%,#16130f 70%,#0b0a08 100%)}
+.is-hall .hall-stage::after{content:"";position:absolute;inset:auto 0 0;height:38%;background:linear-gradient(transparent,rgb(12 11 10 / .9));pointer-events:none}
+.is-hall .hall-world{position:absolute;left:50%;top:50%;width:0;height:0;transform-style:preserve-3d}
+.is-hall .hall-walls{display:block;position:absolute;left:0;top:0;transform-style:preserve-3d}
+.is-hall .hall-walls>i{position:absolute;left:0;top:0;transform-origin:0 0;background:linear-gradient(#0c0b09 0,#15130f 30%,#1f1c17 55%,#211d18 74%,#1a1713 93%,#0c0b09 93.3%,#0c0b09 100%)}
+.is-hall .hall-sign{display:block;position:absolute;left:0;top:0;transform-origin:0 0}
+.is-hall .hall-sign .eyebrow{font-size:calc(var(--u) * 1.1)}
+.is-hall .hall-sign p:last-child{font-family:var(--serif);font-size:calc(var(--u) * 4);line-height:1.02;letter-spacing:-.03em;color:var(--heading);margin-top:calc(var(--u) * 1.4)}
+.is-hall .wall-hang{position:absolute;left:0;top:0;width:auto;margin:0;padding:0;display:block;transform-style:preserve-3d}
+.is-hall .wall-hang .wall-item{position:absolute;left:0;top:0;transform-origin:0 0;flex:none;opacity:1;transition:none}
+.is-hall .wall-hang .wall-item::before{content:"";position:absolute;left:calc(var(--u) * -10);right:calc(var(--u) * -10);top:calc(var(--u) * -24);height:calc(var(--u) * 62);background:radial-gradient(ellipse 50% 52% at 50% 36%,rgb(255 214 150 / .17),transparent 72%);opacity:0;transition:opacity 900ms var(--ease-reveal);pointer-events:none}
+.is-hall .wall-hang .wall-item.is-front::before{opacity:1}
+.is-hall .wall-hang .wall-item .wall-frame img{filter:brightness(.38) saturate(.75);box-shadow:0 0 0 calc(var(--u) * .7) #0b0a08,0 calc(var(--u) * 2.5) calc(var(--u) * 5) rgb(0 0 0 / .7);transition:filter 900ms var(--ease-reveal)}
+.is-hall .wall-hang .wall-item.is-front .wall-frame img,.is-hall .wall-hang .wall-link:hover .wall-frame img,.is-hall .wall-hang .wall-link:focus-visible .wall-frame img{filter:none}
+.is-hall .wall-hang .wall-link:hover .wall-frame img{transform:none}
+.is-hall .wall-hook{display:none}
+.is-hall .wall-label{font-size:calc(var(--u) * .95);margin-top:calc(var(--u) * 2.4)}
+.is-hall .wall-label i{font-size:calc(var(--u) * 1.5)}
+.is-hall .hall-caption{display:block;position:absolute;z-index:2;left:var(--gutter);bottom:3rem;max-width:min(470px,calc(100% - 2 * var(--gutter)));opacity:0;transform:translateY(12px);transition:opacity 500ms var(--ease-reveal),transform 500ms var(--ease-reveal);pointer-events:none}
+.is-hall .hall-caption.is-shown{opacity:1;transform:none;pointer-events:auto}
+.hall-caption .eyebrow{color:var(--muted)}
+.hall-question{font-family:var(--serif);font-size:clamp(1.5rem,2.3vw,2.1rem);line-height:1.15;color:var(--heading);margin-top:.5rem;text-wrap:balance}
+.hall-caption .button{margin-top:1.2rem}
+.is-hall .hall-hint{display:flex;gap:.8rem;align-items:center;position:absolute;z-index:2;right:var(--gutter);bottom:3rem;font-size:var(--text-xs);letter-spacing:.16em;text-transform:uppercase;color:var(--muted);transition:opacity 600ms}
+.hall-hint span{color:var(--gold);font-size:1rem;animation:hall-bob 1.6s var(--ease-camera) infinite alternate}
+@keyframes hall-bob{to{transform:translateY(5px)}}
+.is-walking .hall-hint{opacity:0}
+.is-hall .hall-progress{display:block;position:absolute;z-index:2;left:var(--gutter);right:var(--gutter);bottom:1.5rem;height:1px;background:var(--line)}
+.hall-progress i{display:block;height:100%;background:var(--gold);transform-origin:left;transform:scaleX(0)}
+.is-approaching .hall-world{transition:transform 900ms var(--ease-camera)}
+.is-approaching .hall-caption,.is-approaching .hall-hint{opacity:0!important}
+@media(max-width:760px){
+  .is-hall .wall-intro{padding:2rem 0 1.5rem}
+  .is-hall .hall-world{top:40%}
+  .is-hall .hall-caption{bottom:2.6rem}
+  .hall-question{font-size:1.35rem}
+  .hall-caption .button{margin-top:.9rem}
+  .is-hall .hall-hint{left:var(--gutter);right:auto;bottom:auto;top:1.2rem}
+}

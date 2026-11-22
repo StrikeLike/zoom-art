@@ -153,7 +153,14 @@
     "dailyStory": "See it in the story",
     "dailyStreak": "Days in a row",
     "dailyNext": "Next detail in",
-    "dailyNoScript": "The Daily Detail needs JavaScript. Every detail is also in the painting stories below."
+    "dailyNoScript": "The Daily Detail needs JavaScript. Every detail is also in the painting stories below.",
+    "galleryLabel": "Gallery",
+    "listLabel": "List",
+    "viewLabel": "View the paintings as",
+    "hallRoom": "Room I",
+    "hallSign": "Every painting here hides a question.",
+    "hallHint": "Scroll to walk through the gallery",
+    "hallEnter": "Enter the story"
   },
   "pages": {
     "artist": {

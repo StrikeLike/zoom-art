@@ -25,12 +25,21 @@ const daily = pool.map(({ work, step, i }) => ({
 }));
 ---
 <Base title={site.seo.homeTitle}>
-  <section class="wall" id="paintings" aria-labelledby="wall-title">
+  <section class="wall" id="paintings" aria-labelledby="wall-title" data-gallery>
     <header class="wall-intro wrap">
-      <p class="eyebrow">{t.wallEyebrow}</p>
-      <h1 id="wall-title">{t.wallTitle} <em>{t.wallTitleEm}</em></h1>
-      <p>{t.wallIntro}</p>
+      <div>
+        <p class="eyebrow">{t.wallEyebrow}</p>
+        <h1 id="wall-title">{t.wallTitle} <em>{t.wallTitleEm}</em></h1>
+        <p>{t.wallIntro}</p>
+      </div>
+      <div class="view-switch" role="group" aria-label={t.viewLabel} hidden><button type="button" data-view="hall" aria-pressed="true">{t.galleryLabel}</button><button type="button" data-view="list" aria-pressed="false">{t.listLabel}</button></div>
     </header>
+    <!-- The gallery (hall.ts): a round room at night you walk through by scrolling. The list below is its wall. -->
+    <div class="hall" data-hall>
+    <div class="hall-stage" data-hall-stage>
+    <div class="hall-world" data-hall-world>
+    <div class="hall-walls" data-hall-walls aria-hidden="true"></div>
+    <div class="hall-sign" data-hall-sign aria-hidden="true"><p class="eyebrow">{t.hallRoom}</p><p>{t.hallSign}</p></div>
     <ul class="wall-hang wrap" data-wall>
       {works.map((work, i) => {
         const [w, h] = work.image.sizes['768'];
@@ -43,6 +52,17 @@ const daily = pool.map(({ work, step, i }) => ({
         </li>;
       })}
     </ul>
+    </div>
+    <div class="hall-caption" data-hall-caption aria-hidden="true">
+      <p class="eyebrow" data-hall-count></p>
+      <p class="hall-question" data-hall-question></p>
+      <p class="hall-work wall-label" data-hall-work></p>
+      <a class="button" href="/" tabindex="-1" data-hall-enter>{t.hallEnter}<span aria-hidden="true">→</span></a>
+    </div>
+    <p class="hall-hint" aria-hidden="true">{t.hallHint}<span>↓</span></p>
+    <span class="hall-progress" aria-hidden="true"><i data-hall-progress></i></span>
+    </div>
+    </div>
   </section>
 
   <section class="daily wrap section-space" id="daily" aria-labelledby="daily-title" data-daily data-epoch="2026-10-22">
@@ -77,6 +97,8 @@ const daily = pool.map(({ work, step, i }) => ({
 <script>
   import { initWall } from '../scripts/wall';
   import { initDaily } from '../scripts/daily';
+  import { initHall } from '../scripts/hall';
   initWall();
+  initHall();
   initDaily();
 </script>

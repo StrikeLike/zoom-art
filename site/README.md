@@ -25,6 +25,17 @@ A painting page is offered to search engines (no `noindex`) only once it has a l
    (whole-painting WebPs, one crop per detail, 512 px DZI tiles; `src/data/images.json` is updated).
 4. From `site/`: `npm run build` then `npm run verify`.
 
+## The gallery (home page)
+
+The wall of mysteries opens as a gallery: a round room at night (`src/scripts/hall.ts`, styles at the end of
+`src/styles/home.css`). Scrolling walks the visitor along the curved wall, the painting in front of them is lit
+and its question shows at the bottom; a click walks up to the painting and opens its page. It is CSS 3D, no
+WebGL, and every painting stays a normal link: without JavaScript, with reduced motion, or with the **List**
+button, the same paintings show as the salon hang. The visitor's choice of Gallery or List is remembered.
+To tune it, the numbers are in `layout()` in `hall.ts`: painting size (`maxH`, `maxW`, `gap`), the camera's
+distance from the wall and how far it looks along it (`camZ`, `yaw`), and the lens (`F`). Wall colours are in
+`.hall-walls>i` and `.hall-stage`.
+
 The Daily Detail draws from every published painting automatically: each day (counted from
 22 Oct 2026) shows one detail, the same for everyone. Changing `published.json` reshuffles future days.
 
