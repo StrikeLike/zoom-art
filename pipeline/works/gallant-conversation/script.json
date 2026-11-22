@@ -1,0 +1,101 @@
+{
+  "title": "Gallant Conversation (Paternal Admonition)",
+  "artist": "Gerard ter Borch",
+  "year": "about 1654",
+  "image": "image.jpg",
+  "source": "Rijksmuseum, Amsterdam (public domain). Wikimedia Commons: Gerard ter Borch - Interieur met drie figuren die met elkaar in gesprek zijn; bekend als 'De vaderlijke vermaning' - Google Art Project.jpg",
+  "caption": "Everyone read this painting wrong for 150 years. #arthistory #lovestory #painting #oilpainting #art",
+  "_verify": [
+    "Rijksmuseum SK-A-404, about 1654; another version in Berlin (Wikipedia EN, Gallant Conversation).",
+    "Goethe described it as a father admonishing his daughter (Wikipedia EN).",
+    "A coin in the man's hand, overpainted: reported in the literature; not visible, slide says 'experts think'.",
+    "The brothel reading is the modern interpretation, not certain; slide avoids the word."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "For 150 years, everyone read this painting wrong.",
+      "sub": "Gerard ter Borch, Gallant Conversation, about 1654"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "A family scene?",
+      "text": "A daughter in shimmering satin, a father talking, a mother sipping wine. Goethe called it a father's warning to his daughter."
+    },
+    {
+      "focus": [
+        0.28,
+        0.65,
+        0.28,
+        0.58
+      ],
+      "headline": "The satin",
+      "text": "Look at her dress first. Ter Borch was famous for painting satin, and this silver gown is the star of the room."
+    },
+    {
+      "focus": [
+        0.66,
+        0.6,
+        0.22,
+        0.36
+      ],
+      "headline": "The 'father'",
+      "text": "But look at the 'father' again. He is young, with a sword and a feathered hat. He looks nothing like her father."
+    },
+    {
+      "focus": [
+        0.6,
+        0.52,
+        0.12,
+        0.12
+      ],
+      "headline": "His hand",
+      "text": "His hand is raised as he talks. Experts think it once held a coin, later painted out to make the scene look decent."
+    },
+    {
+      "focus": [
+        0.5,
+        0.58,
+        0.16,
+        0.22
+      ],
+      "headline": "The 'mother'",
+      "text": "The older woman drinks and keeps her eyes on her glass. In paintings like this, she is not a mother but a go-between."
+    },
+    {
+      "focus": [
+        0.33,
+        0.38,
+        0.5,
+        0.36
+      ],
+      "headline": "The bed",
+      "text": "And right behind them stands a bed with red curtains. This is not a family parlour at all, and the bed is the clue."
+    },
+    {
+      "focus": [
+        0.88,
+        0.78,
+        0.22,
+        0.2
+      ],
+      "headline": "The dog",
+      "text": "Only the dog wanders in calmly, as if it understands what kind of room this is better than we ever did."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Her answer",
+      "text": "We never see her face. Will she accept his offer, or turn away? Ter Borch keeps her answer hidden forever."
+    }
+  ]
+}

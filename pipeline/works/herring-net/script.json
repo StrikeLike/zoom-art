@@ -1,0 +1,134 @@
+{
+  "title": "The Herring Net",
+  "artist": "Winslow Homer",
+  "year": "1885",
+  "image": "image.jpg",
+  "source": "Art Institute of Chicago (public domain). Wikimedia Commons: Winslow Homer - The Herring Net - Google Art Project.jpg",
+  "caption": "A full net, a rising sea. Too heavy? #arthistory #ocean #painting #sea #art",
+  "_verify": [
+    "Painted at Prouts Neck, Maine (Art Institute of Chicago) — check."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "A full net, a rising sea. Too *heavy*?",
+      "sub": "Winslow Homer, The Herring Net, 1885",
+      "focus": [
+        0.52,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Two fishermen in a small boat, far from *land*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.53,
+        0.38,
+        0.14,
+        0.16
+      ],
+      "headline": "One hauls the net with all his *strength*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.34,
+        0.46,
+        0.12,
+        0.14
+      ],
+      "headline": "The other leans out to keep the boat *level*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.63,
+        0.6,
+        0.16,
+        0.14
+      ],
+      "headline": "The net comes up silver with *herring*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.78,
+        0.77,
+        0.24,
+        0.14
+      ],
+      "headline": "More fish still hang in the *water*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.57,
+        0.92,
+        0.1,
+        0.07
+      ],
+      "headline": "A red float marks the rest of the *net*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.08,
+        0.47,
+        0.1,
+        0.1
+      ],
+      "headline": "Far away, the schooner fades into the *fog*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.66,
+        0.33,
+        0.12,
+        0.12
+      ],
+      "headline": "An oar stands up, forgotten in the *rush*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.25,
+        0.82,
+        0.3,
+        0.14
+      ],
+      "headline": "The sea rises. Every wave rocks the heavy *boat*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Homer watched fishermen like these in *Maine*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "A full net, a rough sea. Would *you* keep pulling?",
+      "text": ""
+    }
+  ]
+}

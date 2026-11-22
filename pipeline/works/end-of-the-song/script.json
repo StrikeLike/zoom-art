@@ -1,0 +1,100 @@
+{
+  "title": "The End of the Song (Tristan and Isolde)",
+  "artist": "Edmund Blair Leighton",
+  "year": "1902",
+  "image": "image.jpg",
+  "source": "Private collection (public domain). Wikimedia Commons: Edmund Blair Leighton - The End of the Song (1902).jpg",
+  "caption": "She is listening to her lover. Look at the doorway. #arthistory #lovestory #painting #oilpainting #art",
+  "_verify": [
+    "Leighton, The End of the Song, 1902; private collection (Commons description).",
+    "The figure at the doorway identified as King Mark: from the painting's usual description; check on the image.",
+    "Image only 2000 px: auto-upscaled at render; check faces."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "She is listening to her lover. Look at the doorway.",
+      "sub": "Edmund Blair Leighton, The End of the Song, 1902"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "The legend",
+      "text": "In the legend, the knight Tristan falls in love with Isolde, who is married to his own uncle, King Mark."
+    },
+    {
+      "focus": [
+        0.47,
+        0.5,
+        0.4,
+        0.6
+      ],
+      "headline": "The song",
+      "text": "Here, in a quiet garden, Tristan plays the harp and sings to her. It is their secret moment, far from the court."
+    },
+    {
+      "focus": [
+        0.32,
+        0.36,
+        0.18,
+        0.2
+      ],
+      "headline": "Isolde",
+      "text": "She leans back, eyes half closed, lost in the music and in him. For a moment she forgets she is a queen."
+    },
+    {
+      "focus": [
+        0.46,
+        0.32,
+        0.18,
+        0.18
+      ],
+      "headline": "Tristan",
+      "text": "He leans in close, almost touching her face, his harp between them like the only thing keeping them apart."
+    },
+    {
+      "focus": [
+        0.85,
+        0.45,
+        0.14,
+        0.32
+      ],
+      "headline": "The doorway",
+      "text": "But look on the right. Half hidden in the shadows, King Mark has stepped in. He has heard everything."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.9,
+        0.85
+      ],
+      "headline": "The title",
+      "text": "The painting is called The End of the Song. The music has stopped, and so has their secret."
+    },
+    {
+      "focus": [
+        0.58,
+        0.6,
+        0.26,
+        0.5
+      ],
+      "headline": "The story",
+      "text": "The tale of Tristan and Isolde inspired poems, Wagner's opera and countless paintings. It rarely ends well for the lovers."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Your choice",
+      "text": "Loyalty to the king, or love for the queen? If you were Tristan, which would you choose right now?"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "title": "The Family of Charles IV",
+  "artist": "Francisco Goya",
+  "year": "1800-01",
+  "image": "image.jpg",
+  "source": "Museo del Prado, Madrid (public domain). Wikimedia Commons: La familia de Carlos IV, Francisco de Goya.jpg",
+  "caption": "A royal family portrait full of secrets. #arthistory #history #painting #art #museum",
+  "_verify": [
+    "Prado P00726, 1800-01 (Wikipedia EN, Charles IV of Spain and His Family).",
+    "Queen's power and rumours about Godoy and the youngest son: court gossip, phrased as whispers.",
+    "Turned-away woman as the future princess not yet chosen: common interpretation (Wikipedia EN).",
+    "The 'baker and his wife' joke is attributed to Théophile Gautier; attribution not re-checked."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "A royal family portrait full of secrets.",
+      "sub": "Francisco Goya, The Family of Charles IV, 1800-01"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "The royals",
+      "text": "Madrid, 1800. Goya paints the whole Spanish royal family, life size. It looks like a grand official portrait. But look closer."
+    },
+    {
+      "focus": [
+        0.48,
+        0.5,
+        0.2,
+        0.5
+      ],
+      "headline": "The queen",
+      "text": "Queen Maria Luisa stands in the centre, not the king. Many at court believed she was the one who really ruled Spain."
+    },
+    {
+      "focus": [
+        0.69,
+        0.5,
+        0.18,
+        0.52
+      ],
+      "headline": "The king",
+      "text": "King Charles IV stands to one side, covered in medals, looking pleased with himself. He loved hunting more than ruling."
+    },
+    {
+      "focus": [
+        0.58,
+        0.68,
+        0.16,
+        0.3
+      ],
+      "headline": "The youngest",
+      "text": "The queen holds the hand of her youngest son. At court, people whispered about who his real father was."
+    },
+    {
+      "focus": [
+        0.29,
+        0.45,
+        0.14,
+        0.26
+      ],
+      "headline": "No face",
+      "text": "Near the heir, a young woman turns her face away. Many think she stands for his future bride, not yet chosen."
+    },
+    {
+      "focus": [
+        0.1,
+        0.4,
+        0.18,
+        0.3
+      ],
+      "headline": "The painter",
+      "text": "And in the shadows on the left, Goya painted himself at his easel, watching them, just like Velázquez in Las Meninas."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.95,
+        0.8
+      ],
+      "headline": "Flattery?",
+      "text": "A later writer joked they look like a baker and his wife after winning the lottery. Yet the royals seem to have liked it."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Your verdict",
+      "text": "Goya flattered no one, and the royals didn't seem to notice. Was he quietly mocking them, or just telling the truth?"
+    }
+  ]
+}

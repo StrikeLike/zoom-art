@@ -1,0 +1,101 @@
+{
+  "title": "Isabella",
+  "artist": "John Everett Millais",
+  "year": "1849",
+  "image": "image.jpg",
+  "source": "Walker Art Gallery, Liverpool (public domain). Wikimedia Commons: John Everett Millais - Isabella - Google Art Project.jpg",
+  "caption": "A family dinner. Look under the table. #arthistory #lovestory #painting #oilpainting #art",
+  "_verify": [
+    "Walker Art Gallery, 1849, Millais's first Pre-Raphaelite painting (Wikipedia EN, Isabella (Millais)).",
+    "Rossetti among the models: Wikipedia EN lists models; position 'drinking at the far end' to check on the image.",
+    "Per Alex: tell only the love story and the jealous brothers; do NOT mention Lorenzo's fate.",
+    "Avoid 'blood orange' (forbidden word); just 'orange'."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "A family dinner. Look under the table.",
+      "sub": "John Everett Millais, Isabella, 1849"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Florence",
+      "text": "A dinner in Renaissance Florence. Isabella's rich brothers sit at the table with Lorenzo, a young man who works for them."
+    },
+    {
+      "focus": [
+        0.7,
+        0.38,
+        0.24,
+        0.3
+      ],
+      "headline": "The lovers",
+      "text": "Lorenzo offers Isabella half of an orange on a plate. They are secretly in love, and think no one has noticed."
+    },
+    {
+      "focus": [
+        0.38,
+        0.65,
+        0.4,
+        0.3
+      ],
+      "headline": "The kick",
+      "text": "But in the front, one brother stretches out his leg and kicks Isabella's dog under the table. His anger is building."
+    },
+    {
+      "focus": [
+        0.3,
+        0.45,
+        0.2,
+        0.2
+      ],
+      "headline": "The nut",
+      "text": "He cracks a nut in his fist, staring at Lorenzo. The other brothers have seen everything too. Jealousy spreads."
+    },
+    {
+      "focus": [
+        0.67,
+        0.62,
+        0.14,
+        0.2
+      ],
+      "headline": "The dog",
+      "text": "The little greyhound lays its head gently on Isabella's knee, the only one at this table truly on her side."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.9,
+        0.85
+      ],
+      "headline": "The story",
+      "text": "The story comes from Boccaccio and a poem by John Keats. Millais was only twenty when he painted it."
+    },
+    {
+      "focus": [
+        0.38,
+        0.28,
+        0.16,
+        0.16
+      ],
+      "headline": "The friends",
+      "text": "Millais used his friends as models. The painter Dante Gabriel Rossetti is the man drinking from a tall glass."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Her choice",
+      "text": "Her brothers want her to marry for money. Would you choose the poor young man you love, against your whole family?"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "title": "The Railway Station",
+  "artist": "William Powell Frith",
+  "year": "1862",
+  "image": "image.jpg",
+  "source": "Royal Holloway, University of London (public domain). Wikimedia Commons: William Powell Frith The Railway Station.jpg",
+  "caption": "Find the arrest. Two detectives, one man. #arthistory #history #painting #art #museum",
+  "_verify": [
+    "Royal Holloway, 1862 (Wikipedia EN, The Railway Station (painting)).",
+    "Detectives modelled by Scotland Yard officers Haydon and Brett: Wikipedia EN; names not used.",
+    "Frith's family in the centre, the cabman dispute, the sale for a large sum to Flatow: Wikipedia EN, simplified.",
+    "IMAGE only 1000 px: upscaled; keep zooms moderate."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Find the arrest. Two detectives, one man.",
+      "sub": "William Powell Frith, The Railway Station, 1862"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Paddington",
+      "text": "London's Paddington Station, 1862. Hundreds of travellers rush for the train. Frith painted each one as a little story."
+    },
+    {
+      "focus": [
+        0.84,
+        0.66,
+        0.2,
+        0.36
+      ],
+      "headline": "The arrest",
+      "text": "On the right, two detectives have just caught a man as he climbs into a carriage. His escape is over."
+    },
+    {
+      "focus": [
+        0.83,
+        0.6,
+        0.14,
+        0.24
+      ],
+      "headline": "Real detectives",
+      "text": "The detectives were real: Frith asked two well-known Scotland Yard officers to pose for him in his studio."
+    },
+    {
+      "focus": [
+        0.68,
+        0.68,
+        0.14,
+        0.3
+      ],
+      "headline": "The wedding",
+      "text": "In the middle, a bride and groom set off on their honeymoon, surrounded by friends waving them goodbye."
+    },
+    {
+      "focus": [
+        0.42,
+        0.7,
+        0.2,
+        0.36
+      ],
+      "headline": "The family",
+      "text": "Frith painted himself and his own family in the crowd, seeing the boys off to school."
+    },
+    {
+      "focus": [
+        0.2,
+        0.65,
+        0.3,
+        0.4
+      ],
+      "headline": "Little dramas",
+      "text": "A cab driver argues about the fare, porters rush with luggage. Everyone here has a small drama of their own."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "A sensation",
+      "text": "Crowds paid to see the painting in London, and Frith was paid a fortune for it, including the rights to sell prints."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Which story?",
+      "text": "One arrest, one wedding, one goodbye. If you were on this platform, which stranger's story would you follow?"
+    }
+  ]
+}

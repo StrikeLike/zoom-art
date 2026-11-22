@@ -1,0 +1,135 @@
+{
+  "title": "The Thames",
+  "artist": "James Tissot",
+  "year": "about 1876",
+  "image": "image.jpg",
+  "source": "The Hepworth Wakefield (public domain). Wikimedia Commons: On the Thames, James Tissot.jpg",
+  "caption": "Two women, one officer. Who is he with? #arthistory #lovestory #painting #oilpainting #art",
+  "_verify": [
+    "Critics at the 1876 Royal Academy found the scene morally ambiguous / vulgar — check exact wording.",
+    "The small animal near the women read as a dog; check on the image."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Two women, one officer. Who is he *with*?",
+      "sub": "James Tissot, The Thames, about 1876",
+      "focus": [
+        0.49,
+        0.4,
+        0.38,
+        0.3
+      ]
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "A steam launch on the busy *Thames*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.36,
+        0.43,
+        0.1,
+        0.12
+      ],
+      "headline": "A naval officer lounges back, very *relaxed*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.57,
+        0.37,
+        0.08,
+        0.1
+      ],
+      "headline": "On one side, a lady looks away, *serious*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.39,
+        0.36,
+        0.06,
+        0.08
+      ],
+      "headline": "Behind him, a second woman peeks *out*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.45,
+        0.3,
+        0.36,
+        0.14
+      ],
+      "headline": "Two black umbrellas, two women, one *man*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.51,
+        0.5,
+        0.06,
+        0.06
+      ],
+      "headline": "Even a little dog is along for the *ride*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.38,
+        0.6,
+        0.1,
+        0.08
+      ],
+      "headline": "His hand hangs loose. No *duty* today.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.66,
+        0.92,
+        0.2,
+        0.1
+      ],
+      "headline": "Look below: a basket of champagne *bottles*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.38,
+        0.18,
+        0.1,
+        0.12
+      ],
+      "headline": "The British flag flies over their little *party*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.65,
+        0.15,
+        0.3,
+        0.18
+      ],
+      "headline": "Around them, the port works hard, full of *smoke*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Victorian critics were shocked. Who is he *with*?",
+      "text": ""
+    }
+  ]
+}

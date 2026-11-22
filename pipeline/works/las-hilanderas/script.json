@@ -1,0 +1,101 @@
+{
+  "title": "Las Hilanderas (The Fable of Arachne)",
+  "artist": "Diego Velázquez",
+  "year": "about 1657",
+  "image": "image.jpg",
+  "source": "Museo del Prado, Madrid (public domain). Wikimedia Commons: Velázquez - La Fábula de Aracne o Las Hilanderas (Museo del Prado, 1657-58).jpg",
+  "caption": "Just women spinning wool? The real story is at the back. #arthistory #history #painting #art #museum",
+  "_verify": [
+    "Prado P01173, about 1655-60 (Wikipedia EN, Las Hilanderas).",
+    "Back scene as the Fable of Arachne, tapestry after Titian's Rape of Europa: Wikipedia EN; slide avoids the tapestry's subject.",
+    "Blurred spokes of the wheel: commonly noted.",
+    "NO NUDITY: the back tapestry has small flying cupids; zooms framed below them."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Just women spinning wool? The real story is at the back.",
+      "sub": "Diego Velázquez, Las Hilanderas, about 1657"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "The workshop",
+      "text": "At first it looks like an ordinary workshop in Madrid: women spinning wool, a cat, balls of thread on the floor."
+    },
+    {
+      "focus": [
+        0.25,
+        0.68,
+        0.28,
+        0.4
+      ],
+      "headline": "The wheel",
+      "text": "On the left, an older woman turns the spinning wheel so fast that its spokes have vanished into a blur."
+    },
+    {
+      "focus": [
+        0.75,
+        0.6,
+        0.26,
+        0.42
+      ],
+      "headline": "The young one",
+      "text": "On the right, a young woman winds yarn with her back to us, caught in a bright beam of light."
+    },
+    {
+      "focus": [
+        0.5,
+        0.53,
+        0.3,
+        0.2
+      ],
+      "headline": "The back room",
+      "text": "But the real story is in the bright room at the back. Elegant ladies stand there in front of a tapestry."
+    },
+    {
+      "focus": [
+        0.38,
+        0.48,
+        0.12,
+        0.16
+      ],
+      "headline": "The goddess",
+      "text": "One of them wears a helmet: she is Athena, goddess of weaving. She has come to judge a contest."
+    },
+    {
+      "focus": [
+        0.47,
+        0.5,
+        0.32,
+        0.2
+      ],
+      "headline": "Arachne",
+      "text": "Arachne, a young weaver, boasted that she was better than the goddess. Her tapestry showed the gods behaving badly."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.9,
+        0.85
+      ],
+      "headline": "The punishment",
+      "text": "In the myth, Athena turns Arachne into a spider, weaving forever. That is why spiders are still called arachnids."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Talent or pride?",
+      "text": "Velázquez hid a myth behind a workshop. Was Arachne right to challenge a goddess, if she really was the best?"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "title": "The Coronation of Napoleon",
+  "artist": "Jacques-Louis David",
+  "year": "1805-07",
+  "image": "image.jpg",
+  "source": "Musée du Louvre, Paris (public domain). Wikimedia Commons: Jacques-Louis David - The Coronation of Napoleon (1805-1807).jpg",
+  "caption": "He crowned himself. And his mother wasn't even there. #arthistory #history #painting #art #museum",
+  "_verify": [
+    "Louvre, 1805-07, about 6.2 x 9.8 m (Wikipedia EN, The Coronation of Napoleon).",
+    "Napoleon crowned himself, then Josephine (general history).",
+    "Pope's blessing gesture added at Napoleon's request: widely repeated, not re-checked today.",
+    "Letizia Bonaparte absent but painted in: Wikipedia EN; reason for absence simplified.",
+    "Josephine painted younger: gossip, phrased as such."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "He crowned himself. Look who isn't really there.",
+      "sub": "Jacques-Louis David, The Coronation of Napoleon, 1805-07"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Notre-Dame, 1804",
+      "text": "Paris, 2 December 1804. Inside Notre-Dame, Napoleon becomes Emperor of the French. The Pope himself has come all the way from Rome."
+    },
+    {
+      "focus": [
+        0.56,
+        0.66,
+        0.12,
+        0.3
+      ],
+      "headline": "The crown",
+      "text": "Napoleon took the crown from the Pope's hands and crowned himself. David shows the next moment: now he crowns Josephine."
+    },
+    {
+      "focus": [
+        0.44,
+        0.75,
+        0.2,
+        0.24
+      ],
+      "headline": "Josephine",
+      "text": "Josephine kneels before him, young and radiant. She was older than Napoleon, and gossip said David made her look younger."
+    },
+    {
+      "focus": [
+        0.67,
+        0.68,
+        0.12,
+        0.2
+      ],
+      "headline": "The Pope",
+      "text": "Behind them, Pope Pius VII sits and raises his hand in blessing. Napoleon is said to have asked David to add that gesture."
+    },
+    {
+      "focus": [
+        0.45,
+        0.56,
+        0.18,
+        0.12
+      ],
+      "headline": "The mother",
+      "text": "And in the place of honour sits Napoleon's mother, Letizia. In reality she was not there. She had stayed away from Paris."
+    },
+    {
+      "focus": [
+        0.42,
+        0.43,
+        0.2,
+        0.12
+      ],
+      "headline": "The painter",
+      "text": "Up in the gallery, David painted himself, drawing the scene. He really was there that day, watching every detail."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "A giant",
+      "text": "The canvas is almost ten metres wide, with well over a hundred portraits. It took David nearly three years to finish."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Edited history",
+      "text": "A real event, edited like propaganda: a mother added, a gesture improved. Would you rewrite your big day to look perfect?"
+    }
+  ]
+}

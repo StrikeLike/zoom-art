@@ -1,0 +1,99 @@
+{
+  "title": "La Belle Dame sans Merci",
+  "artist": "Frank Dicksee",
+  "year": "1902",
+  "image": "image.jpg",
+  "source": "Bristol Museum & Art Gallery (public domain). Wikimedia Commons: Frank Dicksee - La Belle Dame sans Merci - Bristol Museums, Galleries and Archives.jpg",
+  "caption": "He thinks he has found true love. Look again. #arthistory #lovestory #painting #oilpainting #art",
+  "_verify": [
+    "Bristol Museum & Art Gallery, 1902 (Commons file, Bristol Museums).",
+    "Keats, La Belle Dame sans Merci (1819): plot summarised from the poem."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "He thinks he has found true love. Look again.",
+      "sub": "Frank Dicksee, La Belle Dame sans Merci, 1902"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "The poem",
+      "text": "A poem by John Keats: a knight meets a beautiful woman in the meadows and falls in love with her at first sight."
+    },
+    {
+      "focus": [
+        0.5,
+        0.25,
+        0.32,
+        0.26
+      ],
+      "headline": "The lady",
+      "text": "She leans down from his own horse, her red hair falling over him. She has chosen him. Or has she?"
+    },
+    {
+      "focus": [
+        0.6,
+        0.5,
+        0.3,
+        0.4
+      ],
+      "headline": "The knight",
+      "text": "He gazes up at her, completely lost, one arm stretched out behind him as if he were falling backwards."
+    },
+    {
+      "focus": [
+        0.33,
+        0.3,
+        0.14,
+        0.14
+      ],
+      "headline": "The reins",
+      "text": "Look at her hands: she is holding the reins of his horse. Now she leads him wherever she wants to go."
+    },
+    {
+      "focus": [
+        0.2,
+        0.6,
+        0.36,
+        0.5
+      ],
+      "headline": "The horse",
+      "text": "Even his mighty warhorse lowers its head, as if it too has already fallen under her strange spell."
+    },
+    {
+      "focus": [
+        0.85,
+        0.75,
+        0.28,
+        0.4
+      ],
+      "headline": "The roses",
+      "text": "Wild roses grow all around them, sweet and thorny at once. Dicksee hides the danger in plain sight."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.9,
+        0.8
+      ],
+      "headline": "The warning",
+      "text": "In Keats's poem, the knight wakes alone on a cold hillside. Pale kings warn him that she has trapped them too."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Follow her?",
+      "text": "Beautiful, mysterious and without mercy, as the title says. Would you climb down from your horse and follow her?"
+    }
+  ]
+}

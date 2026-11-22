@@ -1,0 +1,135 @@
+{
+  "title": "Home, Sweet Home",
+  "artist": "Winslow Homer",
+  "year": "about 1863",
+  "image": "image.jpg",
+  "source": "National Gallery of Art, Washington (public domain). Wikimedia Commons: Winslow Homer - Home, Sweet Home - Google Art Project.jpg",
+  "caption": "Far from home, a song breaks their hearts. #arthistory #history #painting #war #art",
+  "_verify": [
+    "The band playing 'Home, Sweet Home' is the usual reading of the title (NGA).",
+    "Claim that some Union officers banned the song as too sad — check source."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Far from home, a song breaks their *hearts*.",
+      "sub": "Winslow Homer, Home, Sweet Home, about 1863",
+      "focus": [
+        0.62,
+        0.47,
+        0.45,
+        0.36
+      ]
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "A Union army camp in the Civil *War*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.56,
+        0.4,
+        0.12,
+        0.16
+      ],
+      "headline": "One soldier stands still, eyes on the *ground*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.77,
+        0.55,
+        0.12,
+        0.12
+      ],
+      "headline": "His friend sits on a box, head *down*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.66,
+        0.64,
+        0.1,
+        0.08
+      ],
+      "headline": "A paper on his knee. Maybe a letter from *home*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.33,
+        0.37,
+        0.2,
+        0.12
+      ],
+      "headline": "In the distance, a military band is *playing*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.2,
+        0.55,
+        0.3,
+        0.25
+      ],
+      "headline": "The song is Home, Sweet Home. The camp goes *quiet*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.18,
+        0.87,
+        0.14,
+        0.1
+      ],
+      "headline": "Their dinner pot simmers on a small *fire*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.4,
+        0.62,
+        0.12,
+        0.2
+      ],
+      "headline": "Gear hangs on a post. Home feels very *far*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.94,
+        0.68,
+        0.12,
+        0.1
+      ],
+      "headline": "A red blanket, the only warm colour in *camp*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Some officers banned the song. It made men too *homesick*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Far from home, what song would *you* miss?",
+      "text": ""
+    }
+  ]
+}

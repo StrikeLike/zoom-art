@@ -1,0 +1,101 @@
+{
+  "title": "The Tower of Babel",
+  "artist": "Pieter Bruegel the Elder",
+  "year": "1563",
+  "image": "image.jpg",
+  "source": "Kunsthistorisches Museum, Vienna (public domain). Wikimedia Commons: Pieter Bruegel the Elder - The Tower of Babel (Vienna) - Google Art Project.jpg",
+  "caption": "They wanted to reach heaven. Look at the foundations. #arthistory #history #painting #art #museum",
+  "_verify": [
+    "Kunsthistorisches Museum, 1563 (Wikipedia EN, The Tower of Babel (Bruegel)).",
+    "The king is traditionally Nimrod; slide says only 'the king'.",
+    "Colosseum as model and Bruegel's trip to Rome (about 1552-53): Wikipedia EN.",
+    "'Floors tilt / arches don't line up': commonly noted; check on the image."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "They wanted to reach heaven. Look at the foundations.",
+      "sub": "Pieter Bruegel the Elder, The Tower of Babel, 1563"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "The plan",
+      "text": "In the Bible, people decide to build a tower that reaches the sky. Bruegel shows it halfway built, and already in trouble."
+    },
+    {
+      "focus": [
+        0.18,
+        0.85,
+        0.3,
+        0.24
+      ],
+      "headline": "The king",
+      "text": "In the front, the king comes to inspect his tower. The stonemasons kneel before him in the dust and rubble."
+    },
+    {
+      "focus": [
+        0.5,
+        0.4,
+        0.6,
+        0.7
+      ],
+      "headline": "The tower",
+      "text": "The tower spirals up like a giant cake. Its arches recall the Colosseum in Rome, which Bruegel had seen with his own eyes."
+    },
+    {
+      "focus": [
+        0.4,
+        0.5,
+        0.3,
+        0.3
+      ],
+      "headline": "The flaw",
+      "text": "Look closely at the layers: the arches don't line up and the floors already tilt. It is going wrong from the bottom."
+    },
+    {
+      "focus": [
+        0.72,
+        0.65,
+        0.2,
+        0.2
+      ],
+      "headline": "The workers",
+      "text": "Hundreds of tiny workers swarm everywhere, with cranes, ladders and ropes. Bruegel painted each one busy at a job."
+    },
+    {
+      "focus": [
+        0.9,
+        0.75,
+        0.2,
+        0.3
+      ],
+      "headline": "The city",
+      "text": "Around the tower, a whole city carries on as usual, and ships crowd the harbour, bringing in more stone."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.95,
+        0.9
+      ],
+      "headline": "The ending",
+      "text": "In the story, God confuses their language so they cannot understand each other. The work stops, unfinished forever."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Too ambitious?",
+      "text": "A dream so big it sinks under its own weight. Would you keep building, or stop before it is too late?"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "title": "The Fog Warning",
+  "artist": "Winslow Homer",
+  "year": "1885",
+  "image": "image.jpg",
+  "source": "Museum of Fine Arts, Boston (public domain). Wikimedia Commons: Winslow Homer - The Fog Warning - Google Art Project.jpg",
+  "caption": "The fog is coming. Can he make it back? #arthistory #ocean #painting #sea #art",
+  "_verify": [
+    "Painted at Prouts Neck, Maine (MFA Boston); the fish is usually described as halibut."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "The fog is coming. Can he make it *back*?",
+      "sub": "Winslow Homer, The Fog Warning, 1885",
+      "focus": [
+        0.44,
+        0.32,
+        0.34,
+        0.3
+      ]
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "A lone fisherman rows home across a cold, rough *sea*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.38,
+        0.23,
+        0.12,
+        0.14
+      ],
+      "headline": "He turns his head and looks *back*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.79,
+        0.33,
+        0.08,
+        0.06
+      ],
+      "headline": "Far away is the schooner he must *reach*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.65,
+        0.16,
+        0.4,
+        0.16
+      ],
+      "headline": "And above it, a dark bank of *fog*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.42,
+        0.42,
+        0.14,
+        0.1
+      ],
+      "headline": "His hands grip the oars. Every stroke *counts*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.62,
+        0.66,
+        0.3,
+        0.16
+      ],
+      "headline": "His catch lies in the boat: a huge *halibut*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.48,
+        0.55,
+        0.16,
+        0.12
+      ],
+      "headline": "Lines and gear crowd the small *boat*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.33,
+        0.25,
+        0.14,
+        0.14
+      ],
+      "headline": "The bow lifts high on every *wave*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.3,
+        0.85,
+        0.4,
+        0.15
+      ],
+      "headline": "The waves are rising, and the boat is *heavy*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.8,
+        0.33,
+        0.2,
+        0.1
+      ],
+      "headline": "In fog, he could lose the ship *forever*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Homer never shows the end. Does he make it *back*?",
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "title": "And When Did You Last See Your Father?",
+  "artist": "William Frederick Yeames",
+  "year": "1878",
+  "image": "image.jpg",
+  "source": "Walker Art Gallery, Liverpool (public domain). Wikimedia Commons: William Frederick Yeames - And when did you last see your father? - Google Art Project.jpg",
+  "caption": "They want him to betray his own father. #arthistory #history #painting #art #museum",
+  "_verify": [
+    "Walker Art Gallery, 1878 (Wikipedia EN, And When Did You Last See Your Father?).",
+    "Royalist boy questioned by Parliamentarians; sister crying waiting her turn: Wikipedia EN.",
+    "'Raised never to lie' is the usual reading of the scene, not a stated fact.",
+    "Positions of officer, clerk and sister to check on the image.",
+    "Short-text slide 8: the woman behind the sister is not identified (mother? servant?); the sentence only says what is visible."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "They want him to betray his own father.",
+      "sub": "William Frederick Yeames, And When Did You Last See Your Father?, 1878",
+      "focus": [
+        0.58,
+        0.42,
+        0.22,
+        0.22
+      ]
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "England is at war. Soldiers search a house for the *father*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.52,
+        0.55,
+        0.14,
+        0.5
+      ],
+      "headline": "They stand his small *son* on a stool before them.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.51,
+        0.56,
+        0.12,
+        0.2
+      ],
+      "headline": "His hands are behind his back. He stands very *straight*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.8,
+        0.45,
+        0.2,
+        0.32
+      ],
+      "headline": "An officer asks him *gently*: when did you last see your father?",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.66,
+        0.4,
+        0.2,
+        0.3
+      ],
+      "headline": "Beside him, a clerk waits to write down every *word*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.48,
+        0.3,
+        0.6,
+        0.5
+      ],
+      "headline": "Around them, armed soldiers fill the *room*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.17,
+        0.5,
+        0.14,
+        0.5
+      ],
+      "headline": "Behind the boy, his sister waits her *turn*, in tears.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.12,
+        0.24,
+        0.14,
+        0.2
+      ],
+      "headline": "Behind her, a woman stares toward the table, pale with *fear*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.17,
+        0.45,
+        0.3,
+        0.6
+      ],
+      "headline": "The women are held back. They can only *watch*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.52,
+        0.4,
+        0.12,
+        0.18
+      ],
+      "headline": "He was taught never to *lie*. The truth betrays his father.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Yeames never shows his answer. What would *you* say?",
+      "text": ""
+    }
+  ]
+}

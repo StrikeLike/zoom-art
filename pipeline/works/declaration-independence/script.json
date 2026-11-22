@@ -1,0 +1,101 @@
+{
+  "title": "Declaration of Independence",
+  "artist": "John Trumbull",
+  "year": "1818",
+  "image": "image.jpg",
+  "source": "United States Capitol Rotunda, Washington (public domain). Wikimedia Commons: Declaration of Independence (1819), by John Trumbull.jpg",
+  "caption": "America's most famous moment never happened like this. #arthistory #history #painting #art #museum",
+  "_verify": [
+    "Capitol Rotunda version, commissioned 1817, finished 1818, installed 1826 (Wikipedia EN, Declaration of Independence (painting)).",
+    "Shows the presentation of the draft on 28 June 1776; the signers were never all present together: Wikipedia EN.",
+    "Two-dollar bill uses an engraving of it (reverse of the 1976 note).",
+    "Size about 3.7 x 5.5 m: general; slide says 'more than five metres wide'."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "America's most famous moment never happened like this.",
+      "sub": "John Trumbull, Declaration of Independence, 1818"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "1776",
+      "text": "Philadelphia, 1776. The draft of the Declaration of Independence is presented to Congress. You have probably seen this scene on the two-dollar bill."
+    },
+    {
+      "focus": [
+        0.55,
+        0.55,
+        0.22,
+        0.36
+      ],
+      "headline": "The committee",
+      "text": "In the centre stand the five men who drafted it: John Adams, Roger Sherman, Robert Livingston, Thomas Jefferson and Benjamin Franklin."
+    },
+    {
+      "focus": [
+        0.58,
+        0.47,
+        0.12,
+        0.24
+      ],
+      "headline": "Jefferson",
+      "text": "Thomas Jefferson, the tall man with red hair, hands over the document he mostly wrote himself. He was only 33."
+    },
+    {
+      "focus": [
+        0.64,
+        0.46,
+        0.1,
+        0.18
+      ],
+      "headline": "Franklin",
+      "text": "Beside him stands Benjamin Franklin, the oldest man in the room, calm and patient, waiting for the vote."
+    },
+    {
+      "focus": [
+        0.5,
+        0.55,
+        0.9,
+        0.5
+      ],
+      "headline": "Never like this",
+      "text": "But this moment never happened like this. These men were never all together in one room on a single day."
+    },
+    {
+      "focus": [
+        0.2,
+        0.55,
+        0.36,
+        0.3
+      ],
+      "headline": "From life",
+      "text": "Trumbull painted most faces from life, travelling for years to find them. Some men he could not find were simply left out."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "The Capitol",
+      "text": "This huge canvas, more than five metres wide, has hung in the Rotunda of the US Capitol since 1826."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "True enough?",
+      "text": "A real event, but an invented scene. Does a painting have to be accurate to become history?"
+    }
+  ]
+}

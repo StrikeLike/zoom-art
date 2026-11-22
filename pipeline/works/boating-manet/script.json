@@ -1,0 +1,135 @@
+{
+  "title": "Boating",
+  "artist": "Édouard Manet",
+  "year": "1874",
+  "image": "image.jpg",
+  "source": "The Metropolitan Museum of Art, New York (public domain). Wikimedia Commons: Boating - Édouard Manet.jpg",
+  "caption": "He stares at us. She looks away. #arthistory #lovestory #painting #oilpainting #art",
+  "_verify": [
+    "Painted at Argenteuil, 1874; male model often said to be Rodolphe Leenhoff (Manet's brother-in-law) — check.",
+    "Japanese-print influence is the usual reading."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "He stares at us. She looks *away*.",
+      "sub": "Édouard Manet, Boating, 1874",
+      "focus": [
+        0.36,
+        0.36,
+        0.44,
+        0.4
+      ]
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Summer on the Seine. A man and a woman in a *boat*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.5,
+        0.2,
+        0.12,
+        0.12
+      ],
+      "headline": "He stares straight at us. Did we *interrupt*?",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.25,
+        0.52,
+        0.12,
+        0.12
+      ],
+      "headline": "She looks away, lost in her own *thoughts*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.49,
+        0.14,
+        0.16,
+        0.08
+      ],
+      "headline": "His straw boater: the summer uniform of *Paris*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.67,
+        0.45,
+        0.1,
+        0.1
+      ],
+      "headline": "One hand on the tiller. He steers the *boat*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.2,
+        0.45,
+        0.14,
+        0.14
+      ],
+      "headline": "A light veil floats over her face in the *breeze*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.35,
+        0.2,
+        0.3,
+        0.2
+      ],
+      "headline": "No sky, no shore. Only blue *water*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.88,
+        0.15,
+        0.2,
+        0.25
+      ],
+      "headline": "A corner of the sail cuts in from the *edge*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.3,
+        0.82,
+        0.3,
+        0.15
+      ],
+      "headline": "Her blue striped dress fills the *boat*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Manet cropped it like a Japanese *print*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Lovers or strangers? What do *you* see?",
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "title": "A Philosopher Lecturing on the Orrery",
+  "artist": "Joseph Wright of Derby",
+  "year": "about 1766",
+  "image": "image.jpg",
+  "source": "Derby Museum and Art Gallery (public domain). Wikimedia Commons: Wright of Derby, The Orrery.jpg",
+  "caption": "These kids just saw something impossible. #arthistory #history #painting #art #museum",
+  "_verify": [
+    "Derby Museum, about 1766 (Wikipedia EN, A Philosopher Lecturing on the Orrery).",
+    "Lamp in place of the Sun, hidden by a figure: Wikipedia EN.",
+    "Lecturer resembling Newton: suggested in the literature, phrased 'some say'.",
+    "Positions of note-taker and thinker to check on the image.",
+    "Short-text slide: the lamp stands in for the Sun (usual description)."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "These kids just saw something impossible.",
+      "sub": "Joseph Wright of Derby, A Philosopher Lecturing on the Orrery, about 1766",
+      "focus": [
+        0.42,
+        0.5,
+        0.32,
+        0.26
+      ]
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "In a dark room, a lecturer shows a model of the *planets*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.42,
+        0.52,
+        0.3,
+        0.24
+      ],
+      "headline": "The children lean in. They are watching an *eclipse*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.4,
+        0.68,
+        0.18,
+        0.12
+      ],
+      "headline": "Inside the rings, tiny brass planets circle a hidden *Sun*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.46,
+        0.18,
+        0.2,
+        0.24
+      ],
+      "headline": "The lecturer in red. Some say he looks like *Newton*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.58,
+        0.44,
+        0.14,
+        0.12
+      ],
+      "headline": "His hand rests on the brass *rings* of the machine.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.2,
+        0.3,
+        0.26,
+        0.32
+      ],
+      "headline": "On the left, a man takes notes, completely *absorbed*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.85,
+        0.42,
+        0.24,
+        0.32
+      ],
+      "headline": "On the right, a man sits lost in *thought*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.14,
+        0.58,
+        0.16,
+        0.22
+      ],
+      "headline": "On the left, a young woman watches in *silence*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.42,
+        0.62,
+        0.36,
+        0.3
+      ],
+      "headline": "The lamp is hidden behind a boy. Every face *glows*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.5,
+        0.45,
+        0.8,
+        0.6
+      ],
+      "headline": "Science was shaking old certainties. Not everyone looks *happy*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Wonder or fear? Would you want to know how the *universe* works?",
+      "text": ""
+    }
+  ]
+}

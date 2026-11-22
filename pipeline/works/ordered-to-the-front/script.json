@@ -1,0 +1,135 @@
+{
+  "title": "Ordered to the Front",
+  "artist": "Frank Holl",
+  "year": "1880",
+  "image": "image.jpg",
+  "source": "The New Art Gallery Walsall (public domain). Wikimedia Commons: Ordered to the Front.tif",
+  "caption": "The order came. She can't let him go. #arthistory #history #painting #war #art",
+  "_verify": [
+    "Regiment not identified on the painting (Highland uniform); check.",
+    "Walsall title 'Ordered to the Front', 1880 — check."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "The order came. She can't let him *go*.",
+      "sub": "Frank Holl, Ordered to the Front, 1880",
+      "focus": [
+        0.48,
+        0.25,
+        0.4,
+        0.22
+      ]
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Highland soldiers get their *orders*. They leave today.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.47,
+        0.2,
+        0.1,
+        0.1
+      ],
+      "headline": "A soldier looks straight ahead. He can't show *fear*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.38,
+        0.27,
+        0.08,
+        0.1
+      ],
+      "headline": "His wife holds his arm, pale and *frozen*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.43,
+        0.35,
+        0.1,
+        0.08
+      ],
+      "headline": "Her hands grip his sleeve. She won't let *go*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.63,
+        0.28,
+        0.12,
+        0.12
+      ],
+      "headline": "Beside them, a young mother holds her *baby* close.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.17,
+        0.43,
+        0.1,
+        0.12
+      ],
+      "headline": "A little girl stands apart, *watching*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.8,
+        0.45,
+        0.12,
+        0.14
+      ],
+      "headline": "One woman hides her face. She can't *bear* it.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.25,
+        0.2,
+        0.2,
+        0.12
+      ],
+      "headline": "Behind, his comrades wait in tall feather *bonnets*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.55,
+        0.72,
+        0.12,
+        0.16
+      ],
+      "headline": "Kilt, white spats, polished shoes: ready to *march*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Holl painted the families soldiers leave *behind*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "The order came. Would you let him *go*?",
+      "text": ""
+    }
+  ]
+}

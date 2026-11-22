@@ -1,0 +1,100 @@
+{
+  "title": "Mr and Mrs Andrews",
+  "artist": "Thomas Gainsborough",
+  "year": "about 1750",
+  "image": "image.jpg",
+  "source": "The National Gallery, London (public domain). Wikimedia Commons: Thomas Gainsborough - Mr and Mrs Andrews.jpg",
+  "caption": "Married for love, or for land? #arthistory #lovestory #painting #oilpainting #art",
+  "_verify": [
+    "National Gallery NG6301, about 1750 (Wikipedia EN, Mr and Mrs Andrews).",
+    "Unfinished lap and the theories about it: Wikipedia EN.",
+    "Estates joined by the marriage: Wikipedia EN mentions her family's land; simplified."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Married for love, or for land?",
+      "sub": "Thomas Gainsborough, Mr and Mrs Andrews, about 1750"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Newlyweds",
+      "text": "Suffolk, around 1750. Robert Andrews and Frances Carter have just married. Young Gainsborough paints them under an oak tree."
+    },
+    {
+      "focus": [
+        0.16,
+        0.55,
+        0.22,
+        0.84
+      ],
+      "headline": "Him",
+      "text": "He stands relaxed, gun under his arm, his dog at his feet. Everything about him says: all of this is my land."
+    },
+    {
+      "focus": [
+        0.38,
+        0.45,
+        0.28,
+        0.6
+      ],
+      "headline": "Her",
+      "text": "She sits stiffly on an elegant bench in a pale blue silk dress. She does not smile, not even a little."
+    },
+    {
+      "focus": [
+        0.75,
+        0.55,
+        0.5,
+        0.4
+      ],
+      "headline": "The land",
+      "text": "Behind them stretch neat fields of wheat, sheep and woods. Their marriage brought two families' estates together."
+    },
+    {
+      "focus": [
+        0.36,
+        0.55,
+        0.14,
+        0.12
+      ],
+      "headline": "The empty lap",
+      "text": "Now look at her lap. It is unfinished, bare canvas. Nobody knows what Gainsborough meant to paint there."
+    },
+    {
+      "focus": [
+        0.36,
+        0.52,
+        0.24,
+        0.24
+      ],
+      "headline": "Theories",
+      "text": "A book? A fan? A baby they hoped for? Some say a bird her husband had shot. No one knows."
+    },
+    {
+      "focus": [
+        0.3,
+        0.1,
+        0.36,
+        0.2
+      ],
+      "headline": "The oak",
+      "text": "The great oak behind them stands for strength and old family roots. Money and love share one bench here."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Love or deal?",
+      "text": "They look rich, proud and strangely far apart. Do you think this was a love match, or a very good business deal?"
+    }
+  ]
+}

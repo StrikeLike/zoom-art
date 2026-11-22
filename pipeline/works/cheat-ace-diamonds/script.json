@@ -1,0 +1,100 @@
+{
+  "title": "The Cheat with the Ace of Diamonds",
+  "artist": "Georges de La Tour",
+  "year": "about 1635",
+  "image": "image.jpg",
+  "source": "Musée du Louvre, Paris (public domain). Wikimedia Commons: Le Tricheur à l'as de carreau - Georges de La Tour - Musée du Louvre Peintures RF 1972 8.jpg",
+  "caption": "Three people are robbing him at the card table. Can you spot how? #arthistory #history #painting #art #museum",
+  "_verify": [
+    "Louvre RF 1972-8, about 1635 (Wikipedia EN, The Cheat with the Ace of Diamonds); a second version is in the Kimbell Art Museum.",
+    "'Three temptations' (gambling, wine, lust) is the usual reading, not La Tour's own words.",
+    "That the woman's eyes signal to the cheat is an interpretation."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Three people are robbing him. Can you see how?",
+      "sub": "Georges de La Tour, The Cheat with the Ace of Diamonds, about 1635"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "The game",
+      "text": "A rich young man in fine silks sits down to play cards. He thinks he is winning. He is about to lose everything."
+    },
+    {
+      "focus": [
+        0.1,
+        0.66,
+        0.2,
+        0.3
+      ],
+      "headline": "The cheat",
+      "text": "But look at the man on the left. Behind his back, tucked into his belt, he is pulling out an ace of diamonds."
+    },
+    {
+      "focus": [
+        0.55,
+        0.38,
+        0.16,
+        0.14
+      ],
+      "headline": "The look",
+      "text": "The woman in the middle doesn't turn her head. Only her eyes slide sideways, giving the signal to her partner."
+    },
+    {
+      "focus": [
+        0.38,
+        0.32,
+        0.22,
+        0.4
+      ],
+      "headline": "The servant",
+      "text": "Meanwhile the servant pours more wine to keep him distracted. Cards, wine and a woman: three classic temptations."
+    },
+    {
+      "focus": [
+        0.88,
+        0.45,
+        0.24,
+        0.6
+      ],
+      "headline": "The victim",
+      "text": "He stares at his cards, calm and sure of himself. He has no idea that everyone at this table is against him."
+    },
+    {
+      "focus": [
+        0.72,
+        0.83,
+        0.16,
+        0.1
+      ],
+      "headline": "The coins",
+      "text": "In front of him, his gold coins wait on the table. In a few seconds they will slide to the other side."
+    },
+    {
+      "focus": [
+        0.45,
+        0.62,
+        0.5,
+        0.3
+      ],
+      "headline": "The hands",
+      "text": "Now look at all the hands: pointing, pouring, hiding a card. In this silent painting, the hands tell the whole story."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Would you notice?",
+      "text": "La Tour painted it as a warning to rich young men. Would you have spotted the trick in time, or lost everything?"
+    }
+  ]
+}

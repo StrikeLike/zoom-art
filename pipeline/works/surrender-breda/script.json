@@ -1,0 +1,100 @@
+{
+  "title": "The Surrender of Breda",
+  "artist": "Diego Velázquez",
+  "year": "1634-35",
+  "image": "image.jpg",
+  "source": "Museo del Prado, Madrid (public domain). Wikimedia Commons: Velazquez-The Surrender of Breda.jpg",
+  "caption": "The loser hands over the keys. Watch the winner. #arthistory #history #painting #art #museum",
+  "_verify": [
+    "Prado P01172, 1634-35 (Wikipedia EN, The Surrender of Breda).",
+    "Breda surrendered in June 1625 after a siege of about nine months.",
+    "Self-portrait on the far right: traditional identification, not certain."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "The loser hands over the keys. Watch the winner.",
+      "sub": "Diego Velázquez, The Surrender of Breda, 1634-35"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "1625",
+      "text": "1625. After a long siege, the Dutch city of Breda surrenders to the Spanish army. Now the keys of the city must change hands."
+    },
+    {
+      "focus": [
+        0.5,
+        0.55,
+        0.24,
+        0.24
+      ],
+      "headline": "The keys",
+      "text": "In the centre, the Dutch governor, Justin of Nassau, bows and offers the keys of his city to the enemy."
+    },
+    {
+      "focus": [
+        0.52,
+        0.5,
+        0.22,
+        0.22
+      ],
+      "headline": "The gesture",
+      "text": "But the Spanish general, Ambrosio Spinola, lays a hand on his shoulder and stops him from kneeling. Respect, not humiliation."
+    },
+    {
+      "focus": [
+        0.78,
+        0.2,
+        0.4,
+        0.36
+      ],
+      "headline": "The lances",
+      "text": "On the right, the Spanish lances stand straight and proud. That is why Spaniards simply call this painting Las Lanzas."
+    },
+    {
+      "focus": [
+        0.82,
+        0.6,
+        0.3,
+        0.5
+      ],
+      "headline": "The horse",
+      "text": "Spinola's great horse turns its back to us, a bold idea that pulls our eye straight into the scene."
+    },
+    {
+      "focus": [
+        0.17,
+        0.55,
+        0.34,
+        0.6
+      ],
+      "headline": "The defeated",
+      "text": "On the left, the Dutch soldiers look tired and disordered. Some look out at us, as if asking us to judge."
+    },
+    {
+      "focus": [
+        0.93,
+        0.45,
+        0.14,
+        0.18
+      ],
+      "headline": "The painter?",
+      "text": "On the far right, under a big hat, a man looks straight out at us. Many believe he is Velázquez himself."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Your choice",
+      "text": "Velázquez painted it ten years later, for the king's palace. If you had won, would you let your enemy keep his pride?"
+    }
+  ]
+}

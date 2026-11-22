@@ -1,0 +1,138 @@
+{
+  "title": "Broken Vows",
+  "artist": "Philip Hermogenes Calderon",
+  "year": "1856",
+  "image": "image.jpg",
+  "source": "Tate Britain, London (public domain). Wikimedia Commons: Calderon - Broken Vows - Tate Britain - with frame.jpg",
+  "caption": "What did she just hear behind this fence? #arthistory #lovestory #painting #oilpainting #art",
+  "_verify": [
+    "Tate Britain, 1856 (Wikipedia EN, Broken Vows).",
+    "The couple seen through the gap in the fence and the flower: check on the image; image is a small visitor photo with the frame cropped off.",
+    "Ivy as a symbol of faithful love: common Victorian reading.",
+    "Short-text slide: 'waiting for him' is posed as a question, not a fact.",
+    "Short-text slide: a second face is visible through a lower crack in the fence; who it is is not stated."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "What did she just hear behind this fence?",
+      "sub": "Philip Hermogenes Calderon, Broken Vows, 1856",
+      "focus": [
+        0.6,
+        0.2,
+        0.3,
+        0.18
+      ]
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "A young woman leans on a fence, hand on her *heart*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.62,
+        0.2,
+        0.26,
+        0.16
+      ],
+      "headline": "Her face is pale. She is holding back *tears*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.62,
+        0.38,
+        0.3,
+        0.24
+      ],
+      "headline": "Her whole body leans on the fence, as if she might *fall*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.4,
+        0.5,
+        0.14,
+        0.12
+      ],
+      "headline": "Her other hand trails along the rough *wood*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.6,
+        0.62,
+        0.42,
+        0.5
+      ],
+      "headline": "She wears fine blue silk. Was she *waiting* for him?",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.12,
+        0.12,
+        0.2,
+        0.16
+      ],
+      "headline": "Now look through the gap at the top of the *fence*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.12,
+        0.1,
+        0.16,
+        0.12
+      ],
+      "headline": "Another couple. He offers the other girl a *flower*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.27,
+        0.19,
+        0.08,
+        0.09
+      ],
+      "headline": "Through a second crack, another face *peeks* out.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.55,
+        0.12,
+        0.5,
+        0.2
+      ],
+      "headline": "Ivy climbs above her, an old symbol of faithful *love*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.9,
+        0.85
+      ],
+      "headline": "Calderon hid clues like these for viewers to *decode*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "She heard everything. Confront them, or walk *away*?",
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "title": "The Meeting on the Turret Stairs",
+  "artist": "Frederic William Burton",
+  "year": "1864",
+  "image": "image.jpg",
+  "source": "National Gallery of Ireland, Dublin (public domain; watercolour and gouache). Wikimedia Commons: Hellelil and Hildebrand, the Meeting on the Turret Stairs, by Burton 1864.jpg",
+  "caption": "One last secret meeting. She can't look. #arthistory #lovestory #painting #oilpainting #art",
+  "_verify": [
+    "Story: Danish ballad 'Hellelil and Hildebrand' (translated by Whitley Stokes): Hildebrand, a prince serving as her guard, loves Hellelil; her brothers oppose it; this is their parting meeting. Check the ballad summary before writing slides.",
+    "Museum: National Gallery of Ireland; medium watercolour and gouache — check.",
+    "Ballad 'Hellelil and Hildebrand' (Danish, translated by Whitley Stokes): Hildebrand serves as her guard; her family opposes the love. Check details.",
+    "Watercolour and gouache; shown rarely because it is fragile (NGI) — check."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "One last secret meeting. She can't *look*.",
+      "sub": "Frederic William Burton, The Meeting on the Turret Stairs, 1864",
+      "focus": [
+        0.42,
+        0.22,
+        0.6,
+        0.22
+      ]
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "A narrow tower stair. Two lovers meet in *secret*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.53,
+        0.2,
+        0.16,
+        0.1
+      ],
+      "headline": "He presses his lips to her arm, eyes *closed*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.16,
+        0.2,
+        0.14,
+        0.12
+      ],
+      "headline": "She turns away and hides her face against the *wall*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.13,
+        0.22,
+        0.08,
+        0.08
+      ],
+      "headline": "Her hand is flat on the stone, as if to stay *standing*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.3,
+        0.3,
+        0.1,
+        0.2
+      ],
+      "headline": "Her long braid falls down her blue *gown*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.52,
+        0.17,
+        0.1,
+        0.08
+      ],
+      "headline": "He still wears his chain-mail hood. He is her *guard*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.88,
+        0.37,
+        0.12,
+        0.08
+      ],
+      "headline": "His helmet hangs ready. He cannot *stay*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.68,
+        0.68,
+        0.14,
+        0.3
+      ],
+      "headline": "A sword at his side. Her brothers will not *forgive*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.6,
+        0.93,
+        0.3,
+        0.12
+      ],
+      "headline": "One step down, and he must *go*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "The story comes from an old Danish *ballad*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Their love is forbidden. Would you *risk* it?",
+      "text": ""
+    }
+  ]
+}

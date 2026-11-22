@@ -1,0 +1,136 @@
+{
+  "title": "Prisoners from the Front",
+  "artist": "Winslow Homer",
+  "year": "1866",
+  "image": "image.jpg",
+  "source": "The Metropolitan Museum of Art, New York (public domain). Wikimedia Commons: Winslow Homer - Prisoners from the Front.jpg",
+  "caption": "Enemies face to face. Look at the boy. #arthistory #history #painting #war #art",
+  "_verify": [
+    "'The boy': the young long-haired Confederate officer; his age is not documented.",
+    "Union officer usually identified as Gen. Francis C. Barlow; scene near Petersburg, 1864 (Met).",
+    "Homer covered the war as an artist for Harper's Weekly."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Enemies face to face. Look at the *boy*.",
+      "sub": "Winslow Homer, Prisoners from the Front, 1866",
+      "focus": [
+        0.66,
+        0.28,
+        0.42,
+        0.26
+      ]
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Virginia, the Civil War. Captured rebels face a Union *officer*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.82,
+        0.25,
+        0.12,
+        0.14
+      ],
+      "headline": "The young Union officer studies them, calm and *cold*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.48,
+        0.3,
+        0.14,
+        0.22
+      ],
+      "headline": "Facing him, the boy: a rebel officer with long *hair*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.45,
+        0.43,
+        0.12,
+        0.12
+      ],
+      "headline": "Hand on his hip, he refuses to look *beaten*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.36,
+        0.3,
+        0.12,
+        0.2
+      ],
+      "headline": "Next to him, an old man holds his hat, *exhausted*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.25,
+        0.3,
+        0.14,
+        0.2
+      ],
+      "headline": "Behind them, a young soldier leans forward, still *curious*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.6,
+        0.28,
+        0.1,
+        0.18
+      ],
+      "headline": "A Union soldier with a rifle stands *guard*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.42,
+        0.9,
+        0.4,
+        0.08
+      ],
+      "headline": "At their feet lie the rifles they no longer *carry*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.9,
+        0.3,
+        0.18,
+        0.18
+      ],
+      "headline": "Behind the officer, his own army is already *moving* on.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.12,
+        0.62,
+        0.22,
+        0.3
+      ],
+      "headline": "The forest is cut down to stumps. War took *everything*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Homer saw this war himself. Who really *won*?",
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "title": "Call to Arms",
+  "artist": "Edmund Blair Leighton",
+  "year": "1888",
+  "image": "image.jpg",
+  "source": "Private collection (public domain): Leighton-Call to Arms.jpg",
+  "caption": "Their wedding day. The war won't wait. #arthistory #lovestory #painting #oilpainting #art",
+  "_verify": [
+    "Collection not confirmed (often listed as private collection).",
+    "Setting read as 16th-century; the painting tells no documented story."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Their wedding day. The war won't *wait*.",
+      "sub": "Edmund Blair Leighton, Call to Arms, 1888",
+      "focus": [
+        0.6,
+        0.38,
+        0.6,
+        0.3
+      ]
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "A wedding day. The bride and groom step out of the *church*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.43,
+        0.33,
+        0.16,
+        0.14
+      ],
+      "headline": "The bride clings to his arm and looks *up* at him.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.87,
+        0.42,
+        0.22,
+        0.22
+      ],
+      "headline": "But an armoured soldier blocks the *way*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.68,
+        0.45,
+        0.2,
+        0.12
+      ],
+      "headline": "His steel hand points the groom toward the *war*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.58,
+        0.28,
+        0.12,
+        0.12
+      ],
+      "headline": "The groom stops. His face shows he already *knows*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.75,
+        0.36,
+        0.25,
+        0.2
+      ],
+      "headline": "Behind the knight, more soldiers wait with their *spears*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.42,
+        0.46,
+        0.12,
+        0.1
+      ],
+      "headline": "Her wedding flowers are still fresh in her *hand*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.15,
+        0.22,
+        0.3,
+        0.2
+      ],
+      "headline": "At the church door, the guests suddenly fall *silent*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.78,
+        0.22,
+        0.22,
+        0.12
+      ],
+      "headline": "Neighbours lean out of their windows to *watch*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.5,
+        0.9,
+        0.5,
+        0.12
+      ],
+      "headline": "Rose petals still lie on the steps from the *ceremony*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Married for an hour. Will he ever *come* back?",
+      "text": ""
+    }
+  ]
+}

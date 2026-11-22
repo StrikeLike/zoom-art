@@ -1,0 +1,138 @@
+{
+  "title": "Valentine Rescuing Sylvia from Proteus",
+  "artist": "William Holman Hunt",
+  "year": "1850-51",
+  "image": "image.jpg",
+  "source": "Birmingham Museum and Art Gallery (public domain). Wikimedia Commons: William Holman Hunt - Two Gentlemen of Verona - 1887P953 - Birmingham Museum and Art Gallery.jpg",
+  "caption": "His best friend just tried to take her. #arthistory #lovestory #painting #oilpainting #art",
+  "_verify": [
+    "Birmingham Museum and Art Gallery, 1850-51 (Wikipedia EN, Valentine Rescuing Sylvia from Proteus).",
+    "Julia disguised as a page holding a ring: from the play's final scene; check the ring on the image.",
+    "Landscape painted at Knole Park, Kent: Wikipedia EN; slide says 'a park in Kent'.",
+    "Scene of attempted assault: kept non-explicit ('take her by force').",
+    "Short-text slide: the riders in the background are usually read as the Duke's party arriving (Act 5); check."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "His best friend just tried to take her.",
+      "sub": "William Holman Hunt, Valentine Rescuing Sylvia from Proteus, 1850-51",
+      "focus": [
+        0.45,
+        0.3,
+        0.35,
+        0.42
+      ]
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "A forest. Two best friends meet again, after a *betrayal*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.47,
+        0.25,
+        0.2,
+        0.36
+      ],
+      "headline": "Valentine arrives just in time to stop his best *friend*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.4,
+        0.42,
+        0.16,
+        0.22
+      ],
+      "headline": "Sylvia, the woman he loves, kneels, still *frightened*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.72,
+        0.5,
+        0.2,
+        0.3
+      ],
+      "headline": "Proteus kneels in shame, begging *forgiveness*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.67,
+        0.41,
+        0.1,
+        0.1
+      ],
+      "headline": "Valentine holds out his *hand*. Proteus grabs it.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.75,
+        0.86,
+        0.22,
+        0.14
+      ],
+      "headline": "A sword lies dropped in the *grass*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.12,
+        0.35,
+        0.16,
+        0.42
+      ],
+      "headline": "The page on the left is really Julia, Proteus's *fiancée*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.13,
+        0.5,
+        0.12,
+        0.14
+      ],
+      "headline": "She holds the *ring* Proteus once gave her.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.81,
+        0.17,
+        0.2,
+        0.12
+      ],
+      "headline": "In the distance, riders are already *coming*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.5,
+        0.2,
+        0.9,
+        0.3
+      ],
+      "headline": "Hunt painted every leaf outdoors, in a park in *Kent*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Would you forgive a best friend who betrayed you like *this*?",
+      "text": ""
+    }
+  ]
+}

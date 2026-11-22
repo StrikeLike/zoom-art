@@ -1,0 +1,138 @@
+{
+  "title": "Found",
+  "artist": "Dante Gabriel Rossetti",
+  "year": "1854-81",
+  "image": "image.jpg",
+  "source": "Delaware Art Museum, Wilmington (public domain). Wikimedia Commons: Dante Gabriel Rossetti - Found (1859) Google Art Project.jpg",
+  "caption": "He finally found her. She won't look at him. #arthistory #lovestory #painting #oilpainting #art",
+  "_verify": [
+    "Delaware Art Museum, begun 1854, unfinished at Rossetti's passing in 1882 (Wikipedia EN, Found (Rossetti)).",
+    "Drover recognising his former sweetheart, now a 'fallen woman': Wikipedia EN; slides keep it non-explicit.",
+    "Calf under a net as a symbol of her: Wikipedia EN interpretation.",
+    "Avoid the word for the painter's end in texts.",
+    "Short-text slide: the bridge is usually identified as Blackfriars Bridge; not named on the slide."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "He finally found her. She won't look at him.",
+      "sub": "Dante Gabriel Rossetti, Found, 1854-81",
+      "focus": [
+        0.3,
+        0.45,
+        0.32,
+        0.22
+      ]
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Dawn in London. A young farmer drives his cart to *market*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.3,
+        0.2,
+        0.34,
+        0.16
+      ],
+      "headline": "Behind them, a city bridge in the cold morning *light*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.42,
+        0.45,
+        0.5,
+        0.32
+      ],
+      "headline": "He grabs a woman's wrists. It's his old *sweetheart*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.22,
+        0.48,
+        0.24,
+        0.22
+      ],
+      "headline": "She sinks against the wall, turning her face *away*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.22,
+        0.43,
+        0.2,
+        0.12
+      ],
+      "headline": "Her feathered *hat* and silk dress are city clothes now.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.62,
+        0.22,
+        0.2,
+        0.16
+      ],
+      "headline": "He looks down at her, pale and *determined*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.45,
+        0.47,
+        0.16,
+        0.1
+      ],
+      "headline": "His hands hold on. He will not let her *go*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.84,
+        0.4,
+        0.26,
+        0.2
+      ],
+      "headline": "Behind them, a calf lies trapped under a *net*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.3,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "headline": "She left the village years ago. Life in the city went *wrong*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.9,
+        0.85
+      ],
+      "headline": "Rossetti worked on it for decades and never *finished* it.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "He wants to take her home. Would *you* take his hand?",
+      "text": ""
+    }
+  ]
+}

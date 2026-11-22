@@ -1,0 +1,102 @@
+{
+  "title": "Pilgrimage to Cythera",
+  "artist": "Antoine Watteau",
+  "year": "1717",
+  "image": "image.jpg",
+  "source": "Musée du Louvre, Paris (public domain). Wikimedia Commons: L'Embarquement pour Cythere, by Antoine Watteau, from C2RMF.jpg",
+  "caption": "Are they arriving, or leaving forever? #arthistory #lovestory #painting #oilpainting #art",
+  "_verify": [
+    "Louvre, 1717, Watteau's reception piece for the Académie (Wikipedia EN, The Embarkation for Cythera).",
+    "Arriving vs leaving debate: Wikipedia EN.",
+    "'Fête galante' category created for him: Wikipedia EN.",
+    "NO NUDITY: small cupids fly in the sky and a herm of Venus stands at right; no zoom on them, frame the couples.",
+    "The boat area at the far left is surrounded by small nude cupids: not zoomed; slide 6 shows the couples walking down instead."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Are they arriving, or leaving forever?",
+      "sub": "Antoine Watteau, Pilgrimage to Cythera, 1717"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "The island",
+      "text": "Cythera, in Greek myth, is the island of Venus, goddess of love. Couples have come here on a pilgrimage of love."
+    },
+    {
+      "focus": [
+        0.71,
+        0.68,
+        0.12,
+        0.2
+      ],
+      "headline": "Not yet",
+      "text": "On the right, a man whispers to a woman sitting on the grass. She looks down. She is not sure yet."
+    },
+    {
+      "focus": [
+        0.61,
+        0.68,
+        0.1,
+        0.2
+      ],
+      "headline": "Helping hand",
+      "text": "A step further, another man helps his lady to her feet. She lets herself be pulled along, half willing."
+    },
+    {
+      "focus": [
+        0.51,
+        0.62,
+        0.12,
+        0.24
+      ],
+      "headline": "One last look",
+      "text": "And then one woman turns to look back, one last time, at the place where she fell in love."
+    },
+    {
+      "focus": [
+        0.36,
+        0.72,
+        0.2,
+        0.16
+      ],
+      "headline": "To the shore",
+      "text": "Down the hill, more couples walk toward the shore, where a golden boat waits to carry them away in the evening light."
+    },
+    {
+      "focus": [
+        0.5,
+        0.65,
+        0.9,
+        0.5
+      ],
+      "headline": "The argument",
+      "text": "For three hundred years people have argued: are they arriving on the island, or leaving it at the end of the day?"
+    },
+    {
+      "focus": [
+        0.55,
+        0.6,
+        0.7,
+        0.5
+      ],
+      "headline": "A new genre",
+      "text": "Watteau painted it to enter the French Academy in 1717. They had to invent a new name for it: a fête galante."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Stay or go?",
+      "text": "The day of love is ending. If it were you, would you get on the boat, or stay for one more moment?"
+    }
+  ]
+}

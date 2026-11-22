@@ -1,0 +1,101 @@
+{
+  "title": "The Art of Painting",
+  "artist": "Johannes Vermeer",
+  "year": "about 1666-68",
+  "image": "image.jpg",
+  "source": "Kunsthistorisches Museum, Vienna (public domain). Wikimedia Commons: Jan Vermeer - The Art of Painting - Google Art Project.jpg",
+  "caption": "Who is the painter? And why did Hitler want it? #arthistory #history #painting #art #museum",
+  "_verify": [
+    "Kunsthistorisches Museum, about 1666-68 (Wikipedia EN, The Art of Painting).",
+    "Clio with trumpet and book (Ripa's Iconologia): Wikipedia EN.",
+    "Map crease read as the split Netherlands: interpretation.",
+    "Widow and creditors, Hitler's purchase in 1940, Altaussee salt mine: Wikipedia EN; avoid the word 'death' in the slide."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Who is the painter? And why did Hitler want this painting?",
+      "sub": "Johannes Vermeer, The Art of Painting, about 1666-68"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "The curtain",
+      "text": "A heavy curtain is pulled back, as if we are secretly stepping into an artist's studio in Delft. Someone is at work."
+    },
+    {
+      "focus": [
+        0.68,
+        0.68,
+        0.3,
+        0.5
+      ],
+      "headline": "The painter",
+      "text": "The painter sits with his back to us, in a smart black doublet. We never see his face. Could it be Vermeer?"
+    },
+    {
+      "focus": [
+        0.45,
+        0.55,
+        0.18,
+        0.3
+      ],
+      "headline": "The model",
+      "text": "His model holds a trumpet and a book, crowned with laurel. She is dressed as Clio, the muse of history."
+    },
+    {
+      "focus": [
+        0.6,
+        0.3,
+        0.6,
+        0.3
+      ],
+      "headline": "The map",
+      "text": "On the wall hangs a huge map of the Netherlands, with a crease running across it, as if the country were split in two."
+    },
+    {
+      "focus": [
+        0.38,
+        0.65,
+        0.2,
+        0.14
+      ],
+      "headline": "The mask",
+      "text": "On the table, a mask lies beside the books and fabric. Painting, Vermeer seems to say, is about fame and memory."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.9,
+        0.9
+      ],
+      "headline": "Never sold",
+      "text": "Vermeer never sold this painting. After he was gone, his widow tried hard to keep it away from his creditors."
+    },
+    {
+      "focus": [
+        0.55,
+        0.55,
+        0.7,
+        0.8
+      ],
+      "headline": "Hitler",
+      "text": "Centuries later, Adolf Hitler bought it for his planned museum. After the war it was found hidden in an Austrian salt mine."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Who is he?",
+      "text": "We never see the painter's face. Do you think Vermeer painted himself, or only the idea of a painter?"
+    }
+  ]
+}

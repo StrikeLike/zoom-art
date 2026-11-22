@@ -1,0 +1,100 @@
+{
+  "title": "The Supper at Emmaus",
+  "artist": "Caravaggio",
+  "year": "1601",
+  "image": "image.jpg",
+  "source": "The National Gallery, London (public domain). Wikimedia Commons: 1602-3 Caravaggio,Supper at Emmaus National Gallery, London.jpg",
+  "caption": "They just realised who is sitting at their table. #arthistory #history #painting #art #museum",
+  "_verify": [
+    "National Gallery London NG172, 1601 (Wikipedia EN, Supper at Emmaus (Caravaggio, London)).",
+    "Beardless Christ: noted in Wikipedia EN.",
+    "Autumn fruit at an Easter-time story: noted by critics; 'a clue or a slip' left open."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "They just realised who is sitting at their table.",
+      "sub": "Caravaggio, The Supper at Emmaus, 1601"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "The stranger",
+      "text": "Two followers of Jesus meet a stranger on the road to Emmaus. At supper he blesses the bread, and everything changes."
+    },
+    {
+      "focus": [
+        0.56,
+        0.35,
+        0.2,
+        0.26
+      ],
+      "headline": "The face",
+      "text": "This is Jesus, but young and beardless. Caravaggio broke the rules, so that we, like them, don't recognise him at first."
+    },
+    {
+      "focus": [
+        0.17,
+        0.6,
+        0.32,
+        0.4
+      ],
+      "headline": "The chair",
+      "text": "On the left, one follower grips his chair, about to jump up. His elbow seems to push right out of the painting."
+    },
+    {
+      "focus": [
+        0.82,
+        0.48,
+        0.34,
+        0.36
+      ],
+      "headline": "Open arms",
+      "text": "On the right, the other throws his arms wide in shock. His hand almost reaches out of the canvas toward us."
+    },
+    {
+      "focus": [
+        0.3,
+        0.25,
+        0.22,
+        0.3
+      ],
+      "headline": "The innkeeper",
+      "text": "Only the innkeeper, standing with his cap on, understands nothing. To him, this is just another hungry guest at his table."
+    },
+    {
+      "focus": [
+        0.62,
+        0.73,
+        0.18,
+        0.12
+      ],
+      "headline": "The basket",
+      "text": "Now look at the fruit basket, balanced on the very edge of the table. One more second and it falls to the floor."
+    },
+    {
+      "focus": [
+        0.62,
+        0.7,
+        0.24,
+        0.14
+      ],
+      "headline": "Wrong season",
+      "text": "And look at the fruit itself: grapes and figs, more like autumn than spring, when the story is set. A clue, or a slip?"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Would you?",
+      "text": "A stranger walks beside you all day, and only at dinner you realise who he is. Would you believe your own eyes?"
+    }
+  ]
+}

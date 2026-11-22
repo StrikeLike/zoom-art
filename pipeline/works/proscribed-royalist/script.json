@@ -1,0 +1,102 @@
+{
+  "title": "The Proscribed Royalist, 1651",
+  "artist": "John Everett Millais",
+  "year": "1853",
+  "image": "image.jpg",
+  "source": "Private collection (public domain). Wikimedia Commons: Millais Royalist.jpg",
+  "caption": "She is hiding the man she loves. From whom? #arthistory #lovestory #painting #oilpainting #art",
+  "_verify": [
+    "Millais, 1853, private collection (Wikipedia EN, The Proscribed Royalist, 1651).",
+    "Royalist hiding in an oak after Worcester (1651): theme from the painting's title.",
+    "She is a Puritan girl: usual description; the hand kiss to check on the image.",
+    "Painted outdoors near Hayes, Kent: location not re-checked; slide says 'near London'.",
+    "IMAGE 1691 x 2516 px: upscaled at render; check faces."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "She is hiding the man she loves. From whom?",
+      "sub": "John Everett Millais, The Proscribed Royalist, 1651, 1853"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "England, 1651",
+      "text": "England, 1651. The civil war is lost for the king's supporters. Parliament's soldiers are hunting them across the country."
+    },
+    {
+      "focus": [
+        0.65,
+        0.42,
+        0.16,
+        0.14
+      ],
+      "headline": "The oak",
+      "text": "A young Royalist officer hides in the hollow trunk of an old oak tree, waiting in silence for hours."
+    },
+    {
+      "focus": [
+        0.4,
+        0.45,
+        0.42,
+        0.7
+      ],
+      "headline": "Her",
+      "text": "A young Puritan woman brings him food in secret. Her family is on the other side of this war."
+    },
+    {
+      "focus": [
+        0.6,
+        0.42,
+        0.14,
+        0.1
+      ],
+      "headline": "The hand",
+      "text": "He kisses her hand as she reaches him. One sound in the woods, and both of them are lost."
+    },
+    {
+      "focus": [
+        0.48,
+        0.2,
+        0.16,
+        0.14
+      ],
+      "headline": "Listening",
+      "text": "She glances back, listening for footsteps. Helping an enemy of Parliament is treason, and she knows it very well."
+    },
+    {
+      "focus": [
+        0.3,
+        0.15,
+        0.5,
+        0.25
+      ],
+      "headline": "The woods",
+      "text": "Millais painted every leaf and fern outdoors, from nature, working for weeks in the woods near London."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.95,
+        0.9
+      ],
+      "headline": "A pair",
+      "text": "It echoes his earlier painting, A Huguenot: again a woman who risks everything for a man from the other side."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Her choice",
+      "text": "Her family, or the man in the tree? If you were her, would you risk everything to keep him hidden?"
+    }
+  ]
+}

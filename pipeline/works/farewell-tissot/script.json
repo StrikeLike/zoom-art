@@ -1,0 +1,135 @@
+{
+  "title": "The Farewell",
+  "artist": "James Tissot",
+  "year": "1871",
+  "image": "image.jpg",
+  "source": "Bristol Museum & Art Gallery (public domain). Wikimedia Commons: James Tissot - The Farewell.jpg",
+  "caption": "One last goodbye at the gate. #arthistory #lovestory #painting #oilpainting #art",
+  "_verify": [
+    "Tissot moved to London in 1871 after the Paris Commune — check.",
+    "Bristol Museum & Art Gallery (Les Adieux, 1871) — check."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "One last goodbye at the *gate*.",
+      "sub": "James Tissot, The Farewell, 1871",
+      "focus": [
+        0.43,
+        0.2,
+        0.45,
+        0.24
+      ]
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "A garden gate. Two young lovers have to say *goodbye*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.3,
+        0.18,
+        0.12,
+        0.1
+      ],
+      "headline": "He leans over the iron gate, close to her *face*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.5,
+        0.24,
+        0.14,
+        0.1
+      ],
+      "headline": "She tilts her head toward him, eyes *lowered*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.31,
+        0.52,
+        0.12,
+        0.08
+      ],
+      "headline": "Through the bars, their hands hold on *tight*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.58,
+        0.26,
+        0.08,
+        0.08
+      ],
+      "headline": "Her other hand touches her neck, *nervous*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.17,
+        0.4,
+        0.2,
+        0.3
+      ],
+      "headline": "Between them, the cold iron bars of the *gate*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.5,
+        0.15,
+        0.18,
+        0.08
+      ],
+      "headline": "She wears a hat with bright yellow *ribbons*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.64,
+        0.65,
+        0.08,
+        0.1
+      ],
+      "headline": "Scissors hang from her waist. She left her work to *come*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.45,
+        0.93,
+        0.4,
+        0.1
+      ],
+      "headline": "Autumn leaves cover the path. Summer is *over*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Tissot painted it in London, after fleeing *Paris*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Will he come back for her? Or is this *goodbye*?",
+      "text": ""
+    }
+  ]
+}

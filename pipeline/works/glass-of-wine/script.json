@@ -1,0 +1,100 @@
+{
+  "title": "The Glass of Wine",
+  "artist": "Johannes Vermeer",
+  "year": "about 1658-60",
+  "image": "image.jpg",
+  "source": "Gemäldegalerie, Berlin (public domain). Wikimedia Commons: Jan Vermeer van Delft - The Glass of Wine - Google Art Project.jpg",
+  "caption": "He is waiting for her to finish the glass. #arthistory #lovestory #painting #oilpainting #art",
+  "_verify": [
+    "Gemäldegalerie Berlin, about 1658-60 (Wikipedia EN, The Glass of Wine).",
+    "Stained-glass figure with reins read as Temperance: Wikipedia EN.",
+    "Music as a love symbol: common reading in Dutch genre painting."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "He is waiting for her to finish the glass.",
+      "sub": "Johannes Vermeer, The Glass of Wine, about 1658-60"
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "A visit",
+      "text": "A young woman drinks wine, while a man stands over her holding the jug, ready to fill her glass again."
+    },
+    {
+      "focus": [
+        0.82,
+        0.3,
+        0.14,
+        0.14
+      ],
+      "headline": "The glass",
+      "text": "She tips the glass up to her face, hiding it almost completely. We cannot read her expression at all."
+    },
+    {
+      "focus": [
+        0.63,
+        0.3,
+        0.2,
+        0.3
+      ],
+      "headline": "The man",
+      "text": "He does not drink. He just waits, hand on the jug, his face shaded by the wide brim of his hat."
+    },
+    {
+      "focus": [
+        0.1,
+        0.25,
+        0.18,
+        0.36
+      ],
+      "headline": "The window",
+      "text": "Now look at the stained glass in the open window. A woman holds reins: Temperance, the virtue of self-control."
+    },
+    {
+      "focus": [
+        0.33,
+        0.5,
+        0.2,
+        0.2
+      ],
+      "headline": "The lute",
+      "text": "On the chair lies a lute, with sheets of music on the table. In Dutch paintings, music often hinted at love."
+    },
+    {
+      "focus": [
+        0.44,
+        0.19,
+        0.22,
+        0.3
+      ],
+      "headline": "The landscape",
+      "text": "On the wall above them hangs a dark landscape in a heavy gilded frame, like a window onto a wilder world."
+    },
+    {
+      "focus": [
+        0.5,
+        0.85,
+        0.9,
+        0.3
+      ],
+      "headline": "The floor",
+      "text": "Even the floor tiles lead our eye straight to the couple, as if the room itself were pushing them together."
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Another glass?",
+      "text": "Another glass, or not? Vermeer freezes the moment before she decides. What would you tell her to do?"
+    }
+  ]
+}

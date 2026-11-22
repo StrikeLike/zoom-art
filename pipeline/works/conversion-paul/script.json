@@ -1,0 +1,139 @@
+{
+  "title": "The Conversion of Saint Paul",
+  "artist": "Caravaggio",
+  "year": "1600-01",
+  "image": "image.jpg",
+  "source": "Santa Maria del Popolo, Rome (public domain). Wikimedia Commons: Conversion on the Way to Damascus-Caravaggio (c.1600-1).jpg",
+  "caption": "Struck down by a light only he could see. #arthistory #history #painting #art #museum",
+  "_verify": [
+    "Cerasi Chapel, Santa Maria del Popolo, Rome, 1600-01 (Wikipedia EN, Conversion on the Way to Damascus).",
+    "First version (Odescalchi collection) rejected or replaced: Wikipedia EN; reason disputed.",
+    "Old groom holding the horse: Wikipedia EN.",
+    "No nudity: Saul wears a tunic; check bare arms only.",
+    "Short-text slide: object at lower left read as Saul's sword; check on the image.",
+    "Short-text slide: object at lower right read as Saul's helmet; check on the image."
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "Struck down by a light only he could see.",
+      "sub": "Caravaggio, The Conversion of Saint Paul, 1600-01",
+      "focus": [
+        0.45,
+        0.82,
+        0.6,
+        0.3
+      ]
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "Saul rides to arrest Christians. A blinding *light* strikes him down.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.45,
+        0.85,
+        0.6,
+        0.25
+      ],
+      "headline": "He lies in the dust, eyes closed. He cannot *see*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.42,
+        0.7,
+        0.5,
+        0.28
+      ],
+      "headline": "His arms reach up, as if to *embrace* the light.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.28,
+        0.87,
+        0.16,
+        0.08
+      ],
+      "headline": "His sword lies useless on the *ground*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.45,
+        0.35,
+        0.8,
+        0.5
+      ],
+      "headline": "The huge horse lifts a hoof, careful not to *trample* him.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.82,
+        0.25,
+        0.26,
+        0.26
+      ],
+      "headline": "An old groom holds the horse. He sees *nothing*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.9,
+        0.45,
+        0.18,
+        0.18
+      ],
+      "headline": "The horse bows its head, strangely *calm*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.88,
+        0.92,
+        0.2,
+        0.1
+      ],
+      "headline": "His soldier's *helmet* lies beside him in the dust.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.9,
+        0.85
+      ],
+      "headline": "Caravaggio's first version was *replaced*. This one still hangs in Rome.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.5,
+        0.45,
+        0.6,
+        0.5
+      ],
+      "headline": "No angel, no sky. Only light, falling from *above*.",
+      "text": ""
+    },
+    {
+      "focus": [
+        0.5,
+        0.5,
+        0.98,
+        0.95
+      ],
+      "headline": "One second changed his whole life. Could *yours* change like that?",
+      "text": ""
+    }
+  ]
+}
