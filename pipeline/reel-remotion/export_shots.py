@@ -17,7 +17,7 @@ def slide_entries(size, fmt):
         t = sl.get("type", "detail")
         L = R.layout(img, sl, size, fmt)
         if fmt == "reel":
-            hold = max(int(R.HOLD * R.FPS), R.hold_frames(sl)) + (int(1.0 * R.FPS) if t == "cta" else 0)
+            hold = R.reel_hold(sl, R.is_short_text(slides))
             start, end = shots[i]
         else:
             hold, start = 0, None

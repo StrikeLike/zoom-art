@@ -23,7 +23,7 @@ BRAND = "ZOOMED ART"
 # Final slide (Alex, 2026-10-10): urgency, but true: the algorithm rarely shows a page you don't follow
 CTA_HEAD = "You may never see this page again."
 CTA_SUB = "The algorithm won't show us twice. Follow @zoomed.art"
-MAX_SLIDES = 10
+MAX_SLIDES = 13   # cover + up to 11 details + Follow slide (Alex, 14 Nov 2026; Instagram allows 20)
 
 CAROUSEL = (1080, 1350)
 REEL = (1080, 1920)
@@ -72,7 +72,7 @@ def wrap(draw, text, f, max_w):
         cur = ""
         for word in para.split():
             test = (cur + " " + word).strip()
-            if draw.textlength(test, font=f) <= max_w:
+            if draw.textlength(test.replace("*", ""), font=f) <= max_w:  # *word* = gold word, stars not drawn
                 cur = test
             else:
                 if cur:
@@ -84,7 +84,14 @@ def wrap(draw, text, f, max_w):
 def text_block(draw, x, y, text, f, max_w, fill, spacing=1.25):
     lh = int(f.size * spacing)
     for line in wrap(draw, text, f, max_w):
-        draw.text((x, y), line, font=f, fill=fill)
+        if "*" not in line:
+            draw.text((x, y), line, font=f, fill=fill)
+        else:  # *word* in a headline renders gold
+            xx = x
+            for i, part in enumerate(line.split("*")):
+                col = GOLD + fill[3:] if i % 2 else fill
+                draw.text((xx, y), part, font=f, fill=col)
+                xx += draw.textlength(part, font=f)
         y += lh
     return y
 
@@ -239,12 +246,13 @@ def layout(img, slide, size, fmt):
         L.update(fh=fh, text_top=text_bottom - (0 if fmt == "reel" else 40) - hh - 45
                  - block_height(_measure, slide.get("sub", "x"), font(SERIF_I, 40), maxw))  # sub may wrap
     elif t == "detail":
-        fh = fit_font(_measure, slide["headline"], SERIF_B, 64, maxw, 3)
+        short = not slide.get("text", "").strip()   # short-text style: one big sentence, no body
+        fh = fit_font(_measure, slide["headline"], SERIF_B, 66 if short else 64, maxw, 4 if short else 3)
         ft = fit_font(_measure, slide.get("text", ""), SANS, 36, maxw, 6)
         hh = block_height(_measure, slide["headline"], fh, maxw, 1.12)
-        th = block_height(_measure, slide.get("text", ""), ft, maxw, 1.35)
+        th = 0 if short else block_height(_measure, slide.get("text", ""), ft, maxw, 1.35)
         bottom = text_bottom
-        L.update(fh=fh, ft=ft, text_top=bottom - th - 28 - hh)
+        L.update(fh=fh, ft=ft, text_top=bottom - th - (0 if short else 28) - hh)
         if slide.get("focus") and slide.get("map", True):
             box_w = 170 if fmt == "carousel" else 190
             k = min(box_w / img.width, 2 * box_w / img.height)
@@ -403,6 +411,23 @@ def lerp_view(a, b, t):
     w = math.exp(math.log(a[2]) + (math.log(b[2]) - math.log(a[2])) * t)
     return [a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t, w]
 
+def is_short_text(slides):
+    """Short-text standard (Alex, 14 Nov 2026): every detail slide is one big headline with empty body text."""
+    det = [x for x in slides if x.get("type", "detail") == "detail"]
+    return bool(det) and all(not x.get("text", "").strip() for x in det)
+
+def reel_hold(sl, short):
+    """Frames a reel slide holds before the move. Short-text reels are snappy (cover ~2.3 s, slides as long as they read)."""
+    t = sl.get("type", "detail")
+    if short and "hold" not in sl:
+        if t == "cover":
+            return int(2.3 * FPS)
+        if t == "cta":
+            return int(2.5 * FPS)
+        words = len(sl.get("headline", "").split())
+        return int(max(2.5, 0.8 + words / 3.5) * FPS)
+    return max(int(HOLD * FPS), hold_frames(sl)) + (int(1.0 * FPS) if t == "cta" else 0)
+
 def hold_frames(sl):
     """Frames a reel slide stays on screen: long enough to read its text, or slide["hold"] seconds if set."""
     if "hold" in sl:
@@ -442,10 +467,11 @@ def render_reel(work, s, img, slides, stills_only=False):
            "-movflags", "+faststart", path]
     p = subprocess.Popen(cmd, stdin=subprocess.PIPE)
     n_hold, n_move = int(HOLD * FPS), int(MOVE * FPS)
+    short = is_short_text(slides)
     total = 0
     for i, sl in enumerate(slides):
         start, end = shots[i]
-        hold = max(n_hold, hold_frames(sl)) + (int(1.0 * FPS) if sl.get("type") == "cta" else 0)
+        hold = reel_hold(sl, short)
         for k in range(hold):
             t = k / max(1, hold - 1)
             cam = lerp_view(start, end, t)

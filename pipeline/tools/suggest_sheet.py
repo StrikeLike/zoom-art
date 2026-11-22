@@ -137,7 +137,7 @@ def main():
         return
     if not items:
         sys.exit("nothing new to suggest")
-    cards = [card(i + 1, it) for i, it in enumerate(items)]
+    cards = [card(it.get("slot", i + 1), it) for i, it in enumerate(items)]  # optional "slot" = number shown on the card
     rows = [cards[i:i + COLS] for i in range(0, len(cards), COLS)]
     row_h = [max(c.height for c in r) for r in rows]
     W = COLS * CARD_W + (COLS + 1) * PAD

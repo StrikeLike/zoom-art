@@ -189,12 +189,12 @@ const Pulse: React.FC<{x: number; y: number; k: number; out: number}> = ({x, y, 
   );
 };
 
-// words with a digit (147, 13 days, 1816) turn gold: the numbers are the hook
+// words with a digit (147, 13 days, 1816) or written *like this* in the script turn gold: the numbers are the hook
 const Word: React.FC<{w: string; k: number; delay: number; color: string}> = ({w, k, delay, color}) => {
   const p = interpolate(k, [delay, delay + 16], [0, 1], {...clamp, easing: Easing.spring({damping: 200})});
   return (
     <span style={{display: "inline-block", opacity: p, translate: `0px ${(1 - p) * 26}px`, filter: `blur(${(1 - p) * 6}px)`, color: /\d/.test(w) ? GOLD : color, whiteSpace: "pre"}}>
-      {w}
+      {w.includes("*") ? w.split("*").map((part, i) => i % 2 ? <span key={i} style={{color: GOLD}}>{part}</span> : part) : w}
     </span>
   );
 };
@@ -218,7 +218,7 @@ const Lines: React.FC<{b: Block; top: number; k: number; start: number; font: st
       const p = interpolate(k, [start + 4 * li, start + 4 * li + 16], [0, 1], {...clamp, easing: Easing.bezier(0.16, 1, 0.3, 1)});
       return (
         <div key={li} style={{whiteSpace: "nowrap", opacity: p, translate: `0px ${(1 - p) * 16}px`}}>
-          {line.split(/(\S*\d\S*)/).map((part, pi) => <span key={pi} style={{color: /\d/.test(part) ? GOLD : undefined}}>{part}</span>)}
+          {line.split(/(\S*\d\S*|\*[^*]+\*)/).map((part, pi) => <span key={pi} style={{color: /\d|\*/.test(part) ? GOLD : undefined}}>{part.replace(/\*/g, "")}</span>)}
         </div>
       );
     })}
