@@ -243,5 +243,28 @@
   "seo": {
     "homeTitle": "Zoomed Art — Art history, one detail at a time",
     "homeDescription": "Famous paintings, zoomed in. Pick a mystery, follow the story detail by detail, and find today's hidden detail."
+  },
+  "comments": {
+    "eyebrow": "Comments",
+    "title": "What do you see?",
+    "intro": "Answer the question, or tell us what you noticed that we missed.",
+    "empty": "No comments yet. Be the first to say what you see.",
+    "count": "comments",
+    "countOne": "comment",
+    "nameLabel": "Your name",
+    "bodyLabel": "Your comment",
+    "post": "Post comment",
+    "posting": "Posting…",
+    "posted": "Posted. Thank you!",
+    "reply": "Reply",
+    "replyingTo": "Replying to",
+    "cancelReply": "Cancel",
+    "team": "Zoomed Art",
+    "loading": "Loading the comments…",
+    "unavailable": "Comments are not available right now. Please try again later.",
+    "error": "Your comment could not be posted. Please try again.",
+    "waitCheck": "One moment, we are checking you are not a robot…",
+    "note": "Comments are public and show at once. Be kind: we remove spam and abuse. We keep your name, your comment and a scrambled code of your connection, only to stop spam.",
+    "noScript": "Comments need JavaScript."
   }
 }

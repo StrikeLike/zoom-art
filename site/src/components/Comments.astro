@@ -1,0 +1,38 @@
+---
+// The comments of one painting (comments.ts loads them from /api/comments, functions/api/comments.ts).
+import site from '../data/site.json';
+import type { Work } from '../lib/works';
+interface Props { work: Work }
+const { work } = Astro.props;
+const t = site.comments;
+// Turnstile site key: the real one comes from PUBLIC_TURNSTILE_SITE_KEY at launch; the test key always passes.
+const sitekey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY ?? '1x00000000000000000000AA';
+---
+<section class="comments wrap section-space" id="comments" aria-labelledby="comments-heading" data-comments data-work={work.slug} data-sitekey={sitekey}
+  data-texts={JSON.stringify({ count: t.count, countOne: t.countOne, posting: t.posting, posted: t.posted, reply: t.reply, team: t.team, unavailable: t.unavailable, error: t.error, waitCheck: t.waitCheck })}>
+  <header class="comments-head">
+    <p class="eyebrow">{t.eyebrow} <span data-comment-count></span></p>
+    <h2 id="comments-heading">{t.title}</h2>
+    <p class="comments-question">{work.question}</p>
+    <p class="comments-intro">{t.intro}</p>
+  </header>
+  <div class="comments-body">
+    <p class="comments-status" data-comments-state>{t.loading}</p>
+    <p class="comments-empty" data-comments-empty hidden>{t.empty}</p>
+    <ol class="comment-list" data-comment-list></ol>
+    <form class="comment-form" data-comment-form hidden>
+      <p class="comment-replying" data-replying hidden>{t.replyingTo} <strong data-replying-name></strong> <button type="button" data-cancel-reply>{t.cancelReply}</button></p>
+      <label>{t.nameLabel}<input name="name" maxlength="40" required autocomplete="nickname" /></label>
+      <label>{t.bodyLabel}<textarea name="body" maxlength="1000" required rows="4"></textarea></label>
+      <label class="comment-trap" aria-hidden="true">Website<input name="website" tabindex="-1" autocomplete="off" /></label>
+      <div class="comment-check" data-turnstile></div>
+      <div class="comment-actions"><button class="button" type="submit">{t.post}<span aria-hidden="true">→</span></button><p class="comment-status" role="status" data-comment-status></p></div>
+      <p class="comment-note">{t.note}</p>
+    </form>
+    <noscript><p class="comments-status">{t.noScript}</p></noscript>
+  </div>
+</section>
+<script>
+  import { initComments } from '../scripts/comments';
+  initComments();
+</script>

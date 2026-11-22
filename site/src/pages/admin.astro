@@ -1,0 +1,80 @@
+---
+// Moderation, for Alex only: the latest comments on every painting, Hide / Show, and replies as Zoomed Art.
+// Not linked anywhere and kept out of search; the API checks the password (ADMIN_TOKEN, functions/api/admin.ts).
+import Base from '../layouts/Base.astro';
+import { works } from '../lib/works';
+const titles = Object.fromEntries(works.map(w => [w.slug, w.title]));
+---
+<Base title="Comments · Zoomed Art" noindex>
+  <section class="admin wrap" data-admin data-titles={JSON.stringify(titles)}>
+    <header class="page-heading"><p class="eyebrow">Moderation</p><h1>Comments</h1></header>
+    <form class="admin-login comment-form" data-admin-login>
+      <label>Password<input name="token" type="password" autocomplete="current-password" required /></label>
+      <div class="comment-actions"><button class="button" type="submit">Open<span aria-hidden="true">→</span></button><p class="comment-status" role="status" data-admin-status></p></div>
+    </form>
+    <ol class="admin-list" data-admin-list></ol>
+  </section>
+</Base>
+<script>
+  const root = document.querySelector<HTMLElement>('[data-admin]')!;
+  const titles = JSON.parse(root.dataset.titles!) as Record<string, string>;
+  const login = root.querySelector<HTMLFormElement>('[data-admin-login]')!;
+  const status = root.querySelector<HTMLElement>('[data-admin-status]')!;
+  const list = root.querySelector<HTMLOListElement>('[data-admin-list]')!;
+  interface Row { id: number; work: string; parent_id: number | null; name: string; body: string; team: number; hidden: number; created_at: number }
+  let token = '';
+  try { token = localStorage.getItem('zoomed-art-admin') ?? ''; } catch {}
+  const call = (path: string, body?: unknown) => fetch(path, {
+    method: body ? 'POST' : 'GET', body: body ? JSON.stringify(body) : undefined,
+    headers: { authorization: `Bearer ${token}`, 'content-type': 'application/json' },
+  });
+  const el = (tag: string, cls: string, text = '') => { const e = document.createElement(tag); e.className = cls; e.textContent = text; return e; };
+
+  function row(c: Row) {
+    const li = el('li', `admin-row${c.hidden ? ' is-hidden' : ''}`);
+    const head = el('p', 'comment-head');
+    const link = el('a', 'admin-work', titles[c.work] ?? c.work) as HTMLAnchorElement;
+    link.href = `/works/${c.work}/#comment-${c.id}`;
+    head.append(link, el('span', 'comment-name', c.name), el('time', '', new Date(c.created_at).toLocaleString()));
+    if (c.parent_id) head.append(el('span', 'admin-tag', 'reply'));
+    if (c.hidden) head.append(el('span', 'admin-tag', 'hidden'));
+    const actions = el('div', 'admin-actions');
+    const toggle = el('button', 'comment-reply', c.hidden ? 'Show again' : 'Hide') as HTMLButtonElement;
+    toggle.type = 'button';
+    toggle.addEventListener('click', async () => { await call('/api/admin', { id: c.id, hidden: !c.hidden }); load(); });
+    const reply = el('button', 'comment-reply', 'Reply as Zoomed Art') as HTMLButtonElement;
+    reply.type = 'button';
+    reply.addEventListener('click', () => {
+      const text = prompt(`Reply to ${c.name}:`);
+      if (!text) return;
+      call('/api/comments', { work: c.work, parent: c.id, body: text }).then(load);
+    });
+    actions.append(toggle, reply);
+    li.append(head, el('p', 'comment-body', c.body), actions);
+    return li;
+  }
+  async function load() {
+    const answer = await call('/api/admin');
+    if (!answer.ok) { status.textContent = answer.status === 401 ? 'Wrong password.' : 'Could not load the comments.'; login.hidden = false; return; }
+    login.hidden = true;
+    const { comments } = await answer.json() as { comments: Row[] };
+    list.replaceChildren(...comments.map(row));
+    if (!comments.length) list.append(el('li', 'comments-empty', 'No comments yet.'));
+  }
+  login.addEventListener('submit', event => {
+    event.preventDefault();
+    token = String(new FormData(login).get('token') ?? '');
+    try { localStorage.setItem('zoomed-art-admin', token); } catch {}
+    load();
+  });
+  if (token) load();
+</script>
+<style is:global>
+  .admin-list{list-style:none;padding:0;margin:2rem 0 0}
+  .admin-row{padding:1.25rem 0;border-top:1px solid var(--line)}
+  .admin-row.is-hidden{opacity:.5}
+  .admin-work{color:var(--gold)}
+  .admin-tag{font-size:.625rem;letter-spacing:.14em;text-transform:uppercase;border:1px solid var(--line);padding:.05rem .4rem;color:var(--muted)}
+  .admin-actions{display:flex;gap:1.5rem}
+  .admin-login{max-width:420px}
+</style>

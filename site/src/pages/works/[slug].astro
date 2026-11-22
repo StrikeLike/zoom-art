@@ -5,6 +5,7 @@ import Credit from '../../components/Credit.astro';
 import Guided from '../../components/Guided.astro';
 import Explorer from '../../components/Explorer.astro';
 import Related from '../../components/Related.astro';
+import Comments from '../../components/Comments.astro';
 import site from '../../data/site.json';
 import { works, nextWork, relatedTo, artistPages, type Work } from '../../lib/works';
 export function getStaticPaths() { return works.map(work => ({ params: { slug: work.slug }, props: { work } })); }
@@ -47,6 +48,7 @@ const facts = work.facts
       <section><h2>{site.ui.sources}</h2>{article.sources && <ol class="source-list">{article.sources.map(source => <li>{source.url ? <a href={source.url}>{source.title} ↗</a> : <span>{source.title}</span>}<p>{source.note}</p></li>)}</ol>}<Credit work={work} /><a class="text-link" href="/editorial-policy/">{site.ui.readPolicy}<span aria-hidden="true">↗</span></a></section>
     </div>
   </article>
+  <Comments work={work} />
   <Related works={relatedTo(work)} intro={site.ui.keepLooking} />
   <div class="next-painting wrap"><span class="eyebrow">{site.ui.nextPainting}</span><a href={`/works/${next.slug}/`}>{next.title}<span aria-hidden="true">↗</span></a></div>
 </Base>

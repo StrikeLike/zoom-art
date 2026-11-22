@@ -145,3 +145,37 @@ html:active-view-transition-type(from-gallery)::view-transition-new(root){animat
 html:active-view-transition-type(from-gallery)::view-transition-group(*){animation-duration:800ms}
 @keyframes gallery-out{to{opacity:0}}
 @keyframes gallery-in{from{opacity:0;transform:translateY(28px)}}
+/* Comments (Comments.astro, comments.ts) */
+.comments{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.6fr);gap:3rem 6rem;border-top:1px solid var(--line);padding-top:4rem}
+.comments-head h2{margin-top:1rem}
+.comments-question{font-family:var(--serif);font-size:1.6rem;line-height:1.3;color:var(--heading);margin-top:1.5rem;padding-left:1.25rem;border-left:1px solid var(--gold)}
+.comments-intro{color:var(--muted);margin-top:1.25rem;font-size:var(--text-sm)}
+.comments-head [data-comment-count]{color:var(--muted)}
+.comments-status,.comments-empty{color:var(--muted)}
+.comment-list,.comment-replies{list-style:none;margin:0;padding:0}
+.comment{padding:1.4rem 0;border-bottom:1px solid var(--line)}
+.comment-replies .comment{border:0;border-top:1px solid var(--line);padding:1.1rem 0 0;margin-top:1.1rem}
+.comment-replies{margin-left:1.5rem;padding-left:1.25rem;border-left:1px solid var(--line)}
+.comment.is-new{animation:comment-arrive 900ms var(--ease-reveal) both}
+@keyframes comment-arrive{from{opacity:0;transform:translateY(12px)}}
+.comment-head{display:flex;flex-wrap:wrap;gap:.4rem .9rem;align-items:baseline;font-size:var(--text-sm)}
+.comment-name{color:var(--heading);font-weight:500}
+.comment-team{font-size:.625rem;letter-spacing:.16em;text-transform:uppercase;color:var(--bg);background:var(--gold);padding:.1rem .45rem}
+.comment-head time{color:var(--muted);font-size:.75rem}
+.comment-body{margin-top:.5rem;white-space:pre-line;overflow-wrap:anywhere}
+.comment-reply{background:none;border:0;padding:.5rem 0;margin-top:.2rem;min-height:44px;font-size:.75rem;color:var(--gold)}
+.comment-reply:hover{color:var(--heading)}
+.comment-form{margin-top:2.5rem;display:grid;gap:1.2rem}
+.comment-form label{display:grid;gap:.45rem;font-size:var(--text-xs);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.comment-form input,.comment-form textarea{font:inherit;font-size:1rem;letter-spacing:0;text-transform:none;color:var(--text);background:var(--surface);border:1px solid var(--line);padding:.8rem .9rem;border-radius:0;width:100%}
+.comment-form textarea{resize:vertical;min-height:7.5rem;line-height:1.6}
+.comment-form input:focus,.comment-form textarea:focus{outline:none;border-color:var(--gold)}
+.comment-trap{position:absolute!important;left:-9999px;width:1px;height:1px;overflow:hidden}
+.comment-replying{font-size:var(--text-sm);color:var(--muted)}
+.comment-replying strong{color:var(--heading);font-weight:500}
+.comment-replying button{background:none;border:0;color:var(--gold);padding:.4rem;margin-left:.4rem;min-height:44px}
+.comment-actions{display:flex;flex-wrap:wrap;gap:1rem 1.5rem;align-items:center}
+.comment-actions .button[aria-disabled=true]{opacity:.6;cursor:progress}
+.comment-status{color:var(--muted);font-size:var(--text-sm)}
+.comment-note{font-size:.75rem;color:var(--muted);max-width:60ch}
+@media(max-width:760px){.comments{display:block;padding-top:3rem}.comments-body{margin-top:2.5rem}.comments-question{font-size:1.35rem}.comment-replies{margin-left:.5rem;padding-left:1rem}}

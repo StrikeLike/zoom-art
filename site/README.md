@@ -63,6 +63,32 @@ npm run build && npx wrangler pages deploy dist --project-name zoomedart
 
 The first time, `npx wrangler login` opens the browser to connect the Cloudflare account.
 
+## Comments
+
+Every painting page ends with its comments (`src/components/Comments.astro`, `src/scripts/comments.ts`). No
+account: a name and the comment; Cloudflare Turnstile keeps bots out, links and a few spam words are refused,
+at most 5 comments per 10 minutes from one connection. Comments show at once. Alex moderates at **/admin/**
+(not linked, not indexed): Hide / Show again, and reply as Zoomed Art (gold badge). The API is in
+`functions/api/` (Cloudflare Pages Functions), the data in Cloudflare D1 (`migrations/`).
+
+Run it locally (site + API + a local database, test keys from `.dev.vars`, admin password `local-admin-token`):
+
+```sh
+npm run build
+npx wrangler d1 migrations apply zoomedart-comments --local   # once
+npx wrangler pages dev dist --port 4321
+```
+
+At launch, once (after `npx wrangler login`):
+
+1. `npx wrangler d1 create zoomedart-comments`, put the `database_id` it prints in `wrangler.toml`, then
+   `npx wrangler d1 migrations apply zoomedart-comments --remote`.
+2. Cloudflare dashboard → Turnstile → add a widget for zoomedart.com. Put its site key in `site/.env.production`
+   as `PUBLIC_TURNSTILE_SITE_KEY=...` (public, can be committed).
+3. Secrets: `npx wrangler pages secret put TURNSTILE_SECRET`, `... ADMIN_TOKEN` (Alex's /admin/ password),
+   `... IP_SALT` (any long random text).
+4. `npm run build && npx wrangler pages deploy dist --project-name zoomedart`.
+
 ## Design
 
 [DESIGN.md](DESIGN.md) has the design system (colours, type, motion curves) from the original prototype.
